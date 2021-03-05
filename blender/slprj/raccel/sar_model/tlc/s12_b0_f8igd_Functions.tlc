@@ -1,0 +1,3565 @@
+%implements s12_b0_f8igd_Functions "C"
+
+%function fg0mjfu55vg_Fcn0(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+clw0jnsa3g varSizes[2];
+gsfqmfswsbh *varargin_2;
+int32_T i;
+obj->isSetupComplete = false;
+obj->isInitialized = 1;
+varSizes[0].f1[0] = 100U;
+varSizes[0].f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    varSizes[0].f1[i + 2] = 1U;
+}
+for (i = 0; i < 8; i++) {
+    varSizes[1].f1[i] = 1U;
+}
+obj->inputVarSize[0] = varSizes[0];
+obj->inputVarSize[1] = varSizes[1];
+obj->_pobj1.Element = &obj->_pobj0;
+obj->_pobj1.matlabCodegenIsDeleted = false;
+obj->cSensor = &obj->_pobj1;
+obj->pNumInputChannels = 1.0;
+varargin_2 = obj->cSensor;
+obj->cSteeringVector.isInitialized = 0;
+obj->cSteeringVector.SensorArray = varargin_2;
+obj->cSteeringVector.matlabCodegenIsDeleted = false;
+obj->isSetupComplete = true;
+obj->TunablePropsChanged = false;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fg0mjfu55vg(\
+%assign comma = ""
+%<comma>ng1ueeqmmp *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fg0mjfu55v_Fcn1(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+clw0jnsa3g varSizes[2];
+gsfqmfswsb *varargin_2;
+int32_T i;
+obj->isSetupComplete = false;
+obj->isInitialized = 1;
+varSizes[0].f1[0] = 100U;
+varSizes[0].f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    varSizes[0].f1[i + 2] = 1U;
+}
+for (i = 0; i < 8; i++) {
+    varSizes[1].f1[i] = 1U;
+}
+obj->inputVarSize[0] = varSizes[0];
+obj->inputVarSize[1] = varSizes[1];
+obj->_pobj1.Element = &obj->_pobj0;
+obj->_pobj1.matlabCodegenIsDeleted = false;
+obj->cSensor = &obj->_pobj1;
+varargin_2 = obj->cSensor;
+obj->cSteeringVector.isInitialized = 0;
+obj->cSteeringVector.SensorArray = varargin_2;
+obj->cSteeringVector.matlabCodegenIsDeleted = false;
+obj->pNumInputChannels = 1.0;
+obj->isSetupComplete = true;
+obj->TunablePropsChanged = false;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fg0mjfu55v(\
+%assign comma = ""
+%<comma>mdpwypuqy4 *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 1, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fg0mjfu55vgw_Fcn2(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T i;
+obj->isSetupComplete = false;
+obj->isInitialized = 1;
+obj->inputVarSize[0].f1[0] = 100U;
+obj->inputVarSize[0].f1[1] = 2U;
+obj->inputVarSize[1].f1[0] = 50U;
+obj->inputVarSize[1].f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    obj->inputVarSize[0].f1[i + 2] = 1U;
+    obj->inputVarSize[1].f1[i + 2] = 1U;
+}
+obj->pNumInputChannels = 2.0;
+obj->pNumPages = 1.0;
+obj->cMatchedFilter.pNumInputChannels = -1.0;
+obj->cMatchedFilter.isInitialized = 0;
+obj->cMatchedFilter.matlabCodegenIsDeleted = false;
+obj->isSetupComplete = true;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fg0mjfu55vgw(\
+%assign comma = ""
+%<comma>ggdisr1zwo *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function jvx5gazxbxh_Fcn3(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T r;
+int32_T b_kk;
+int32_T exitg1;
+int32_T k;
+uint32_T b_u[2];
+uint32_T mti;
+uint32_T y;
+boolean_T b_isvalid;
+boolean_T exitg2;
+/* <LEGAL>========================= COPYRIGHT NOTICE ============================ */
+/* <LEGAL> This is a uniform (0,1) pseudorandom number generator based on:        */
+/* <LEGAL>                                                                        */
+/* <LEGAL> A C-program for MT19937, with initialization improved 2002/1/26.       */
+/* <LEGAL> Coded by Takuji Nishimura and Makoto Matsumoto.                        */
+/* <LEGAL>                                                                        */
+/* <LEGAL> Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,      */
+/* <LEGAL> All rights reserved.                                                   */
+/* <LEGAL>                                                                        */
+/* <LEGAL> Redistribution and use in source and binary forms, with or without     */
+/* <LEGAL> modification, are permitted provided that the following conditions     */
+/* <LEGAL> are met:                                                               */
+/* <LEGAL>                                                                        */
+/* <LEGAL>   1. Redistributions of source code must retain the above copyright    */
+/* <LEGAL>      notice, this list of conditions and the following disclaimer.     */
+/* <LEGAL>                                                                        */
+/* <LEGAL>   2. Redistributions in binary form must reproduce the above copyright */
+/* <LEGAL>      notice, this list of conditions and the following disclaimer      */
+/* <LEGAL>      in the documentation and/or other materials provided with the     */
+/* <LEGAL>      distribution.                                                     */
+/* <LEGAL>                                                                        */
+/* <LEGAL>   3. The names of its contributors may not be used to endorse or       */
+/* <LEGAL>      promote products derived from this software without specific      */
+/* <LEGAL>      prior written permission.                                         */
+/* <LEGAL>                                                                        */
+/* <LEGAL> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS    */
+/* <LEGAL> "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT      */
+/* <LEGAL> LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR  */
+/* <LEGAL> A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT  */
+/* <LEGAL> OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,  */
+/* <LEGAL> SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT       */
+/* <LEGAL> LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,  */
+/* <LEGAL> DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY  */
+/* <LEGAL> THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT    */
+/* <LEGAL> (INCLUDING  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE */
+/* <LEGAL> OF THIS  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  */
+/* <LEGAL>                                                                        */
+/* <LEGAL>=============================   END   ================================= */
+do {
+    exitg1 = 0;
+    for (k = 0; k < 2; k++) {
+        mti = state[624] + 1U;
+        if (state[624] + 1U >= 625U) {
+            for (b_kk = 0; b_kk < 227; b_kk++) {
+                y = (state[b_kk + 1] & 2147483647U) | (state[b_kk] & 2147483648U);
+                if ((y & 1U) == 0U) {
+                    y >>= 1U;
+                } else {
+                    y = y >> 1U ^ 2567483615U;
+                }
+                state[b_kk] = state[b_kk + 397] ^ y;
+            }
+            for (b_kk = 0; b_kk < 396; b_kk++) {
+                y = (state[b_kk + 227] & 2147483648U) | (state[b_kk + 228] & 2147483647U);
+                if ((y & 1U) == 0U) {
+                    y >>= 1U;
+                } else {
+                    y = y >> 1U ^ 2567483615U;
+                }
+                state[b_kk + 227] = state[b_kk] ^ y;
+            }
+            y = (state[623] & 2147483648U) | (state[0] & 2147483647U);
+            if ((y & 1U) == 0U) {
+                y >>= 1U;
+            } else {
+                y = y >> 1U ^ 2567483615U;
+            }
+            state[623] = state[396] ^ y;
+            mti = 1U;
+        }
+        y = state[(int32_T)mti - 1];
+        state[624] = mti;
+        y ^= y >> 11U;
+        y ^= y << 7U & 2636928640U;
+        y ^= y << 15U & 4022730752U;
+        b_u[k] = y >> 18U ^ y;
+    }
+    r = ((real_T)(b_u[0] >> 5U) * 6.7108864E+7 + (real_T)(b_u[1] >> 6U)) * 1.1102230246251565E-16;
+    if (r == 0.0) {
+        if ((state[624] >= 1U) && (state[624] < 625U)) {
+            b_isvalid = false;
+            k = 0;
+            exitg2 = false;
+            while ((!exitg2) && (k + 1 < 625)) {
+                if (state[k] == 0U) {
+                    k++;
+                } else {
+                    b_isvalid = true;
+                    exitg2 = true;
+                }
+            }
+        } else {
+            b_isvalid = false;
+        }
+        if (!b_isvalid) {
+            mti = 5489U;
+            state[0] = 5489U;
+            for (k = 0; k < 623; k++) {
+                mti = ((mti >> 30U ^ mti) * 1812433253U + k) + 1U;
+                state[k + 1] = mti;
+            }
+            state[624] = 624U;
+        }
+    } else {
+        exitg1 = 1;
+    }
+} while (exitg1 == 0);
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T jvx5gazxbxh(\
+%assign comma = ""
+%<comma>uint32_T state[625]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 3, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function h4a5bdsn23_Fcn4(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T r;
+int32_T b_mti;
+uint32_T hi;
+uint32_T r_p;
+if (rtDW.pykjkqjmt1 == 4U) {
+    hi = rtDW.cgzxsbz25a / 127773U;
+    r_p = (rtDW.cgzxsbz25a - hi * 127773U) * 16807U;
+    hi *= 2836U;
+    if (r_p < hi) {
+        r_p = ~(hi - r_p) & 2147483647U;
+    } else {
+        r_p -= hi;
+    }
+    rtDW.cgzxsbz25a = r_p;
+    r = (real_T)r_p * 4.6566128752457969E-10;
+} else if (rtDW.pykjkqjmt1 == 5U) {
+    r_p = 69069U * rtDW.oyq5gbg1l5[0] + 1234567U;
+    hi = rtDW.oyq5gbg1l5[1] << 13 ^ rtDW.oyq5gbg1l5[1];
+    hi ^= hi >> 17;
+    hi ^= hi << 5;
+    rtDW.oyq5gbg1l5[0] = r_p;
+    rtDW.oyq5gbg1l5[1] = hi;
+    r = (real_T)(r_p + hi) * 2.328306436538696E-10;
+} else {
+    if (!rtDW.btjdmvict1) {
+        memset(&rtDW.cwytgyltxd[0], 0, 625U * sizeof(uint32_T));
+        r_p = 5489U;
+        rtDW.cwytgyltxd[0] = 5489U;
+        for (b_mti = 0; b_mti < 623; b_mti++) {
+            r_p = ((r_p >> 30U ^ r_p) * 1812433253U + b_mti) + 1U;
+            rtDW.cwytgyltxd[b_mti + 1] = r_p;
+        }
+        rtDW.cwytgyltxd[624] = 624U;
+        rtDW.btjdmvict1 = true;
+    }
+    r = %<(SLibCGCallSubFcn("jvx5gazxbxh", ["rtDW.cwytgyltxd"], 0, 4, 0))>;
+}
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T h4a5bdsn23(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 4, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function gmhf0sow4r_Fcn5(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T b_statei;
+uint32_T r;
+if (varargin_1 == 0U) {
+    obj->Seed = 5489U;
+} else {
+    obj->Seed = varargin_1;
+}
+r = obj->Seed;
+obj->State[0] = obj->Seed;
+for (b_statei = 0; b_statei < 623; b_statei++) {
+    r = ((r >> 30U ^ r) * 1812433253U + b_statei) + 1U;
+    obj->State[b_statei + 1] = r;
+}
+obj->State[624] = 624U;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void gmhf0sow4r(\
+%assign comma = ""
+%<comma>hferqq002w *obj\
+%assign comma = ", "
+%<comma>uint32_T varargin_1\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 5, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function ccmisves1x_Fcn6(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+if (obj->cFFTFilter.isInitialized == 1) {
+    memset(&obj->cFFTFilter.pOverlapState[0], 0, 199U * sizeof(creal_T));
+    obj->cFFTFilter.pSizeInitialized = false;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ccmisves1x(\
+%assign comma = ""
+%<comma>bmnf5sq2q0 *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 6, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function b3jtn1srrk_Fcn7(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T r;
+if (muDoubleScalarIsNaN(x) || muDoubleScalarIsInf(x)) {
+    r = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else if (x == 0.0) {
+    r = 0.0;
+} else {
+    r = muDoubleScalarRem(x, 1.0);
+    if (r == 0.0) {
+        r = 0.0;
+    } else {
+        if (x < 0.0) {
+            r++;
+        }
+    }
+}
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T b3jtn1srrk(\
+%assign comma = ""
+%<comma>real_T x\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 7, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function hauvbqxup3_Fcn8(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+static const creal_T tmp_e[50] = { { 1.0, /* re */0.0/* im */ }, { 0.99998026085613712, /* re */0.0062831439655589511/* im */ }, { 0.99968418928329994, /* re */0.025130095443337479/* im */ }, { 0.998401550108975, /* re */0.056518534482024534/* im */ }, { 0.99495101698130017, /* re */0.10036171485121489/* im */ }, { 0.98768834059513777, /* re */0.1564344650402309/* im */ }, { 0.97452687278657713, /* re */0.2242707609493812/* im */ }, { 0.95297934151721886, /* re */0.30303526963277394/* im */ }, { 0.92023184736587038, /* re */0.39137366683720243/* im */ }, { 0.87326245480992015, /* re */0.48725012572533238/* im */ }, { 0.80901699437494734, /* re */0.58778525229247325/* im */ }, { 0.72465313018704669, /* re */0.68911380838734848/* im */ }, { 0.61785961309033421, /* re */0.78628843213661892/* im */ }, { 0.48725012572533244, /* re */0.87326245480992/* im */ }, { 0.33281954452298668, /* re */0.94299053589286441/* im */ }, { 0.15643446504023092, /* re */0.98768834059513777/* im */ }, { -0.037690182669934576, /* re */0.9992894726405892/* im */ }, { -0.24259923079540721, /* re */0.97012659649010591/* im */ }, { -0.44838321609003251, /* re */0.89384142415126366/* im */ }, { -0.64225265317658442, /* re */0.76649300680934984/* im */ }, { -0.80901699437494767, /* re */0.5877852522924728/* im */ }, { -0.932071112458211, /* re */0.3622753667045458/* im */ }, { -0.99495101698130017, /* re */0.10036171485121498/* im */ }, { -0.98344520499532972, /* re */-0.18120576362713745/* im */ }, { -0.88813644881354437, /* re */-0.45957986062148815/* im */ }, { -0.70710678118654768, /* re */-0.70710678118654746/* im */ }, { -0.44838321609003273, /* re */-0.89384142415126355/* im */ }, { -0.13156435909228248, /* re */-0.99130763106950659/* im */ }, { 0.21200710992205449, /* re */-0.97726812356819348/* im */ }, { 0.54112125212687567, /* re */-0.84094458229816926/* im */ }, { 0.80901699437494734, /* re */-0.58778525229247336/* im */ }, { 0.970126596490106, /* re */-0.24259923079540666/* im */ }, { 0.988651744737914, /* re */0.1502255891207572/* im */ }, { 0.847677936085083, /* re */0.5305111843067345/* im */ }, { 0.55687561648818873, /* re */0.83059589919581223/* im */ }, { 0.15643446504023203, /* re */0.98768834059513755/* im */ }, { -0.28501926246997733, /* re */0.9585217890173755/* im */ }, { -0.67995337872241868, /* re */0.7332553462225605/* im */ }, { -0.93873385765387418, /* re */0.34464292317451684/* im */ }, { -0.99130763106950648, /* re */-0.13156435909228281/* im */ }, { -0.80901699437494656, /* re */-0.58778525229247425/* im */ }, { -0.42008572841180636, /* re */-0.90748442454111689/* im */ }, { 0.087851196550742611, /* re */-0.9961336091431725/* im */ }, { 0.582690479668576, /* re */-0.812694164433094/* im */ }, { 0.92023184736587016, /* re */-0.3913736668372027/* im */ }, { 0.98768834059513744, /* re */0.156434465040233/* im */ }, { 0.74594114542418188, /* re */0.66601186743425189/* im */ }, { 0.25477072568338438, /* re */0.96700148776243444/* im */ }, { -0.332819544522988, /* re */0.942990535892864/* im */ }, { -0.81269416443309339, /* re */0.5826904796685769/* im */ } };
+static const real_T tmp_p[50] = { 0.0, 1.0E-6, 2.0E-6, 3.0E-6, 4.0E-6, 5.0E-6, 6.0E-6, 7.0E-6, 8.0E-6, 9.0E-6, 1.0E-5, 1.1E-5, 1.2E-5, 1.3E-5, 1.4E-5, 1.5E-5, 1.6E-5, 1.7E-5, 1.8E-5, 1.9E-5, 2.0E-5, 2.1E-5, 2.2E-5, 2.3E-5, 2.4E-5, 2.5E-5, 2.6E-5, 2.7E-5, 2.8E-5, 2.9E-5, 3.0E-5, 3.1E-5, 3.2E-5, 3.3E-5, 3.4E-5, 3.5E-5, 3.6E-5, 3.7E-5, 3.8E-5, 3.9E-5, 4.0E-5, 4.1E-5, 4.2E-5, 4.3E-5, 4.4E-5, 4.5E-5, 4.6E-5, 4.7E-5, 4.8E-5, 4.9E-5 };
+creal_T wav_p;
+real_T r;
+real_T tmp;
+real_T y_re;
+int32_T i;
+y_re = foffset * 0.0;
+r = foffset * 6.2831853071795862;
+for (i = 0; i < 50; i++) {
+    tmp = tmp_p[i];
+    wav[i].re = tmp * y_re;
+    wav[i].im = tmp * r;
+}
+for (i = 0; i < 50; i++) {
+    wav_p = wav[i];
+    if (wav_p.im == 0.0) {
+        y_re = muDoubleScalarExp(wav_p.re);
+        r = 0.0;
+    } else if (muDoubleScalarIsInf(wav_p.im) && muDoubleScalarIsInf(wav_p.re) && (wav_p.re < 0.0)) {
+        y_re = 0.0;
+        r = 0.0;
+    } else {
+        r = muDoubleScalarExp(wav_p.re / 2.0);
+        y_re = r * muDoubleScalarCos(wav_p.im) * r;
+        r *= r * muDoubleScalarSin(wav_p.im);
+    }
+    wav_p.re = tmp_e[i].re * y_re - tmp_e[i].im * r;
+    wav_p.im = tmp_e[i].re * r + tmp_e[i].im * y_re;
+    wav[i] = wav_p;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void hauvbqxup3(\
+%assign comma = ""
+%<comma>real_T foffset\
+%assign comma = ", "
+%<comma>creal_T wav[50]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 8, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fu0hddpeibj_Fcn9(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+creal_T tmp[50];
+creal_T varargout_2_p;
+real_T xtmp_im;
+real_T xtmp_re;
+int32_T i;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,9,2,1)
+%<SLibCG_AccessArg(0 ,9, 2)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,9,0,0)
+%<SLibCG_AccessArg(0 ,9, 0)>
+%<SLibCG_AccessArg(0 ,9, 0)>
+%endif
+
+obj->pOutputStartPulseIndex = %<(SLibCGCallSubFcn("b3jtn1srrk", ["(obj->pOutputStartPulseIndex + obj->pOutputPulseInterval[1]) - 1.0"], 0, 9, 0))> + 1.0;
+memset(&varargout_1[0], 0, 100U * sizeof(creal_T));
+%<(SLibCGCallSubFcn("hauvbqxup3", ["0.0", "tmp"], 0, 9, 1))>;
+%<(SLibCGCallSubFcn("hauvbqxup3", ["0.0", "varargout_2"], 0, 9, 2))>;
+for (i = 0; i < 50; i++) {
+    varargout_2_p = varargout_2[i];
+    varargout_1[i] = tmp[i];
+    varargout_2_p.im = -varargout_2_p.im;
+    varargout_2[i] = varargout_2_p;
+}
+for (i = 0; i < 25; i++) {
+    xtmp_re = varargout_2[i].re;
+    xtmp_im = varargout_2[i].im;
+    varargout_2[i] = varargout_2[49 - i];
+    varargout_2[49 - i].re = xtmp_re;
+    varargout_2[49 - i].im = xtmp_im;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fu0hddpeibj(\
+%assign comma = ""
+%<comma>fmsfrptrjq *obj\
+%assign comma = ", "
+%<comma>creal_T varargout_1[100]\
+%assign comma = ", "
+%<comma>creal_T varargout_2[50]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 9, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function pg3bntie3u_Fcn10(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T absx;
+real_T b_x;
+int8_T n;
+if (muDoubleScalarIsInf(x) || muDoubleScalarIsNaN(x)) {
+    b_x = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else {
+    b_x = muDoubleScalarRem(x, 360.0);
+    absx = muDoubleScalarAbs(b_x);
+    if (absx > 180.0) {
+        if (b_x > 0.0) {
+            b_x -= 360.0;
+        } else {
+            b_x += 360.0;
+        }
+        absx = muDoubleScalarAbs(b_x);
+    }
+    if (absx <= 45.0) {
+        b_x *= 0.017453292519943295;
+        b_x = muDoubleScalarSin(b_x);
+    } else {
+        if (absx <= 135.0) {
+            if (b_x > 0.0) {
+                b_x = (b_x - 90.0) * 0.017453292519943295;
+                n = 1;
+            } else {
+                b_x = (b_x + 90.0) * 0.017453292519943295;
+                n = -1;
+            }
+        } else if (b_x > 0.0) {
+            b_x = (b_x - 180.0) * 0.017453292519943295;
+            n = 2;
+        } else {
+            b_x = (b_x + 180.0) * 0.017453292519943295;
+            n = -2;
+        }
+        if (n == 1) {
+            b_x = muDoubleScalarCos(b_x);
+        } else if (n == -1) {
+            b_x = -muDoubleScalarCos(b_x);
+        } else {
+            b_x = -muDoubleScalarSin(b_x);
+        }
+    }
+}
+return b_x;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T pg3bntie3u(\
+%assign comma = ""
+%<comma>real_T x\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 10, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function kbt25f2tva_Fcn11(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T absx;
+real_T b_x;
+int8_T n;
+if (muDoubleScalarIsInf(x) || muDoubleScalarIsNaN(x)) {
+    b_x = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else {
+    b_x = muDoubleScalarRem(x, 360.0);
+    absx = muDoubleScalarAbs(b_x);
+    if (absx > 180.0) {
+        if (b_x > 0.0) {
+            b_x -= 360.0;
+        } else {
+            b_x += 360.0;
+        }
+        absx = muDoubleScalarAbs(b_x);
+    }
+    if (absx <= 45.0) {
+        b_x *= 0.017453292519943295;
+        b_x = muDoubleScalarCos(b_x);
+    } else {
+        if (absx <= 135.0) {
+            if (b_x > 0.0) {
+                b_x = (b_x - 90.0) * 0.017453292519943295;
+                n = 1;
+            } else {
+                b_x = (b_x + 90.0) * 0.017453292519943295;
+                n = -1;
+            }
+        } else if (b_x > 0.0) {
+            b_x = (b_x - 180.0) * 0.017453292519943295;
+            n = 2;
+        } else {
+            b_x = (b_x + 180.0) * 0.017453292519943295;
+            n = -2;
+        }
+        if (n == 1) {
+            b_x = -muDoubleScalarSin(b_x);
+        } else if (n == -1) {
+            b_x = muDoubleScalarSin(b_x);
+        } else {
+            b_x = -muDoubleScalarCos(b_x);
+        }
+    }
+}
+return b_x;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T kbt25f2tva(\
+%assign comma = ""
+%<comma>real_T x\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 11, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function kbt25f2tvafdu_Fcn12(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T absx;
+real_T b_x_data_p;
+int32_T loop_ub;
+int32_T nx;
+int8_T n;
+b_x_size[0] = 1;
+b_x_size[1] = x_size[1];
+loop_ub = x_size[0] * x_size[1] - 1;
+if (0 <= loop_ub) {
+    memcpy(&b_x_data[0], &x_data[0], (loop_ub + 1) * sizeof(real_T));
+}
+nx = x_size[1] - 1;
+for (loop_ub = 0; loop_ub <= nx; loop_ub++) {
+    b_x_data_p = b_x_data[loop_ub];
+    if (muDoubleScalarIsInf(b_x_data_p) || muDoubleScalarIsNaN(b_x_data_p)) {
+        b_x_data_p = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+    } else {
+        b_x_data_p = muDoubleScalarRem(b_x_data_p, 360.0);
+        absx = muDoubleScalarAbs(b_x_data_p);
+        if (absx > 180.0) {
+            if (b_x_data_p > 0.0) {
+                b_x_data_p -= 360.0;
+            } else {
+                b_x_data_p += 360.0;
+            }
+            absx = muDoubleScalarAbs(b_x_data_p);
+        }
+        if (absx <= 45.0) {
+            b_x_data_p *= 0.017453292519943295;
+            b_x_data_p = muDoubleScalarCos(b_x_data_p);
+        } else {
+            if (absx <= 135.0) {
+                if (b_x_data_p > 0.0) {
+                    b_x_data_p = (b_x_data_p - 90.0) * 0.017453292519943295;
+                    n = 1;
+                } else {
+                    b_x_data_p = (b_x_data_p + 90.0) * 0.017453292519943295;
+                    n = -1;
+                }
+            } else if (b_x_data_p > 0.0) {
+                b_x_data_p = (b_x_data_p - 180.0) * 0.017453292519943295;
+                n = 2;
+            } else {
+                b_x_data_p = (b_x_data_p + 180.0) * 0.017453292519943295;
+                n = -2;
+            }
+            if (n == 1) {
+                b_x_data_p = -muDoubleScalarSin(b_x_data_p);
+            } else if (n == -1) {
+                b_x_data_p = muDoubleScalarSin(b_x_data_p);
+            } else {
+                b_x_data_p = -muDoubleScalarCos(b_x_data_p);
+            }
+        }
+    }
+    b_x_data[loop_ub] = b_x_data_p;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void kbt25f2tvafdu(\
+%assign comma = ""
+%<comma>const real_T x_data[]\
+%assign comma = ", "
+%<comma>const int32_T x_size[2]\
+%assign comma = ", "
+%<comma>real_T b_x_data[]\
+%assign comma = ", "
+%<comma>int32_T b_x_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 12, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function jxod0zcb2ws_Fcn13(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T b_z1_data[2];
+int32_T loop_ub;
+int32_T nx;
+loop_ub = a_size[1] - 1;
+if (0 <= loop_ub) {
+    memcpy(&b_z1_data[0], &y_data[0], (loop_ub + 1) * sizeof(real_T));
+}
+nx = a_size[1] - 1;
+for (loop_ub = 0; loop_ub <= nx; loop_ub++) {
+    b_z1_data[loop_ub] = muDoubleScalarPower(a_data[loop_ub], 1.5);
+}
+y_size[0] = 1;
+y_size[1] = a_size[1];
+loop_ub = a_size[1] - 1;
+if (0 <= loop_ub) {
+    memcpy(&y_data[0], &b_z1_data[0], (loop_ub + 1) * sizeof(real_T));
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void jxod0zcb2ws(\
+%assign comma = ""
+%<comma>const real_T a_data[]\
+%assign comma = ", "
+%<comma>const int32_T a_size[2]\
+%assign comma = ", "
+%<comma>real_T y_data[]\
+%assign comma = ", "
+%<comma>int32_T y_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 13, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function l4ag5mafbr_Fcn14(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+creal_T b_x[100];
+creal_T b_x_p;
+real_T im;
+real_T r;
+real_T tgtdirec_idx_0;
+real_T tgtdirec_idx_1;
+real_T tgtdirec_idx_2;
+real_T y_p;
+real_T z_im;
+int32_T b_k;
+tgtdirec_idx_0 = muDoubleScalarAbs(startLoc[0] - endLoc[0]);
+tgtdirec_idx_1 = muDoubleScalarAbs(startLoc[1] - endLoc[1]);
+tgtdirec_idx_2 = muDoubleScalarAbs(startLoc[2] - endLoc[2]);
+r = muDoubleScalarSqrt((tgtdirec_idx_0 * tgtdirec_idx_0 + tgtdirec_idx_1 * tgtdirec_idx_1) + tgtdirec_idx_2 * tgtdirec_idx_2);
+tgtdirec_idx_0 = endLoc[0] - startLoc[0];
+tgtdirec_idx_1 = endLoc[1] - startLoc[1];
+tgtdirec_idx_2 = endLoc[2] - startLoc[2];
+y_p = (tgtdirec_idx_0 * tgtdirec_idx_0 + tgtdirec_idx_1 * tgtdirec_idx_1) + tgtdirec_idx_2 * tgtdirec_idx_2;
+tgtdirec_idx_0 = ((targetVel[0] - baseVel[0]) * tgtdirec_idx_0 + (targetVel[1] - baseVel[1]) * tgtdirec_idx_1) + (targetVel[2] - baseVel[2]) * tgtdirec_idx_2;
+*propdelay = 2.0 * r / 2.99792458E+8;
+tgtdirec_idx_2 = 12.566370614359172 * r * 1.0006922855944562;
+if (tgtdirec_idx_2 < 1.0) {
+    tgtdirec_idx_2 = 1.0;
+}
+tgtdirec_idx_1 = -0.0 * r;
+r *= -12.566370614359172;
+if (r == 0.0) {
+    tgtdirec_idx_1 = muDoubleScalarExp(tgtdirec_idx_1 / 0.99930819333333332);
+    z_im = 0.0;
+} else {
+    if (tgtdirec_idx_1 == 0.0) {
+        tgtdirec_idx_1 = 0.0;
+        z_im = r / 0.99930819333333332;
+    } else {
+        tgtdirec_idx_1 = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+        z_im = r / 0.99930819333333332;
+    }
+    r = muDoubleScalarExp(tgtdirec_idx_1 / 2.0);
+    tgtdirec_idx_1 = r * muDoubleScalarCos(z_im) * r;
+    z_im = r * muDoubleScalarSin(z_im) * r;
+}
+r = muDoubleScalarSqrt(muDoubleScalarPower(10.0, 20.0 * muDoubleScalarLog10(tgtdirec_idx_2) * 2.0 / 10.0));
+if (z_im == 0.0) {
+    tgtdirec_idx_2 = tgtdirec_idx_1 / r;
+    im = 0.0;
+} else if (tgtdirec_idx_1 == 0.0) {
+    tgtdirec_idx_2 = 0.0;
+    im = z_im / r;
+} else {
+    tgtdirec_idx_2 = tgtdirec_idx_1 / r;
+    im = z_im / r;
+}
+r = -(tgtdirec_idx_0 / muDoubleScalarSqrt(y_p)) * 12.566370614359172;
+if (r == 0.0) {
+    tgtdirec_idx_1 = -(tgtdirec_idx_0 / muDoubleScalarSqrt(y_p)) * 0.0 / 0.99930819333333332;
+    z_im = 0.0;
+} else if (-(tgtdirec_idx_0 / muDoubleScalarSqrt(y_p)) * 0.0 == 0.0) {
+    tgtdirec_idx_1 = 0.0;
+    z_im = r / 0.99930819333333332;
+} else {
+    tgtdirec_idx_1 = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+    z_im = r / 0.99930819333333332;
+}
+for (b_k = 0; b_k < 100; b_k++) {
+    b_x[b_k].re = ((real_T)b_k / 1.0E+6 + *propdelay) * tgtdirec_idx_1;
+    b_x[b_k].im = ((real_T)b_k / 1.0E+6 + *propdelay) * z_im;
+}
+for (b_k = 0; b_k < 100; b_k++) {
+    b_x_p = b_x[b_k];
+    if (b_x_p.im == 0.0) {
+        tgtdirec_idx_1 = muDoubleScalarExp(b_x_p.re);
+        z_im = 0.0;
+    } else if (muDoubleScalarIsInf(b_x_p.im) && muDoubleScalarIsInf(b_x_p.re) && (b_x_p.re < 0.0)) {
+        tgtdirec_idx_1 = 0.0;
+        z_im = 0.0;
+    } else {
+        r = muDoubleScalarExp(b_x_p.re / 2.0);
+        tgtdirec_idx_1 = r * muDoubleScalarCos(b_x_p.im) * r;
+        z_im = r * muDoubleScalarSin(b_x_p.im) * r;
+    }
+    b_x_p.re = tgtdirec_idx_1;
+    b_x_p.im = z_im;
+    y_p = x[b_k].re * tgtdirec_idx_1 - x[b_k].im * z_im;
+    r = x[b_k].re * z_im + x[b_k].im * tgtdirec_idx_1;
+    y[b_k].re = tgtdirec_idx_2 * y_p - im * r;
+    y[b_k].im = tgtdirec_idx_2 * r + im * y_p;
+    b_x[b_k] = b_x_p;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void l4ag5mafbr(\
+%assign comma = ""
+%<comma>const creal_T x[100]\
+%assign comma = ", "
+%<comma>const real_T startLoc[3]\
+%assign comma = ", "
+%<comma>const real_T endLoc[3]\
+%assign comma = ", "
+%<comma>const real_T baseVel[3]\
+%assign comma = ", "
+%<comma>const real_T targetVel[3]\
+%assign comma = ", "
+%<comma>creal_T y[100]\
+%assign comma = ", "
+%<comma>real_T *propdelay\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 14, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function pstjajiijj_Fcn15(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+ppqqbropvd *obj_p;
+real_T accumIn_im;
+real_T accumIn_re;
+real_T frac;
+int32_T b_ioIdx;
+int32_T buffstart;
+int32_T i;
+int32_T idx;
+obj_p = &obj->cSFunObject;
+/* System object Outputs function: dsp.VariableFractionalDelay */
+b_ioIdx = (int32_T)muDoubleScalarFloor(varargin_2);
+if (b_ioIdx < 0) {
+    b_ioIdx = 0;
+    frac = 0.0;
+} else if (b_ioIdx >= 100) {
+    b_ioIdx = 100;
+    frac = 0.0;
+} else {
+    frac = varargin_2 - (real_T)b_ioIdx;
+}
+buffstart = obj->cSFunObject.W0_BUFF_OFFSET;
+for (i = 0; i < 100; i++) {
+    idx = (i - b_ioIdx) - 1;
+    if (idx < 0) {
+        idx += buffstart;
+        if (idx < 0) {
+            idx += 101;
+        }
+        accumIn_re = obj_p->W1_BUFF[idx].re;
+        accumIn_im = obj_p->W1_BUFF[idx].im;
+    } else {
+        accumIn_re = varargin_1[idx].re;
+        accumIn_im = varargin_1[idx].im;
+    }
+    idx = i - b_ioIdx;
+    if (idx < 0) {
+        idx += buffstart;
+        if (idx < 0) {
+            idx += 101;
+        }
+        accumIn_re -= obj_p->W1_BUFF[idx].re;
+        accumIn_im -= obj_p->W1_BUFF[idx].im;
+        varargout_1[i].re = accumIn_re * frac + obj_p->W1_BUFF[idx].re;
+        varargout_1[i].im = accumIn_im * frac + obj_p->W1_BUFF[idx].im;
+    } else {
+        accumIn_re -= varargin_1[idx].re;
+        accumIn_im -= varargin_1[idx].im;
+        varargout_1[i].re = accumIn_re * frac + varargin_1[idx].re;
+        varargout_1[i].im = accumIn_im * frac + varargin_1[idx].im;
+    }
+}
+/* System object Update function: dsp.VariableFractionalDelay */
+buffstart = obj->cSFunObject.W0_BUFF_OFFSET;
+for (i = 0; i < 100; i++) {
+    obj_p->W1_BUFF[buffstart] = varargin_1[i];
+    if (buffstart < 100) {
+        buffstart++;
+    } else {
+        buffstart = 0;
+    }
+}
+obj->cSFunObject.W0_BUFF_OFFSET = buffstart;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void pstjajiijj(\
+%assign comma = ""
+%<comma>atyvy0fxei *obj\
+%assign comma = ", "
+%<comma>const creal_T varargin_1[100]\
+%assign comma = ", "
+%<comma>real_T varargin_2\
+%assign comma = ", "
+%<comma>creal_T varargout_1[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 15, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function gfkehwhipg_Fcn16(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T q;
+real_T r;
+boolean_T rEQ0;
+r = x;
+if (y == 0.0) {
+    if (x == 0.0) {
+        r = y;
+    }
+} else if (muDoubleScalarIsNaN(x) || muDoubleScalarIsNaN(y) || muDoubleScalarIsInf(x)) {
+    r = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else if (x == 0.0) {
+    r = 0.0 / y;
+} else if (muDoubleScalarIsInf(y)) {
+    if ((y < 0.0) != (x < 0.0)) {
+        r = y;
+    }
+} else {
+    r = muDoubleScalarRem(x, y);
+    rEQ0 = (r == 0.0);
+    if ((!rEQ0) && (y > muDoubleScalarFloor(y))) {
+        q = muDoubleScalarAbs(x / y);
+        rEQ0 = !(muDoubleScalarAbs(q - muDoubleScalarFloor(q + 0.5)) > 2.2204460492503131E-16 * q);
+    }
+    if (rEQ0) {
+        r = y * 0.0;
+    } else {
+        if ((x < 0.0) != (y < 0.0)) {
+            r += y;
+        }
+    }
+}
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T gfkehwhipg(\
+%assign comma = ""
+%<comma>real_T x\
+%assign comma = ", "
+%<comma>real_T y\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 16, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function bjgpjj4zd1_Fcn17(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T b_z1_data[100];
+real_T r_data[100];
+int32_T b_k;
+int32_T nx;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,17,0,1)
+%<SLibCG_AccessArg(0 ,17, 0)>
+%endif
+
+nx = idx_size[0] * idx_size[1] - 1;
+for (b_k = 0; b_k <= nx; b_k++) {
+    r_data[b_k] = idx_data[b_k] - 1.0;
+}
+nx = idx_size[1] - 1;
+if (0 <= nx) {
+    memcpy(&b_z1_data[0], &r_data[0], (nx + 1) * sizeof(real_T));
+}
+nx = idx_size[1] - 1;
+for (b_k = 0; b_k <= nx; b_k++) {
+    b_z1_data[b_k] = %<(SLibCGCallSubFcn("gfkehwhipg", ["r_data[b_k]", "obj->pBufferLength"], 0, 17, 0))>;
+}
+cidx_size[0] = 1;
+cidx_size[1] = idx_size[1];
+nx = idx_size[1] - 1;
+for (b_k = 0; b_k <= nx; b_k++) {
+    cidx_data[b_k] = b_z1_data[b_k] + 1.0;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void bjgpjj4zd1(\
+%assign comma = ""
+%<comma>const kkrezxuj2g *obj\
+%assign comma = ", "
+%<comma>const real_T idx_data[]\
+%assign comma = ", "
+%<comma>const int32_T idx_size[2]\
+%assign comma = ", "
+%<comma>real_T cidx_data[]\
+%assign comma = ", "
+%<comma>int32_T cidx_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 17, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function kxhaj33aix_Fcn18(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+creal_T y_data[100];
+creal_T obj_data[67];
+real_T overlapidx_data[100];
+real_T popidx_data[100];
+real_T pushidx_data[67];
+real_T overlapidx_data_p;
+real_T popnum;
+real_T pushidx_data_p;
+int32_T b_data[100];
+int32_T obj_size[2];
+int32_T obj_size_p[2];
+int32_T popidx_size[2];
+int32_T b_size_idx_0;
+int32_T i;
+int32_T loop_ub;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,18,2,0)
+%<SLibCG_AccessArg(0 ,18, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,18,1,1)
+%<SLibCG_AccessArg(0 ,18, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,18,0,0)
+%<SLibCG_AccessArg(0 ,18, 0)>
+%endif
+
+memset(&y[0], 0, 100U * sizeof(creal_T));
+if (!(obj->pCount == 0.0)) {
+    popnum = muDoubleScalarMin(obj->pCount, 100.0);
+    if (popnum - 1.0 < 0.0) {
+        popidx_size[1] = 0;
+    } else if (muDoubleScalarIsInf(popnum - 1.0) && (popnum - 1.0 == 0.0)) {
+        popidx_size[1] = 1;
+        popidx_data[0] = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+    } else {
+        popidx_size[1] = (int32_T)muDoubleScalarFloor(popnum - 1.0) + 1;
+        loop_ub = (int32_T)muDoubleScalarFloor(popnum - 1.0);
+        for (i = 0; i <= loop_ub; i++) {
+            popidx_data[i] = i;
+        }
+    }
+    obj_size[0] = 1;
+    obj_size[1] = popidx_size[1];
+    loop_ub = popidx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        overlapidx_data[i] = obj->pStart + popidx_data[i];
+    }
+    %<(SLibCGCallSubFcn("bjgpjj4zd1", ["obj", "overlapidx_data", "obj_size", "popidx_data", "popidx_size"], 0, 18, 0))>;
+    loop_ub = popidx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        y[i] = obj->pBuffer[(int32_T)popidx_data[i] - 1];
+    }
+    b_size_idx_0 = popidx_size[1];
+    loop_ub = popidx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        b_data[i] = (int32_T)popidx_data[i];
+    }
+    for (i = 0; i < b_size_idx_0; i++) {
+        loop_ub = b_data[i];
+        obj->pBuffer[loop_ub - 1].re = 0.0;
+        obj->pBuffer[loop_ub - 1].im = 0.0;
+    }
+    obj->pStart = %<(SLibCGCallSubFcn("gfkehwhipg", ["(popidx_data[popidx_size[1] - 1] + 1.0) - 1.0", "obj->pBufferLength"], 0, 18, 1))> + 1.0;
+    obj->pCount -= popnum;
+}
+if (Narg <= 67.0) {
+    popnum = muDoubleScalarMin(100.0, 100.0 - Narg);
+    popidx_size[1] = (int32_T)muDoubleScalarFloor(popnum - 1.0) + 1;
+    loop_ub = (int32_T)muDoubleScalarFloor(popnum - 1.0);
+    for (i = 0; i <= loop_ub; i++) {
+        popidx_data[i] = (real_T)i + 1.0;
+    }
+    b_size_idx_0 = popidx_size[1];
+    loop_ub = popidx_size[1] - 1;
+    for (i = 0; i <= loop_ub; i++) {
+        overlapidx_data[i] = popidx_data[i] + Narg;
+    }
+    for (i = 0; i < b_size_idx_0; i++) {
+        overlapidx_data_p = overlapidx_data[i];
+        y_data[i].re = y[(int32_T)overlapidx_data_p - 1].re + x_in[i].re;
+        y_data[i].im = y[(int32_T)overlapidx_data_p - 1].im + x_in[i].im;
+    }
+    for (i = 0; i < b_size_idx_0; i++) {
+        y[(int32_T)overlapidx_data[i] - 1] = y_data[i];
+    }
+    if (Narg > 0.0) {
+        if (100.0 - popnum < 1.0) {
+            popidx_size[1] = 0;
+        } else {
+            popidx_size[1] = (int32_T)muDoubleScalarFloor((100.0 - popnum) - 1.0) + 1;
+            loop_ub = (int32_T)muDoubleScalarFloor((100.0 - popnum) - 1.0);
+            for (i = 0; i <= loop_ub; i++) {
+                popidx_data[i] = (real_T)i + 1.0;
+            }
+            loop_ub = (int32_T)muDoubleScalarFloor((100.0 - popnum) - 1.0);
+            for (i = 0; i <= loop_ub; i++) {
+                overlapidx_data[i] = (real_T)i + 1.0;
+            }
+        }
+        obj_size_p[0] = 1;
+        obj_size_p[1] = popidx_size[1];
+        loop_ub = popidx_size[1];
+        for (i = 0; i < loop_ub; i++) {
+            pushidx_data[i] = (obj->pStart + popidx_data[i]) - 1.0;
+        }
+        %<(SLibCGCallSubFcn("bjgpjj4zd1", ["obj", "pushidx_data", "obj_size_p", "popidx_data", "popidx_size"], 0, 18, 2))>;
+        b_size_idx_0 = popidx_size[1];
+        loop_ub = popidx_size[0] * popidx_size[1];
+        if (0 <= loop_ub - 1) {
+            memcpy(&pushidx_data[0], &popidx_data[0], loop_ub * sizeof(real_T));
+        }
+        for (i = 0; i < b_size_idx_0; i++) {
+            pushidx_data_p = pushidx_data[i];
+            overlapidx_data_p = overlapidx_data[i];
+            obj_data[i].re = x_in[(int32_T)(popnum + overlapidx_data_p) - 1].re + obj->pBuffer[(int32_T)pushidx_data_p - 1].re;
+            obj_data[i].im = x_in[(int32_T)(popnum + overlapidx_data_p) - 1].im + obj->pBuffer[(int32_T)pushidx_data_p - 1].im;
+        }
+        for (i = 0; i < b_size_idx_0; i++) {
+            obj->pBuffer[(int32_T)pushidx_data[i] - 1] = obj_data[i];
+        }
+        if (Narg > obj->pCount) {
+            obj->pCount = Narg;
+        }
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void kxhaj33aix(\
+%assign comma = ""
+%<comma>kkrezxuj2g *obj\
+%assign comma = ", "
+%<comma>const creal_T x_in[100]\
+%assign comma = ", "
+%<comma>real_T Narg\
+%assign comma = ", "
+%<comma>creal_T y[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 18, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fu0hddpeib_Fcn19(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T b_k;
+int8_T inSize[8];
+boolean_T exitg1;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,19,0,0)
+%<SLibCG_AccessArg(0 ,19, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,19,0,1)
+%<SLibCG_AccessArg(0 ,19, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,19,0,2)
+%<SLibCG_AccessArg(0 ,19, 2)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,19,0,3)
+%<SLibCG_AccessArg(0 ,19, 3)>
+%endif
+
+if (obj->isInitialized != 1) {
+    obj->isSetupComplete = false;
+    obj->isInitialized = 1;
+    obj->inputVarSize[0].f1[0] = 100U;
+    obj->inputVarSize[0].f1[1] = 1U;
+    for (b_k = 0; b_k < 6; b_k++) {
+        obj->inputVarSize[0].f1[b_k + 2] = 1U;
+    }
+    for (b_k = 0; b_k < 8; b_k++) {
+        obj->inputVarSize[1].f1[b_k] = 1U;
+    }
+    obj->pNumInputChannels = 1.0;
+    obj->pStart = 1.0;
+    obj->pCount = 0.0;
+    obj->pBufferLength = 167.0;
+    obj->isSetupComplete = true;
+    memset(&obj->pBuffer[0], 0, 167U * sizeof(creal_T));
+    obj->pStart = 1.0;
+    obj->pCount = 0.0;
+}
+inSize[0] = 100;
+inSize[1] = 1;
+for (b_k = 0; b_k < 6; b_k++) {
+    inSize[b_k + 2] = 1;
+}
+b_k = 0;
+exitg1 = false;
+while ((!exitg1) && (b_k < 8)) {
+    if (obj->inputVarSize[0].f1[b_k] != (uint32_T)inSize[b_k]) {
+        for (b_k = 0; b_k < 8; b_k++) {
+            obj->inputVarSize[0].f1[b_k] = (uint32_T)inSize[b_k];
+        }
+        exitg1 = true;
+    } else {
+        b_k++;
+    }
+}
+%<(SLibCGCallSubFcn("kxhaj33aix", ["obj", "varargin_1", "varargin_2", "varargout_1"], 0, 19, 0))>;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fu0hddpeib(\
+%assign comma = ""
+%<comma>kkrezxuj2g *obj\
+%assign comma = ", "
+%<comma>const creal_T varargin_1[100]\
+%assign comma = ", "
+%<comma>real_T varargin_2\
+%assign comma = ", "
+%<comma>creal_T varargout_1[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 19, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function ezebb143wj_Fcn20(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+atyvy0fxei *obj_p;
+ppqqbropvd *obj_e;
+creal_T tempxp[100];
+creal_T xbuf_in[100];
+real_T intd;
+real_T nDelay;
+int32_T buffIdx;
+int32_T i;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,20,2,0)
+%<SLibCG_AccessArg(0 ,20, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,20,1,0)
+%<SLibCG_AccessArg(0 ,20, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,20,1,1)
+%<SLibCG_AccessArg(0 ,20, 2)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,20,1,2)
+%<SLibCG_AccessArg(0 ,20, 3)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,20,1,3)
+%<SLibCG_AccessArg(0 ,20, 4)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,20,1,4)
+%<SLibCG_AccessArg(0 ,20, 5)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,20,0,0)
+%<SLibCG_AccessArg(0 ,20, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,20,0,3)
+%<SLibCG_AccessArg(0 ,20, 6)>
+%endif
+
+%<(SLibCGCallSubFcn("l4ag5mafbr", ["x_inc", "startPos", "endPos", "startVel", "endVel", "tempxp", "&intd"], 0, 20, 1))>;
+nDelay = intd * 1.0E+6;
+if (!(muDoubleScalarRem(intd, 1.0E-6) != 0.0)) {
+    nDelay = muDoubleScalarRound(nDelay);
+    memcpy(&xbuf_in[0], &tempxp[0], 100U * sizeof(creal_T));
+} else {
+    intd = trunc(nDelay);
+    obj_p = &obj->cFractionalDelayFilter;
+    if (obj->cFractionalDelayFilter.isInitialized != 1) {
+        obj->cFractionalDelayFilter.isSetupComplete = false;
+        obj->cFractionalDelayFilter.isInitialized = 1;
+        obj->cFractionalDelayFilter.isSetupComplete = true;
+        obj_e = &obj->cFractionalDelayFilter.cSFunObject;
+        /* System object Initialization function: dsp.VariableFractionalDelay */
+        obj_p->cSFunObject.W0_BUFF_OFFSET = 100;
+        buffIdx = 0;
+        for (i = 0; i < 101; i++) {
+            obj_e->W1_BUFF[buffIdx] = obj_e->P0_IC;
+            buffIdx++;
+        }
+    }
+    %<(SLibCGCallSubFcn("pstjajiijj", ["&obj->cFractionalDelayFilter", "tempxp", "nDelay - intd", "xbuf_in"], 0, 20, 2))>;
+    nDelay = intd;
+}
+%<(SLibCGCallSubFcn("fu0hddpeib", ["&obj->cBuffer", "xbuf_in", "nDelay", "y"], 0, 20, 0))>;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ezebb143wj(\
+%assign comma = ""
+%<comma>icyr5b5nuj *obj\
+%assign comma = ", "
+%<comma>const creal_T x_inc[100]\
+%assign comma = ", "
+%<comma>const real_T startPos[3]\
+%assign comma = ", "
+%<comma>const real_T endPos[3]\
+%assign comma = ", "
+%<comma>const real_T startVel[3]\
+%assign comma = ", "
+%<comma>const real_T endVel[3]\
+%assign comma = ", "
+%<comma>creal_T y[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 20, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function mcznhbxewp_Fcn21(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+time_t rawtime;
+struct tm expl_temp;
+real_T dDateNum;
+real_T r;
+int16_T cDaysMonthWise[12];
+boolean_T guard1 = false;
+cDaysMonthWise[0] = 0;
+cDaysMonthWise[1] = 31;
+cDaysMonthWise[2] = 59;
+cDaysMonthWise[3] = 90;
+cDaysMonthWise[4] = 120;
+cDaysMonthWise[5] = 151;
+cDaysMonthWise[6] = 181;
+cDaysMonthWise[7] = 212;
+cDaysMonthWise[8] = 243;
+cDaysMonthWise[9] = 273;
+cDaysMonthWise[10] = 304;
+cDaysMonthWise[11] = 334;
+time(&rawtime);
+expl_temp = *localtime(&rawtime);
+dDateNum = (((((real_T)(expl_temp.tm_year + 1900) * 365.0 + muDoubleScalarCeil((real_T)(expl_temp.tm_year + 1900) / 4.0)) - muDoubleScalarCeil((real_T)(expl_temp.tm_year + 1900) / 100.0)) + muDoubleScalarCeil((real_T)(expl_temp.tm_year + 1900) / 400.0)) + (real_T)cDaysMonthWise[expl_temp.tm_mon]) + (real_T)expl_temp.tm_mday;
+if (expl_temp.tm_mon + 1 > 2) {
+    if (expl_temp.tm_year + 1900 == 0) {
+        r = 0.0;
+    } else {
+        r = muDoubleScalarRem(expl_temp.tm_year + 1900, 4.0);
+        if (r == 0.0) {
+            r = 0.0;
+        } else {
+            if (expl_temp.tm_year + 1900 < 0) {
+                r += 4.0;
+            }
+        }
+    }
+    guard1 = false;
+    if (r == 0.0) {
+        if (expl_temp.tm_year + 1900 == 0) {
+            r = 0.0;
+        } else {
+            r = muDoubleScalarRem(expl_temp.tm_year + 1900, 100.0);
+            if (r == 0.0) {
+                r = 0.0;
+            } else {
+                if (expl_temp.tm_year + 1900 < 0) {
+                    r += 100.0;
+                }
+            }
+        }
+        if (r != 0.0) {
+            dDateNum++;
+        } else {
+            guard1 = true;
+        }
+    } else {
+        guard1 = true;
+    }
+    if (guard1) {
+        if (expl_temp.tm_year + 1900 == 0) {
+            r = 0.0;
+        } else {
+            r = muDoubleScalarRem(expl_temp.tm_year + 1900, 400.0);
+            if (r == 0.0) {
+                r = 0.0;
+            } else {
+                if (expl_temp.tm_year + 1900 < 0) {
+                    r += 400.0;
+                }
+            }
+        }
+        if (r == 0.0) {
+            dDateNum++;
+        }
+    }
+}
+return (((real_T)expl_temp.tm_hour * 3600.0 + (real_T)expl_temp.tm_min * 60.0) + (real_T)expl_temp.tm_sec) / 86400.0 + dDateNum;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T mcznhbxewp(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 21, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function gfkehwhipgq_Fcn22(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T r;
+if (muDoubleScalarIsNaN(x) || muDoubleScalarIsInf(x)) {
+    r = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else if (x == 0.0) {
+    r = 0.0;
+} else {
+    r = muDoubleScalarRem(x, 2.147483647E+9);
+    if (r == 0.0) {
+        r = 0.0;
+    } else {
+        if (x < 0.0) {
+            r += 2.147483647E+9;
+        }
+    }
+}
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T gfkehwhipgq(\
+%assign comma = ""
+%<comma>real_T x\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 22, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function l4hcxqd2xc_Fcn23(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T b_j;
+int32_T b_kk;
+uint32_T statei;
+uint32_T y;
+for (b_j = 0; b_j < 2; b_j++) {
+    statei = obj->State[624] + 1U;
+    if (obj->State[624] + 1U >= 625U) {
+        for (b_kk = 0; b_kk < 227; b_kk++) {
+            y = (obj->State[b_kk + 1] & 2147483647U) | (obj->State[b_kk] & 2147483648U);
+            if ((y & 1U) == 0U) {
+                y >>= 1U;
+            } else {
+                y = y >> 1U ^ 2567483615U;
+            }
+            obj->State[b_kk] = obj->State[b_kk + 397] ^ y;
+        }
+        for (b_kk = 0; b_kk < 396; b_kk++) {
+            y = (obj->State[b_kk + 227] & 2147483648U) | (obj->State[b_kk + 228] & 2147483647U);
+            if ((y & 1U) == 0U) {
+                y >>= 1U;
+            } else {
+                y = y >> 1U ^ 2567483615U;
+            }
+            obj->State[b_kk + 227] = obj->State[b_kk] ^ y;
+        }
+        y = (obj->State[623] & 2147483648U) | (obj->State[0] & 2147483647U);
+        if ((y & 1U) == 0U) {
+            y >>= 1U;
+        } else {
+            y = y >> 1U ^ 2567483615U;
+        }
+        obj->State[623] = obj->State[396] ^ y;
+        statei = 1U;
+    }
+    y = obj->State[(int32_T)statei - 1];
+    obj->State[624] = statei;
+    y ^= y >> 11U;
+    y ^= y << 7U & 2636928640U;
+    y ^= y << 15U & 4022730752U;
+    u[b_j] = y >> 18U ^ y;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void l4hcxqd2xc(\
+%assign comma = ""
+%<comma>hferqq002w *obj\
+%assign comma = ", "
+%<comma>uint32_T u[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 23, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function bzwpq3kj2b_Fcn24(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T k;
+boolean_T exitg1;
+boolean_T isvalid;
+/* <LEGAL>========================= COPYRIGHT NOTICE ============================ */
+/* <LEGAL> This is a uniform (0,1) pseudorandom number generator based on: */
+/* <LEGAL> */
+/* <LEGAL> A C-program for MT19937, with initialization improved 2002/1/26. */
+/* <LEGAL> Coded by Takuji Nishimura and Makoto Matsumoto. */
+/* <LEGAL> */
+/* <LEGAL> Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura, */
+/* <LEGAL> All rights reserved. */
+/* <LEGAL> */
+/* <LEGAL> Redistribution and use in source and binary forms, with or without */
+/* <LEGAL> modification, are permitted provided that the following conditions */
+/* <LEGAL> are met: */
+/* <LEGAL> */
+/* <LEGAL>   1. Redistributions of source code must retain the above copyright */
+/* <LEGAL>      notice, this list of conditions and the following disclaimer. */
+/* <LEGAL> */
+/* <LEGAL>   2. Redistributions in binary form must reproduce the above copyright */
+/* <LEGAL>      notice, this list of conditions and the following disclaimer */
+/* <LEGAL>      in the documentation and/or other materials provided with the */
+/* <LEGAL>      distribution. */
+/* <LEGAL> */
+/* <LEGAL>   3. The names of its contributors may not be used to endorse or */
+/* <LEGAL>      promote products derived from this software without specific */
+/* <LEGAL>      prior written permission. */
+/* <LEGAL> */
+/* <LEGAL> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS */
+/* <LEGAL> "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT */
+/* <LEGAL> LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR */
+/* <LEGAL> A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT */
+/* <LEGAL> OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, */
+/* <LEGAL> SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT */
+/* <LEGAL> LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, */
+/* <LEGAL> DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY */
+/* <LEGAL> THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT */
+/* <LEGAL> (INCLUDING  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE */
+/* <LEGAL> OF THIS  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+/* <LEGAL> */
+/* <LEGAL>=============================   END   ================================= */
+if ((mt[624] >= 1U) && (mt[624] < 625U)) {
+    isvalid = false;
+    k = 0;
+    exitg1 = false;
+    while ((!exitg1) && (k + 1 < 625)) {
+        if (mt[k] == 0U) {
+            k++;
+        } else {
+            isvalid = true;
+            exitg1 = true;
+        }
+    }
+} else {
+    isvalid = false;
+}
+return isvalid;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static boolean_T bzwpq3kj2b(\
+%assign comma = ""
+%<comma>const uint32_T mt[625]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 24, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function hrissh52v5r_Fcn25(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+hferqq002w *obj;
+real_T u;
+int32_T exitg1;
+uint32_T u_p[2];
+obj = s->Generator;
+do {
+    exitg1 = 0;
+    %<(SLibCGCallSubFcn("l4hcxqd2xc", ["obj", "u_p"], 0, 25, 1))>;
+    u_p[0] >>= 5U;
+    u_p[1] >>= 6U;
+    u = ((real_T)u_p[0] * 6.7108864E+7 + (real_T)u_p[1]) * 1.1102230246251565E-16;
+    if (u == 0.0) {
+        if (!%<(SLibCGCallSubFcn("bzwpq3kj2b", ["obj->State"], 0, 25, 0))>) {
+            %<(SLibCGCallSubFcn("gmhf0sow4r", ["obj", "5489U"], 0, 25, 2))>;
+        }
+    } else {
+        exitg1 = 1;
+    }
+} while (exitg1 == 0);
+return u;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T hrissh52v5r(\
+%assign comma = ""
+%<comma>puz55sdew5 *s\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 25, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function hrissh52v5_Fcn26(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+hferqq002w *obj;
+real_T r;
+int32_T exitg1;
+uint32_T u_p[2];
+obj = s->Generator;
+do {
+    exitg1 = 0;
+    %<(SLibCGCallSubFcn("l4hcxqd2xc", ["obj", "u_p"], 0, 26, 2))>;
+    u_p[0] >>= 5U;
+    u_p[1] >>= 6U;
+    r = ((real_T)u_p[0] * 6.7108864E+7 + (real_T)u_p[1]) * 1.1102230246251565E-16;
+    if (r == 0.0) {
+        if (!%<(SLibCGCallSubFcn("bzwpq3kj2b", ["obj->State"], 0, 26, 0))>) {
+            %<(SLibCGCallSubFcn("gmhf0sow4r", ["obj", "5489U"], 0, 26, 3))>;
+        }
+    } else {
+        exitg1 = 1;
+    }
+} while (exitg1 == 0);
+u[0] = r;
+do {
+    exitg1 = 0;
+    %<(SLibCGCallSubFcn("l4hcxqd2xc", ["obj", "u_p"], 0, 26, 4))>;
+    u_p[0] >>= 5U;
+    u_p[1] >>= 6U;
+    r = ((real_T)u_p[0] * 6.7108864E+7 + (real_T)u_p[1]) * 1.1102230246251565E-16;
+    if (r == 0.0) {
+        if (!%<(SLibCGCallSubFcn("bzwpq3kj2b", ["obj->State"], 0, 26, 1))>) {
+            %<(SLibCGCallSubFcn("gmhf0sow4r", ["obj", "5489U"], 0, 26, 5))>;
+        }
+    } else {
+        exitg1 = 1;
+    }
+} while (exitg1 == 0);
+u[1] = r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void hrissh52v5(\
+%assign comma = ""
+%<comma>puz55sdew5 *s\
+%assign comma = ", "
+%<comma>real_T u[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 26, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function ojnxqwrr22_Fcn27(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+static const real_T tmp_g[257] = { 1.0, 0.977101701267673, 0.959879091800108, 0.9451989534423, 0.932060075959231, 0.919991505039348, 0.908726440052131, 0.898095921898344, 0.887984660755834, 0.878309655808918, 0.869008688036857, 0.860033621196332, 0.851346258458678, 0.842915653112205, 0.834716292986884, 0.826726833946222, 0.818929191603703, 0.811307874312656, 0.803849483170964, 0.796542330422959, 0.789376143566025, 0.782341832654803, 0.775431304981187, 0.768637315798486, 0.761953346836795, 0.755373506507096, 0.748892447219157, 0.742505296340151, 0.736207598126863, 0.729995264561476, 0.72386453346863, 0.717811932630722, 0.711834248878248, 0.705928501332754, 0.700091918136512, 0.694321916126117, 0.688616083004672, 0.682972161644995, 0.677388036218774, 0.671861719897082, 0.66639134390875, 0.660975147776663, 0.655611470579697, 0.650298743110817, 0.645035480820822, 0.639820277453057, 0.634651799287624, 0.629528779924837, 0.624450015547027, 0.619414360605834, 0.614420723888914, 0.609468064925773, 0.604555390697468, 0.599681752619125, 0.594846243767987, 0.590047996332826, 0.585286179263371, 0.580559996100791, 0.575868682972354, 0.571211506735253, 0.566587763256165, 0.561996775814525, 0.557437893618766, 0.552910490425833, 0.548413963255266, 0.543947731190026, 0.539511234256952, 0.535103932380458, 0.530725304403662, 0.526374847171684, 0.522052074672322, 0.517756517229756, 0.513487720747327, 0.509245245995748, 0.505028667943468, 0.500837575126149, 0.49667156905249, 0.492530263643869, 0.488413284705458, 0.484320269426683, 0.480250865909047, 0.476204732719506, 0.47218153846773, 0.468180961405694, 0.464202689048174, 0.460246417812843, 0.456311852678716, 0.452398706861849, 0.448506701507203, 0.444635565395739, 0.440785034665804, 0.436954852547985, 0.433144769112652, 0.429354541029442, 0.425583931338022, 0.421832709229496, 0.418100649837848, 0.414387534040891, 0.410693148270188, 0.407017284329473, 0.403359739221114, 0.399720314980197, 0.396098818515832, 0.392495061459315, 0.388908860018789, 0.385340034840077, 0.381788410873393, 0.378253817245619, 0.374736087137891, 0.371235057668239, 0.367750569779032, 0.364282468129004, 0.360830600989648, 0.357394820145781, 0.353974980800077, 0.350570941481406, 0.347182563956794, 0.343809713146851, 0.340452257044522, 0.337110066637006, 0.333783015830718, 0.330470981379163, 0.327173842813601, 0.323891482376391, 0.320623784956905, 0.317370638029914, 0.314131931596337, 0.310907558126286, 0.307697412504292, 0.30450139197665, 0.301319396100803, 0.298151326696685, 0.294997087799962, 0.291856585617095, 0.288729728482183, 0.285616426815502, 0.282516593083708, 0.279430141761638, 0.276356989295668, 0.273297054068577, 0.270250256365875, 0.267216518343561, 0.264195763997261, 0.261187919132721, 0.258192911337619, 0.255210669954662, 0.252241126055942, 0.249284212418529, 0.246339863501264, 0.24340801542275, 0.240488605940501, 0.237581574431238, 0.23468686187233, 0.231804410824339, 0.228934165414681, 0.226076071322381, 0.223230075763918, 0.220396127480152, 0.217574176724331, 0.214764175251174, 0.211966076307031, 0.209179834621125, 0.206405406397881, 0.203642749310335, 0.200891822494657, 0.198152586545776, 0.195425003514135, 0.192709036903589, 0.190004651670465, 0.187311814223801, 0.1846304924268, 0.181960655599523, 0.179302274522848, 0.176655321443735, 0.174019770081839, 0.171395595637506, 0.168782774801212, 0.166181285764482, 0.163591108232366, 0.161012223437511, 0.158444614155925, 0.15588826472448, 0.153343161060263, 0.150809290681846, 0.148286642732575, 0.145775208005994, 0.143274978973514, 0.140785949814445, 0.138308116448551, 0.135841476571254, 0.133386029691669, 0.130941777173644, 0.12850872228, 0.126086870220186, 0.123676228201597, 0.12127680548479, 0.11888861344291, 0.116511665625611, 0.114145977827839, 0.111791568163838, 0.109448457146812, 0.107116667774684, 0.104796225622487, 0.102487158941935, 0.10018949876881, 0.0979032790388625, 0.095628536713009, 0.093365311912691, 0.0911136480663738, 0.0888735920682759, 0.0866451944505581, 0.0844285095703535, 0.082223595813203, 0.0800305158146631, 0.0778493367020961, 0.0756801303589272, 0.0735229737139814, 0.0713779490588905, 0.0692451443970068, 0.0671246538277886, 0.065016577971243, 0.0629210244377582, 0.06083810834954, 0.0587679529209339, 0.0567106901062031, 0.0546664613248891, 0.0526354182767924, 0.0506177238609479, 0.0486135532158687, 0.0466230949019305, 0.0446465522512946, 0.0426841449164746, 0.0407361106559411, 0.0388027074045262, 0.0368842156885674, 0.0349809414617162, 0.0330932194585786, 0.0312214171919203, 0.0293659397581334, 0.0275272356696031, 0.0257058040085489, 0.0239022033057959, 0.0221170627073089, 0.0203510962300445, 0.0186051212757247, 0.0168800831525432, 0.0151770883079353, 0.0134974506017399, 0.0118427578579079, 0.0102149714397015, 0.00861658276939875, 0.00705087547137324, 0.00552240329925101, 0.00403797259336304, 0.00260907274610216, 0.0012602859304986, 0.000477467764609386 };
+static const real_T tmp_i[257] = { 0.0, 0.215241895984875, 0.286174591792068, 0.335737519214422, 0.375121332878378, 0.408389134611989, 0.43751840220787, 0.46363433679088, 0.487443966139235, 0.50942332960209, 0.529909720661557, 0.549151702327164, 0.567338257053817, 0.584616766106378, 0.601104617755991, 0.61689699000775, 0.63207223638606, 0.646695714894993, 0.660822574244419, 0.674499822837293, 0.687767892795788, 0.700661841106814, 0.713212285190975, 0.725446140909999, 0.737387211434295, 0.749056662017815, 0.760473406430107, 0.771654424224568, 0.782615023307232, 0.793369058840623, 0.80392911698997, 0.814306670135215, 0.824512208752291, 0.834555354086381, 0.844444954909153, 0.854189171008163, 0.863795545553308, 0.87327106808886, 0.882622229585165, 0.891855070732941, 0.900975224461221, 0.909987953496718, 0.91889818364959, 0.927710533401999, 0.936429340286575, 0.945058684468165, 0.953602409881086, 0.96206414322304, 0.970447311064224, 0.978755155294224, 0.986990747099062, 0.99515699963509, 1.00325667954467, 1.01129241744, 1.01926671746548, 1.02718196603564, 1.03504043983344, 1.04284431314415, 1.05059566459093, 1.05829648333067, 1.06594867476212, 1.07355406579244, 1.0811144097034, 1.08863139065398, 1.09610662785202, 1.10354167942464, 1.11093804601357, 1.11829717411934, 1.12562045921553, 1.13290924865253, 1.14016484436815, 1.14738850542085, 1.15458145035993, 1.16174485944561, 1.16887987673083, 1.17598761201545, 1.18306914268269, 1.19012551542669, 1.19715774787944, 1.20416683014438, 1.2111537262437, 1.21811937548548, 1.22506469375653, 1.23199057474614, 1.23889789110569, 1.24578749554863, 1.2526602218949, 1.25951688606371, 1.26635828701823, 1.27318520766536, 1.27999841571382, 1.28679866449324, 1.29358669373695, 1.30036323033084, 1.30712898903073, 1.31388467315022, 1.32063097522106, 1.32736857762793, 1.33409815321936, 1.3408203658964, 1.34753587118059, 1.35424531676263, 1.36094934303328, 1.36764858359748, 1.37434366577317, 1.38103521107586, 1.38772383568998, 1.39441015092814, 1.40109476367925, 1.4077782768464, 1.41446128977547, 1.42114439867531, 1.42782819703026, 1.43451327600589, 1.44120022484872, 1.44788963128058, 1.45458208188841, 1.46127816251028, 1.46797845861808, 1.47468355569786, 1.48139403962819, 1.48811049705745, 1.49483351578049, 1.50156368511546, 1.50830159628131, 1.51504784277671, 1.521803020761, 1.52856772943771, 1.53534257144151, 1.542128153229, 1.54892508547417, 1.55573398346918, 1.56255546753104, 1.56939016341512, 1.57623870273591, 1.58310172339603, 1.58997987002419, 1.59687379442279, 1.60378415602609, 1.61071162236983, 1.61765686957301, 1.62462058283303, 1.63160345693487, 1.63860619677555, 1.64562951790478, 1.65267414708306, 1.65974082285818, 1.66683029616166, 1.67394333092612, 1.68108070472517, 1.68824320943719, 1.69543165193456, 1.70264685479992, 1.7098896570713, 1.71716091501782, 1.72446150294804, 1.73179231405296, 1.73915426128591, 1.74654827828172, 1.75397532031767, 1.76143636531891, 1.76893241491127, 1.77646449552452, 1.78403365954944, 1.79164098655216, 1.79928758454972, 1.80697459135082, 1.81470317596628, 1.82247454009388, 1.83028991968276, 1.83815058658281, 1.84605785028518, 1.8540130597602, 1.86201760539967, 1.87007292107127, 1.878180486293, 1.88634182853678, 1.8945585256707, 1.90283220855043, 1.91116456377125, 1.91955733659319, 1.92801233405266, 1.93653142827569, 1.94511656000868, 1.95376974238465, 1.96249306494436, 1.97128869793366, 1.98015889690048, 1.98910600761744, 1.99813247135842, 2.00724083056053, 2.0164337349062, 2.02571394786385, 2.03508435372962, 2.04454796521753, 2.05410793165065, 2.06376754781173, 2.07353026351874, 2.0833996939983, 2.09337963113879, 2.10347405571488, 2.11368715068665, 2.12402331568952, 2.13448718284602, 2.14508363404789, 2.15581781987674, 2.16669518035431, 2.17772146774029, 2.18890277162636, 2.20024554661128, 2.21175664288416, 2.22344334009251, 2.23531338492992, 2.24737503294739, 2.25963709517379, 2.27210899022838, 2.28480080272449, 2.29772334890286, 2.31088825060137, 2.32430801887113, 2.33799614879653, 2.35196722737914, 2.36623705671729, 2.38082279517208, 2.39574311978193, 2.41101841390112, 2.42667098493715, 2.44272531820036, 2.4592083743347, 2.47614993967052, 2.49358304127105, 2.51154444162669, 2.53007523215985, 2.54922155032478, 2.56903545268184, 2.58957598670829, 2.61091051848882, 2.63311639363158, 2.65628303757674, 2.68051464328574, 2.70593365612306, 2.73268535904401, 2.76094400527999, 2.79092117400193, 2.82287739682644, 2.85713873087322, 2.89412105361341, 2.93436686720889, 2.97860327988184, 3.02783779176959, 3.08352613200214, 3.147889289518, 3.2245750520478, 3.32024473383983, 3.44927829856143, 3.65415288536101, 3.91075795952492 };
+static const real_T tmp[8] = { 3.3871328727963665, 133.14166789178438, 1971.5909503065513, 13731.693765509461, 45921.95393154987, 67265.7709270087, 33430.575583588128, 2509.0809287301227 };
+static const real_T tmp_e[8] = { 6.6579046435011033, 5.4637849111641144, 1.7848265399172913, 0.29656057182850487, 0.026532189526576124, 0.0012426609473880784, 2.7115555687434876E-5, 2.0103343992922881E-7 };
+static const real_T tmp_p[8] = { 1.4234371107496835, 4.6303378461565456, 5.769497221460691, 3.6478483247632045, 1.2704582524523684, 0.24178072517745061, 0.022723844989269184, 0.00077454501427834139 };
+static const real_T tmp_f[7] = { 0.599832206555888, 0.13692988092273581, 0.014875361290850615, 0.00078686913114561329, 1.8463183175100548E-5, 1.4215117583164459E-7, 2.0442631033899397E-15 };
+static const real_T tmp_j[7] = { 2.053191626637759, 1.6763848301838038, 0.6897673349851, 0.14810397642748008, 0.015198666563616457, 0.00054759380849953455, 1.0507500716444169E-9 };
+static const real_T tmp_m[7] = { 42.313330701600911, 687.18700749205789, 5394.1960214247511, 21213.794301586597, 39307.895800092709, 28729.085735721943, 5226.4952788528544 };
+real_T B_p[7];
+real_T D[7];
+real_T F[7];
+real_T u_p[2];
+const real_T *A;
+const real_T *C;
+const real_T *E;
+real_T r;
+real_T t;
+real_T u;
+int32_T b_k;
+int32_T exitg1;
+uint32_T ik;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,27,4,0)
+%<SLibCG_AccessArg(0 ,27, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,27,3,0)
+%<SLibCG_AccessArg(0 ,27, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,27,2,0)
+%<SLibCG_AccessArg(0 ,27, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,27,1,0)
+%<SLibCG_AccessArg(0 ,27, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,27,0,0)
+%<SLibCG_AccessArg(0 ,27, 0)>
+%endif
+
+if (s->NtMethod == coder_internal_RngNt_ziggurat) {
+    for (b_k = 0; b_k < 200; b_k++) {
+        do {
+            exitg1 = 0;
+            %<(SLibCGCallSubFcn("hrissh52v5", ["s", "u_p"], 0, 27, 0))>;
+            ik = (uint32_T)(256.0 * u_p[0]) + 1U;
+            r = (2.0 * u_p[1] - 1.0) * tmp_i[(int32_T)ik];
+            if (muDoubleScalarAbs(r) <= tmp_i[(int32_T)ik - 1]) {
+                exitg1 = 1;
+            } else if (ik < 256U) {
+                u_p[0] = %<(SLibCGCallSubFcn("hrissh52v5r", ["s"], 0, 27, 1))>;
+                if ((tmp_g[(int32_T)ik - 1] - tmp_g[(int32_T)ik]) * u_p[0] + tmp_g[(int32_T)ik] < muDoubleScalarExp(-0.5 * r * r)) {
+                    exitg1 = 1;
+                }
+            } else {
+                do {
+                    %<(SLibCGCallSubFcn("hrissh52v5", ["s", "u_p"], 0, 27, 2))>;
+                    u = muDoubleScalarLog(u_p[0]) * 0.273661237329758;
+                } while (!(u * u < -2.0 * muDoubleScalarLog(u_p[1])));
+                if (r < 0.0) {
+                    r = u - 3.65415288536101;
+                } else {
+                    r = 3.65415288536101 - u;
+                }
+                exitg1 = 1;
+            }
+        } while (exitg1 == 0);
+        z[b_k] = r;
+    }
+} else if (s->NtMethod == coder_internal_RngNt_polar) {
+    for (b_k = 0; b_k < 200; b_k++) {
+        if (s->HaveSavedPolarValue) {
+            s->HaveSavedPolarValue = false;
+            z[b_k] = s->SavedPolarValue;
+        } else {
+            do {
+                %<(SLibCGCallSubFcn("hrissh52v5", ["s", "u_p"], 0, 27, 4))>;
+                r = 2.0 * u_p[0] - 1.0;
+                u = 2.0 * u_p[1] - 1.0;
+                t = r * r + u * u;
+            } while (!(t <= 1.0));
+            t = muDoubleScalarSqrt(-2.0 * muDoubleScalarLog(t) / t);
+            z[b_k] = r * t;
+            s->HaveSavedPolarValue = true;
+            s->SavedPolarValue = u * t;
+        }
+    }
+} else {
+    A = &tmp[0];
+    for (b_k = 0; b_k < 7; b_k++) {
+        B_p[b_k] = tmp_m[b_k];
+    }
+    C = &tmp_p[0];
+    for (b_k = 0; b_k < 7; b_k++) {
+        D[b_k] = tmp_j[b_k];
+    }
+    E = &tmp_e[0];
+    for (b_k = 0; b_k < 7; b_k++) {
+        F[b_k] = tmp_f[b_k];
+    }
+    for (b_k = 0; b_k < 200; b_k++) {
+        u = %<(SLibCGCallSubFcn("hrissh52v5r", ["s"], 0, 27, 3))>;
+        if (muDoubleScalarAbs(u - 0.5) <= 0.425) {
+            r = 0.180625 - (u - 0.5) * (u - 0.5);
+            r = (((((((A[7] * r + A[6]) * r + A[5]) * r + A[4]) * r + A[3]) * r + A[2]) * r + A[1]) * r + A[0]) * (u - 0.5) / (((((((B_p[6] * r + B_p[5]) * r + B_p[4]) * r + B_p[3]) * r + B_p[2]) * r + B_p[1]) * r + B_p[0]) * r + 1.0);
+        } else {
+            if (u - 0.5 < 0.0) {
+                r = muDoubleScalarSqrt(-muDoubleScalarLog(u));
+            } else {
+                r = muDoubleScalarSqrt(-muDoubleScalarLog(1.0 - u));
+            }
+            if (r <= 5.0) {
+                r -= 1.6;
+                r = (((((((C[7] * r + C[6]) * r + C[5]) * r + C[4]) * r + C[3]) * r + C[2]) * r + C[1]) * r + C[0]) / (((((((D[6] * r + D[5]) * r + D[4]) * r + D[3]) * r + D[2]) * r + D[1]) * r + D[0]) * r + 1.0);
+            } else {
+                r -= 5.0;
+                r = (((((((E[7] * r + E[6]) * r + E[5]) * r + E[4]) * r + E[3]) * r + E[2]) * r + E[1]) * r + E[0]) / (((((((F[6] * r + F[5]) * r + F[4]) * r + F[3]) * r + F[2]) * r + F[1]) * r + F[0]) * r + 1.0);
+            }
+            if (u - 0.5 < 0.0) {
+                r = -r;
+            }
+        }
+        z[b_k] = r;
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void ojnxqwrr22(\
+%assign comma = ""
+%<comma>puz55sdew5 *s\
+%assign comma = ", "
+%<comma>real_T z[200]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 27, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function enit5rx0pf_Fcn28(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T r;
+int32_T exitg1;
+uint32_T u[2];
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,28,2,0)
+%<SLibCG_AccessArg(0 ,28, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,28,1,0)
+%<SLibCG_AccessArg(0 ,28, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,28,0,0)
+%<SLibCG_AccessArg(0 ,28, 0)>
+%endif
+
+do {
+    exitg1 = 0;
+    %<(SLibCGCallSubFcn("l4hcxqd2xc", ["obj", "u"], 0, 28, 1))>;
+    u[0] >>= 5U;
+    u[1] >>= 6U;
+    r = ((real_T)u[0] * 6.7108864E+7 + (real_T)u[1]) * 1.1102230246251565E-16;
+    if (r == 0.0) {
+        if (!%<(SLibCGCallSubFcn("bzwpq3kj2b", ["obj->State"], 0, 28, 0))>) {
+            %<(SLibCGCallSubFcn("gmhf0sow4r", ["obj", "5489U"], 0, 28, 2))>;
+        }
+    } else {
+        exitg1 = 1;
+    }
+} while (exitg1 == 0);
+return r;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static real_T enit5rx0pf(\
+%assign comma = ""
+%<comma>hferqq002w *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 28, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function agkbdnil4y_Fcn29(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+static const real_T tmp[257] = { 1.0, 0.977101701267673, 0.959879091800108, 0.9451989534423, 0.932060075959231, 0.919991505039348, 0.908726440052131, 0.898095921898344, 0.887984660755834, 0.878309655808918, 0.869008688036857, 0.860033621196332, 0.851346258458678, 0.842915653112205, 0.834716292986884, 0.826726833946222, 0.818929191603703, 0.811307874312656, 0.803849483170964, 0.796542330422959, 0.789376143566025, 0.782341832654803, 0.775431304981187, 0.768637315798486, 0.761953346836795, 0.755373506507096, 0.748892447219157, 0.742505296340151, 0.736207598126863, 0.729995264561476, 0.72386453346863, 0.717811932630722, 0.711834248878248, 0.705928501332754, 0.700091918136512, 0.694321916126117, 0.688616083004672, 0.682972161644995, 0.677388036218774, 0.671861719897082, 0.66639134390875, 0.660975147776663, 0.655611470579697, 0.650298743110817, 0.645035480820822, 0.639820277453057, 0.634651799287624, 0.629528779924837, 0.624450015547027, 0.619414360605834, 0.614420723888914, 0.609468064925773, 0.604555390697468, 0.599681752619125, 0.594846243767987, 0.590047996332826, 0.585286179263371, 0.580559996100791, 0.575868682972354, 0.571211506735253, 0.566587763256165, 0.561996775814525, 0.557437893618766, 0.552910490425833, 0.548413963255266, 0.543947731190026, 0.539511234256952, 0.535103932380458, 0.530725304403662, 0.526374847171684, 0.522052074672322, 0.517756517229756, 0.513487720747327, 0.509245245995748, 0.505028667943468, 0.500837575126149, 0.49667156905249, 0.492530263643869, 0.488413284705458, 0.484320269426683, 0.480250865909047, 0.476204732719506, 0.47218153846773, 0.468180961405694, 0.464202689048174, 0.460246417812843, 0.456311852678716, 0.452398706861849, 0.448506701507203, 0.444635565395739, 0.440785034665804, 0.436954852547985, 0.433144769112652, 0.429354541029442, 0.425583931338022, 0.421832709229496, 0.418100649837848, 0.414387534040891, 0.410693148270188, 0.407017284329473, 0.403359739221114, 0.399720314980197, 0.396098818515832, 0.392495061459315, 0.388908860018789, 0.385340034840077, 0.381788410873393, 0.378253817245619, 0.374736087137891, 0.371235057668239, 0.367750569779032, 0.364282468129004, 0.360830600989648, 0.357394820145781, 0.353974980800077, 0.350570941481406, 0.347182563956794, 0.343809713146851, 0.340452257044522, 0.337110066637006, 0.333783015830718, 0.330470981379163, 0.327173842813601, 0.323891482376391, 0.320623784956905, 0.317370638029914, 0.314131931596337, 0.310907558126286, 0.307697412504292, 0.30450139197665, 0.301319396100803, 0.298151326696685, 0.294997087799962, 0.291856585617095, 0.288729728482183, 0.285616426815502, 0.282516593083708, 0.279430141761638, 0.276356989295668, 0.273297054068577, 0.270250256365875, 0.267216518343561, 0.264195763997261, 0.261187919132721, 0.258192911337619, 0.255210669954662, 0.252241126055942, 0.249284212418529, 0.246339863501264, 0.24340801542275, 0.240488605940501, 0.237581574431238, 0.23468686187233, 0.231804410824339, 0.228934165414681, 0.226076071322381, 0.223230075763918, 0.220396127480152, 0.217574176724331, 0.214764175251174, 0.211966076307031, 0.209179834621125, 0.206405406397881, 0.203642749310335, 0.200891822494657, 0.198152586545776, 0.195425003514135, 0.192709036903589, 0.190004651670465, 0.187311814223801, 0.1846304924268, 0.181960655599523, 0.179302274522848, 0.176655321443735, 0.174019770081839, 0.171395595637506, 0.168782774801212, 0.166181285764482, 0.163591108232366, 0.161012223437511, 0.158444614155925, 0.15588826472448, 0.153343161060263, 0.150809290681846, 0.148286642732575, 0.145775208005994, 0.143274978973514, 0.140785949814445, 0.138308116448551, 0.135841476571254, 0.133386029691669, 0.130941777173644, 0.12850872228, 0.126086870220186, 0.123676228201597, 0.12127680548479, 0.11888861344291, 0.116511665625611, 0.114145977827839, 0.111791568163838, 0.109448457146812, 0.107116667774684, 0.104796225622487, 0.102487158941935, 0.10018949876881, 0.0979032790388625, 0.095628536713009, 0.093365311912691, 0.0911136480663738, 0.0888735920682759, 0.0866451944505581, 0.0844285095703535, 0.082223595813203, 0.0800305158146631, 0.0778493367020961, 0.0756801303589272, 0.0735229737139814, 0.0713779490588905, 0.0692451443970068, 0.0671246538277886, 0.065016577971243, 0.0629210244377582, 0.06083810834954, 0.0587679529209339, 0.0567106901062031, 0.0546664613248891, 0.0526354182767924, 0.0506177238609479, 0.0486135532158687, 0.0466230949019305, 0.0446465522512946, 0.0426841449164746, 0.0407361106559411, 0.0388027074045262, 0.0368842156885674, 0.0349809414617162, 0.0330932194585786, 0.0312214171919203, 0.0293659397581334, 0.0275272356696031, 0.0257058040085489, 0.0239022033057959, 0.0221170627073089, 0.0203510962300445, 0.0186051212757247, 0.0168800831525432, 0.0151770883079353, 0.0134974506017399, 0.0118427578579079, 0.0102149714397015, 0.00861658276939875, 0.00705087547137324, 0.00552240329925101, 0.00403797259336304, 0.00260907274610216, 0.0012602859304986, 0.000477467764609386 };
+real_T xi[257];
+const real_T *fitab;
+real_T u;
+real_T x;
+real_T z_p;
+int32_T b_k;
+int32_T exitg1;
+int32_T i;
+uint32_T u32[2];
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,29,3,0)
+%<SLibCG_AccessArg(0 ,29, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,29,2,0)
+%<SLibCG_AccessArg(0 ,29, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,29,1,0)
+%<SLibCG_AccessArg(0 ,29, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,29,0,0)
+%<SLibCG_AccessArg(0 ,29, 0)>
+%endif
+
+xi[0] = 0.0;
+xi[1] = 0.215241895984875;
+xi[2] = 0.286174591792068;
+xi[3] = 0.335737519214422;
+xi[4] = 0.375121332878378;
+xi[5] = 0.408389134611989;
+xi[6] = 0.43751840220787;
+xi[7] = 0.46363433679088;
+xi[8] = 0.487443966139235;
+xi[9] = 0.50942332960209;
+xi[10] = 0.529909720661557;
+xi[11] = 0.549151702327164;
+xi[12] = 0.567338257053817;
+xi[13] = 0.584616766106378;
+xi[14] = 0.601104617755991;
+xi[15] = 0.61689699000775;
+xi[16] = 0.63207223638606;
+xi[17] = 0.646695714894993;
+xi[18] = 0.660822574244419;
+xi[19] = 0.674499822837293;
+xi[20] = 0.687767892795788;
+xi[21] = 0.700661841106814;
+xi[22] = 0.713212285190975;
+xi[23] = 0.725446140909999;
+xi[24] = 0.737387211434295;
+xi[25] = 0.749056662017815;
+xi[26] = 0.760473406430107;
+xi[27] = 0.771654424224568;
+xi[28] = 0.782615023307232;
+xi[29] = 0.793369058840623;
+xi[30] = 0.80392911698997;
+xi[31] = 0.814306670135215;
+xi[32] = 0.824512208752291;
+xi[33] = 0.834555354086381;
+xi[34] = 0.844444954909153;
+xi[35] = 0.854189171008163;
+xi[36] = 0.863795545553308;
+xi[37] = 0.87327106808886;
+xi[38] = 0.882622229585165;
+xi[39] = 0.891855070732941;
+xi[40] = 0.900975224461221;
+xi[41] = 0.909987953496718;
+xi[42] = 0.91889818364959;
+xi[43] = 0.927710533401999;
+xi[44] = 0.936429340286575;
+xi[45] = 0.945058684468165;
+xi[46] = 0.953602409881086;
+xi[47] = 0.96206414322304;
+xi[48] = 0.970447311064224;
+xi[49] = 0.978755155294224;
+xi[50] = 0.986990747099062;
+xi[51] = 0.99515699963509;
+xi[52] = 1.00325667954467;
+xi[53] = 1.01129241744;
+xi[54] = 1.01926671746548;
+xi[55] = 1.02718196603564;
+xi[56] = 1.03504043983344;
+xi[57] = 1.04284431314415;
+xi[58] = 1.05059566459093;
+xi[59] = 1.05829648333067;
+xi[60] = 1.06594867476212;
+xi[61] = 1.07355406579244;
+xi[62] = 1.0811144097034;
+xi[63] = 1.08863139065398;
+xi[64] = 1.09610662785202;
+xi[65] = 1.10354167942464;
+xi[66] = 1.11093804601357;
+xi[67] = 1.11829717411934;
+xi[68] = 1.12562045921553;
+xi[69] = 1.13290924865253;
+xi[70] = 1.14016484436815;
+xi[71] = 1.14738850542085;
+xi[72] = 1.15458145035993;
+xi[73] = 1.16174485944561;
+xi[74] = 1.16887987673083;
+xi[75] = 1.17598761201545;
+xi[76] = 1.18306914268269;
+xi[77] = 1.19012551542669;
+xi[78] = 1.19715774787944;
+xi[79] = 1.20416683014438;
+xi[80] = 1.2111537262437;
+xi[81] = 1.21811937548548;
+xi[82] = 1.22506469375653;
+xi[83] = 1.23199057474614;
+xi[84] = 1.23889789110569;
+xi[85] = 1.24578749554863;
+xi[86] = 1.2526602218949;
+xi[87] = 1.25951688606371;
+xi[88] = 1.26635828701823;
+xi[89] = 1.27318520766536;
+xi[90] = 1.27999841571382;
+xi[91] = 1.28679866449324;
+xi[92] = 1.29358669373695;
+xi[93] = 1.30036323033084;
+xi[94] = 1.30712898903073;
+xi[95] = 1.31388467315022;
+xi[96] = 1.32063097522106;
+xi[97] = 1.32736857762793;
+xi[98] = 1.33409815321936;
+xi[99] = 1.3408203658964;
+xi[100] = 1.34753587118059;
+xi[101] = 1.35424531676263;
+xi[102] = 1.36094934303328;
+xi[103] = 1.36764858359748;
+xi[104] = 1.37434366577317;
+xi[105] = 1.38103521107586;
+xi[106] = 1.38772383568998;
+xi[107] = 1.39441015092814;
+xi[108] = 1.40109476367925;
+xi[109] = 1.4077782768464;
+xi[110] = 1.41446128977547;
+xi[111] = 1.42114439867531;
+xi[112] = 1.42782819703026;
+xi[113] = 1.43451327600589;
+xi[114] = 1.44120022484872;
+xi[115] = 1.44788963128058;
+xi[116] = 1.45458208188841;
+xi[117] = 1.46127816251028;
+xi[118] = 1.46797845861808;
+xi[119] = 1.47468355569786;
+xi[120] = 1.48139403962819;
+xi[121] = 1.48811049705745;
+xi[122] = 1.49483351578049;
+xi[123] = 1.50156368511546;
+xi[124] = 1.50830159628131;
+xi[125] = 1.51504784277671;
+xi[126] = 1.521803020761;
+xi[127] = 1.52856772943771;
+xi[128] = 1.53534257144151;
+xi[129] = 1.542128153229;
+xi[130] = 1.54892508547417;
+xi[131] = 1.55573398346918;
+xi[132] = 1.56255546753104;
+xi[133] = 1.56939016341512;
+xi[134] = 1.57623870273591;
+xi[135] = 1.58310172339603;
+xi[136] = 1.58997987002419;
+xi[137] = 1.59687379442279;
+xi[138] = 1.60378415602609;
+xi[139] = 1.61071162236983;
+xi[140] = 1.61765686957301;
+xi[141] = 1.62462058283303;
+xi[142] = 1.63160345693487;
+xi[143] = 1.63860619677555;
+xi[144] = 1.64562951790478;
+xi[145] = 1.65267414708306;
+xi[146] = 1.65974082285818;
+xi[147] = 1.66683029616166;
+xi[148] = 1.67394333092612;
+xi[149] = 1.68108070472517;
+xi[150] = 1.68824320943719;
+xi[151] = 1.69543165193456;
+xi[152] = 1.70264685479992;
+xi[153] = 1.7098896570713;
+xi[154] = 1.71716091501782;
+xi[155] = 1.72446150294804;
+xi[156] = 1.73179231405296;
+xi[157] = 1.73915426128591;
+xi[158] = 1.74654827828172;
+xi[159] = 1.75397532031767;
+xi[160] = 1.76143636531891;
+xi[161] = 1.76893241491127;
+xi[162] = 1.77646449552452;
+xi[163] = 1.78403365954944;
+xi[164] = 1.79164098655216;
+xi[165] = 1.79928758454972;
+xi[166] = 1.80697459135082;
+xi[167] = 1.81470317596628;
+xi[168] = 1.82247454009388;
+xi[169] = 1.83028991968276;
+xi[170] = 1.83815058658281;
+xi[171] = 1.84605785028518;
+xi[172] = 1.8540130597602;
+xi[173] = 1.86201760539967;
+xi[174] = 1.87007292107127;
+xi[175] = 1.878180486293;
+xi[176] = 1.88634182853678;
+xi[177] = 1.8945585256707;
+xi[178] = 1.90283220855043;
+xi[179] = 1.91116456377125;
+xi[180] = 1.91955733659319;
+xi[181] = 1.92801233405266;
+xi[182] = 1.93653142827569;
+xi[183] = 1.94511656000868;
+xi[184] = 1.95376974238465;
+xi[185] = 1.96249306494436;
+xi[186] = 1.97128869793366;
+xi[187] = 1.98015889690048;
+xi[188] = 1.98910600761744;
+xi[189] = 1.99813247135842;
+xi[190] = 2.00724083056053;
+xi[191] = 2.0164337349062;
+xi[192] = 2.02571394786385;
+xi[193] = 2.03508435372962;
+xi[194] = 2.04454796521753;
+xi[195] = 2.05410793165065;
+xi[196] = 2.06376754781173;
+xi[197] = 2.07353026351874;
+xi[198] = 2.0833996939983;
+xi[199] = 2.09337963113879;
+xi[200] = 2.10347405571488;
+xi[201] = 2.11368715068665;
+xi[202] = 2.12402331568952;
+xi[203] = 2.13448718284602;
+xi[204] = 2.14508363404789;
+xi[205] = 2.15581781987674;
+xi[206] = 2.16669518035431;
+xi[207] = 2.17772146774029;
+xi[208] = 2.18890277162636;
+xi[209] = 2.20024554661128;
+xi[210] = 2.21175664288416;
+xi[211] = 2.22344334009251;
+xi[212] = 2.23531338492992;
+xi[213] = 2.24737503294739;
+xi[214] = 2.25963709517379;
+xi[215] = 2.27210899022838;
+xi[216] = 2.28480080272449;
+xi[217] = 2.29772334890286;
+xi[218] = 2.31088825060137;
+xi[219] = 2.32430801887113;
+xi[220] = 2.33799614879653;
+xi[221] = 2.35196722737914;
+xi[222] = 2.36623705671729;
+xi[223] = 2.38082279517208;
+xi[224] = 2.39574311978193;
+xi[225] = 2.41101841390112;
+xi[226] = 2.42667098493715;
+xi[227] = 2.44272531820036;
+xi[228] = 2.4592083743347;
+xi[229] = 2.47614993967052;
+xi[230] = 2.49358304127105;
+xi[231] = 2.51154444162669;
+xi[232] = 2.53007523215985;
+xi[233] = 2.54922155032478;
+xi[234] = 2.56903545268184;
+xi[235] = 2.58957598670829;
+xi[236] = 2.61091051848882;
+xi[237] = 2.63311639363158;
+xi[238] = 2.65628303757674;
+xi[239] = 2.68051464328574;
+xi[240] = 2.70593365612306;
+xi[241] = 2.73268535904401;
+xi[242] = 2.76094400527999;
+xi[243] = 2.79092117400193;
+xi[244] = 2.82287739682644;
+xi[245] = 2.85713873087322;
+xi[246] = 2.89412105361341;
+xi[247] = 2.93436686720889;
+xi[248] = 2.97860327988184;
+xi[249] = 3.02783779176959;
+xi[250] = 3.08352613200214;
+xi[251] = 3.147889289518;
+xi[252] = 3.2245750520478;
+xi[253] = 3.32024473383983;
+xi[254] = 3.44927829856143;
+xi[255] = 3.65415288536101;
+xi[256] = 3.91075795952492;
+fitab = &tmp[0];
+for (b_k = 0; b_k < 200; b_k++) {
+    do {
+        exitg1 = 0;
+        %<(SLibCGCallSubFcn("l4hcxqd2xc", ["obj", "u32"], 0, 29, 0))>;
+        i = (int32_T)((u32[1] >> 24U) + 1U);
+        z_p = (((real_T)(u32[0] >> 3U) * 1.6777216E+7 + (real_T)((int32_T)u32[1] & 16777215)) * 2.2204460492503131E-16 - 1.0) * xi[i];
+        if (muDoubleScalarAbs(z_p) <= xi[i - 1]) {
+            exitg1 = 1;
+        } else if (i < 256) {
+            u = %<(SLibCGCallSubFcn("enit5rx0pf", ["obj"], 0, 29, 1))>;
+            if ((fitab[i - 1] - fitab[i]) * u + fitab[i] < muDoubleScalarExp(-0.5 * z_p * z_p)) {
+                exitg1 = 1;
+            }
+        } else {
+            do {
+                u = %<(SLibCGCallSubFcn("enit5rx0pf", ["obj"], 0, 29, 2))>;
+                x = muDoubleScalarLog(u) * 0.273661237329758;
+                u = %<(SLibCGCallSubFcn("enit5rx0pf", ["obj"], 0, 29, 3))>;
+            } while (!(-2.0 * muDoubleScalarLog(u) > x * x));
+            if (z_p < 0.0) {
+                z_p = x - 3.65415288536101;
+            } else {
+                z_p = 3.65415288536101 - x;
+            }
+            exitg1 = 1;
+        }
+    } while (exitg1 == 0);
+    z[b_k] = z_p;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void agkbdnil4y(\
+%assign comma = ""
+%<comma>hferqq002w *obj\
+%assign comma = ", "
+%<comma>real_T z[200]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 29, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function hwwlhvvkfb_Fcn30(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T b_k;
+int8_T inSize[8];
+boolean_T anyInputSizeChanged;
+boolean_T exitg1;
+anyInputSizeChanged = false;
+inSize[0] = 100;
+inSize[1] = 2;
+for (b_k = 0; b_k < 6; b_k++) {
+    inSize[b_k + 2] = 1;
+}
+b_k = 0;
+exitg1 = false;
+while ((!exitg1) && (b_k < 8)) {
+    if (obj->inputVarSize[0].f1[b_k] != (uint32_T)inSize[b_k]) {
+        anyInputSizeChanged = true;
+        for (b_k = 0; b_k < 8; b_k++) {
+            obj->inputVarSize[0].f1[b_k] = (uint32_T)inSize[b_k];
+        }
+        exitg1 = true;
+    } else {
+        b_k++;
+    }
+}
+inSize[0] = 50;
+inSize[1] = 1;
+for (b_k = 0; b_k < 6; b_k++) {
+    inSize[b_k + 2] = 1;
+}
+b_k = 0;
+exitg1 = false;
+while ((!exitg1) && (b_k < 8)) {
+    if (obj->inputVarSize[1].f1[b_k] != (uint32_T)inSize[b_k]) {
+        anyInputSizeChanged = true;
+        for (b_k = 0; b_k < 8; b_k++) {
+            obj->inputVarSize[1].f1[b_k] = (uint32_T)inSize[b_k];
+        }
+        exitg1 = true;
+    } else {
+        b_k++;
+    }
+}
+return anyInputSizeChanged;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static boolean_T hwwlhvvkfb(\
+%assign comma = ""
+%<comma>ggdisr1zwo *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 30, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function i443wfm52x_Fcn31(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T idx;
+int32_T ii;
+int32_T ii_size_idx_0;
+int8_T ii_data;
+boolean_T exitg1;
+idx = 0;
+ii_size_idx_0 = 1;
+ii = 50;
+exitg1 = false;
+while ((!exitg1) && (ii > 0)) {
+    if ((xref[ii - 1].re != 0.0) || (xref[ii - 1].im != 0.0)) {
+        idx = 1;
+        ii_data = (int8_T)ii;
+        exitg1 = true;
+    } else {
+        ii--;
+    }
+}
+if (idx == 0) {
+    ii_size_idx_0 = 0;
+}
+if (ii_size_idx_0 == 0) {
+    obj->pRangeOffset = 49.0;
+} else {
+    obj->pRangeOffset = (real_T)ii_data - 1.0;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void i443wfm52x(\
+%assign comma = ""
+%<comma>ggdisr1zwo *obj\
+%assign comma = ", "
+%<comma>const creal_T xref[50]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 31, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function k1111gvegt_Fcn32(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T apnd;
+real_T cdiff;
+real_T ndbl;
+int32_T b_k;
+int32_T c;
+int32_T ndbl_p;
+int32_T nm1d2;
+ndbl = muDoubleScalarFloor((b - a) + 0.5);
+apnd = a + ndbl;
+cdiff = apnd - b;
+if (muDoubleScalarAbs(cdiff) < 4.4408920985006262E-16 * muDoubleScalarMax(muDoubleScalarAbs(a), muDoubleScalarAbs(b))) {
+    ndbl++;
+    apnd = b;
+} else if (cdiff > 0.0) {
+    apnd = (ndbl - 1.0) + a;
+} else {
+    ndbl++;
+}
+if (ndbl >= 0.0) {
+    ndbl_p = (int32_T)ndbl;
+} else {
+    ndbl_p = 0;
+}
+y_size[0] = 1;
+y_size[1] = ndbl_p;
+if (ndbl_p > 0) {
+    y_data[0] = a;
+    if (ndbl_p > 1) {
+        y_data[ndbl_p - 1] = apnd;
+        nm1d2 = (ndbl_p - 1) / 2;
+        c = nm1d2 - 2;
+        for (b_k = 0; b_k <= c; b_k++) {
+            y_data[b_k + 1] = (real_T)(b_k + 1) + a;
+            y_data[(ndbl_p - b_k) - 2] = apnd - (real_T)(b_k + 1);
+        }
+        if (nm1d2 << 1 == ndbl_p - 1) {
+            y_data[nm1d2] = (a + apnd) / 2.0;
+        } else {
+            y_data[nm1d2] = a + (real_T)nm1d2;
+            y_data[nm1d2 + 1] = apnd - (real_T)nm1d2;
+        }
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void k1111gvegt(\
+%assign comma = ""
+%<comma>real_T a\
+%assign comma = ", "
+%<comma>real_T b\
+%assign comma = ", "
+%<comma>real_T y_data[]\
+%assign comma = ", "
+%<comma>int32_T y_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 32, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function mpgfkmtaep_Fcn33(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+creal_T fftout[199];
+creal_T w_fft_in[199];
+creal_T w_fft_out[199];
+creal_T x_fft_out[199];
+real_T addIdx_data[199];
+real_T addIdx1;
+real_T addIdx2;
+int32_T addIdx_size[2];
+int32_T d;
+int32_T i;
+int32_T k;
+int32_T loop_ub;
+int32_T sigout_temp_size_idx_0;
+char_T *sErr;
+boolean_T value;
+if (!obj->pSizeInitialized) {
+    obj->pSignalLength = 100.0;
+    obj->pOverlapLength = 199.0 - obj->pSignalLength;
+    value = (obj->pSignalLength >= obj->pOverlapLength);
+    obj->pIsSignalLonger = value;
+    obj->pSignalIdx[0] = 1.0;
+    obj->pSignalIdx[1] = obj->pSignalLength;
+    obj->pStateIdx[0] = obj->pSignalLength + 1.0;
+    obj->pStateIdx[1] = 199.0;
+    if (obj->pIsSignalLonger) {
+        obj->pSignalAddIdx[0] = 1.0;
+        obj->pSignalAddIdx[1] = obj->pOverlapLength;
+        obj->pStateUpdateIdx[0] = 1.0;
+        obj->pStateUpdateIdx[1] = 1.0;
+        obj->pStateRemainingIdx[0] = 1.0;
+        obj->pStateRemainingIdx[1] = 1.0;
+    } else {
+        obj->pSignalAddIdx[0] = 1.0;
+        obj->pSignalAddIdx[1] = obj->pSignalLength;
+        obj->pStateUpdateIdx[0] = 1.0;
+        obj->pStateUpdateIdx[1] = obj->pOverlapLength - obj->pSignalLength;
+        obj->pStateRemainingIdx[0] = obj->pSignalLength + 1.0;
+        obj->pStateRemainingIdx[1] = obj->pOverlapLength;
+    }
+    obj->pSizeInitialized = true;
+}
+memset(&w_fft_in[0], 0, 199U * sizeof(creal_T));
+memcpy(&w_fft_in[0], &w[0], 50U * sizeof(creal_T));
+if (obj->cCoeffFFT.S0_isInitialized != 1) {
+    obj->cCoeffFFT.S0_isInitialized = 1;
+    /* System object Start function: dsp.FFT */
+    sErr = GetErrorBuffer(&obj->cCoeffFFT.W0_HostLib[0U]);
+    CreateHostLibrary("libmwdspfft.dylib", &obj->cCoeffFFT.W0_HostLib[0U]);
+    if (*sErr == 0) {
+        LibCreate_FFT(&obj->cCoeffFFT.W0_HostLib[0U], 199, 1, 0, 0, 0, 0, 0, 1U, 1U, 0, 0, 1, 0, 1);
+    }
+    if (*sErr == 0) {
+        LibStart(&obj->cCoeffFFT.W0_HostLib[0U]);
+    }
+    if (*sErr != 0) {
+        DestroyHostLibrary(&obj->cCoeffFFT.W0_HostLib[0U]);
+        if (*sErr != 0) {
+            PrintError(sErr);
+        }
+    }
+}
+/* System object Outputs function: dsp.FFT */
+LibOutputs_FFT(&obj->cCoeffFFT.W0_HostLib[0U], &w_fft_in[0U], &w_fft_out[0U], 199, 1);
+memset(&w_fft_in[0], 0, 199U * sizeof(creal_T));
+memcpy(&w_fft_in[0], &sigin[0], 100U * sizeof(creal_T));
+if (obj->cFFT.S0_isInitialized != 1) {
+    obj->cFFT.S0_isInitialized = 1;
+    /* System object Start function: dsp.FFT */
+    sErr = GetErrorBuffer(&obj->cFFT.W0_HostLib[0U]);
+    CreateHostLibrary("libmwdspfft.dylib", &obj->cFFT.W0_HostLib[0U]);
+    if (*sErr == 0) {
+        LibCreate_FFT(&obj->cFFT.W0_HostLib[0U], 199, 1, 0, 0, 0, 0, 0, 1U, 1U, 0, 0, 1, 0, 1);
+    }
+    if (*sErr == 0) {
+        LibStart(&obj->cFFT.W0_HostLib[0U]);
+    }
+    if (*sErr != 0) {
+        DestroyHostLibrary(&obj->cFFT.W0_HostLib[0U]);
+        if (*sErr != 0) {
+            PrintError(sErr);
+        }
+    }
+}
+/* System object Outputs function: dsp.FFT */
+LibOutputs_FFT(&obj->cFFT.W0_HostLib[0U], &w_fft_in[0U], &x_fft_out[0U], 199, 1);
+for (k = 0; k < 199; k++) {
+    w_fft_in[k].re = w_fft_out[k].re * x_fft_out[k].re - w_fft_out[k].im * x_fft_out[k].im;
+    w_fft_in[k].im = w_fft_out[k].re * x_fft_out[k].im + w_fft_out[k].im * x_fft_out[k].re;
+}
+if (obj->cIFFT.S0_isInitialized != 1) {
+    obj->cIFFT.S0_isInitialized = 1;
+    /* System object Start function: dsp.IFFT */
+    sErr = GetErrorBuffer(&obj->cIFFT.W0_HostLib[0U]);
+    CreateHostLibrary("libmwdspfft.dylib", &obj->cIFFT.W0_HostLib[0U]);
+    if (*sErr == 0) {
+        LibCreate_FFT(&obj->cIFFT.W0_HostLib[0U], 199, 1, 0, 0, 1, 0, 0, 1U, 1U, 0, 0, 1, 0, 1);
+    }
+    if (*sErr == 0) {
+        LibStart(&obj->cIFFT.W0_HostLib[0U]);
+    }
+    if (*sErr != 0) {
+        DestroyHostLibrary(&obj->cIFFT.W0_HostLib[0U]);
+        if (*sErr != 0) {
+            PrintError(sErr);
+        }
+    }
+}
+/* System object Outputs function: dsp.IFFT */
+LibOutputs_FFT(&obj->cIFFT.W0_HostLib[0U], &w_fft_in[0U], &fftout[0U], 199, 1);
+/* Scale inverse transformation */
+for (k = 0; k < 199; k++) {
+    addIdx1 = fftout[k].re;
+    addIdx2 = fftout[k].im;
+    fftout[k].re = addIdx1 / 199.0;
+    fftout[k].im = addIdx2 / 199.0;
+}
+addIdx1 = obj->pSignalIdx[0];
+addIdx2 = obj->pSignalIdx[1];
+if (addIdx1 > addIdx2) {
+    k = 0;
+    d = -1;
+} else {
+    k = (int32_T)addIdx1 - 1;
+    d = (int32_T)addIdx2 - 1;
+}
+sigout_temp_size_idx_0 = (d - k) + 1;
+loop_ub = d - k;
+for (i = 0; i <= loop_ub; i++) {
+    w_fft_in[i] = fftout[k + i];
+}
+*sigout_size = sigout_temp_size_idx_0;
+if (0 <= sigout_temp_size_idx_0 - 1) {
+    memcpy(&sigout_data[0], &w_fft_in[0], sigout_temp_size_idx_0 * sizeof(creal_T));
+}
+addIdx1 = obj->pSignalAddIdx[0];
+addIdx2 = obj->pSignalAddIdx[1];
+if (muDoubleScalarIsNaN(addIdx1) || muDoubleScalarIsNaN(addIdx2)) {
+    addIdx_size[1] = 1;
+    addIdx_data[0] = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+} else if (addIdx2 < addIdx1) {
+    addIdx_size[1] = 0;
+} else if (muDoubleScalarFloor(addIdx1) == addIdx1) {
+    addIdx_size[1] = (int32_T)muDoubleScalarFloor(addIdx2 - addIdx1) + 1;
+    loop_ub = (int32_T)muDoubleScalarFloor(addIdx2 - addIdx1);
+    for (i = 0; i <= loop_ub; i++) {
+        addIdx_data[i] = addIdx1 + (real_T)i;
+    }
+} else {
+    %<(SLibCGCallSubFcn("k1111gvegt", ["addIdx1", "addIdx2", "addIdx_data", "addIdx_size"], 0, 33, 0))>;
+}
+if (addIdx_size[1] != 0) {
+    loop_ub = addIdx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        w_fft_out[i] = obj->pOverlapState[(int32_T)addIdx_data[i] - 1];
+    }
+    loop_ub = addIdx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        addIdx1 = addIdx_data[i];
+        sigout_data[(int32_T)addIdx1 - 1].re = w_fft_in[(int32_T)addIdx1 - 1].re + w_fft_out[i].re;
+        sigout_data[(int32_T)addIdx1 - 1].im = w_fft_in[(int32_T)addIdx1 - 1].im + w_fft_out[i].im;
+    }
+}
+if (obj->pIsSignalLonger) {
+    addIdx1 = obj->pStateIdx[0];
+    addIdx2 = obj->pStateIdx[1];
+    if (addIdx1 > addIdx2) {
+        d = 0;
+        k = -1;
+    } else {
+        d = (int32_T)addIdx1 - 1;
+        k = (int32_T)addIdx2 - 1;
+    }
+    sigout_temp_size_idx_0 = (k - d) + 1;
+    loop_ub = k - d;
+    for (i = 0; i <= loop_ub; i++) {
+        w_fft_in[i] = fftout[d + i];
+    }
+    for (i = 0; i < sigout_temp_size_idx_0; i++) {
+        obj->pOverlapState[i] = w_fft_in[i];
+    }
+} else {
+    addIdx1 = obj->pStateRemainingIdx[0];
+    addIdx2 = obj->pStateRemainingIdx[1];
+    if (addIdx1 > addIdx2) {
+        k = 0;
+        d = -1;
+    } else {
+        k = (int32_T)addIdx1 - 1;
+        d = (int32_T)addIdx2 - 1;
+    }
+    loop_ub = d - k;
+    for (i = 0; i <= loop_ub; i++) {
+        w_fft_in[i] = obj->pOverlapState[k + i];
+    }
+    addIdx1 = obj->pStateIdx[0];
+    addIdx2 = obj->pStateIdx[1];
+    if (addIdx1 > addIdx2) {
+        k = 0;
+        d = -1;
+    } else {
+        k = (int32_T)addIdx1 - 1;
+        d = (int32_T)addIdx2 - 1;
+    }
+    sigout_temp_size_idx_0 = (d - k) + 1;
+    loop_ub = d - k;
+    for (i = 0; i <= loop_ub; i++) {
+        w_fft_out[i] = fftout[k + i];
+    }
+    for (i = 0; i < sigout_temp_size_idx_0; i++) {
+        obj->pOverlapState[i] = w_fft_out[i];
+    }
+    addIdx1 = obj->pStateUpdateIdx[0];
+    addIdx2 = obj->pStateUpdateIdx[1];
+    if (muDoubleScalarIsNaN(addIdx1) || muDoubleScalarIsNaN(addIdx2)) {
+        addIdx_size[1] = 1;
+        addIdx_data[0] = %<LibGetMathConstant(LibRealNonFinite("nan"), FcnGetDataTypeIdFromName("double"))>;
+    } else if (addIdx2 < addIdx1) {
+        addIdx_size[1] = 0;
+    } else if (muDoubleScalarFloor(addIdx1) == addIdx1) {
+        addIdx_size[1] = (int32_T)muDoubleScalarFloor(addIdx2 - addIdx1) + 1;
+        loop_ub = (int32_T)muDoubleScalarFloor(addIdx2 - addIdx1);
+        for (i = 0; i <= loop_ub; i++) {
+            addIdx_data[i] = addIdx1 + (real_T)i;
+        }
+    } else {
+        %<(SLibCGCallSubFcn("k1111gvegt", ["addIdx1", "addIdx2", "addIdx_data", "addIdx_size"], 0, 33, 1))>;
+    }
+    sigout_temp_size_idx_0 = addIdx_size[1];
+    loop_ub = addIdx_size[1];
+    for (i = 0; i < loop_ub; i++) {
+        w_fft_out[i] = obj->pOverlapState[(int32_T)addIdx_data[i] - 1];
+    }
+    for (i = 0; i < sigout_temp_size_idx_0; i++) {
+        addIdx1 = addIdx_data[i];
+        obj->pOverlapState[(int32_T)addIdx1 - 1].re = w_fft_out[i].re + w_fft_in[i].re;
+        obj->pOverlapState[(int32_T)addIdx1 - 1].im = w_fft_out[i].im + w_fft_in[i].im;
+    }
+}
+*wpl = -0.0;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void mpgfkmtaep(\
+%assign comma = ""
+%<comma>igqapj2fro *obj\
+%assign comma = ", "
+%<comma>const creal_T sigin[100]\
+%assign comma = ", "
+%<comma>const creal_T w[50]\
+%assign comma = ", "
+%<comma>creal_T sigout_data[]\
+%assign comma = ", "
+%<comma>int32_T *sigout_size\
+%assign comma = ", "
+%<comma>real_T *wpl\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 33, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function h1ukt3gxzs_Fcn34(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+clw0jnsa3g varSizes[2];
+igqapj2fro *obj_p;
+creal_T b_varargout_1_data[199];
+real_T b_varargout_2;
+int32_T b_varargout_1_size;
+int32_T i;
+int8_T inSize[8];
+boolean_T anyInputSizeChanged;
+boolean_T exitg1;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,34,0,0)
+%<SLibCG_AccessArg(0 ,34, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,34,0,1)
+%<SLibCG_AccessArg(0 ,34, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,34,0,2)
+%<SLibCG_AccessArg(0 ,34, 2)>
+%endif
+
+obj_p = &obj->cFFTFilter;
+if (obj->cFFTFilter.isInitialized != 1) {
+    obj->cFFTFilter.isSetupComplete = false;
+    obj->cFFTFilter.isInitialized = 1;
+    varSizes[0].f1[0] = 100U;
+    varSizes[0].f1[1] = 1U;
+    varSizes[1].f1[0] = 50U;
+    varSizes[1].f1[1] = 1U;
+    for (i = 0; i < 6; i++) {
+        varSizes[0].f1[i + 2] = 1U;
+        varSizes[1].f1[i + 2] = 1U;
+    }
+    obj->cFFTFilter.inputVarSize[0] = varSizes[0];
+    obj->cFFTFilter.inputVarSize[1] = varSizes[1];
+    obj->cFFTFilter.pNumInputChannels = 1.0;
+    /* System object Constructor function: dsp.FFT */
+    obj_p->cFFT.S0_isInitialized = 0;
+    /* System object Constructor function: dsp.FFT */
+    obj_p->cCoeffFFT.S0_isInitialized = 0;
+    /* System object Constructor function: dsp.IFFT */
+    obj_p->cIFFT.S0_isInitialized = 0;
+    for (i = 0; i < 199; i++) {
+        obj->cFFTFilter.pOverlapState[i].re = 0.0;
+        obj->cFFTFilter.pOverlapState[i].im = 0.0;
+    }
+    obj->cFFTFilter.pSignalLength = 100.0;
+    obj->cFFTFilter.pOverlapLength = 199.0 - obj->cFFTFilter.pSignalLength;
+    anyInputSizeChanged = (obj->cFFTFilter.pSignalLength >= obj->cFFTFilter.pOverlapLength);
+    obj->cFFTFilter.pIsSignalLonger = anyInputSizeChanged;
+    obj->cFFTFilter.pSignalIdx[0] = 1.0;
+    obj->cFFTFilter.pSignalIdx[1] = obj->cFFTFilter.pSignalLength;
+    obj->cFFTFilter.pStateIdx[0] = obj->cFFTFilter.pSignalLength + 1.0;
+    obj->cFFTFilter.pStateIdx[1] = 199.0;
+    if (obj->cFFTFilter.pIsSignalLonger) {
+        obj->cFFTFilter.pSignalAddIdx[0] = 1.0;
+        obj->cFFTFilter.pSignalAddIdx[1] = obj->cFFTFilter.pOverlapLength;
+        obj->cFFTFilter.pStateUpdateIdx[0] = 1.0;
+        obj->cFFTFilter.pStateUpdateIdx[1] = 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[0] = 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[1] = 1.0;
+    } else {
+        obj->cFFTFilter.pSignalAddIdx[0] = 1.0;
+        obj->cFFTFilter.pSignalAddIdx[1] = obj->cFFTFilter.pSignalLength;
+        obj->cFFTFilter.pStateUpdateIdx[0] = 1.0;
+        obj->cFFTFilter.pStateUpdateIdx[1] = obj->cFFTFilter.pOverlapLength - obj->cFFTFilter.pSignalLength;
+        obj->cFFTFilter.pStateRemainingIdx[0] = obj->cFFTFilter.pSignalLength + 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[1] = obj->cFFTFilter.pOverlapLength;
+    }
+    obj->cFFTFilter.isSetupComplete = true;
+    obj->cFFTFilter.TunablePropsChanged = false;
+    for (i = 0; i < 199; i++) {
+        obj->cFFTFilter.pOverlapState[i].re = 0.0;
+        obj->cFFTFilter.pOverlapState[i].im = 0.0;
+    }
+    obj->cFFTFilter.pSizeInitialized = false;
+}
+if (obj->cFFTFilter.TunablePropsChanged) {
+    obj->cFFTFilter.TunablePropsChanged = false;
+}
+anyInputSizeChanged = false;
+inSize[0] = 100;
+inSize[1] = 1;
+for (i = 0; i < 6; i++) {
+    inSize[i + 2] = 1;
+}
+i = 0;
+exitg1 = false;
+while ((!exitg1) && (i < 8)) {
+    if (obj_p->inputVarSize[0].f1[i] != (uint32_T)inSize[i]) {
+        anyInputSizeChanged = true;
+        for (i = 0; i < 8; i++) {
+            obj_p->inputVarSize[0].f1[i] = (uint32_T)inSize[i];
+        }
+        exitg1 = true;
+    } else {
+        i++;
+    }
+}
+inSize[0] = 50;
+inSize[1] = 1;
+for (i = 0; i < 6; i++) {
+    inSize[i + 2] = 1;
+}
+i = 0;
+exitg1 = false;
+while ((!exitg1) && (i < 8)) {
+    if (obj_p->inputVarSize[1].f1[i] != (uint32_T)inSize[i]) {
+        anyInputSizeChanged = true;
+        for (i = 0; i < 8; i++) {
+            obj_p->inputVarSize[1].f1[i] = (uint32_T)inSize[i];
+        }
+        exitg1 = true;
+    } else {
+        i++;
+    }
+}
+if (anyInputSizeChanged) {
+    obj->cFFTFilter.pSignalLength = 100.0;
+    obj->cFFTFilter.pOverlapLength = 199.0 - obj->cFFTFilter.pSignalLength;
+    anyInputSizeChanged = (obj->cFFTFilter.pSignalLength >= obj->cFFTFilter.pOverlapLength);
+    obj->cFFTFilter.pIsSignalLonger = anyInputSizeChanged;
+    obj->cFFTFilter.pSignalIdx[0] = 1.0;
+    obj->cFFTFilter.pSignalIdx[1] = obj->cFFTFilter.pSignalLength;
+    obj->cFFTFilter.pStateIdx[0] = obj->cFFTFilter.pSignalLength + 1.0;
+    obj->cFFTFilter.pStateIdx[1] = 199.0;
+    if (obj->cFFTFilter.pIsSignalLonger) {
+        obj->cFFTFilter.pSignalAddIdx[0] = 1.0;
+        obj->cFFTFilter.pSignalAddIdx[1] = obj->cFFTFilter.pOverlapLength;
+        obj->cFFTFilter.pStateUpdateIdx[0] = 1.0;
+        obj->cFFTFilter.pStateUpdateIdx[1] = 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[0] = 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[1] = 1.0;
+    } else {
+        obj->cFFTFilter.pSignalAddIdx[0] = 1.0;
+        obj->cFFTFilter.pSignalAddIdx[1] = obj->cFFTFilter.pSignalLength;
+        obj->cFFTFilter.pStateUpdateIdx[0] = 1.0;
+        obj->cFFTFilter.pStateUpdateIdx[1] = obj->cFFTFilter.pOverlapLength - obj->cFFTFilter.pSignalLength;
+        obj->cFFTFilter.pStateRemainingIdx[0] = obj->cFFTFilter.pSignalLength + 1.0;
+        obj->cFFTFilter.pStateRemainingIdx[1] = obj->cFFTFilter.pOverlapLength;
+    }
+}
+%<(SLibCGCallSubFcn("mpgfkmtaep", ["&obj->cFFTFilter", "siginArg", "w", "b_varargout_1_data", "&b_varargout_1_size", "&b_varargout_2"], 0, 34, 0))>;
+memcpy(&sigout[0], &b_varargout_1_data[0], 100U * sizeof(creal_T));
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void h1ukt3gxzs(\
+%assign comma = ""
+%<comma>bmnf5sq2q0 *obj\
+%assign comma = ", "
+%<comma>const creal_T siginArg[100]\
+%assign comma = ", "
+%<comma>const creal_T w[50]\
+%assign comma = ", "
+%<comma>creal_T sigout[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 34, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fu0hddpeibjwx_Fcn35(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+clw0jnsa3g varSizes[2];
+int32_T b_k;
+int8_T inSize[8];
+boolean_T exitg1;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,35,1,0)
+%<SLibCG_AccessArg(0 ,35, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,35,0,0)
+%<SLibCG_AccessArg(0 ,35, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,35,0,1)
+%<SLibCG_AccessArg(0 ,35, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,35,0,2)
+%<SLibCG_AccessArg(0 ,35, 2)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,35,0,3)
+%<SLibCG_AccessArg(0 ,35, 3)>
+%endif
+
+if (obj->isInitialized != 1) {
+    obj->isSetupComplete = false;
+    obj->isInitialized = 1;
+    varSizes[0].f1[0] = 100U;
+    varSizes[0].f1[1] = 1U;
+    varSizes[1].f1[0] = 50U;
+    varSizes[1].f1[1] = 1U;
+    for (b_k = 0; b_k < 6; b_k++) {
+        varSizes[0].f1[b_k + 2] = 1U;
+        varSizes[1].f1[b_k + 2] = 1U;
+    }
+    obj->inputVarSize[0] = varSizes[0];
+    obj->inputVarSize[1] = varSizes[1];
+    obj->pNumInputChannels = 1.0;
+    obj->cFFTFilter.pNumInputChannels = -1.0;
+    obj->cFFTFilter.isInitialized = 0;
+    obj->cFFTFilter.matlabCodegenIsDeleted = false;
+    obj->isSetupComplete = true;
+    obj->TunablePropsChanged = false;
+    %<(SLibCGCallSubFcn("ccmisves1x", ["obj"], 0, 35, 1))>;
+}
+if (obj->TunablePropsChanged) {
+    obj->TunablePropsChanged = false;
+}
+inSize[0] = 100;
+inSize[1] = 1;
+for (b_k = 0; b_k < 6; b_k++) {
+    inSize[b_k + 2] = 1;
+}
+b_k = 0;
+exitg1 = false;
+while ((!exitg1) && (b_k < 8)) {
+    if (obj->inputVarSize[0].f1[b_k] != (uint32_T)inSize[b_k]) {
+        for (b_k = 0; b_k < 8; b_k++) {
+            obj->inputVarSize[0].f1[b_k] = (uint32_T)inSize[b_k];
+        }
+        exitg1 = true;
+    } else {
+        b_k++;
+    }
+}
+inSize[0] = 50;
+inSize[1] = 1;
+for (b_k = 0; b_k < 6; b_k++) {
+    inSize[b_k + 2] = 1;
+}
+b_k = 0;
+exitg1 = false;
+while ((!exitg1) && (b_k < 8)) {
+    if (obj->inputVarSize[1].f1[b_k] != (uint32_T)inSize[b_k]) {
+        for (b_k = 0; b_k < 8; b_k++) {
+            obj->inputVarSize[1].f1[b_k] = (uint32_T)inSize[b_k];
+        }
+        exitg1 = true;
+    } else {
+        b_k++;
+    }
+}
+%<(SLibCGCallSubFcn("h1ukt3gxzs", ["obj", "varargin_1", "varargin_2", "varargout_1"], 0, 35, 0))>;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fu0hddpeibjwx(\
+%assign comma = ""
+%<comma>bmnf5sq2q0 *obj\
+%assign comma = ", "
+%<comma>const creal_T varargin_1[100]\
+%assign comma = ", "
+%<comma>const creal_T varargin_2[50]\
+%assign comma = ", "
+%<comma>creal_T varargout_1[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 35, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function pmec1pcoie_Fcn36(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+static const real_T tmp[100] = { 0.0, 149.896229, 299.792458, 449.688687, 599.584916, 749.481145, 899.377374, 1049.273603, 1199.169832, 1349.066061, 1498.96229, 1648.858519, 1798.754748, 1948.650977, 2098.547206, 2248.443435, 2398.339664, 2548.235893, 2698.132122, 2848.028351, 2997.92458, 3147.820809, 3297.717038, 3447.613267, 3597.509496, 3747.405725, 3897.301954, 4047.198183, 4197.094412, 4346.990641, 4496.88687, 4646.783099, 4796.679328, 4946.575557, 5096.471786, 5246.368015, 5396.264244, 5546.160473, 5696.056702, 5845.952931, 5995.84916, 6145.745389, 6295.641618, 6445.537847, 6595.434076, 6745.330305, 6895.226534, 7045.122763, 7195.018992, 7344.915221, 7494.81145, 7644.707679, 7794.603908, 7944.500137, 8094.396366, 8244.292595, 8394.188824, 8544.085053, 8693.981282, 8843.877511, 8993.77374, 9143.669969, 9293.566198, 9443.462427, 9593.358656, 9743.254885, 9893.151114, 10043.047343, 10192.943572, 10342.839801, 10492.73603, 10642.632259, 10792.528488, 10942.424717, 11092.320946, 11242.217175, 11392.113404, 11542.009633, 11691.905862, 11841.802091, 11991.69832, 12141.594549, 12291.490778, 12441.387007, 12591.283236, 12741.179465, 12891.075694, 13040.971923, 13190.868152, 13340.764381, 13490.66061, 13640.556839, 13790.453068, 13940.349297, 14090.245526, 14240.141755, 14390.037984, 14539.934213, 14689.830442, 14839.726671 };
+creal_T x_rng[200];
+real_T b;
+int32_T b_m;
+int32_T c;
+int32_T i;
+int32_T loop_ub;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,36,2,0)
+%<SLibCG_AccessArg(0 ,36, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,36,2,1)
+%<SLibCG_AccessArg(0 ,36, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,36,2,2)
+%<SLibCG_AccessArg(0 ,36, 2)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,36,1,0)
+%<SLibCG_AccessArg(0 ,36, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,36,1,1)
+%<SLibCG_AccessArg(0 ,36, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,36,1,2)
+%<SLibCG_AccessArg(0 ,36, 2)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,36,0,0)
+%<SLibCG_AccessArg(0 ,36, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,36,0,1)
+%<SLibCG_AccessArg(0 ,36, 2)>
+%endif
+
+if (!obj->pSizeInitialized) {
+    %<(SLibCGCallSubFcn("i443wfm52x", ["obj", "xref"], 0, 36, 0))>;
+    obj->pSizeInitialized = true;
+}
+memset(&x_rng[0], 0, 200U * sizeof(creal_T));
+b = obj->pNumPages;
+c = (int32_T)b - 1;
+for (i = 0; i <= c; i++) {
+    %<(SLibCGCallSubFcn("fu0hddpeibjwx", ["&obj->cMatchedFilter", "&x[0]", "xref", "&x_rng[0]"], 0, 36, 1))>;
+    %<(SLibCGCallSubFcn("fu0hddpeibjwx", ["&obj->cMatchedFilter", "&x[100]", "xref", "&x_rng[100]"], 0, 36, 2))>;
+}
+memset(&rngresp[0], 0, 200U * sizeof(creal_T));
+b = obj->pRangeOffset + 1.0;
+if (b > 100.0) {
+    i = 0;
+    b_m = -1;
+} else {
+    i = (int32_T)b - 1;
+    b_m = 99;
+}
+loop_ub = b_m - i;
+for (c = 0; c <= loop_ub; c++) {
+    rngresp[c] = x_rng[i + c];
+}
+loop_ub = b_m - i;
+for (c = 0; c <= loop_ub; c++) {
+    rngresp[c + 100] = x_rng[(i + c) + 100];
+}
+for (i = 0; i < 100; i++) {
+    rnggrid[i] = tmp[i] + obj->ReferenceRange;
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void pmec1pcoie(\
+%assign comma = ""
+%<comma>ggdisr1zwo *obj\
+%assign comma = ", "
+%<comma>const creal_T x[200]\
+%assign comma = ", "
+%<comma>const creal_T xref[50]\
+%assign comma = ", "
+%<comma>creal_T rngresp[200]\
+%assign comma = ", "
+%<comma>real_T rnggrid[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 36, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function fu0hddpeibjw_Fcn37(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+boolean_T anyInputSizeChanged;
+%assign _modelSS = ""
+
+%if SLibCG_FcnCallArgAccessed(0,37,2,0)
+%<SLibCG_AccessArg(0 ,37, 0)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,37,1,0)
+%<SLibCG_AccessArg(0 ,37, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,37,1,1)
+%<SLibCG_AccessArg(0 ,37, 2)>
+%endif
+
+%if SLibCG_FcnCallArgAccessed(0,37,0,0)
+%<SLibCG_AccessArg(0 ,37, 0)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,37,0,1)
+%<SLibCG_AccessArg(0 ,37, 1)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,37,0,2)
+%<SLibCG_AccessArg(0 ,37, 2)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,37,0,3)
+%<SLibCG_AccessArg(0 ,37, 3)>
+%endif
+%if SLibCG_FcnCallArgAccessed(0,37,0,4)
+%<SLibCG_AccessArg(0 ,37, 4)>
+%endif
+
+anyInputSizeChanged = %<(SLibCGCallSubFcn("hwwlhvvkfb", ["obj"], 0, 37, 2))>;
+if (anyInputSizeChanged) {
+    %<(SLibCGCallSubFcn("i443wfm52x", ["obj", "varargin_2"], 0, 37, 1))>;
+}
+%<(SLibCGCallSubFcn("pmec1pcoie", ["obj", "varargin_1", "varargin_2", "varargout_1", "varargout_2"], 0, 37, 0))>;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void fu0hddpeibjw(\
+%assign comma = ""
+%<comma>ggdisr1zwo *obj\
+%assign comma = ", "
+%<comma>const creal_T varargin_1[200]\
+%assign comma = ", "
+%<comma>const creal_T varargin_2[50]\
+%assign comma = ", "
+%<comma>creal_T varargout_1[200]\
+%assign comma = ", "
+%<comma>real_T varargout_2[100]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 37, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function jxod0zcb2w_Fcn38(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T b_z1_data[3];
+int32_T loop_ub;
+int32_T nx;
+loop_ub = 3 * a_size[1] - 1;
+if (0 <= loop_ub) {
+    memcpy(&b_z1_data[0], &y_data[0], (loop_ub + 1) * sizeof(real_T));
+}
+nx = 3 * a_size[1] - 1;
+for (loop_ub = 0; loop_ub <= nx; loop_ub++) {
+    b_z1_data[loop_ub] = a_data[loop_ub] * a_data[loop_ub];
+}
+y_size[0] = 3;
+y_size[1] = a_size[1];
+loop_ub = 3 * a_size[1] - 1;
+if (0 <= loop_ub) {
+    memcpy(&y_data[0], &b_z1_data[0], (loop_ub + 1) * sizeof(real_T));
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void jxod0zcb2w(\
+%assign comma = ""
+%<comma>const real_T a_data[]\
+%assign comma = ", "
+%<comma>const int32_T a_size[2]\
+%assign comma = ", "
+%<comma>real_T y_data[]\
+%assign comma = ", "
+%<comma>int32_T y_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 38, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function i12qwciimv_Fcn39(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T i;
+int32_T npages;
+if (x_size[1] == 0) {
+    y_size[0] = 1;
+    y_size[1] = 0;
+} else {
+    npages = x_size[1] - 1;
+    y_size[0] = 1;
+    y_size[1] = x_size[1];
+    for (i = 0; i <= npages; i++) {
+        y_data[0] = (x_data[0] + x_data[1]) + x_data[2];
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void i12qwciimv(\
+%assign comma = ""
+%<comma>const real_T x_data[]\
+%assign comma = ", "
+%<comma>const int32_T x_size[2]\
+%assign comma = ", "
+%<comma>real_T y_data[]\
+%assign comma = ", "
+%<comma>int32_T y_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 39, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function dlmf0yaxdq_Fcn40(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T csz_idx_1;
+c_size[0] = 3;
+if (b_size[1] == 1) {
+    csz_idx_1 = a_size[1];
+    c_size[1] = a_size[1];
+} else {
+    csz_idx_1 = 0;
+    c_size[1] = 0;
+}
+if ((csz_idx_1 != 0) && (0 <= csz_idx_1 - 1)) {
+    c_data[0] = a_data[0] / b_data[0];
+    c_data[1] = a_data[1] / b_data[0];
+    c_data[2] = a_data[2] / b_data[0];
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void dlmf0yaxdq(\
+%assign comma = ""
+%<comma>const real_T a_data[]\
+%assign comma = ", "
+%<comma>const int32_T a_size[2]\
+%assign comma = ", "
+%<comma>const real_T b_data[]\
+%assign comma = ", "
+%<comma>const int32_T b_size[2]\
+%assign comma = ", "
+%<comma>real_T c_data[]\
+%assign comma = ", "
+%<comma>int32_T c_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 40, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function du43nc3sg3_Fcn41(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+int32_T csz_idx_1;
+if (y_size[1] <= x_size[1]) {
+    csz_idx_1 = y_size[1];
+} else {
+    csz_idx_1 = 0;
+}
+r_size[1] = csz_idx_1;
+r_size[0] = 1;
+if (0 <= csz_idx_1 - 1) {
+    r_data[0] = muDoubleScalarAtan2(y_data[0], x_data[0]);
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void du43nc3sg3(\
+%assign comma = ""
+%<comma>const real_T y_data[]\
+%assign comma = ", "
+%<comma>const int32_T y_size[2]\
+%assign comma = ", "
+%<comma>const real_T x_data[]\
+%assign comma = ", "
+%<comma>const int32_T x_size[2]\
+%assign comma = ", "
+%<comma>real_T r_data[]\
+%assign comma = ", "
+%<comma>int32_T r_size[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 41, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function hdcjnxpyjy_Fcn42(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+real_T b_z1_data;
+real_T dirvec_data;
+real_T dirvec_data_e;
+real_T dirvec_data_p;
+real_T hypotxy_data;
+int32_T b_z1_size[2];
+int32_T dirvec_size[2];
+int32_T dirvec_size_e[2];
+int32_T dirvec_size_p[2];
+int32_T hypotxy_size[2];
+int32_T i;
+int32_T sak;
+int32_T temp_size_idx_1;
+int32_T trueCount;
+azel[0] = 0.0;
+azel[1] = 0.0;
+trueCount = 0;
+if (dirvec[0] != 0.0) {
+    for (sak = 0; sak < 1; sak++) {
+        trueCount++;
+    }
+}
+b_z1_size[0] = 1;
+b_z1_size[1] = trueCount;
+sak = trueCount - 1;
+if (0 <= sak) {
+    memcpy(&b_z1_data, &hypotxy_data, (sak + 1) * sizeof(real_T));
+}
+if (0 <= trueCount - 1) {
+    b_z1_data = muDoubleScalarHypot(dirvec[0], dirvec[1]);
+}
+dirvec_size[0] = 1;
+dirvec_size[1] = trueCount;
+dirvec_size_p[0] = 1;
+dirvec_size_p[1] = trueCount;
+dirvec_size_e[0] = 1;
+dirvec_size_e[1] = trueCount;
+for (i = 0; i < trueCount; i++) {
+    dirvec_data = dirvec[1];
+    dirvec_data_p = dirvec[0];
+    dirvec_data_e = dirvec[2];
+}
+%<(SLibCGCallSubFcn("du43nc3sg3", ["&dirvec_data", "dirvec_size", "&dirvec_data_p", "dirvec_size_p", "&hypotxy_data", "hypotxy_size"], 0, 42, 0))>;
+%<(SLibCGCallSubFcn("du43nc3sg3", ["&dirvec_data_e", "dirvec_size_e", "&b_z1_data", "b_z1_size", "&dirvec_data", "dirvec_size"], 0, 42, 1))>;
+sak = hypotxy_size[1];
+for (i = 0; i < sak; i++) {
+    azel[0] = hypotxy_data;
+}
+sak = dirvec_size[1];
+for (i = 0; i < sak; i++) {
+    azel[1] = dirvec_data;
+}
+trueCount = 0;
+if (!(dirvec[0] != 0.0)) {
+    for (sak = 0; sak < 1; sak++) {
+        trueCount++;
+    }
+}
+sak = trueCount - 1;
+if (0 <= sak) {
+    memcpy(&b_z1_data, &hypotxy_data, (sak + 1) * sizeof(real_T));
+}
+if (0 <= trueCount - 1) {
+    b_z1_data = muDoubleScalarMin(dirvec[2], 1.0);
+}
+temp_size_idx_1 = trueCount;
+sak = trueCount - 1;
+if (0 <= sak) {
+    memcpy(&dirvec_data_e, &hypotxy_data, (sak + 1) * sizeof(real_T));
+}
+if (0 <= trueCount - 1) {
+    dirvec_data_e = muDoubleScalarMax(-1.0, b_z1_data);
+}
+sak = trueCount - 1;
+for (trueCount = 0; trueCount <= sak; trueCount++) {
+    dirvec_data_e = muDoubleScalarAsin(dirvec_data_e);
+}
+for (i = 0; i < temp_size_idx_1; i++) {
+    azel[1] = dirvec_data_e;
+}
+trueCount = 0;
+if (!(dirvec[0] != 0.0)) {
+    for (sak = 0; sak < 1; sak++) {
+        trueCount++;
+    }
+}
+temp_size_idx_1 = trueCount;
+for (i = 0; i < trueCount; i++) {
+    b_z1_data = azel[1];
+}
+sak = trueCount - 1;
+for (trueCount = 0; trueCount <= sak; trueCount++) {
+    b_z1_data = muDoubleScalarCos(b_z1_data);
+}
+for (i = 0; i < temp_size_idx_1; i++) {
+    hypotxy_data = dirvec[1] / b_z1_data;
+}
+sak = temp_size_idx_1 - 1;
+if (0 <= sak) {
+    memcpy(&b_z1_data, &hypotxy_data, (sak + 1) * sizeof(real_T));
+}
+if (0 <= temp_size_idx_1 - 1) {
+    b_z1_data = muDoubleScalarMin(hypotxy_data, 1.0);
+}
+sak = temp_size_idx_1 - 1;
+if (0 <= sak) {
+    memcpy(&dirvec_data_e, &hypotxy_data, (sak + 1) * sizeof(real_T));
+}
+if (0 <= temp_size_idx_1 - 1) {
+    dirvec_data_e = muDoubleScalarMax(-1.0, b_z1_data);
+}
+sak = temp_size_idx_1 - 1;
+for (trueCount = 0; trueCount <= sak; trueCount++) {
+    dirvec_data_e = muDoubleScalarAsin(dirvec_data_e);
+}
+for (i = 0; i < temp_size_idx_1; i++) {
+    azel[0] = dirvec_data_e;
+}
+azel[0] *= 57.295779513082323;
+azel[1] *= 57.295779513082323;
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void hdcjnxpyjy(\
+%assign comma = ""
+%<comma>const real_T dirvec[3]\
+%assign comma = ", "
+%<comma>real_T azel[2]\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 42, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function gsvby2yahdj_Fcn43(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+kd0seeiwudd *obj_p;
+lpaezm0n3l *obj_e;
+if ((obj->isInitialized == 1) && obj->isSetupComplete) {
+    obj->pNumInputChannels = -1.0;
+    if (obj->cSteeringVector.isInitialized == 1) {
+        obj->cSteeringVector.isInitialized = 2;
+        if (obj->cSteeringVector.isSetupComplete) {
+            obj_p = obj->cSteeringVector.cSensorArray;
+            if (obj_p->isInitialized == 1) {
+                obj_p->isInitialized = 2;
+                if (obj_p->isSetupComplete) {
+                    obj_e = obj_p->cElement;
+                    if (obj_e->isInitialized == 1) {
+                        obj_e->isInitialized = 2;
+                    }
+                }
+            }
+        }
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void gsvby2yahdj(\
+%assign comma = ""
+%<comma>ng1ueeqmmp *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 43, fcnProtoType)>
+%return fcnBuff
+%endfunction
+
+%function gsvby2yahd_Fcn44(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign cfgTxt = ""
+%openfile cfgTxt
+gc2pg22xov *obj_e;
+kd0seeiwud *obj_p;
+if ((obj->isInitialized == 1) && obj->isSetupComplete) {
+    obj->pNumInputChannels = -1.0;
+    if (obj->cSteeringVector.isInitialized == 1) {
+        obj->cSteeringVector.isInitialized = 2;
+        if (obj->cSteeringVector.isSetupComplete) {
+            obj_p = obj->cSteeringVector.cSensorArray;
+            if (obj_p->isInitialized == 1) {
+                obj_p->isInitialized = 2;
+                if (obj_p->isSetupComplete) {
+                    obj_e = obj_p->cElement;
+                    if (obj_e->isInitialized == 1) {
+                        obj_e->isInitialized = 2;
+                    }
+                }
+            }
+        }
+    }
+}
+%closefile cfgTxt
+%<cfgTxt>
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void gsvby2yahd(\
+%assign comma = ""
+%<comma>mdpwypuqy4 *obj\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 44, fcnProtoType)>
+%return fcnBuff
+%endfunction
+

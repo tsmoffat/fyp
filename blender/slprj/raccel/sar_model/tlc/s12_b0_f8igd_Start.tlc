@@ -1,0 +1,203 @@
+%implements s12_b0_f8igd_Start "C"
+
+%function Start(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+atyvy0fxei *obj_p;
+chwhjaxtvq *obj_i;
+clw0jnsa3g varSizes[5];
+clw0jnsa3g varSizes_p;
+cv2juivnqe *obj_m;
+ee2azraiqp *obj_e;
+icyr5b5nuj *obj;
+jr5jluvwtr *obj_g;
+int32_T i;
+boolean_T wasTunablePropsChanged;
+%closefile localVarDecl
+rtDW.fvy4fevzjq.isInitialized = 0;
+rtDW.fvy4fevzjq.matlabCodegenIsDeleted = false;
+rtDW.aety320uzr = true;
+rtDW.fvy4fevzjq.pVelocity[0] = rtP.Target_Velocity[0];
+rtDW.fvy4fevzjq.pVelocity[1] = rtP.Target_Velocity[1];
+rtDW.fvy4fevzjq.pVelocity[2] = rtP.Target_Velocity[2];
+rtDW.fvy4fevzjq.isInitialized = 1;
+rtDW.fvy4fevzjq.isSetupComplete = true;
+rtDW.fvy4fevzjq.TunablePropsChanged = false;
+rtDW.m0at3cbtl2.isInitialized = 0;
+rtDW.m0at3cbtl2.matlabCodegenIsDeleted = false;
+rtDW.horsmtpmi4 = true;
+rtDW.m0at3cbtl2.pVelocity[0] = rtP.Aircraft_Velocity[0];
+rtDW.m0at3cbtl2.pVelocity[1] = rtP.Aircraft_Velocity[1];
+rtDW.m0at3cbtl2.pVelocity[2] = rtP.Aircraft_Velocity[2];
+rtDW.m0at3cbtl2.isInitialized = 1;
+rtDW.m0at3cbtl2.isSetupComplete = true;
+rtDW.m0at3cbtl2.TunablePropsChanged = false;
+rtDW.nx3chzrjuc.matlabCodegenIsDeleted = false;
+rtDW.kg21b41ett = true;
+rtDW.nx3chzrjuc.isInitialized = 1;
+rtDW.nx3chzrjuc.isSetupComplete = true;
+rtDW.lpr31mcjix.matlabCodegenIsDeleted = false;
+rtDW.kl50gk1l2b = true;
+rtDW.lpr31mcjix.isInitialized = 1;
+rtDW.lpr31mcjix.inputVarSize.f1[0] = 100U;
+rtDW.lpr31mcjix.inputVarSize.f1[1] = 1U;
+rtDW.lpr31mcjix.pNumInputChannels = 1.0;
+rtDW.lpr31mcjix.isSetupComplete = true;
+rtDW.a1yk5c1gmr = true;
+rtDW.gjm3ew3e04.isInitialized = 1;
+rtDW.gjm3ew3e04.inputVarSize[0].f1[0] = 3U;
+rtDW.gjm3ew3e04.inputVarSize[0].f1[1] = 1U;
+rtDW.gjm3ew3e04.inputVarSize[1].f1[0] = 3U;
+rtDW.gjm3ew3e04.inputVarSize[1].f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    rtDW.lpr31mcjix.inputVarSize.f1[i + 2] = 1U;
+    rtDW.gjm3ew3e04.inputVarSize[0].f1[i + 2] = 1U;
+    rtDW.gjm3ew3e04.inputVarSize[1].f1[i + 2] = 1U;
+}
+rtDW.dugwdcqqf3.matlabCodegenIsDeleted = true;
+rtDW.m0jbhxqpah.matlabCodegenIsDeleted = true;
+rtDW.nvoa40f05l.matlabCodegenIsDeleted = true;
+rtDW.ioqzguq3lv.matlabCodegenIsDeleted = true;
+rtDW.lf0c1xysk3._pobj1.matlabCodegenIsDeleted = true;
+rtDW.lf0c1xysk3.cSteeringVector._pobj1.matlabCodegenIsDeleted = true;
+rtDW.lf0c1xysk3.cSteeringVector.matlabCodegenIsDeleted = true;
+rtDW.lf0c1xysk3.matlabCodegenIsDeleted = true;
+rtDW.ioqzguq3lv.Element = &rtDW.e4rgbilccl;
+rtDW.ioqzguq3lv.matlabCodegenIsDeleted = false;
+rtDW.lf0c1xysk3.pNumInputChannels = -1.0;
+rtDW.lf0c1xysk3.isInitialized = 0;
+rtDW.lf0c1xysk3.Sensor = &rtDW.ioqzguq3lv;
+rtDW.lf0c1xysk3.matlabCodegenIsDeleted = false;
+rtDW.jjmu3ebd4u = true;
+%<(SLibCGCallSubFcn("fg0mjfu55vg", ["&rtDW.lf0c1xysk3"], 0, 45, 2))>;
+rtDW.aw1xd0e4zh.cBuffer.matlabCodegenIsDeleted = true;
+rtDW.aw1xd0e4zh.cFractionalDelayFilter.matlabCodegenIsDeleted = true;
+rtDW.aw1xd0e4zh.matlabCodegenIsDeleted = true;
+rtDW.aw1xd0e4zh.pNumInputChannels = -1.0;
+rtDW.aw1xd0e4zh.isInitialized = 0;
+rtDW.aw1xd0e4zh.TunablePropsChanged = false;
+rtDW.aw1xd0e4zh.matlabCodegenIsDeleted = false;
+rtDW.a3mvwdneb1 = true;
+obj = &rtDW.aw1xd0e4zh;
+rtDW.aw1xd0e4zh.isSetupComplete = false;
+rtDW.aw1xd0e4zh.isInitialized = 1;
+varSizes[0].f1[0] = 100U;
+varSizes[0].f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    varSizes[0].f1[i + 2] = 1U;
+}
+for (i = 0; i < 8; i++) {
+    varSizes[1].f1[i] = 1U;
+    varSizes[2].f1[i] = 1U;
+    varSizes[3].f1[i] = 1U;
+    varSizes[4].f1[i] = 1U;
+}
+memcpy(&rtDW.aw1xd0e4zh.inputVarSize[0], &varSizes[0], 5U * sizeof(clw0jnsa3g));
+wasTunablePropsChanged = rtDW.aw1xd0e4zh.TunablePropsChanged;
+rtDW.aw1xd0e4zh.TunablePropsChanged = wasTunablePropsChanged;
+rtDW.aw1xd0e4zh.pNumInputChannels = 1.0;
+obj->cBuffer.pNumInputChannels = -1.0;
+obj->cBuffer.isInitialized = 0;
+obj->cBuffer.matlabCodegenIsDeleted = false;
+obj_p = &rtDW.aw1xd0e4zh.cFractionalDelayFilter;
+obj->cFractionalDelayFilter.isInitialized = 0;
+/* System object Constructor function: dsp.VariableFractionalDelay */
+obj_p->cSFunObject.P0_IC.re = 0.0;
+obj_p->cSFunObject.P0_IC.im = 0.0;
+obj->cFractionalDelayFilter.matlabCodegenIsDeleted = false;
+rtDW.aw1xd0e4zh.isSetupComplete = true;
+rtDW.cw3v0exiod.isInitialized = 0;
+rtDW.cw3v0exiod.matlabCodegenIsDeleted = false;
+rtDW.pe5ik5bb41 = true;
+rtDW.cw3v0exiod.MeanRCS = rtP.RadarTarget_MeanRCS;
+rtDW.cw3v0exiod.isInitialized = 1;
+rtDW.cw3v0exiod.inputVarSize.f1[0] = 100U;
+rtDW.cw3v0exiod.inputVarSize.f1[1] = 1U;
+for (i = 0; i < 6; i++) {
+    rtDW.cw3v0exiod.inputVarSize.f1[i + 2] = 1U;
+}
+rtDW.cw3v0exiod.pNumInputChannels = 1.0;
+rtDW.cw3v0exiod.pRCS = rtDW.cw3v0exiod.MeanRCS;
+rtDW.cw3v0exiod.isSetupComplete = true;
+rtDW.cw3v0exiod.TunablePropsChanged = false;
+rtDW.p0rkkecxzg.matlabCodegenIsDeleted = true;
+rtDW.cec0kpxtoc.matlabCodegenIsDeleted = true;
+rtDW.oknbrpr2bq.matlabCodegenIsDeleted = true;
+rtDW.ogmdvojndn.matlabCodegenIsDeleted = true;
+rtDW.nh00wszcu1._pobj1.matlabCodegenIsDeleted = true;
+rtDW.nh00wszcu1.cSteeringVector._pobj1.matlabCodegenIsDeleted = true;
+rtDW.nh00wszcu1.cSteeringVector.matlabCodegenIsDeleted = true;
+rtDW.nh00wszcu1.matlabCodegenIsDeleted = true;
+rtDW.ogmdvojndn.Element = &rtDW.h5ilz4txgx;
+rtDW.ogmdvojndn.matlabCodegenIsDeleted = false;
+rtDW.nh00wszcu1.pNumInputChannels = -1.0;
+rtDW.nh00wszcu1.isInitialized = 0;
+rtDW.nh00wszcu1.Sensor = &rtDW.ogmdvojndn;
+rtDW.nh00wszcu1.matlabCodegenIsDeleted = false;
+rtDW.mnkanil32l = true;
+%<(SLibCGCallSubFcn("fg0mjfu55v", ["&rtDW.nh00wszcu1"], 0, 45, 1))>;
+rtDW.fklv1ge0dn.matlabCodegenIsDeleted = true;
+rtDW.e5omidte4f = 0U;
+rtDW.cuy3zcnxer = true;
+rtDW.pykjkqjmt1 = 7U;
+rtDW.hkkrbfmrus = true;
+rtDW.oyq5gbg1l5[0] = 362436069U;
+rtDW.oyq5gbg1l5[1] = 521288629U;
+rtDW.jt1ixk3wis = true;
+rtDW.cgzxsbz25a = 1144108930U;
+rtDW.an04wnemdq = true;
+rtDW.fklv1ge0dn.pNumInputChannels = -1.0;
+rtDW.fklv1ge0dn.isInitialized = 0;
+rtDW.fklv1ge0dn.matlabCodegenIsDeleted = false;
+rtDW.daqrcskzsa = true;
+obj_e = &rtDW.fklv1ge0dn;
+rtDW.fklv1ge0dn.isSetupComplete = false;
+rtDW.fklv1ge0dn.isInitialized = 1;
+varSizes_p.f1[0] = 100U;
+varSizes_p.f1[1] = 2U;
+for (i = 0; i < 6; i++) {
+    varSizes_p.f1[i + 2] = 1U;
+}
+rtDW.fklv1ge0dn.inputVarSize = varSizes_p;
+obj_e->_pobj0.isInitialized = 0;
+rtDW.fklv1ge0dn.cNoiseSource = &obj_e->_pobj0;
+rtDW.fklv1ge0dn.pNumInputChannels = 2.0;
+rtDW.fklv1ge0dn.pNoiseSamplePower = 4.00388616E-15;
+rtDW.fklv1ge0dn.isSetupComplete = true;
+obj_i = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cFFT;
+obj_i->S0_isInitialized = 0;
+obj_m = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cCoeffFFT;
+obj_m->S0_isInitialized = 0;
+obj_g = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cIFFT;
+obj_g->S0_isInitialized = 0;
+rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.matlabCodegenIsDeleted = true;
+rtDW.otc1ywyo33.cMatchedFilter.matlabCodegenIsDeleted = true;
+rtDW.otc1ywyo33.matlabCodegenIsDeleted = true;
+rtDW.otc1ywyo33.pRangeOffset = 0.0;
+rtDW.otc1ywyo33.pSizeInitialized = false;
+rtDW.otc1ywyo33.pNumInputChannels = -1.0;
+rtDW.otc1ywyo33.isInitialized = 0;
+rtDW.otc1ywyo33.TunablePropsChanged = false;
+rtDW.otc1ywyo33.matlabCodegenIsDeleted = false;
+rtDW.l3gdxl2ysw = true;
+wasTunablePropsChanged = (rtDW.otc1ywyo33.isInitialized == 1);
+if (wasTunablePropsChanged) {
+    rtDW.otc1ywyo33.TunablePropsChanged = true;
+}
+rtDW.otc1ywyo33.ReferenceRange = rtP.RangeResponse_ReferenceRange;
+%<(SLibCGCallSubFcn("fg0mjfu55vgw", ["&rtDW.otc1ywyo33"], 0, 45, 0))>;
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedStartLocalVars", localVarDecl)>
+%endfunction
+%function StartFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 45, fcnProtoType)>
+%endfunction

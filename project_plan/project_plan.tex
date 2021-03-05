@@ -1,0 +1,26 @@
+\subsection{Workplan}
+A series of steps have been defined to help meet the overall aims as defined previously. The exit criteria for each of these packages are major milestones and will be defined appropriately.
+
+\subsubsection{Step 1 - Basic 3D Modelling}
+The purpose of this step is to create a 3 dimensional model of a cube using a modelling package. This step will have more time built in than is required as it also includes some research on the best technology to use, above the research that has already been performed. This step will also require some time to learn the tool chosen. The exit criteria for this step is being able to display a 3 dimensional model on screen and view it from different directions using the tools provided by the software package. 
+
+\subsubsection{Step 2 - Antenna Beam Simulating}
+This step will overlap somewhat with step 1 as they can be performed in two separate environments. A basic definition of the platform that the radar is mounted on will be created as well as a basic definition of the characteristics of the radar's beam with the characteristics of the propagation medium. The exit criteria for this step of the project is to have a model of the environmental parameters and the radar parameters.
+
+\subsubsection{Step 3 - First Order Contributions}
+Having created the 3 dimensional model, this step will have the purpose of defining the reflection characteristics of the environment. This step is only to simulate the first reflections off of the target structure or the ground, and not the results from the radar signal reflecting off of the wall and then the ground or vice versa. This only really requires the completion of step 1, as all reflections can be tested using an emitter at a single point and does not need to have accurate responses, only to prove that the radar signals will reflect off of the model in a coherent and predictable way. The exit criteria for this is to have a reflection based on the dielectric constant of the model building and a different dielectric of the model ground, to be defined and hard coded into the program for different materials.
+
+\subsubsection{Step 4 - Create Output Image}
+This is the first step that will actually produce a visible result, using a matched filtering algorithm yet to be determined but most likely time-domain Backprojection, due to its flexibility. The technique uses the difference between what the radar is expecting and what it actually receives in order to construct an image. The exit criteria for this step is to be able to produce an image based on the raw SAR data that is generated from the simulated platform.
+
+\subsubsection{Step 5 - Simulate Second Order Contributions}
+This is the final necessary step for completion of this project, and is an extension to step 3. The purpose of this step is to add in the effects of the antenna beam reflecting off both the ground and the wall, in either permutation, before returning to the receiver. This will complicate the final image somewhat but also more accurately simulate its effects. The exit criteria for this step is to include the effects of second order contributions in the output image.
+
+\subsubsection{Step 6 - Complicate Scene and Increase Order Contributions \textit{(Optional)}}
+This step will involve increasing the number of structures in the simulated scene as well as simulating third order contributions and above. This is when the signal reflects off of objects three or more times before returning to the receiver. The contributions from this are exceedingly small however it is still worth implementing as it will contribute something. The scene complications will also involve a more accurate dielectric modelling, with an attempt at windows and other non-stone aspects of a building. The final aspect of this is to be able to extract a scene from a mapping tool such as OpenStreetMap or Google Earth and import it into the program before using that to generate an image. The exit criteria for this step is to produce an image of a more complicated scene and be able to import a section of a Google Earth or OpenStreetMaps 3D model as the complexity of this will likely require the next step to image correctly.
+
+\subsubsection{Step 7 - Implement Hybrid Method \textit{(Optional)}}
+This step is to use a secondary method to reduce the computational complexity of creating the raw SAR image. There are a few approaches to this that have been investigated in the literature and are explored in more depth in part B. The actual method used is currently undecided as is the approach taken towards its implementation however the goal is to improve the efficiency of the simulator while maintaining a high level of accuracy in the output SAR image. The exit criteria for this milestone is to have an implementation of a hybrid method that improves the calculation efficiency.
+
+\subsubsection{Step 8 - Extra Time} 
+This step is a catch-all step if other steps take longer than was previously expected or to implement other features that are decided upon during the implementation of previous steps. This is to avoid feature creep during the process as unless it is absolutely necessary it can be deferred to this step. This step has no exit criteria, however will result in the program being finished and after this stage no more features will be added.

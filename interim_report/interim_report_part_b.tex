@@ -1,0 +1,34 @@
+\documentclass[11pt]{report}
+
+\usepackage[style=ieee]{biblatex}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=30mm, right=30mm, top=25mm, bottom=25mm]{geometry}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\title{Synthetic aperture imaging radar signal simulation of urban environments}
+\author{Thomas Stenson Moffat}
+
+\fancyhead{}
+\fancyhead[R]{\thetitle}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L] {Part B}
+\fancyfoot[C]{\theauthor}
+\renewcommand{\chaptername}{Part}
+\addbibresource{../FYP.bib}
+
+\begin{document}
+\input{title_page_b}
+\addtocounter{chapter}{1}
+\chapter{Project Background}
+
+\input{../project_background/lit_review_base}
+	
+	\printbibliography
+\end{document}

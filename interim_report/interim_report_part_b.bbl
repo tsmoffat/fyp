@@ -1,0 +1,786 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{franceschettiSARRawSignal2003}{article}{}
+      \name{author}{4}{}{%
+        {{hash=617b1bb2db79a207c24c51e4aa8b4e98}{%
+           family={Franceschetti},
+           familyi={F\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0ccd66ac1decbafa0ddf50fc47191358}{%
+           family={Iodice},
+           familyi={I\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f46593f161c0b914da9799c09c7e1bb}{%
+           family={Riccio},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d83603844a7af7fadcf87cdcf57eca78}{%
+           family={Ruello},
+           familyi={R\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6390fbf365b5fb37eedd74e01c9fcc9c}
+      \strng{fullhash}{49921868a3459c5c637bff4d81ee5393}
+      \strng{bibnamehash}{49921868a3459c5c637bff4d81ee5393}
+      \strng{authorbibnamehash}{49921868a3459c5c637bff4d81ee5393}
+      \strng{authornamehash}{6390fbf365b5fb37eedd74e01c9fcc9c}
+      \strng{authorfullhash}{49921868a3459c5c637bff4d81ee5393}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, a synthetic aperture radar (SAR) raw signal simulator for urban scenes is presented along with models it employs to compute the backscattered field and to account for the imaging radar sensor characteristics. Urban areas are represented as a set of dielectric buildings placed over a random rough nonflat dielectric terrain. The adopted models allow evaluation of the raw signal on a sound physical and mathematical background: the scattering model employs the Kirchhoff approach appropriately extended to include multiple-reflection effects, and the radar model operates in the two-dimensional Fourier transformed domain. Details to assess how and why the simulator is also efficient with respect to the computational time are provided. In addition, relevant examples are discussed to show the simulator potentialities and assess the validity of the main results. It is shown that the simulator is able to quantitatively assess performances of SAR sensors over urban structures. The proposed simulator turns out to be also useful to train numerical schemes devoted to feature extraction, and to test any specific SAR processing technique. Comments for further developments of the simulation tool are presented.}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{number}{9}
+      \field{title}{{{SAR}} Raw Signal Simulation for Urban Structures}
+      \field{volume}{41}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/Z7J6HC2X/Franceschetti et al. - 2003 - SAR raw signal simulation for urban structures.pdf
+      \endverb
+    \endentry
+    \entry{franceschettiSARASSyntheticAperture1992}{article}{}
+      \name{author}{4}{}{%
+        {{hash=617b1bb2db79a207c24c51e4aa8b4e98}{%
+           family={Franceschetti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4e1397d95da873c2d456083a7baa16ab}{%
+           family={Migliaccio},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8f46593f161c0b914da9799c09c7e1bb}{%
+           family={Riccio},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dffbd3bc8a3be281dfe5f87030b7c18b}{%
+           family={Schirinzi},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e91bba5bb734aaa8658e0d32fab3573}
+      \strng{fullhash}{8477705afd6db5b884d5b708af063b63}
+      \strng{bibnamehash}{8477705afd6db5b884d5b708af063b63}
+      \strng{authorbibnamehash}{8477705afd6db5b884d5b708af063b63}
+      \strng{authornamehash}{6e91bba5bb734aaa8658e0d32fab3573}
+      \strng{authorfullhash}{8477705afd6db5b884d5b708af063b63}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An SAR simulator of an extended three-dimensional scene is presented. It is based on a facet model for the scene, asymptotic evaluation of SAR unit response, and a two-dimensional fast Fourier transform code for the data processing. Prescribed statistics of the model account for a realistic speckle of the image. The simulator is implemented in Synthetic Aperture Radar Advance Simulators (SARAS), whose performance is described and illustrated by a number of examples.{$<>$}}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{issn}{1558-0644}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{{{SARAS}}}
+      \field{title}{{{SARAS}}: A Synthetic Aperture Radar ({{SAR}}) Raw Signal Simulator}
+      \field{volume}{30}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{pages}{110\bibrangedash 123}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/36.124221
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/2W4JAUA8/Franceschetti et al. - 1992 - SARAS a synthetic aperture radar (SAR) raw signal.pdf;/Users/tomoffat/Zotero/storage/QEDW5QNJ/124221.html
+      \endverb
+      \keyw{Acoustic scattering,Computational modeling,computerised picture processing,data processing,Data processing,Electromagnetic scattering,extended three-dimensional scene,Face,facet model,Fast Fourier transforms,Layout,radar,Radar scattering,raw signal simulator,SARAS,speckle,Statistics,Synthetic aperture radar,Synthetic Aperture Radar Advance Simulators,two-dimensional fast Fourier transform code}
+    \endentry
+    \entry{franceschettiSARProcessorBased1990}{article}{}
+      \name{author}{2}{}{%
+        {{hash=617b1bb2db79a207c24c51e4aa8b4e98}{%
+           family={Franceschetti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dffbd3bc8a3be281dfe5f87030b7c18b}{%
+           family={Schirinzi},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2cf3d2aae59f9a97c42325994930e18}
+      \strng{fullhash}{a2cf3d2aae59f9a97c42325994930e18}
+      \strng{bibnamehash}{a2cf3d2aae59f9a97c42325994930e18}
+      \strng{authorbibnamehash}{a2cf3d2aae59f9a97c42325994930e18}
+      \strng{authornamehash}{a2cf3d2aae59f9a97c42325994930e18}
+      \strng{authorfullhash}{a2cf3d2aae59f9a97c42325994930e18}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A synthetic aperture radar (SAR) processor approach based on two-dimensional fast Fourier transform (FFT) codes coupled with an asymptotic evaluation of the unit response function is presented. For the latter, no approximation is made to the distance function, so that the full range of geometric aberrations is analytically considered, enabling an effective reference filter to be designed. The two-dimensional FFTs were designed as to run on computers of very limited memory: the required FFT is computed by means of FFTs of lower order. Two FFT codes were considered: one is faster and allows full or reduced (quick look or multilook) resolution performance to be obtained easily; the second is slower but allows the use of a space-varying filter and/or investigations on limited portions (zoom) of the image. Both codes are suited to parallel processing, e.g. by a transputer net. A full discussion on computer memory and time requirements is presented as well as first examples of image processing results.{$<>$}}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Aerospace}} and {{Electronic Systems}}}
+      \field{issn}{1557-9603}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{A {{SAR}} Processor Based on Two-Dimensional {{FFT}} Codes}
+      \field{volume}{26}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{356\bibrangedash 366}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/7.53462
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/88VXH5NS/Franceschetti and Schirinzi - 1990 - A SAR processor based on two-dimensional FFT codes.pdf;/Users/tomoffat/Zotero/storage/WKAJSVWQ/53462.html
+      \endverb
+      \keyw{asymptotic evaluation,Azimuth,Backscatter,Bandwidth,computerised picture processing,effective reference filter,fast Fourier transform,fast Fourier transforms,Filters,Flexible printed circuits,Frequency estimation,geometric aberrations,holographic signal,image compression,image processing,Image resolution,memory requirements,multilook,parallel processing,Parallel processing,quick look,radar,SAR processor,space-varying filter,synthetic aperture radar,Synthetic aperture radar,time requirements,Transfer functions,transputer net,two-dimensional FFT codes,unit response function,zoom}
+    \endentry
+    \entry{franceschettiCanonicalProblemElectromagnetic2002}{article}{}
+      \name{author}{3}{}{%
+        {{hash=617b1bb2db79a207c24c51e4aa8b4e98}{%
+           family={Franceschetti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0ccd66ac1decbafa0ddf50fc47191358}{%
+           family={Iodice},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f46593f161c0b914da9799c09c7e1bb}{%
+           family={Riccio},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \strng{fullhash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \strng{bibnamehash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \strng{authorbibnamehash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \strng{authornamehash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \strng{authorfullhash}{72b23ecfc55fe2845d281b8f07f421bb}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, a geometric and electromagnetic model of a typical element of urban structure is presented, in order to analytically evaluate in closed form its electromagnetic return to an active microwave sensor. This model can be used to understand what information on geometric and dielectric properties of a building can be extracted from microwave remote sensing data. The geometrical model consists of a rectangular parallelepiped whose vertical walls form a generic angle with respect to the sensor line of flight. The parallelepiped is placed on a rough surface. The radar return from such a structure can be decomposed into single-scattering contributions from the (rough) ground, the building roof (a plane surface in our model), and vertical walls and multiple scattering contributions from dihedral structures formed by vertical walls and ground. In our model, single-scattering contributions are evaluated by using either physical optics (PO) or geometrical optics (GO), depending on surface roughness. In order to account for multiple scattering between buildings and terrain, we use GO to evaluate the field reflected by the smooth wall toward the ground (first bounce) or the sensor (second or third bounce) and GO or PO (according to ground surface roughness) to evaluate the field scattered by the ground toward the wall (first or second bounce) or the sensor (second bounce). Finally, the above model is used to analyze the field backscattered from a building as a function of the main scene parameters; in particular, the angle between vertical walls and sensor line of night and the dependence on the look angle are analyzed.}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{issn}{1558-0644}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{A Canonical Problem in Electromagnetic Backscattering from Buildings}
+      \field{volume}{40}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{1787\bibrangedash 1801}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TGRS.2002.802459
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/INAXX97A/Franceschetti et al. - 2002 - A canonical problem in electromagnetic backscatter.pdf;/Users/tomoffat/Zotero/storage/WKIVH83N/1036007.html
+      \endverb
+      \keyw{backscatter,Backscatter,buildings,Buildings,dielectric properties,dihedral structures,Electromagnetic analysis,electromagnetic backscattering,electromagnetic model,Electromagnetic modeling,electromagnetic return,Electromagnetic scattering,electromagnetic wave scattering,geometric model,geometric properties,geometrical optics,GO,look angle,microwave remote sensing data,multiple scattering,Optical scattering,physical optics,PO,Radar scattering,rectangular parallelepiped,remote sensing by radar,rough surface,Rough surfaces,SAR,scene parameters,sensor line of night,single-scattering,Solid modeling,surface roughness,Surface roughness,synthetic aperture radar,urban structure,vertical walls}
+    \endentry
+    \entry{franceschettiSimulationToolsInterpretation2007}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=617b1bb2db79a207c24c51e4aa8b4e98}{%
+           family={Franceschetti},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4092017f2de19bdf3c03fb2fbfe5a96c}{%
+           family={Guida},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0ccd66ac1decbafa0ddf50fc47191358}{%
+           family={Iodice},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f46593f161c0b914da9799c09c7e1bb}{%
+           family={Riccio},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d83603844a7af7fadcf87cdcf57eca78}{%
+           family={Ruello},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e5f81ccdb90a321269cc9c56cbc34c07}{%
+           family={Stilla},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{28ee99544be08d41be306ce1b04418f8}
+      \strng{fullhash}{45a1713cb3b96f8ac70480cbadf3fbce}
+      \strng{bibnamehash}{45a1713cb3b96f8ac70480cbadf3fbce}
+      \strng{authorbibnamehash}{45a1713cb3b96f8ac70480cbadf3fbce}
+      \strng{authornamehash}{28ee99544be08d41be306ce1b04418f8}
+      \strng{authorfullhash}{45a1713cb3b96f8ac70480cbadf3fbce}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{New powerful spaceborne sensors for monitoring urban areas have been designed and are ready for launch. More detailed SAR images will be soon available and, consequently, new tools for their interpretation are needed, above all when urban scenes are illuminated. In this paper, the authors propose some tools for the study and the analysis of high resolution SAR images based on a SAR raw signal simulator for urban areas. Comparing simulated SAR images with the real one, interpretation of SAR data is improved and fundamental support of the employed tools is further assessed.}
+      \field{booktitle}{2007 {{Urban Remote Sensing Joint Event}}}
+      \field{eventtitle}{2007 {{Urban Remote Sensing Joint Event}}}
+      \field{issn}{2334-0932}
+      \field{month}{4}
+      \field{title}{Simulation {{Tools}} for {{Interpretation}} of {{High Resolution SAR Images}} of {{Urban Areas}}}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/URS.2007.371841
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/NZVR85TD/Franceschetti et al. - 2007 - Simulation Tools for Interpretation of High Resolu.pdf;/Users/tomoffat/Zotero/storage/7Z5E6FYJ/4234440.html
+      \endverb
+      \keyw{Buildings,geophysical signal processing,high-resolution SAR image,Image analysis,image resolution,Image resolution,image sensors,Information retrieval,Layout,Optical distortion,radar imaging,Remote sensing,SAR raw signal simulator,simulation tool,Solid modeling,spaceborne radar,spaceborne sensor,synthetic aperture radar,Testing,urban area monitoring,Urban areas,urban scene illumination}
+    \endentry
+    \entry{zhengSimulationMethodSAR2008}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4141b996d0598eea07a2b7d0d5c99914}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Yingzhi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=78b85e16af77a1b542f32ece926f004b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6706ef70094c50162d578e072a614d30}{%
+           family={Zong},
+           familyi={Z\bibinitperiod},
+           given={Zhulin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \strng{fullhash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \strng{bibnamehash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \strng{authorbibnamehash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \strng{authornamehash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \strng{authorfullhash}{155a3bcaa07936c2e0645a7b59a26cf6}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, a SAR raw data simulation method for urban scene is presented based on the hypothesis that urban area is a set of vertical buildings placed over a random rough dielectric terrain. Facet model and Kirchhoff approach appropriately including multiple-scattering effects are adopted here to compute scattering coefficients in the scattering model, which operates in two-dimensional Fourier transformed domain. Methods of computing the scattering coefficients in different conditions are discussed in detail. Subsequently, the computational formulas and steps are also provided. It is known that the scattering model can effectively simulate the urban scene. The proposed simulation method of SAR raw echo turns out to be valid through simulation and analysis of the imaging to raw echo.}
+      \field{booktitle}{2008 {{International Conference}} on {{Radar}}}
+      \field{eventtitle}{2008 {{International Conference}} on {{Radar}}}
+      \field{issn}{1097-5764}
+      \field{month}{9}
+      \field{title}{Simulation Method of {{SAR}} Raw Echo for Urban Scene}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{503\bibrangedash 507}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/RADAR.2008.4653976
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/FTFKHPYT/Yingxi Zheng et al. - 2008 - Simulation method of SAR raw echo for urban scene.pdf;/Users/tomoffat/Zotero/storage/4HCLZ93S/4653976.html
+      \endverb
+      \keyw{Backscatter,Biological system modeling,Buildings,Computational modeling,electromagnetic wave scattering,facet model,Fourier transforms,Kirchhoff approach,multiple-scattering effect,Radar,Radar antennas,radar cross-sections,radar imaging,random rough dielectric terrain,SAR raw echo data simulation method,Scattering,synthetic aperture radar,two-dimensional Fourier transformed domain,urban scene,vertical building}
+    \endentry
+    \entry{delliereSARMeasurementSimulation2007}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3338103e77fb62e50a231c45b2eb05c6}{%
+           family={Delliere},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=275f80ae7ed09f673c64ba55eb8bbbc2}{%
+           family={Maitre},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d029aef1a081e42a20f10076e2376e46}{%
+           family={Maruani},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \strng{fullhash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \strng{bibnamehash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \strng{authorbibnamehash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \strng{authornamehash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \strng{authorfullhash}{1d50aca0dd1cea9e33a7ea124a596191}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of this work is, starting from a close tracking of basic electromagnetic processes, to propose a simulator enabling a better understanding of the radar images of urban areas. An improved understanding of the radar images formation processes in this case should lead to a better knowledge of the potentialities of the SAR imagery of urban areas. With the rapid development of computer, numerical techniques with no physical approximation play more and more important role in some studies such as electromagnetic scattering from urban scene. We argue that finite-difference time domain method (FDTD) is a quite new and promising approach for the propagation in urban areas. In order to numerically evaluate its electromagnetic return to an active microwave sensor, a geometric and electromagnetic model of a typical element of urban structure is presented. It consists of a rectangular parallelepiped whose vertical walls form a generic angle with respect to the sensor line of flight. This parallelepiped is placed on an either smooth or rough surface, to take into account multiple scattering between buildings and terrain. Finally, the above model is used to analyze the field backscattered from a building, as a function of the main scene parameters.}
+      \field{booktitle}{2007 {{Urban Remote Sensing Joint Event}}}
+      \field{eventtitle}{2007 {{Urban Remote Sensing Joint Event}}}
+      \field{issn}{2334-0932}
+      \field{month}{4}
+      \field{title}{{{SAR}} Measurement Simulation on Urban Structures Using a {{FDTD}} Technique}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/URS.2007.371837
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/LF7UUMK4/Delliere et al. - 2007 - SAR measurement simulation on urban structures usi.pdf;/Users/tomoffat/Zotero/storage/TSGF43RJ/4234436.html
+      \endverb
+      \keyw{active microwave sensor,Computational modeling,Electromagnetic measurements,electromagnetic scattering,Electromagnetic scattering,electromagnetic wave propagation,electromagnetic wave scattering,FDTD technique,Finite difference methods,finite difference time-domain analysis,finite-difference time domain method,Layout,radar imaging,Radar imaging,Radar tracking,radar wave propagation,rectangular parallelepiped,remote sensing by radar,SAR imagery,SAR measurement simulation,synthetic aperture radar,Synthetic aperture radar,Time domain analysis,Urban areas,urban structure}
+    \endentry
+    \entry{balzRealtimeSARSimulation2006}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=45bcf6c025dca86a2c9393f667e5d6ba}{%
+           family={Balz},
+           familyi={B\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \strng{fullhash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \strng{bibnamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \strng{authorbibnamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \strng{authornamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \strng{authorfullhash}{45bcf6c025dca86a2c9393f667e5d6ba}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{7}
+      \field{title}{Real-Time {{SAR}} Simulation of Complex Scenes Using Programmable {{Graphics Processing Units}}}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/WHIELUR9/Balz - 2006 - Real-time SAR simulation of complex scenes using p.pdf
+      \endverb
+    \endentry
+    \entry{auerRayTracingSimulating2008}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=df89bf5b725cd3dd98c2b4e7d75f2004}{%
+           family={Auer},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4f31ebe569951b19324f26ee0fbfc9f}{%
+           family={Hinz},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a89e7fb258f55dd0d1b62199281587f0}{%
+           family={Bamler},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0718f3767753cac6559b590155d852f9}
+      \strng{fullhash}{0718f3767753cac6559b590155d852f9}
+      \strng{bibnamehash}{0718f3767753cac6559b590155d852f9}
+      \strng{authorbibnamehash}{0718f3767753cac6559b590155d852f9}
+      \strng{authornamehash}{0718f3767753cac6559b590155d852f9}
+      \strng{authorfullhash}{0718f3767753cac6559b590155d852f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an approach for using backward ray tracing for simulating radar reflectivity maps. After explaining the simulation concept which consists of three parts - modeling, sampling and image generation - two applications are presented for showing the performance of the simulator. At first reflection contributions like single or multiple bounce are simulated for a modeled building and compared to a real TerraSAR-X image. It shows how the capability of separating different bounce levels in different layers can support the interpretation of the SAR image. Afterwards reflection effects caused by quasi-perfect specular reflection are detected for another building model by means of geometrical analysis. This is thought as input for advanced Persistent Scatterer (PS) Analysis, since PS typically appear due to such reflection effects.}
+      \field{booktitle}{{{IGARSS}} 2008 - 2008 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}}
+      \field{eventtitle}{{{IGARSS}} 2008 - 2008 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}}
+      \field{issn}{2153-7003}
+      \field{month}{7}
+      \field{title}{Ray {{Tracing}} for {{Simulating Reflection Phenomena}} in {{SAR Images}}}
+      \field{volume}{5}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{V - 518-V \bibrangedash  521}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/IGARSS.2008.4780143
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/SNJV6LZT/Auer et al. - 2008 - Ray Tracing for Simulating Reflection Phenomena in.pdf;/Users/tomoffat/Zotero/storage/QITEQCZQ/4780143.html
+      \endverb
+      \keyw{afterwards reflection effects,Analytical models,backward ray tracing,bounce levels,electromagnetic wave reflection,geophysical signal processing,image generation,image processing,Layout,Light scattering,Light sources,Optical reflection,Optical scattering,persistent scatterer analysis,Persistent Scatterers,quasi-perfect specular reflection,Radar imaging,radar reflectivity map,Radar scattering,ray tracing,Ray tracing,Ray Tracing,reflectivity,remote sensing by radar,SAR images,SAR Simulation,Solid modeling,synthetic aperture radar,TerraSAR-X,TerraSAR-X imagery}
+    \endentry
+    \entry{mametsaImagingRadarSimulation2002}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=9fc0319710ed4e52aaf6005fe236459e}{%
+           family={Mametsa},
+           familyi={M\bibinitperiod},
+           given={Henri-Jose},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=db016bec043e7a649718b363359b2d1f}{%
+           family={Rouas},
+           familyi={R\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a2af289da8ad57bfe662019b16034660}{%
+           family={Berges},
+           familyi={B\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39e74addffc3ee6a0f96987aa4b10cb7}{%
+           family={Latger},
+           familyi={L\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Society for Optics and Photonics}%
+      }
+      \strng{namehash}{45ca48fd4c0289dec0730025fca841f9}
+      \strng{fullhash}{c46ecea05fcf32c71b32c25a4d076fe0}
+      \strng{bibnamehash}{c46ecea05fcf32c71b32c25a4d076fe0}
+      \strng{authorbibnamehash}{c46ecea05fcf32c71b32c25a4d076fe0}
+      \strng{authornamehash}{45ca48fd4c0289dec0730025fca841f9}
+      \strng{authorfullhash}{c46ecea05fcf32c71b32c25a4d076fe0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A three dimensional (3-D) realistic radar simulation package including imaging radar simulation concept applied to multisensor scenarios is under development as a project between the Electromagnetism and Radar Department of ONERA and the OKTAL SE Company. Taking advantage of various studies in the domain, this partnership associates the expertise of ONERA in radar phenomenology, wave interaction with targets and clutter, with that of OKTAL SE in the generation and management of realistic scene databases in the infrared and optical domains using advanced Shooting and Bouncing Rays (SBR) techniques. The objective of this program is to develop simulation tools capable of predicting the behaviour of sensors in a realistic environment. This is achieved by coupling a terrain database completed by radar and optical features and a fast SBR algorithm. This paper is focused on the specification of the radar (i.e. electromagnetic wave interaction) principles. Outputs from the simulations illustrate the effectiveness of the tool in respectively, Synthetic Aperture Radar (SAR) simulations; and in the multisensor evaluation context in airborne applications such as enhanced vision for all weather landing assistance.}
+      \field{booktitle}{{{SAR Image Analysis}}, {{Modeling}}, and {{Techniques IV}}}
+      \field{day}{28}
+      \field{eventtitle}{{{SAR Image Analysis}}, {{Modeling}}, and {{Techniques IV}}}
+      \field{month}{1}
+      \field{title}{Imaging Radar Simulation in Realistic Environment Using Shooting and Bouncing Rays Technique}
+      \field{volume}{4543}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{34\bibrangedash 40}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1117/12.453975
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/VJYMUFMX/Mametsa et al. - 2002 - Imaging radar simulation in realistic environment .pdf;/Users/tomoffat/Zotero/storage/HYUFQH3F/12.453975.html
+      \endverb
+    \endentry
+    \entry{hammerComparisonSARSimulation2008}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=f600bceeade6d8e2cef43cb745fda2d0}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=83008d7d7925f69641873ccb8b993bf9}{%
+           family={Balz},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ffe416f8b7eec7b3626225b8e252c27e}{%
+           family={Cadario},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1cd125f97e32650ffa56bf53c431b834}{%
+           family={Soergel},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3d89bc9c11e0bb305fa2225a515f4eab}{%
+           family={Thoennessen},
+           familyi={T\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=e5f81ccdb90a321269cc9c56cbc34c07}{%
+           family={Stilla},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{661caf9b16da2d73d72802de92dd1f5e}
+      \strng{fullhash}{e6093a4fdae326dbf58d726a274f81da}
+      \strng{bibnamehash}{e6093a4fdae326dbf58d726a274f81da}
+      \strng{authorbibnamehash}{e6093a4fdae326dbf58d726a274f81da}
+      \strng{authornamehash}{661caf9b16da2d73d72802de92dd1f5e}
+      \strng{authorfullhash}{e6093a4fdae326dbf58d726a274f81da}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The simulation of SAR images provides valuable information used in many fields such as mission planning or the design of feature extraction algorithms. Simulation is in general a trade-off between achievement of appro-ximation to reality as close as possible and minimization of computational load respectively processing time. For real-time application, a fast but suboptimal approach might be optimal, whereas for thorough parameter tuning of image processing or image analysis algorithms, more sophisticated methods would be required. In this paper, three SAR simulators using different simulation concepts tailored for a variety of tasks are introduced and the simulation results for simple building models and complex urban scenes are compared. To evaluate the realism of the simulation methods, the results are compared to a real SAR image of an urban scene. On this basis the possibilities and limitations of the different SAR simulation concepts are discussed.}
+      \field{booktitle}{7th {{European Conference}} on {{Synthetic Aperture Radar}}}
+      \field{eventtitle}{7th {{European Conference}} on {{Synthetic Aperture Radar}}}
+      \field{month}{6}
+      \field{title}{Comparison of {{SAR}} Simulation Concepts for the Analysis of High-Resolution {{SAR}} Data}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/IV655V7G/Hammer et al. - 2008 - Comparison of SAR simulation concepts for the anal.pdf;/Users/tomoffat/Zotero/storage/4A9DCB7D/5757197.html
+      \endverb
+      \keyw{Buildings,Image resolution,Materials,Real time systems,Scattering}
+    \endentry
+    \entry{balzImprovedRealTimeSAR2006}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=83008d7d7925f69641873ccb8b993bf9}{%
+           family={Balz},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=595e27b3c7bb52110ddb04fc61c0438d}{%
+           family={Haala},
+           familyi={H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \strng{fullhash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \strng{bibnamehash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \strng{authorbibnamehash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \strng{authornamehash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \strng{authorfullhash}{1e30569d80d1d11cfe9fec51738a6bad}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2006 {{IEEE International Symposium}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{eventtitle}{2006 {{IEEE International Symposium}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{issn}{2153-7003}
+      \field{month}{7}
+      \field{title}{Improved {{Real}}-{{Time SAR Simulation}} in {{Urban Areas}}}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{3631\bibrangedash 3634}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/IGARSS.2006.930
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/Y5TAZJXQ/Balz and Haala - 2006 - Improved Real-Time SAR Simulation in Urban Areas.pdf;/Users/tomoffat/Zotero/storage/VJZWY8LQ/4242078.html
+      \endverb
+      \keyw{Acceleration,Computational modeling,Computer graphics,Geometry,Hardware,Image databases,Layout,Ray tracing,Urban areas,Visualization}
+    \endentry
+    \entry{luGPUBasedRealtime2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=573e6a16cf4f14b3afed98b3444e7da1}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=35039d3c0d1852294f5429d9f1bcb795}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kaizhi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6ec7eed1756bc7aced4c3b7ecd33c19f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xingzhao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=75087dda4a3fdbd20040aee7cd920319}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Wenxian},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{78d3d387339f72b08c9916beb6fdce6b}
+      \strng{fullhash}{2a2c1b0f5875eb133668eabf1a07f585}
+      \strng{bibnamehash}{2a2c1b0f5875eb133668eabf1a07f585}
+      \strng{authorbibnamehash}{2a2c1b0f5875eb133668eabf1a07f585}
+      \strng{authornamehash}{78d3d387339f72b08c9916beb6fdce6b}
+      \strng{authorfullhash}{2a2c1b0f5875eb133668eabf1a07f585}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a novel simulator which uses programmable graphics processing units (GPU) to generate Synthetic Aperture Radar (SAR) images. The conventional SAR simulations, based on mere mathematical computation, are usually time-consuming and not intuitionistic. In this paper, a new method which can simulate real-time SAR images even for complex scenes is developed. The simulator takes the advantage of computer graphics in three-dimensional display and combines it with SAR principle to yield the SAR images. This is implemented on graphics hardware, which offers 3D hardware acceleration and programmable GPU.}
+      \field{booktitle}{2009 {{International Radar Conference}} "{{Surveillance}} for a {{Safer World}}" ({{RADAR}} 2009)}
+      \field{eventtitle}{2009 {{International Radar Conference}} "{{Surveillance}} for a {{Safer World}}" ({{RADAR}} 2009)}
+      \field{issn}{1097-5764}
+      \field{month}{10}
+      \field{title}{A {{GPU}} Based Real-Time {{SAR}} Simulation for Complex Scenes}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/PUJFDUF7/Yuan Lu et al. - 2009 - A GPU based real-time SAR simulation for complex s.pdf;/Users/tomoffat/Zotero/storage/W4SY4FEV/5438378.html
+      \endverb
+      \keyw{(SAR),3D hardware acceleration,Computational modeling,computer graphic equipment,Computer graphics,Computer simulation,Geometry,GPU,graphics hardware,Graphics Processing Units (GPU),Hardware,Image sensors,Layout,programmable graphics processing units,radar imaging,Radar imaging,Real-time,real-time SAR simulation,Shadow,Simulation,synthetic aperture radar,Synthetic aperture radar,Synthetic Aperture Radar,synthetic aperture radar images,Terrain,Visualization}
+    \endentry
+    \entry{balzHybridGPUBasedSingle2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=83008d7d7925f69641873ccb8b993bf9}{%
+           family={Balz},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e5f81ccdb90a321269cc9c56cbc34c07}{%
+           family={Stilla},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \strng{fullhash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \strng{bibnamehash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \strng{authorbibnamehash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \strng{authornamehash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \strng{authorfullhash}{fec042be158ce5b9cb4428b9226fc2fd}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, a new hybrid graphics-processing-unit (GPU)-based real-time synthetic aperture radar (SAR) simulation system is presented. Previous real-time SAR simulators only supported single-bounce simulation in real time. The new hybrid system uses the rasterization approach for real-time single-bounce simulation and a new image-based GPU ray-tracing approach for monostatic SAR double-bounce simulation. This approach provides fast simulation results even while simulating complex and extended scenes. The simulation results are compared to a high-resolution airborne SAR image, and the limitations of the approach are discussed.}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{issn}{1558-0644}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Hybrid {{GPU}}-{{Based Single}}- and {{Double}}-{{Bounce SAR Simulation}}}
+      \field{volume}{47}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{3519\bibrangedash 3529}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TGRS.2009.2022326
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/M92TMYLN/Balz and Stilla - 2009 - Hybrid GPU-Based Single- and Double-Bounce SAR Sim.pdf;/Users/tomoffat/Zotero/storage/7XU435E6/5164916.html
+      \endverb
+      \keyw{Analytical models,Backscatter,Data analysis,double-bounce SAR simulation,geophysical techniques,geophysics computing,GPU,graphical user interfaces,Graphics processing unit (GPU),hybrid graphics-processing-unit,Image sensors,Layout,ray tracing,Ray tracing,ray-tracing simulation system,Real time systems,Remote sensing,remote sensing by radar,simulation,single-bounce simulation,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),Table lookup,visual processing unit,visual programming,visualization technique}
+    \endentry
+    \entry{chenRadarImagingSimulation2011}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=4e1073c97214338751959c83920e1c29}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongzhen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=44350d9d6030c537dfe681afc0407bbf}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yueting},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=40aaca084c32be9743307e53fa8b04e4}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Kan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8c22b64da03fbd0fabbef82fa3de5b8d}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wenchang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d3db324dbf19391358d5fbff92c03348}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Chibiao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{059c203152d128e01e6ad10937218f58}
+      \strng{fullhash}{9ba9a7a8803c8404b78b2524acec4475}
+      \strng{bibnamehash}{9ba9a7a8803c8404b78b2524acec4475}
+      \strng{authorbibnamehash}{9ba9a7a8803c8404b78b2524acec4475}
+      \strng{authornamehash}{059c203152d128e01e6ad10937218f58}
+      \strng{authorfullhash}{9ba9a7a8803c8404b78b2524acec4475}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a novel radar imaging simulator based on analytical electromagnetic and geometric models for a common typical kind of urban structure. The analytical models are presented not only for improving the efficiency of the simulation but also for direct and further understanding the features in the SAR image.}
+      \field{booktitle}{Proceedings of 2011 {{IEEE CIE International Conference}} on {{Radar}}}
+      \field{eventtitle}{Proceedings of 2011 {{IEEE CIE International Conference}} on {{Radar}}}
+      \field{issn}{1097-5764}
+      \field{month}{10}
+      \field{title}{Radar Imaging Simulation for Typical Urban Structures Based on Analytical Models}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1362\bibrangedash 1365}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/CIE-Radar.2011.6159811
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/FPVN6C69/Hongzhen Chen et al. - 2011 - Radar imaging simulation for typical urban structu.pdf;/Users/tomoffat/Zotero/storage/JYFPD4IK/6159811.html
+      \endverb
+      \keyw{analytical electromagnetic model,analytical geometric model,Analytical models,Azimuth,Buildings,Computational modeling,electromagnetic and geometric models,imaging simulator,radar imaging,Radar imaging,radar imaging simulation,SAR image,Scattering,synthetic aperture radar,urban structure,urban structures,Vectors}
+    \endentry
+    \entry{xuImagingSimulationPolarimetric2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=691630b9de9459bd83fba484c35a4253}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b5c59acef78437775b098654bf88d9e8}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Y.-},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \strng{fullhash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \strng{bibnamehash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \strng{authorbibnamehash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \strng{authornamehash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \strng{authorfullhash}{8d8cacbc29756d6054e05fa84f4df94b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A novel approach to polarimetric image simulation for synthetic aperture radar (SAR) observation over comprehensive terrain scenes is developed based on mapping and projection principles. It incorporates penetrable and impenetrable objects, volumetric and surface scatterers in the imaging space with extinction, attenuation, shadowing, and multiple-scattering effects. Scattering of the vegetation canopy is modeled as a layer of random nonspherical particles by using the vector radiative transfer model, and scattering from the ground surface and building objects is calculated by using the integral equation method. As an example, polarimetric SAR images at L-band and C-band and the different spatial resolutions for a virtual terrain scene composed of tree canopies, farmland, buildings, rough land surface, hills, and rivers are simulated. The imaging simulation results demonstrate the feasibility of the mapping and projection approach and the potential utilities of SAR imaging simulation}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
+      \field{issn}{1558-0644}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Imaging {{Simulation}} of {{Polarimetric SAR}} for a {{Comprehensive Terrain Scene Using}} the {{Mapping}} and {{Projection Algorithm}}}
+      \field{volume}{44}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{3219\bibrangedash 3234}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TGRS.2006.879544
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/V89RUQ8J/Xu and Jin - 2006 - Imaging Simulation of Polarimetric SAR for a Compr.pdf;/Users/tomoffat/Zotero/storage/LRAEN8I6/1717717.html
+      \endverb
+      \keyw{Attenuation,attenuation effects,buildings,C-band,comprehensive terrain scene,Comprehensive terrain scene,extinction effects,farmland,hills,impenetrable objects,integral equation method,integral equations,L-band,Land surface,Layout,mapping algorithm,mapping and projection algorithm (MPA),multiple-scattering effects,Particle scattering,penetrable objects,polarimetric image simulation,polarimetric SAR images,projection algorithm,Projection algorithms,radar imaging,radar polarimetry,Radar scattering,radiative transfer,remote sensing by radar,rivers,rough land surface,Rough surfaces,SAR imaging simulation,scattering and radiative transfer,shadowing effects,Surface roughness,surface scatterers,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),synthetic aperture radar observation,terrain mapping,Terrain mapping,tree canopies,vector radiative transfer model,vegetation,vegetation canopy,virtual terrain scene,volumetric scatterers}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

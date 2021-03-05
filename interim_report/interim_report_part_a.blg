@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[3] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_a.blg'
+[340] biber-darwin:322> INFO - === Fri Feb 19, 2021, 09:56:01
+[369] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_a.bcf'
+[816] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[855] Utils.pm:304> WARN - The file '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_a.bcf' does not contain any citations!
+[891] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_a.bbl' with encoding 'UTF-8'
+[892] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_a.bbl
+[893] Biber.pm:128> INFO - WARNINGS: 1

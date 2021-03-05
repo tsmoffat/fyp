@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_b.blg'
+[179] biber-darwin:322> INFO - === Fri Feb 19, 2021, 10:00:15
+[210] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_b.bcf'
+[397] Biber.pm:943> INFO - Found 16 citekeys in bib section 0
+[416] Biber.pm:4256> INFO - Processing section 0
+[417] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
+[417] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
+[429] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
+[442] bibtex.pm:1653> INFO - LaTeX decoding ...
+[676] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
+[920] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[920] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[920] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[920] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[936] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_b.bbl' with encoding 'UTF-8'
+[963] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/interim_report/interim_report_part_b.bbl

@@ -1,0 +1,59 @@
+\documentclass[11pt]{report}
+
+\usepackage[style=ieee]{biblatex}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=30mm, right=30mm, top=25mm, bottom=25mm]{geometry}
+\usepackage{titling}
+\usepackage[symbols,nonumberlist,nogroupskip]{glossaries-extra}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\title{Synthetic aperture imaging radar signal simulation of urban environments}
+\author{Thomas Stenson Moffat}
+
+\fancyhead{}
+\fancyhead[R]{\thetitle}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L] {Part \thechapter}
+\fancyfoot[C]{\theauthor}
+
+
+\renewcommand{\chaptername}{Part}
+
+\addbibresource{../FYP.bib}
+
+\makeglossaries
+
+%Add in new symbols here: (command is \glsxtrnewsymbol[description={position}]{x}{\ensuremath{x}} and reference with \gls{label}
+\glsxtrnewsymbol[description={position}]{x}{\ensuremath{x}}
+
+\begin{document}
+\input{title_page}
+\section*{Abstract}
+\newpage
+\tableofcontents
+\listoffigures
+\printglossary[type=symbols,style=long,title={List of Symbols}]
+\chapter{Introduction}
+\chapter{Engineering Analysis}
+\chapter{Methods}
+\section{Exploration of Methods Used and Their Suitability}
+\section{Results and Outcomes}
+\section{Milestones Achieved}
+\chapter{Deliverables}
+\section{Deliverables Achieved}
+\section{Significant Results}
+\section{Uncertainty}
+\section{Final Results}
+\chapter{Conclusions}
+\section{Final Remarks and Outcome}
+\section{Further Work}
+\newpage
+\section*{Acknowledgements}
+\printbibliography
+\end{document}

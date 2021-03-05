@@ -1,0 +1,679 @@
+%implements s12_b0_f8igd_Update "C"
+
+%function Update(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+static const int8_T tmp_m[9] = { 1, 0, 0, 0, 1, 0, 0, 0, 1 };
+lznoqbzybv *obj;
+real_T a[9];
+real_T a_p[9];
+real_T ax[9];
+real_T tmp[9];
+real_T tmp_e[9];
+real_T tmp_i[9];
+real_T tmp_p[9];
+real_T current_vel[3];
+real_T v1[3];
+real_T v2[3];
+real_T val[3];
+real_T x_data[3];
+real_T y_data[3];
+real_T v1azel[2];
+real_T v2azel[2];
+real_T absxk;
+real_T b_x_data;
+real_T scale;
+real_T t;
+real_T x_data_p;
+real_T y;
+int32_T b_x_size[2];
+int32_T current_vel_size[2];
+int32_T current_vel_size_e[2];
+int32_T current_vel_size_i[2];
+int32_T current_vel_size_p[2];
+int32_T val_size[2];
+int32_T val_size_e[2];
+int32_T val_size_i[2];
+int32_T val_size_p[2];
+int32_T x_size[2];
+int32_T y_size[2];
+int32_T b_k;
+int32_T e_size_idx_1;
+int32_T nx;
+boolean_T exitg1;
+boolean_T nzidx;
+boolean_T p;
+%closefile localVarDecl
+if (%<(SLibCGIRIsSampleHit(1, 12))>) {
+    val[0] = rtDW.fvy4fevzjq.pVelocity[0];
+    val[1] = rtDW.fvy4fevzjq.pVelocity[1];
+    val[2] = rtDW.fvy4fevzjq.pVelocity[2];
+    nzidx = false;
+    p = true;
+    b_k = 0;
+    exitg1 = false;
+    while ((!exitg1) && (b_k < 3)) {
+        if (!(val[b_k] == rtP.Target_Velocity[b_k])) {
+            p = false;
+            exitg1 = true;
+        } else {
+            b_k++;
+        }
+    }
+    if (p) {
+        nzidx = true;
+    }
+    if (!nzidx) {
+        nzidx = (rtDW.fvy4fevzjq.isInitialized == 1);
+        if (nzidx) {
+            rtDW.fvy4fevzjq.TunablePropsChanged = true;
+        }
+        rtDW.fvy4fevzjq.pVelocity[0] = rtP.Target_Velocity[0];
+        rtDW.fvy4fevzjq.pVelocity[1] = rtP.Target_Velocity[1];
+        rtDW.fvy4fevzjq.pVelocity[2] = rtP.Target_Velocity[2];
+    }
+    obj = &rtDW.fvy4fevzjq;
+    nzidx = (rtDW.fvy4fevzjq.isInitialized == 1);
+    if (!nzidx) {
+        rtDW.fvy4fevzjq.isSetupComplete = false;
+        rtDW.fvy4fevzjq.isInitialized = 1;
+        rtDW.fvy4fevzjq.isSetupComplete = true;
+        rtDW.fvy4fevzjq.TunablePropsChanged = false;
+        rtDW.fvy4fevzjq.pPosition[0] = -400.0;
+        rtDW.fvy4fevzjq.pPosition[1] = 90.0;
+        rtDW.fvy4fevzjq.pPosition[2] = 0.0;
+        rtDW.fvy4fevzjq.pPreviousVelocity[0] = rtDW.fvy4fevzjq.pVelocity[0];
+        rtDW.fvy4fevzjq.pPreviousVelocity[1] = rtDW.fvy4fevzjq.pVelocity[1];
+        rtDW.fvy4fevzjq.pPreviousVelocity[2] = rtDW.fvy4fevzjq.pVelocity[2];
+        for (b_k = 0; b_k < 9; b_k++) {
+            rtDW.fvy4fevzjq.pOrientationAxes[b_k] = tmp_m[b_k];
+        }
+    } else {
+        if (rtDW.fvy4fevzjq.TunablePropsChanged) {
+            rtDW.fvy4fevzjq.TunablePropsChanged = false;
+        }
+    }
+    val[0] = rtDW.fvy4fevzjq.pVelocity[0];
+    val[1] = rtDW.fvy4fevzjq.pVelocity[1];
+    val[2] = rtDW.fvy4fevzjq.pVelocity[2];
+    rtDW.fvy4fevzjq.pPosition[0] += val[0] * 0.0001;
+    rtDW.fvy4fevzjq.pPosition[1] += val[1] * 0.0001;
+    rtDW.fvy4fevzjq.pPosition[2] += val[2] * 0.0001;
+    val[0] = rtDW.fvy4fevzjq.pVelocity[0];
+    val[1] = rtDW.fvy4fevzjq.pVelocity[1];
+    val[2] = rtDW.fvy4fevzjq.pVelocity[2];
+    current_vel[0] = rtDW.fvy4fevzjq.pPreviousVelocity[0];
+    current_vel[1] = rtDW.fvy4fevzjq.pPreviousVelocity[1];
+    current_vel[2] = rtDW.fvy4fevzjq.pPreviousVelocity[2];
+    memcpy(&ax[0], &rtDW.fvy4fevzjq.pOrientationAxes[0], 9U * sizeof(real_T));
+    v1[0] = current_vel[0];
+    v2[0] = val[0];
+    v1[1] = current_vel[1];
+    v2[1] = val[1];
+    v1[2] = current_vel[2];
+    v2[2] = val[2];
+    nzidx = false;
+    p = true;
+    b_k = 0;
+    exitg1 = false;
+    while ((!exitg1) && (b_k < 3)) {
+        if (!(current_vel[b_k] == val[b_k])) {
+            p = false;
+            exitg1 = true;
+        } else {
+            b_k++;
+        }
+    }
+    if (p) {
+        nzidx = true;
+    }
+    if (nzidx) {
+        memset(&a[0], 0, 9U * sizeof(real_T));
+        a[0] = 1.0;
+        a[4] = 1.0;
+        a[8] = 1.0;
+    } else {
+        b_k = 0;
+        exitg1 = false;
+        while ((!exitg1) && (b_k < 3)) {
+            if (!(current_vel[b_k] != 0.0)) {
+                b_k++;
+            } else {
+                nzidx = true;
+                exitg1 = true;
+            }
+        }
+        nx = 0;
+        if (nzidx) {
+            for (b_k = 0; b_k < 1; b_k++) {
+                nx++;
+            }
+        }
+        e_size_idx_1 = nx;
+        current_vel_size[0] = 3;
+        current_vel_size[1] = nx;
+        for (b_k = 0; b_k < nx; b_k++) {
+            y_data[3 * b_k] = current_vel[0];
+            y_data[3 * b_k + 1] = current_vel[1];
+            y_data[3 * b_k + 2] = current_vel[2];
+        }
+        %<(SLibCGCallSubFcn("jxod0zcb2w", ["y_data", "current_vel_size", "x_data", "x_size"], 0, 48, 36))>;
+        nx = 3 * x_size[1] - 1;
+        y_size[0] = 3;
+        y_size[1] = x_size[1];
+        for (b_k = 0; b_k <= nx; b_k++) {
+            y_data[b_k] = muDoubleScalarAbs(x_data[b_k]);
+        }
+        %<(SLibCGCallSubFcn("i12qwciimv", ["y_data", "y_size", "&x_data_p", "x_size"], 0, 48, 37))>;
+        b_x_size[0] = 1;
+        b_x_size[1] = x_size[1];
+        nx = x_size[0] * x_size[1] - 1;
+        if (0 <= nx) {
+            memcpy(&b_x_data, &x_data_p, (nx + 1) * sizeof(real_T));
+        }
+        nx = x_size[1] - 1;
+        for (b_k = 0; b_k <= nx; b_k++) {
+            b_x_data = muDoubleScalarSqrt(b_x_data);
+        }
+        current_vel_size_p[0] = 3;
+        current_vel_size_p[1] = e_size_idx_1;
+        for (b_k = 0; b_k < e_size_idx_1; b_k++) {
+            y_data[3 * b_k] = current_vel[0];
+            y_data[3 * b_k + 1] = current_vel[1];
+            y_data[3 * b_k + 2] = current_vel[2];
+        }
+        %<(SLibCGCallSubFcn("dlmf0yaxdq", ["y_data", "current_vel_size_p", "&b_x_data", "b_x_size", "x_data", "current_vel_size"], 0, 48, 38))>;
+        nx = current_vel_size[1];
+        for (b_k = 0; b_k < nx; b_k++) {
+            v1[0] = x_data[3 * b_k];
+            v1[1] = x_data[3 * b_k + 1];
+            v1[2] = x_data[3 * b_k + 2];
+        }
+        nzidx = false;
+        b_k = 0;
+        exitg1 = false;
+        while ((!exitg1) && (b_k < 3)) {
+            if (!(val[b_k] != 0.0)) {
+                b_k++;
+            } else {
+                nzidx = true;
+                exitg1 = true;
+            }
+        }
+        nx = 0;
+        if (nzidx) {
+            for (b_k = 0; b_k < 1; b_k++) {
+                nx++;
+            }
+        }
+        e_size_idx_1 = nx;
+        val_size[0] = 3;
+        val_size[1] = nx;
+        for (b_k = 0; b_k < nx; b_k++) {
+            y_data[3 * b_k] = val[0];
+            y_data[3 * b_k + 1] = val[1];
+            y_data[3 * b_k + 2] = val[2];
+        }
+        %<(SLibCGCallSubFcn("jxod0zcb2w", ["y_data", "val_size", "x_data", "x_size"], 0, 48, 39))>;
+        nx = 3 * x_size[1] - 1;
+        y_size[0] = 3;
+        y_size[1] = x_size[1];
+        for (b_k = 0; b_k <= nx; b_k++) {
+            y_data[b_k] = muDoubleScalarAbs(x_data[b_k]);
+        }
+        %<(SLibCGCallSubFcn("i12qwciimv", ["y_data", "y_size", "&x_data_p", "x_size"], 0, 48, 41))>;
+        b_x_size[0] = 1;
+        b_x_size[1] = x_size[1];
+        nx = x_size[0] * x_size[1] - 1;
+        if (0 <= nx) {
+            memcpy(&b_x_data, &x_data_p, (nx + 1) * sizeof(real_T));
+        }
+        nx = x_size[1] - 1;
+        for (b_k = 0; b_k <= nx; b_k++) {
+            b_x_data = muDoubleScalarSqrt(b_x_data);
+        }
+        val_size_p[0] = 3;
+        val_size_p[1] = e_size_idx_1;
+        for (b_k = 0; b_k < e_size_idx_1; b_k++) {
+            y_data[3 * b_k] = val[0];
+            y_data[3 * b_k + 1] = val[1];
+            y_data[3 * b_k + 2] = val[2];
+        }
+        %<(SLibCGCallSubFcn("dlmf0yaxdq", ["y_data", "val_size_p", "&b_x_data", "b_x_size", "x_data", "current_vel_size"], 0, 48, 43))>;
+        nx = current_vel_size[1];
+        for (b_k = 0; b_k < nx; b_k++) {
+            v2[0] = x_data[3 * b_k];
+            v2[1] = x_data[3 * b_k + 1];
+            v2[2] = x_data[3 * b_k + 2];
+        }
+        %<(SLibCGCallSubFcn("hdcjnxpyjy", ["v1", "v1azel"], 0, 48, 3))>;
+        %<(SLibCGCallSubFcn("hdcjnxpyjy", ["v2", "v2azel"], 0, 48, 2))>;
+        a[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v2azel[0]"], 0, 48, 4))>;
+        a[3] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["v2azel[0]"], 0, 48, 5))>;
+        a[6] = 0.0;
+        a[1] = %<(SLibCGCallSubFcn("pg3bntie3u", ["v2azel[0]"], 0, 48, 6))>;
+        a[4] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v2azel[0]"], 0, 48, 7))>;
+        a[7] = 0.0;
+        tmp[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v2azel[1]"], 0, 48, 8))>;
+        tmp[3] = 0.0;
+        tmp[6] = %<(SLibCGCallSubFcn("pg3bntie3u", ["-v2azel[1]"], 0, 48, 9))>;
+        tmp[2] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["-v2azel[1]"], 0, 48, 10))>;
+        tmp[5] = 0.0;
+        tmp[8] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v2azel[1]"], 0, 48, 11))>;
+        tmp_p[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v1azel[0]"], 0, 48, 12))>;
+        tmp_p[3] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["v1azel[0]"], 0, 48, 13))>;
+        tmp_p[6] = 0.0;
+        tmp_p[1] = %<(SLibCGCallSubFcn("pg3bntie3u", ["v1azel[0]"], 0, 48, 14))>;
+        tmp_p[4] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v1azel[0]"], 0, 48, 15))>;
+        tmp_p[7] = 0.0;
+        tmp_e[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v1azel[1]"], 0, 48, 16))>;
+        tmp_e[3] = 0.0;
+        tmp_e[6] = %<(SLibCGCallSubFcn("pg3bntie3u", ["-v1azel[1]"], 0, 48, 17))>;
+        a[2] = 0.0;
+        tmp[1] = 0.0;
+        tmp_p[2] = 0.0;
+        tmp_e[1] = 0.0;
+        a[5] = 0.0;
+        tmp[4] = 1.0;
+        tmp_p[5] = 0.0;
+        tmp_e[4] = 1.0;
+        a[8] = 1.0;
+        tmp[7] = 0.0;
+        tmp_p[8] = 1.0;
+        tmp_e[7] = 0.0;
+        tmp_e[2] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["-v1azel[1]"], 0, 48, 18))>;
+        tmp_e[5] = 0.0;
+        tmp_e[8] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v1azel[1]"], 0, 48, 19))>;
+        for (b_k = 0; b_k < 3; b_k++) {
+            for (nx = 0; nx < 3; nx++) {
+                a_p[b_k + 3 * nx] = 0.0;
+                tmp_i[b_k + 3 * nx] = 0.0;
+                a_p[b_k + 3 * nx] += tmp[3 * nx] * a[b_k];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k] * tmp_p[nx];
+                a_p[b_k + 3 * nx] += tmp[3 * nx + 1] * a[b_k + 3];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k + 1] * tmp_p[nx + 3];
+                a_p[b_k + 3 * nx] += tmp[3 * nx + 2] * a[b_k + 6];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k + 2] * tmp_p[nx + 6];
+            }
+        }
+        for (b_k = 0; b_k < 3; b_k++) {
+            for (nx = 0; nx < 3; nx++) {
+                a[nx + 3 * b_k] = 0.0;
+                a[nx + 3 * b_k] += tmp_i[3 * b_k] * a_p[nx];
+                a[nx + 3 * b_k] += tmp_i[3 * b_k + 1] * a_p[nx + 3];
+                a[nx + 3 * b_k] += tmp_i[3 * b_k + 2] * a_p[nx + 6];
+            }
+        }
+    }
+    for (b_k = 0; b_k < 3; b_k++) {
+        for (nx = 0; nx < 3; nx++) {
+            a_p[nx + 3 * b_k] = 0.0;
+            a_p[nx + 3 * b_k] += ax[3 * b_k] * a[nx];
+            a_p[nx + 3 * b_k] += ax[3 * b_k + 1] * a[nx + 3];
+            a_p[nx + 3 * b_k] += ax[3 * b_k + 2] * a[nx + 6];
+        }
+    }
+    memcpy(&ax[0], &a_p[0], 9U * sizeof(real_T));
+    for (b_k = 0; b_k < 3; b_k++) {
+        scale = 3.3121686421112381E-170;
+        absxk = muDoubleScalarAbs(ax[3 * b_k]);
+        if (absxk > 3.3121686421112381E-170) {
+            y = 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / 3.3121686421112381E-170;
+            y = t * t;
+        }
+        absxk = muDoubleScalarAbs(ax[3 * b_k + 1]);
+        if (absxk > scale) {
+            t = scale / absxk;
+            y = y * t * t + 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / scale;
+            y += t * t;
+        }
+        absxk = muDoubleScalarAbs(ax[3 * b_k + 2]);
+        if (absxk > scale) {
+            t = scale / absxk;
+            y = y * t * t + 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / scale;
+            y += t * t;
+        }
+        y = scale * muDoubleScalarSqrt(y);
+        ax[3 * b_k] /= y;
+        ax[3 * b_k + 1] /= y;
+        ax[3 * b_k + 2] /= y;
+    }
+    for (b_k = 0; b_k < 9; b_k++) {
+        obj->pOrientationAxes[b_k] = ax[b_k];
+    }
+    obj->pPreviousVelocity[0] = obj->pVelocity[0];
+    obj->pPreviousVelocity[1] = obj->pVelocity[1];
+    obj->pPreviousVelocity[2] = obj->pVelocity[2];
+    val[0] = rtDW.m0at3cbtl2.pVelocity[0];
+    val[1] = rtDW.m0at3cbtl2.pVelocity[1];
+    val[2] = rtDW.m0at3cbtl2.pVelocity[2];
+    nzidx = false;
+    p = true;
+    b_k = 0;
+    exitg1 = false;
+    while ((!exitg1) && (b_k < 3)) {
+        if (!(val[b_k] == rtP.Aircraft_Velocity[b_k])) {
+            p = false;
+            exitg1 = true;
+        } else {
+            b_k++;
+        }
+    }
+    if (p) {
+        nzidx = true;
+    }
+    if (!nzidx) {
+        nzidx = (rtDW.m0at3cbtl2.isInitialized == 1);
+        if (nzidx) {
+            rtDW.m0at3cbtl2.TunablePropsChanged = true;
+        }
+        rtDW.m0at3cbtl2.pVelocity[0] = rtP.Aircraft_Velocity[0];
+        rtDW.m0at3cbtl2.pVelocity[1] = rtP.Aircraft_Velocity[1];
+        rtDW.m0at3cbtl2.pVelocity[2] = rtP.Aircraft_Velocity[2];
+    }
+    obj = &rtDW.m0at3cbtl2;
+    nzidx = (rtDW.m0at3cbtl2.isInitialized == 1);
+    if (!nzidx) {
+        rtDW.m0at3cbtl2.isSetupComplete = false;
+        rtDW.m0at3cbtl2.isInitialized = 1;
+        rtDW.m0at3cbtl2.isSetupComplete = true;
+        rtDW.m0at3cbtl2.TunablePropsChanged = false;
+        rtDW.m0at3cbtl2.pPosition[0] = 500.0;
+        rtDW.m0at3cbtl2.pPosition[1] = 1000.0;
+        rtDW.m0at3cbtl2.pPosition[2] = -1000.0;
+        rtDW.m0at3cbtl2.pPreviousVelocity[0] = rtDW.m0at3cbtl2.pVelocity[0];
+        rtDW.m0at3cbtl2.pPreviousVelocity[1] = rtDW.m0at3cbtl2.pVelocity[1];
+        rtDW.m0at3cbtl2.pPreviousVelocity[2] = rtDW.m0at3cbtl2.pVelocity[2];
+        for (b_k = 0; b_k < 9; b_k++) {
+            rtDW.m0at3cbtl2.pOrientationAxes[b_k] = tmp_m[b_k];
+        }
+    } else {
+        if (rtDW.m0at3cbtl2.TunablePropsChanged) {
+            rtDW.m0at3cbtl2.TunablePropsChanged = false;
+        }
+    }
+    val[0] = rtDW.m0at3cbtl2.pVelocity[0];
+    val[1] = rtDW.m0at3cbtl2.pVelocity[1];
+    val[2] = rtDW.m0at3cbtl2.pVelocity[2];
+    rtDW.m0at3cbtl2.pPosition[0] += val[0] * 0.0001;
+    rtDW.m0at3cbtl2.pPosition[1] += val[1] * 0.0001;
+    rtDW.m0at3cbtl2.pPosition[2] += val[2] * 0.0001;
+    val[0] = rtDW.m0at3cbtl2.pVelocity[0];
+    val[1] = rtDW.m0at3cbtl2.pVelocity[1];
+    val[2] = rtDW.m0at3cbtl2.pVelocity[2];
+    current_vel[0] = rtDW.m0at3cbtl2.pPreviousVelocity[0];
+    current_vel[1] = rtDW.m0at3cbtl2.pPreviousVelocity[1];
+    current_vel[2] = rtDW.m0at3cbtl2.pPreviousVelocity[2];
+    memcpy(&ax[0], &rtDW.m0at3cbtl2.pOrientationAxes[0], 9U * sizeof(real_T));
+    v1[0] = current_vel[0];
+    v2[0] = val[0];
+    v1[1] = current_vel[1];
+    v2[1] = val[1];
+    v1[2] = current_vel[2];
+    v2[2] = val[2];
+    nzidx = false;
+    p = true;
+    b_k = 0;
+    exitg1 = false;
+    while ((!exitg1) && (b_k < 3)) {
+        if (!(current_vel[b_k] == val[b_k])) {
+            p = false;
+            exitg1 = true;
+        } else {
+            b_k++;
+        }
+    }
+    if (p) {
+        nzidx = true;
+    }
+    if (nzidx) {
+        memset(&a[0], 0, 9U * sizeof(real_T));
+        a[0] = 1.0;
+        a[4] = 1.0;
+        a[8] = 1.0;
+    } else {
+        b_k = 0;
+        exitg1 = false;
+        while ((!exitg1) && (b_k < 3)) {
+            if (!(current_vel[b_k] != 0.0)) {
+                b_k++;
+            } else {
+                nzidx = true;
+                exitg1 = true;
+            }
+        }
+        nx = 0;
+        if (nzidx) {
+            for (b_k = 0; b_k < 1; b_k++) {
+                nx++;
+            }
+        }
+        e_size_idx_1 = nx;
+        current_vel_size_e[0] = 3;
+        current_vel_size_e[1] = nx;
+        for (b_k = 0; b_k < nx; b_k++) {
+            y_data[3 * b_k] = current_vel[0];
+            y_data[3 * b_k + 1] = current_vel[1];
+            y_data[3 * b_k + 2] = current_vel[2];
+        }
+        %<(SLibCGCallSubFcn("jxod0zcb2w", ["y_data", "current_vel_size_e", "x_data", "x_size"], 0, 48, 40))>;
+        nx = 3 * x_size[1] - 1;
+        y_size[0] = 3;
+        y_size[1] = x_size[1];
+        for (b_k = 0; b_k <= nx; b_k++) {
+            y_data[b_k] = muDoubleScalarAbs(x_data[b_k]);
+        }
+        %<(SLibCGCallSubFcn("i12qwciimv", ["y_data", "y_size", "&x_data_p", "x_size"], 0, 48, 42))>;
+        b_x_size[0] = 1;
+        b_x_size[1] = x_size[1];
+        nx = x_size[0] * x_size[1] - 1;
+        if (0 <= nx) {
+            memcpy(&b_x_data, &x_data_p, (nx + 1) * sizeof(real_T));
+        }
+        nx = x_size[1] - 1;
+        for (b_k = 0; b_k <= nx; b_k++) {
+            b_x_data = muDoubleScalarSqrt(b_x_data);
+        }
+        current_vel_size_i[0] = 3;
+        current_vel_size_i[1] = e_size_idx_1;
+        for (b_k = 0; b_k < e_size_idx_1; b_k++) {
+            y_data[3 * b_k] = current_vel[0];
+            y_data[3 * b_k + 1] = current_vel[1];
+            y_data[3 * b_k + 2] = current_vel[2];
+        }
+        %<(SLibCGCallSubFcn("dlmf0yaxdq", ["y_data", "current_vel_size_i", "&b_x_data", "b_x_size", "x_data", "current_vel_size"], 0, 48, 44))>;
+        nx = current_vel_size[1];
+        for (b_k = 0; b_k < nx; b_k++) {
+            v1[0] = x_data[3 * b_k];
+            v1[1] = x_data[3 * b_k + 1];
+            v1[2] = x_data[3 * b_k + 2];
+        }
+        nzidx = false;
+        b_k = 0;
+        exitg1 = false;
+        while ((!exitg1) && (b_k < 3)) {
+            if (!(val[b_k] != 0.0)) {
+                b_k++;
+            } else {
+                nzidx = true;
+                exitg1 = true;
+            }
+        }
+        nx = 0;
+        if (nzidx) {
+            for (b_k = 0; b_k < 1; b_k++) {
+                nx++;
+            }
+        }
+        e_size_idx_1 = nx;
+        val_size_e[0] = 3;
+        val_size_e[1] = nx;
+        for (b_k = 0; b_k < nx; b_k++) {
+            y_data[3 * b_k] = val[0];
+            y_data[3 * b_k + 1] = val[1];
+            y_data[3 * b_k + 2] = val[2];
+        }
+        %<(SLibCGCallSubFcn("jxod0zcb2w", ["y_data", "val_size_e", "x_data", "x_size"], 0, 48, 45))>;
+        nx = 3 * x_size[1] - 1;
+        y_size[0] = 3;
+        y_size[1] = x_size[1];
+        for (b_k = 0; b_k <= nx; b_k++) {
+            y_data[b_k] = muDoubleScalarAbs(x_data[b_k]);
+        }
+        %<(SLibCGCallSubFcn("i12qwciimv", ["y_data", "y_size", "&x_data_p", "x_size"], 0, 48, 46))>;
+        b_x_size[0] = 1;
+        b_x_size[1] = x_size[1];
+        nx = x_size[0] * x_size[1] - 1;
+        if (0 <= nx) {
+            memcpy(&b_x_data, &x_data_p, (nx + 1) * sizeof(real_T));
+        }
+        nx = x_size[1] - 1;
+        for (b_k = 0; b_k <= nx; b_k++) {
+            b_x_data = muDoubleScalarSqrt(b_x_data);
+        }
+        val_size_i[0] = 3;
+        val_size_i[1] = e_size_idx_1;
+        for (b_k = 0; b_k < e_size_idx_1; b_k++) {
+            y_data[3 * b_k] = val[0];
+            y_data[3 * b_k + 1] = val[1];
+            y_data[3 * b_k + 2] = val[2];
+        }
+        %<(SLibCGCallSubFcn("dlmf0yaxdq", ["y_data", "val_size_i", "&b_x_data", "b_x_size", "x_data", "current_vel_size"], 0, 48, 47))>;
+        nx = current_vel_size[1];
+        for (b_k = 0; b_k < nx; b_k++) {
+            v2[0] = x_data[3 * b_k];
+            v2[1] = x_data[3 * b_k + 1];
+            v2[2] = x_data[3 * b_k + 2];
+        }
+        %<(SLibCGCallSubFcn("hdcjnxpyjy", ["v1", "v1azel"], 0, 48, 1))>;
+        %<(SLibCGCallSubFcn("hdcjnxpyjy", ["v2", "v2azel"], 0, 48, 0))>;
+        a[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v2azel[0]"], 0, 48, 20))>;
+        a[3] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["v2azel[0]"], 0, 48, 21))>;
+        a[6] = 0.0;
+        a[1] = %<(SLibCGCallSubFcn("pg3bntie3u", ["v2azel[0]"], 0, 48, 22))>;
+        a[4] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v2azel[0]"], 0, 48, 23))>;
+        a[7] = 0.0;
+        tmp[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v2azel[1]"], 0, 48, 24))>;
+        tmp[3] = 0.0;
+        tmp[6] = %<(SLibCGCallSubFcn("pg3bntie3u", ["-v2azel[1]"], 0, 48, 25))>;
+        tmp[2] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["-v2azel[1]"], 0, 48, 26))>;
+        tmp[5] = 0.0;
+        tmp[8] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v2azel[1]"], 0, 48, 27))>;
+        tmp_p[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v1azel[0]"], 0, 48, 28))>;
+        tmp_p[3] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["v1azel[0]"], 0, 48, 29))>;
+        tmp_p[6] = 0.0;
+        tmp_p[1] = %<(SLibCGCallSubFcn("pg3bntie3u", ["v1azel[0]"], 0, 48, 30))>;
+        tmp_p[4] = %<(SLibCGCallSubFcn("kbt25f2tva", ["v1azel[0]"], 0, 48, 31))>;
+        tmp_p[7] = 0.0;
+        tmp_e[0] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v1azel[1]"], 0, 48, 32))>;
+        tmp_e[3] = 0.0;
+        tmp_e[6] = %<(SLibCGCallSubFcn("pg3bntie3u", ["-v1azel[1]"], 0, 48, 33))>;
+        a[2] = 0.0;
+        tmp[1] = 0.0;
+        tmp_p[2] = 0.0;
+        tmp_e[1] = 0.0;
+        a[5] = 0.0;
+        tmp[4] = 1.0;
+        tmp_p[5] = 0.0;
+        tmp_e[4] = 1.0;
+        a[8] = 1.0;
+        tmp[7] = 0.0;
+        tmp_p[8] = 1.0;
+        tmp_e[7] = 0.0;
+        tmp_e[2] = -%<(SLibCGCallSubFcn("pg3bntie3u", ["-v1azel[1]"], 0, 48, 34))>;
+        tmp_e[5] = 0.0;
+        tmp_e[8] = %<(SLibCGCallSubFcn("kbt25f2tva", ["-v1azel[1]"], 0, 48, 35))>;
+        for (b_k = 0; b_k < 3; b_k++) {
+            for (nx = 0; nx < 3; nx++) {
+                a_p[b_k + 3 * nx] = 0.0;
+                tmp_i[b_k + 3 * nx] = 0.0;
+                a_p[b_k + 3 * nx] += tmp[3 * nx] * a[b_k];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k] * tmp_p[nx];
+                a_p[b_k + 3 * nx] += tmp[3 * nx + 1] * a[b_k + 3];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k + 1] * tmp_p[nx + 3];
+                a_p[b_k + 3 * nx] += tmp[3 * nx + 2] * a[b_k + 6];
+                tmp_i[b_k + 3 * nx] += tmp_e[3 * b_k + 2] * tmp_p[nx + 6];
+            }
+        }
+        for (b_k = 0; b_k < 3; b_k++) {
+            for (nx = 0; nx < 3; nx++) {
+                a[nx + 3 * b_k] = 0.0;
+                a[nx + 3 * b_k] += tmp_i[3 * b_k] * a_p[nx];
+                a[nx + 3 * b_k] += tmp_i[3 * b_k + 1] * a_p[nx + 3];
+                a[nx + 3 * b_k] += tmp_i[3 * b_k + 2] * a_p[nx + 6];
+            }
+        }
+    }
+    for (b_k = 0; b_k < 3; b_k++) {
+        for (nx = 0; nx < 3; nx++) {
+            a_p[nx + 3 * b_k] = 0.0;
+            a_p[nx + 3 * b_k] += ax[3 * b_k] * a[nx];
+            a_p[nx + 3 * b_k] += ax[3 * b_k + 1] * a[nx + 3];
+            a_p[nx + 3 * b_k] += ax[3 * b_k + 2] * a[nx + 6];
+        }
+    }
+    memcpy(&ax[0], &a_p[0], 9U * sizeof(real_T));
+    for (b_k = 0; b_k < 3; b_k++) {
+        scale = 3.3121686421112381E-170;
+        absxk = muDoubleScalarAbs(ax[3 * b_k]);
+        if (absxk > 3.3121686421112381E-170) {
+            y = 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / 3.3121686421112381E-170;
+            y = t * t;
+        }
+        absxk = muDoubleScalarAbs(ax[3 * b_k + 1]);
+        if (absxk > scale) {
+            t = scale / absxk;
+            y = y * t * t + 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / scale;
+            y += t * t;
+        }
+        absxk = muDoubleScalarAbs(ax[3 * b_k + 2]);
+        if (absxk > scale) {
+            t = scale / absxk;
+            y = y * t * t + 1.0;
+            scale = absxk;
+        } else {
+            t = absxk / scale;
+            y += t * t;
+        }
+        y = scale * muDoubleScalarSqrt(y);
+        ax[3 * b_k] /= y;
+        ax[3 * b_k + 1] /= y;
+        ax[3 * b_k + 2] /= y;
+    }
+    for (b_k = 0; b_k < 9; b_k++) {
+        obj->pOrientationAxes[b_k] = ax[b_k];
+    }
+    obj->pPreviousVelocity[0] = obj->pVelocity[0];
+    obj->pPreviousVelocity[1] = obj->pVelocity[1];
+    obj->pPreviousVelocity[2] = obj->pVelocity[2];
+}
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedUpdateLocalVars", localVarDecl)>
+%endfunction
+%function UpdateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 48, fcnProtoType)>
+%endfunction

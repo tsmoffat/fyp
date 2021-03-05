@@ -1,0 +1,291 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdftex 2020.11.30)  9 FEB 2021 13:08
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**lit_review_base.tex
+(./lit_review_base.tex
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...tself, as detailed in Franceschetti \textit
+                                                  {et al.} 2003 \cite{france...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...in Franceschetti \textit{et al.} 2003 \cite
+                                                  {franceschettiSARRawSignal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ... for this was laid in Franceschetti \textit
+                                                  {et al.} 1992 \cite{france...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...in Franceschetti \textit{et al.} 1992 \cite
+                                                  {franceschettiSARASSynthet...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...or based on two-dimensional FFT codes \cite
+                                                  {franceschettiSARProcessor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...netic backscattering was conducted in \cite
+                                                  {franceschettiCanonicalPro...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ... present in the scene. Simulations in \cite
+                                                  {franceschettiSARRawSignal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...have been improved in Franceschetti \textit
+                                                  {et al.} \cite{franceschet...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...oved in Franceschetti \textit{et al.} \cite
+                                                  {franceschettiSimulationTo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:4: Undefined control sequence.
+l.4 ...ate a SAR image of a $400\times 600 \textrm
+                                                  {m}^2$ area of the centre ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¤ in font cmr10!
+./lit_review_base.tex:5: Undefined control sequence.
+l.5 ...robust SAR simulation is described in \cite
+                                                  {delliereSARMeasurementSim...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:5: Undefined control sequence.
+l.5 ...hod of simulation, which differs from \cite
+                                                  {franceschettiSARRawSignal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 .... Rasterisation was used by Balz 2006 \cite
+                                                  {balzRealtimeSARSimulation...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...nd ray tracing was explored by Auer \textit
+                                                  {et al.} 2008 \cite{auerRa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...explored by Auer \textit{et al.} 2008 \cite
+                                                  {auerRayTracingSimulating2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...yTracingSimulating2008} and Mametsa \textit
+                                                  {et al.} 2002 \cite{mamets...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...008} and Mametsa \textit{et al.} 2002 \cite
+                                                  {mametsaImagingRadarSimula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...his second paper was used in Hammer \textit
+                                                  {et al.} \cite{hammerCompa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...er was used in Hammer \textit{et al.} \cite
+                                                  {hammerComparisonSARSimula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...ges of Balz's approach as detailed in \cite
+                                                  {balzImprovedRealTimeSAR20...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ...cite{balzImprovedRealTimeSAR2006} and \cite
+                                                  {balzRealtimeSARSimulation...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:6: Undefined control sequence.
+l.6 ... ray tracing simulators tested within \cite
+                                                  {hammerComparisonSARSimula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 2884) has occurred while \output is active
+\vbox(643.20255+1.94444)x469.75499, glue set 3.06752
+.\glue(\topskip) 2.5
+.\hbox(7.5+2.5)x469.75499, glue set 0.43872
+..\hbox(0.0+0.0)x20.0
+..\tenrm S
+..\tenrm y
+..\tenrm n
+..\kern-0.27779
+..etc.
+.\penalty 150
+.\glue(\baselineskip) 2.55556
+.\hbox(6.94444+1.94444)x469.75499, glue set 0.30013
+..\tenrm r
+..\tenrm a
+..\tenrm d
+..\tenrm a
+..\tenrm r
+..etc.
+.etc.
+
+ [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./lit_review_base.tex:7: Undefined control sequence.
+l.7 ...d is made of a different material. In \cite
+                                                  {hammerComparisonSARSimula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:7: Undefined control sequence.
+l.7 ...ther any of the simulators covered in \cite
+                                                  {hammerComparisonSARSimula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:9: Undefined control sequence.
+l.9 Chen \textit
+                {et al.} 2011 \cite{chenRadarImagingSimulation2011} proposes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:9: Undefined control sequence.
+l.9 Chen \textit{et al.} 2011 \cite
+                                   {chenRadarImagingSimulation2011} proposes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:9: Undefined control sequence.
+l.9 ...ultimately based on that described by \cite
+                                                  {franceschettiSARRawSignal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./lit_review_base.tex:11: Undefined control sequence.
+l.11 Xu and Jin 2006 \cite
+                          {xuImagingSimulationPolarimetric2006} is a paper t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> lit_review_base.tex
+                       
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!

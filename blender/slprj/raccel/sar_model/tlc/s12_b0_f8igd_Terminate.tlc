@@ -1,0 +1,431 @@
+%implements s12_b0_f8igd_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+atyvy0fxei *obj_g;
+bmnf5sq2q0 *obj_fs;
+chwhjaxtvq *obj_dz;
+cv2juivnqe *obj_o;
+gc2pg22xov *obj_b;
+ggdisr1zwo *obj_l;
+gsfqmfswsb *obj_c;
+gsfqmfswsbh *obj_p;
+hgk1feukct *obj_n;
+icyr5b5nuj *obj_m;
+igqapj2fro *obj_ck;
+jr5jluvwtr *obj_d;
+kd0seeiwud *obj_k;
+kd0seeiwudd *obj_e;
+kkrezxuj2g *obj_j;
+lpaezm0n3l *obj_i;
+pjw2g1oqi0 *obj_f;
+pjw2g1oqi0q *obj;
+char_T *sErr;
+%closefile localVarDecl
+if (!rtDW.fvy4fevzjq.matlabCodegenIsDeleted) {
+    rtDW.fvy4fevzjq.matlabCodegenIsDeleted = true;
+}
+if (!rtDW.m0at3cbtl2.matlabCodegenIsDeleted) {
+    rtDW.m0at3cbtl2.matlabCodegenIsDeleted = true;
+}
+if (!rtDW.nx3chzrjuc.matlabCodegenIsDeleted) {
+    rtDW.nx3chzrjuc.matlabCodegenIsDeleted = true;
+}
+if (!rtDW.lpr31mcjix.matlabCodegenIsDeleted) {
+    rtDW.lpr31mcjix.matlabCodegenIsDeleted = true;
+    if ((rtDW.lpr31mcjix.isInitialized == 1) && rtDW.lpr31mcjix.isSetupComplete) {
+        rtDW.lpr31mcjix.pNumInputChannels = -1.0;
+    }
+}
+if (!rtDW.lf0c1xysk3.matlabCodegenIsDeleted) {
+    rtDW.lf0c1xysk3.matlabCodegenIsDeleted = true;
+    %<(SLibCGCallSubFcn("gsvby2yahdj", ["&rtDW.lf0c1xysk3"], 0, 49, 0))>;
+}
+obj = &rtDW.lf0c1xysk3.cSteeringVector;
+if (!obj->matlabCodegenIsDeleted) {
+    obj->matlabCodegenIsDeleted = true;
+    if (obj->isInitialized == 1) {
+        obj->isInitialized = 2;
+        if (obj->isSetupComplete) {
+            obj_e = obj->cSensorArray;
+            if (obj_e->isInitialized == 1) {
+                obj_e->isInitialized = 2;
+                if (obj_e->isSetupComplete) {
+                    obj_i = obj_e->cElement;
+                    if (obj_i->isInitialized == 1) {
+                        obj_i->isInitialized = 2;
+                    }
+                }
+            }
+        }
+    }
+}
+obj_e = &rtDW.lf0c1xysk3.cSteeringVector._pobj1;
+if (!obj_e->matlabCodegenIsDeleted) {
+    obj_e->matlabCodegenIsDeleted = true;
+    if (obj_e->isInitialized == 1) {
+        obj_e->isInitialized = 2;
+        if (obj_e->isSetupComplete) {
+            obj_i = obj_e->cElement;
+            if (obj_i->isInitialized == 1) {
+                obj_i->isInitialized = 2;
+            }
+        }
+    }
+}
+obj_p = &rtDW.lf0c1xysk3._pobj1;
+if (!obj_p->matlabCodegenIsDeleted) {
+    obj_p->matlabCodegenIsDeleted = true;
+    if (obj_p->isInitialized == 1) {
+        obj_p->isInitialized = 2;
+    }
+}
+if (!rtDW.ioqzguq3lv.matlabCodegenIsDeleted) {
+    rtDW.ioqzguq3lv.matlabCodegenIsDeleted = true;
+    if (rtDW.ioqzguq3lv.isInitialized == 1) {
+        rtDW.ioqzguq3lv.isInitialized = 2;
+    }
+}
+if (!rtDW.nvoa40f05l.matlabCodegenIsDeleted) {
+    rtDW.nvoa40f05l.matlabCodegenIsDeleted = true;
+    if (rtDW.nvoa40f05l.isInitialized == 1) {
+        rtDW.nvoa40f05l.isInitialized = 2;
+    }
+}
+if (!rtDW.m0jbhxqpah.matlabCodegenIsDeleted) {
+    rtDW.m0jbhxqpah.matlabCodegenIsDeleted = true;
+    if (rtDW.m0jbhxqpah.isInitialized == 1) {
+        rtDW.m0jbhxqpah.isInitialized = 2;
+    }
+}
+if (!rtDW.dugwdcqqf3.matlabCodegenIsDeleted) {
+    rtDW.dugwdcqqf3.matlabCodegenIsDeleted = true;
+    if (rtDW.dugwdcqqf3.isInitialized == 1) {
+        rtDW.dugwdcqqf3.isInitialized = 2;
+    }
+}
+obj_m = &rtDW.aw1xd0e4zh;
+if (!rtDW.aw1xd0e4zh.matlabCodegenIsDeleted) {
+    rtDW.aw1xd0e4zh.matlabCodegenIsDeleted = true;
+    if ((rtDW.aw1xd0e4zh.isInitialized == 1) && rtDW.aw1xd0e4zh.isSetupComplete) {
+        rtDW.aw1xd0e4zh.pNumInputChannels = -1.0;
+        if (obj_m->cBuffer.isInitialized == 1) {
+            obj_m->cBuffer.isInitialized = 2;
+            if (obj_m->cBuffer.isSetupComplete) {
+                obj_m->cBuffer.pNumInputChannels = -1.0;
+            }
+        }
+        if (obj_m->cFractionalDelayFilter.isInitialized == 1) {
+            obj_m->cFractionalDelayFilter.isInitialized = 2;
+        }
+    }
+}
+obj_g = &rtDW.aw1xd0e4zh.cFractionalDelayFilter;
+if (!obj_g->matlabCodegenIsDeleted) {
+    obj_g->matlabCodegenIsDeleted = true;
+    if (obj_g->isInitialized == 1) {
+        obj_g->isInitialized = 2;
+    }
+}
+obj_j = &rtDW.aw1xd0e4zh.cBuffer;
+if (!obj_j->matlabCodegenIsDeleted) {
+    obj_j->matlabCodegenIsDeleted = true;
+    if (obj_j->isInitialized == 1) {
+        obj_j->isInitialized = 2;
+        if (obj_j->isSetupComplete) {
+            obj_j->pNumInputChannels = -1.0;
+        }
+    }
+}
+if (!rtDW.cw3v0exiod.matlabCodegenIsDeleted) {
+    rtDW.cw3v0exiod.matlabCodegenIsDeleted = true;
+    if ((rtDW.cw3v0exiod.isInitialized == 1) && rtDW.cw3v0exiod.isSetupComplete) {
+        rtDW.cw3v0exiod.pNumInputChannels = -1.0;
+    }
+}
+if (!rtDW.nh00wszcu1.matlabCodegenIsDeleted) {
+    rtDW.nh00wszcu1.matlabCodegenIsDeleted = true;
+    %<(SLibCGCallSubFcn("gsvby2yahd", ["&rtDW.nh00wszcu1"], 0, 49, 1))>;
+}
+obj_f = &rtDW.nh00wszcu1.cSteeringVector;
+if (!obj_f->matlabCodegenIsDeleted) {
+    obj_f->matlabCodegenIsDeleted = true;
+    if (obj_f->isInitialized == 1) {
+        obj_f->isInitialized = 2;
+        if (obj_f->isSetupComplete) {
+            obj_k = obj_f->cSensorArray;
+            if (obj_k->isInitialized == 1) {
+                obj_k->isInitialized = 2;
+                if (obj_k->isSetupComplete) {
+                    obj_b = obj_k->cElement;
+                    if (obj_b->isInitialized == 1) {
+                        obj_b->isInitialized = 2;
+                    }
+                }
+            }
+        }
+    }
+}
+obj_k = &rtDW.nh00wszcu1.cSteeringVector._pobj1;
+if (!obj_k->matlabCodegenIsDeleted) {
+    obj_k->matlabCodegenIsDeleted = true;
+    if (obj_k->isInitialized == 1) {
+        obj_k->isInitialized = 2;
+        if (obj_k->isSetupComplete) {
+            obj_b = obj_k->cElement;
+            if (obj_b->isInitialized == 1) {
+                obj_b->isInitialized = 2;
+            }
+        }
+    }
+}
+obj_c = &rtDW.nh00wszcu1._pobj1;
+if (!obj_c->matlabCodegenIsDeleted) {
+    obj_c->matlabCodegenIsDeleted = true;
+    if (obj_c->isInitialized == 1) {
+        obj_c->isInitialized = 2;
+    }
+}
+if (!rtDW.ogmdvojndn.matlabCodegenIsDeleted) {
+    rtDW.ogmdvojndn.matlabCodegenIsDeleted = true;
+    if (rtDW.ogmdvojndn.isInitialized == 1) {
+        rtDW.ogmdvojndn.isInitialized = 2;
+    }
+}
+if (!rtDW.oknbrpr2bq.matlabCodegenIsDeleted) {
+    rtDW.oknbrpr2bq.matlabCodegenIsDeleted = true;
+    if (rtDW.oknbrpr2bq.isInitialized == 1) {
+        rtDW.oknbrpr2bq.isInitialized = 2;
+    }
+}
+if (!rtDW.cec0kpxtoc.matlabCodegenIsDeleted) {
+    rtDW.cec0kpxtoc.matlabCodegenIsDeleted = true;
+    if (rtDW.cec0kpxtoc.isInitialized == 1) {
+        rtDW.cec0kpxtoc.isInitialized = 2;
+    }
+}
+if (!rtDW.p0rkkecxzg.matlabCodegenIsDeleted) {
+    rtDW.p0rkkecxzg.matlabCodegenIsDeleted = true;
+    if (rtDW.p0rkkecxzg.isInitialized == 1) {
+        rtDW.p0rkkecxzg.isInitialized = 2;
+    }
+}
+if (!rtDW.fklv1ge0dn.matlabCodegenIsDeleted) {
+    rtDW.fklv1ge0dn.matlabCodegenIsDeleted = true;
+    if ((rtDW.fklv1ge0dn.isInitialized == 1) && rtDW.fklv1ge0dn.isSetupComplete) {
+        rtDW.fklv1ge0dn.pNumInputChannels = -1.0;
+        obj_n = rtDW.fklv1ge0dn.cNoiseSource;
+        if (obj_n->isInitialized == 1) {
+            obj_n->isInitialized = 2;
+        }
+    }
+}
+obj_l = &rtDW.otc1ywyo33;
+if (!rtDW.otc1ywyo33.matlabCodegenIsDeleted) {
+    rtDW.otc1ywyo33.matlabCodegenIsDeleted = true;
+    if ((rtDW.otc1ywyo33.isInitialized == 1) && rtDW.otc1ywyo33.isSetupComplete) {
+        rtDW.otc1ywyo33.pNumInputChannels = -1.0;
+        rtDW.otc1ywyo33.pSizeInitialized = false;
+        rtDW.otc1ywyo33.pNumPages = -1.0;
+        obj_fs = &rtDW.otc1ywyo33.cMatchedFilter;
+        if (obj_l->cMatchedFilter.isInitialized == 1) {
+            obj_l->cMatchedFilter.isInitialized = 2;
+            if (obj_l->cMatchedFilter.isSetupComplete) {
+                obj_l->cMatchedFilter.pNumInputChannels = -1.0;
+                if (obj_fs->cFFTFilter.isInitialized == 1) {
+                    obj_fs->cFFTFilter.isInitialized = 2;
+                    if (obj_fs->cFFTFilter.isSetupComplete) {
+                        /* System object Destructor function: dsp.FFT */
+                        if (obj_l->cMatchedFilter.cFFTFilter.cFFT.S0_isInitialized == 1) {
+                            obj_l->cMatchedFilter.cFFTFilter.cFFT.S0_isInitialized = 2;
+                            /* System object Terminate function: dsp.FFT */
+                            sErr = GetErrorBuffer(&obj_l->cMatchedFilter.cFFTFilter.cFFT.W0_HostLib[0U]);
+                            LibTerminate(&obj_l->cMatchedFilter.cFFTFilter.cFFT.W0_HostLib[0U]);
+                            if (*sErr != 0) {
+                                PrintError(sErr);
+                            }
+                            LibDestroy(&obj_l->cMatchedFilter.cFFTFilter.cFFT.W0_HostLib[0U], 0);
+                            DestroyHostLibrary(&obj_l->cMatchedFilter.cFFTFilter.cFFT.W0_HostLib[0U]);
+                        }
+                        /* System object Destructor function: dsp.FFT */
+                        if (obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.S0_isInitialized == 1) {
+                            obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.S0_isInitialized = 2;
+                            /* System object Terminate function: dsp.FFT */
+                            sErr = GetErrorBuffer(&obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.W0_HostLib[0U]);
+                            LibTerminate(&obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.W0_HostLib[0U]);
+                            if (*sErr != 0) {
+                                PrintError(sErr);
+                            }
+                            LibDestroy(&obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.W0_HostLib[0U], 0);
+                            DestroyHostLibrary(&obj_l->cMatchedFilter.cFFTFilter.cCoeffFFT.W0_HostLib[0U]);
+                        }
+                        /* System object Destructor function: dsp.IFFT */
+                        if (obj_l->cMatchedFilter.cFFTFilter.cIFFT.S0_isInitialized == 1) {
+                            obj_l->cMatchedFilter.cFFTFilter.cIFFT.S0_isInitialized = 2;
+                            /* System object Terminate function: dsp.IFFT */
+                            sErr = GetErrorBuffer(&obj_l->cMatchedFilter.cFFTFilter.cIFFT.W0_HostLib[0U]);
+                            LibTerminate(&obj_l->cMatchedFilter.cFFTFilter.cIFFT.W0_HostLib[0U]);
+                            if (*sErr != 0) {
+                                PrintError(sErr);
+                            }
+                            LibDestroy(&obj_l->cMatchedFilter.cFFTFilter.cIFFT.W0_HostLib[0U], 0);
+                            DestroyHostLibrary(&obj_l->cMatchedFilter.cFFTFilter.cIFFT.W0_HostLib[0U]);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+obj_fs = &rtDW.otc1ywyo33.cMatchedFilter;
+if (!obj_fs->matlabCodegenIsDeleted) {
+    obj_fs->matlabCodegenIsDeleted = true;
+    if (obj_fs->isInitialized == 1) {
+        obj_fs->isInitialized = 2;
+        if (obj_fs->isSetupComplete) {
+            obj_fs->pNumInputChannels = -1.0;
+            obj_ck = &obj_fs->cFFTFilter;
+            if (obj_fs->cFFTFilter.isInitialized == 1) {
+                obj_fs->cFFTFilter.isInitialized = 2;
+                if (obj_fs->cFFTFilter.isSetupComplete) {
+                    /* System object Destructor function: dsp.FFT */
+                    if (obj_ck->cFFT.S0_isInitialized == 1) {
+                        obj_ck->cFFT.S0_isInitialized = 2;
+                        /* System object Terminate function: dsp.FFT */
+                        sErr = GetErrorBuffer(&obj_ck->cFFT.W0_HostLib[0U]);
+                        LibTerminate(&obj_ck->cFFT.W0_HostLib[0U]);
+                        if (*sErr != 0) {
+                            PrintError(sErr);
+                        }
+                        LibDestroy(&obj_ck->cFFT.W0_HostLib[0U], 0);
+                        DestroyHostLibrary(&obj_ck->cFFT.W0_HostLib[0U]);
+                    }
+                    /* System object Destructor function: dsp.FFT */
+                    if (obj_ck->cCoeffFFT.S0_isInitialized == 1) {
+                        obj_ck->cCoeffFFT.S0_isInitialized = 2;
+                        /* System object Terminate function: dsp.FFT */
+                        sErr = GetErrorBuffer(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+                        LibTerminate(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+                        if (*sErr != 0) {
+                            PrintError(sErr);
+                        }
+                        LibDestroy(&obj_ck->cCoeffFFT.W0_HostLib[0U], 0);
+                        DestroyHostLibrary(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+                    }
+                    /* System object Destructor function: dsp.IFFT */
+                    if (obj_ck->cIFFT.S0_isInitialized == 1) {
+                        obj_ck->cIFFT.S0_isInitialized = 2;
+                        /* System object Terminate function: dsp.IFFT */
+                        sErr = GetErrorBuffer(&obj_ck->cIFFT.W0_HostLib[0U]);
+                        LibTerminate(&obj_ck->cIFFT.W0_HostLib[0U]);
+                        if (*sErr != 0) {
+                            PrintError(sErr);
+                        }
+                        LibDestroy(&obj_ck->cIFFT.W0_HostLib[0U], 0);
+                        DestroyHostLibrary(&obj_ck->cIFFT.W0_HostLib[0U]);
+                    }
+                }
+            }
+        }
+    }
+}
+obj_ck = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter;
+if (!obj_ck->matlabCodegenIsDeleted) {
+    obj_ck->matlabCodegenIsDeleted = true;
+    if (obj_ck->isInitialized == 1) {
+        obj_ck->isInitialized = 2;
+        if (obj_ck->isSetupComplete) {
+            /* System object Destructor function: dsp.FFT */
+            if (obj_ck->cFFT.S0_isInitialized == 1) {
+                obj_ck->cFFT.S0_isInitialized = 2;
+                /* System object Terminate function: dsp.FFT */
+                sErr = GetErrorBuffer(&obj_ck->cFFT.W0_HostLib[0U]);
+                LibTerminate(&obj_ck->cFFT.W0_HostLib[0U]);
+                if (*sErr != 0) {
+                    PrintError(sErr);
+                }
+                LibDestroy(&obj_ck->cFFT.W0_HostLib[0U], 0);
+                DestroyHostLibrary(&obj_ck->cFFT.W0_HostLib[0U]);
+            }
+            /* System object Destructor function: dsp.FFT */
+            if (obj_ck->cCoeffFFT.S0_isInitialized == 1) {
+                obj_ck->cCoeffFFT.S0_isInitialized = 2;
+                /* System object Terminate function: dsp.FFT */
+                sErr = GetErrorBuffer(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+                LibTerminate(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+                if (*sErr != 0) {
+                    PrintError(sErr);
+                }
+                LibDestroy(&obj_ck->cCoeffFFT.W0_HostLib[0U], 0);
+                DestroyHostLibrary(&obj_ck->cCoeffFFT.W0_HostLib[0U]);
+            }
+            /* System object Destructor function: dsp.IFFT */
+            if (obj_ck->cIFFT.S0_isInitialized == 1) {
+                obj_ck->cIFFT.S0_isInitialized = 2;
+                /* System object Terminate function: dsp.IFFT */
+                sErr = GetErrorBuffer(&obj_ck->cIFFT.W0_HostLib[0U]);
+                LibTerminate(&obj_ck->cIFFT.W0_HostLib[0U]);
+                if (*sErr != 0) {
+                    PrintError(sErr);
+                }
+                LibDestroy(&obj_ck->cIFFT.W0_HostLib[0U], 0);
+                DestroyHostLibrary(&obj_ck->cIFFT.W0_HostLib[0U]);
+            }
+        }
+    }
+}
+obj_d = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cIFFT;
+/* System object Destructor function: dsp.IFFT */
+if (obj_d->S0_isInitialized == 1) {
+    obj_d->S0_isInitialized = 2;
+    /* System object Terminate function: dsp.IFFT */
+    sErr = GetErrorBuffer(&obj_d->W0_HostLib[0U]);
+    LibTerminate(&obj_d->W0_HostLib[0U]);
+    if (*sErr != 0) {
+        PrintError(sErr);
+    }
+    LibDestroy(&obj_d->W0_HostLib[0U], 0);
+    DestroyHostLibrary(&obj_d->W0_HostLib[0U]);
+}
+obj_o = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cCoeffFFT;
+/* System object Destructor function: dsp.FFT */
+if (obj_o->S0_isInitialized == 1) {
+    obj_o->S0_isInitialized = 2;
+    /* System object Terminate function: dsp.FFT */
+    sErr = GetErrorBuffer(&obj_o->W0_HostLib[0U]);
+    LibTerminate(&obj_o->W0_HostLib[0U]);
+    if (*sErr != 0) {
+        PrintError(sErr);
+    }
+    LibDestroy(&obj_o->W0_HostLib[0U], 0);
+    DestroyHostLibrary(&obj_o->W0_HostLib[0U]);
+}
+obj_dz = &rtDW.otc1ywyo33.cMatchedFilter.cFFTFilter.cFFT;
+/* System object Destructor function: dsp.FFT */
+if (obj_dz->S0_isInitialized == 1) {
+    obj_dz->S0_isInitialized = 2;
+    /* System object Terminate function: dsp.FFT */
+    sErr = GetErrorBuffer(&obj_dz->W0_HostLib[0U]);
+    LibTerminate(&obj_dz->W0_HostLib[0U]);
+    if (*sErr != 0) {
+        PrintError(sErr);
+    }
+    LibDestroy(&obj_dz->W0_HostLib[0U], 0);
+    DestroyHostLibrary(&obj_dz->W0_HostLib[0U]);
+}
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedTerminateLocalVars", localVarDecl)>
+%endfunction
+%function TerminateFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Terminate(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 49, fcnProtoType)>
+%endfunction

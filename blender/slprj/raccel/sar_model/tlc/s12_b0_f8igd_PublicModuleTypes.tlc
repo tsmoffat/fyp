@@ -1,0 +1,523 @@
+%implements s12_b0_f8igd_PublicModuleTypes "C"
+
+%function PublicModuleTypes(block) Output
+
+#ifndef struct_tag_peOWcAwCRBIRxsZzwf6wMB
+#define struct_tag_peOWcAwCRBIRxsZzwf6wMB
+struct tag_peOWcAwCRBIRxsZzwf6wMB
+{
+    int32_T __dummy;
+};
+#endif /*struct_tag_peOWcAwCRBIRxsZzwf6wMB*/
+#ifndef typedef_iqcdydua2e
+#define typedef_iqcdydua2e
+typedef struct tag_peOWcAwCRBIRxsZzwf6wMB iqcdydua2e;
+#endif /*typedef_iqcdydua2e*/
+#ifndef struct_tag_66FVSmES8vhph4dGOX0bWD
+#define struct_tag_66FVSmES8vhph4dGOX0bWD
+struct tag_66FVSmES8vhph4dGOX0bWD
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    iqcdydua2e *Element;
+};
+#endif /*struct_tag_66FVSmES8vhph4dGOX0bWD*/
+#ifndef typedef_gsfqmfswsb
+#define typedef_gsfqmfswsb
+typedef struct tag_66FVSmES8vhph4dGOX0bWD gsfqmfswsb;
+#endif /*typedef_gsfqmfswsb*/
+#ifndef struct_tag_ltO0boB4uXqTO0fqrqWKWH
+#define struct_tag_ltO0boB4uXqTO0fqrqWKWH
+struct tag_ltO0boB4uXqTO0fqrqWKWH
+{
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+};
+#endif /*struct_tag_ltO0boB4uXqTO0fqrqWKWH*/
+#ifndef typedef_gc2pg22xov
+#define typedef_gc2pg22xov
+typedef struct tag_ltO0boB4uXqTO0fqrqWKWH gc2pg22xov;
+#endif /*typedef_gc2pg22xov*/
+#ifndef struct_tag_jGVtJLbdTFLfxAT42HaNhB
+#define struct_tag_jGVtJLbdTFLfxAT42HaNhB
+struct tag_jGVtJLbdTFLfxAT42HaNhB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    gc2pg22xov *cElement;
+    real_T pTaper[2];
+    iqcdydua2e *Element;
+    gc2pg22xov _pobj0;
+};
+#endif /*struct_tag_jGVtJLbdTFLfxAT42HaNhB*/
+#ifndef typedef_kd0seeiwud
+#define typedef_kd0seeiwud
+typedef struct tag_jGVtJLbdTFLfxAT42HaNhB kd0seeiwud;
+#endif /*typedef_kd0seeiwud*/
+#ifndef struct_tag_jmK5LSDW8HqynijCGFKlJF
+#define struct_tag_jmK5LSDW8HqynijCGFKlJF
+struct tag_jmK5LSDW8HqynijCGFKlJF
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    gsfqmfswsb *SensorArray;
+    kd0seeiwud *cSensorArray;
+    iqcdydua2e _pobj0;
+    kd0seeiwud _pobj1;
+};
+#endif /*struct_tag_jmK5LSDW8HqynijCGFKlJF*/
+#ifndef typedef_pjw2g1oqi0
+#define typedef_pjw2g1oqi0
+typedef struct tag_jmK5LSDW8HqynijCGFKlJF pjw2g1oqi0;
+#endif /*typedef_pjw2g1oqi0*/
+#ifndef struct_tag_7hCxAc0X2jCSuxVWw9yRWF
+#define struct_tag_7hCxAc0X2jCSuxVWw9yRWF
+struct tag_7hCxAc0X2jCSuxVWw9yRWF
+{
+    int32_T __dummy;
+};
+#endif /*struct_tag_7hCxAc0X2jCSuxVWw9yRWF*/
+#ifndef typedef_ha3kuyvb53
+#define typedef_ha3kuyvb53
+typedef struct tag_7hCxAc0X2jCSuxVWw9yRWF ha3kuyvb53;
+#endif /*typedef_ha3kuyvb53*/
+#ifndef struct_tag_Ggz5dyfnZ1JljsVF7SuUdG
+#define struct_tag_Ggz5dyfnZ1JljsVF7SuUdG
+struct tag_Ggz5dyfnZ1JljsVF7SuUdG
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    ha3kuyvb53 *Element;
+};
+#endif /*struct_tag_Ggz5dyfnZ1JljsVF7SuUdG*/
+#ifndef typedef_gsfqmfswsbh
+#define typedef_gsfqmfswsbh
+typedef struct tag_Ggz5dyfnZ1JljsVF7SuUdG gsfqmfswsbh;
+#endif /*typedef_gsfqmfswsbh*/
+#ifndef struct_tag_udQ0CkjHl2Tsu9d3aEvDeE
+#define struct_tag_udQ0CkjHl2Tsu9d3aEvDeE
+struct tag_udQ0CkjHl2Tsu9d3aEvDeE
+{
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+};
+#endif /*struct_tag_udQ0CkjHl2Tsu9d3aEvDeE*/
+#ifndef typedef_lpaezm0n3l
+#define typedef_lpaezm0n3l
+typedef struct tag_udQ0CkjHl2Tsu9d3aEvDeE lpaezm0n3l;
+#endif /*typedef_lpaezm0n3l*/
+#ifndef struct_tag_1NxASALpIBR3EawUqe2E6B
+#define struct_tag_1NxASALpIBR3EawUqe2E6B
+struct tag_1NxASALpIBR3EawUqe2E6B
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    lpaezm0n3l *cElement;
+    real_T pTaper[2];
+    ha3kuyvb53 *Element;
+    lpaezm0n3l _pobj0;
+};
+#endif /*struct_tag_1NxASALpIBR3EawUqe2E6B*/
+#ifndef typedef_kd0seeiwudd
+#define typedef_kd0seeiwudd
+typedef struct tag_1NxASALpIBR3EawUqe2E6B kd0seeiwudd;
+#endif /*typedef_kd0seeiwudd*/
+#ifndef struct_tag_AhBM66fFzqIYviEG2KjtwG
+#define struct_tag_AhBM66fFzqIYviEG2KjtwG
+struct tag_AhBM66fFzqIYviEG2KjtwG
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    gsfqmfswsbh *SensorArray;
+    kd0seeiwudd *cSensorArray;
+    ha3kuyvb53 _pobj0;
+    kd0seeiwudd _pobj1;
+};
+#endif /*struct_tag_AhBM66fFzqIYviEG2KjtwG*/
+#ifndef typedef_pjw2g1oqi0q
+#define typedef_pjw2g1oqi0q
+typedef struct tag_AhBM66fFzqIYviEG2KjtwG pjw2g1oqi0q;
+#endif /*typedef_pjw2g1oqi0q*/
+#ifndef struct_tag_xvscDmn3jsKbdNPwSQDpQG
+#define struct_tag_xvscDmn3jsKbdNPwSQDpQG
+struct tag_xvscDmn3jsKbdNPwSQDpQG
+{
+    int32_T S0_isInitialized;
+    real_T W0_HostLib[137];
+};
+#endif /*struct_tag_xvscDmn3jsKbdNPwSQDpQG*/
+#ifndef typedef_chwhjaxtvq
+#define typedef_chwhjaxtvq
+typedef struct tag_xvscDmn3jsKbdNPwSQDpQG chwhjaxtvq;
+#endif /*typedef_chwhjaxtvq*/
+#ifndef struct_tag_E1LcVJomjKFFAnCx6H3LKH
+#define struct_tag_E1LcVJomjKFFAnCx6H3LKH
+struct tag_E1LcVJomjKFFAnCx6H3LKH
+{
+    int32_T S0_isInitialized;
+    real_T W0_HostLib[137];
+};
+#endif /*struct_tag_E1LcVJomjKFFAnCx6H3LKH*/
+#ifndef typedef_cv2juivnqe
+#define typedef_cv2juivnqe
+typedef struct tag_E1LcVJomjKFFAnCx6H3LKH cv2juivnqe;
+#endif /*typedef_cv2juivnqe*/
+#ifndef struct_tag_BOt1mz8R8w6GAkCfG2V4P
+#define struct_tag_BOt1mz8R8w6GAkCfG2V4P
+struct tag_BOt1mz8R8w6GAkCfG2V4P
+{
+    int32_T S0_isInitialized;
+    real_T W0_HostLib[137];
+};
+#endif /*struct_tag_BOt1mz8R8w6GAkCfG2V4P*/
+#ifndef typedef_jr5jluvwtr
+#define typedef_jr5jluvwtr
+typedef struct tag_BOt1mz8R8w6GAkCfG2V4P jr5jluvwtr;
+#endif /*typedef_jr5jluvwtr*/
+
+/* Custom Type definition for MATLABSystem: '<Root>/Receiver Preamp' */
+#include <time.h>
+#include <time.h>
+
+#ifndef struct_tag_2a2z2VJa9BfsDxJf1FAYuG
+#define struct_tag_2a2z2VJa9BfsDxJf1FAYuG
+struct tag_2a2z2VJa9BfsDxJf1FAYuG
+{
+    uint32_T Seed;
+    uint32_T State[625];
+};
+#endif /*struct_tag_2a2z2VJa9BfsDxJf1FAYuG*/
+#ifndef typedef_hferqq002w
+#define typedef_hferqq002w
+typedef struct tag_2a2z2VJa9BfsDxJf1FAYuG hferqq002w;
+#endif /*typedef_hferqq002w*/
+#ifndef struct_tag_wVcVZlyfOnbO1g7lIiXHcF
+#define struct_tag_wVcVZlyfOnbO1g7lIiXHcF
+struct tag_wVcVZlyfOnbO1g7lIiXHcF
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    real_T pPosition[3];
+    real_T pVelocity[3];
+    real_T pOrientationAxes[9];
+    real_T pPreviousVelocity[3];
+};
+#endif /*struct_tag_wVcVZlyfOnbO1g7lIiXHcF*/
+#ifndef typedef_lznoqbzybv
+#define typedef_lznoqbzybv
+typedef struct tag_wVcVZlyfOnbO1g7lIiXHcF lznoqbzybv;
+#endif /*typedef_lznoqbzybv*/
+#ifndef struct_tag_PMfBDzoakfdM9QAdfx2o6D
+#define struct_tag_PMfBDzoakfdM9QAdfx2o6D
+struct tag_PMfBDzoakfdM9QAdfx2o6D
+{
+    uint32_T f1[8];
+};
+#endif /*struct_tag_PMfBDzoakfdM9QAdfx2o6D*/
+#ifndef typedef_clw0jnsa3g
+#define typedef_clw0jnsa3g
+typedef struct tag_PMfBDzoakfdM9QAdfx2o6D clw0jnsa3g;
+#endif /*typedef_clw0jnsa3g*/
+#ifndef struct_tag_yp4y3COsLlJuCDtofkkhFD
+#define struct_tag_yp4y3COsLlJuCDtofkkhFD
+struct tag_yp4y3COsLlJuCDtofkkhFD
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    real_T pOutputStartPulseIndex;
+    real_T pOutputPulseInterval[2];
+};
+#endif /*struct_tag_yp4y3COsLlJuCDtofkkhFD*/
+#ifndef typedef_fmsfrptrjq
+#define typedef_fmsfrptrjq
+typedef struct tag_yp4y3COsLlJuCDtofkkhFD fmsfrptrjq;
+#endif /*typedef_fmsfrptrjq*/
+#ifndef struct_tag_36qLLdBFhhd95t5svMqozE
+#define struct_tag_36qLLdBFhhd95t5svMqozE
+struct tag_36qLLdBFhhd95t5svMqozE
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    gsfqmfswsb *Sensor;
+    gsfqmfswsb *cSensor;
+    pjw2g1oqi0 cSteeringVector;
+    iqcdydua2e _pobj0;
+    gsfqmfswsb _pobj1;
+};
+#endif /*struct_tag_36qLLdBFhhd95t5svMqozE*/
+#ifndef typedef_mdpwypuqy4
+#define typedef_mdpwypuqy4
+typedef struct tag_36qLLdBFhhd95t5svMqozE mdpwypuqy4;
+#endif /*typedef_mdpwypuqy4*/
+#ifndef struct_tag_EWDtqRUWJj6Rzwar9v0JXG
+#define struct_tag_EWDtqRUWJj6Rzwar9v0JXG
+struct tag_EWDtqRUWJj6Rzwar9v0JXG
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    gsfqmfswsbh *Sensor;
+    gsfqmfswsbh *cSensor;
+    pjw2g1oqi0q cSteeringVector;
+    ha3kuyvb53 _pobj0;
+    gsfqmfswsbh _pobj1;
+};
+#endif /*struct_tag_EWDtqRUWJj6Rzwar9v0JXG*/
+#ifndef typedef_ng1ueeqmmp
+#define typedef_ng1ueeqmmp
+typedef struct tag_EWDtqRUWJj6Rzwar9v0JXG ng1ueeqmmp;
+#endif /*typedef_ng1ueeqmmp*/
+#ifndef struct_tag_mCIqkcVJhDmFEtM0WEDI4F
+#define struct_tag_mCIqkcVJhDmFEtM0WEDI4F
+struct tag_mCIqkcVJhDmFEtM0WEDI4F
+{
+    int32_T isInitialized;
+    clw0jnsa3g inputVarSize[2];
+};
+#endif /*struct_tag_mCIqkcVJhDmFEtM0WEDI4F*/
+#ifndef typedef_lrdw414lzc
+#define typedef_lrdw414lzc
+typedef struct tag_mCIqkcVJhDmFEtM0WEDI4F lrdw414lzc;
+#endif /*typedef_lrdw414lzc*/
+#ifndef struct_tag_bJHGh6g42cBunVkEKonbbF
+#define struct_tag_bJHGh6g42cBunVkEKonbbF
+struct tag_bJHGh6g42cBunVkEKonbbF
+{
+    int32_T S0_isInitialized;
+    int32_T W0_BUFF_OFFSET;
+    creal_T W1_BUFF[101];
+    int32_T W2_PrevNumChan;
+    creal_T P0_IC;
+};
+#endif /*struct_tag_bJHGh6g42cBunVkEKonbbF*/
+#ifndef typedef_ppqqbropvd
+#define typedef_ppqqbropvd
+typedef struct tag_bJHGh6g42cBunVkEKonbbF ppqqbropvd;
+#endif /*typedef_ppqqbropvd*/
+#ifndef struct_tag_sN7qIKb19qRnRUdj1bzqhC
+#define struct_tag_sN7qIKb19qRnRUdj1bzqhC
+struct tag_sN7qIKb19qRnRUdj1bzqhC
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    ppqqbropvd cSFunObject;
+};
+#endif /*struct_tag_sN7qIKb19qRnRUdj1bzqhC*/
+#ifndef typedef_atyvy0fxei
+#define typedef_atyvy0fxei
+typedef struct tag_sN7qIKb19qRnRUdj1bzqhC atyvy0fxei;
+#endif /*typedef_atyvy0fxei*/
+#ifndef struct_tag_u62SJODVgHmFZqQYsDJpvB
+#define struct_tag_u62SJODVgHmFZqQYsDJpvB
+struct tag_u62SJODVgHmFZqQYsDJpvB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    real_T pCount;
+    real_T pStart;
+    creal_T pBuffer[167];
+    real_T pBufferLength;
+};
+#endif /*struct_tag_u62SJODVgHmFZqQYsDJpvB*/
+#ifndef typedef_kkrezxuj2g
+#define typedef_kkrezxuj2g
+typedef struct tag_u62SJODVgHmFZqQYsDJpvB kkrezxuj2g;
+#endif /*typedef_kkrezxuj2g*/
+#ifndef struct_tag_olA0pXv1aJzFTOZmqpWIND
+#define struct_tag_olA0pXv1aJzFTOZmqpWIND
+struct tag_olA0pXv1aJzFTOZmqpWIND
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[5];
+    real_T pNumInputChannels;
+    kkrezxuj2g cBuffer;
+    atyvy0fxei cFractionalDelayFilter;
+};
+#endif /*struct_tag_olA0pXv1aJzFTOZmqpWIND*/
+#ifndef typedef_icyr5b5nuj
+#define typedef_icyr5b5nuj
+typedef struct tag_olA0pXv1aJzFTOZmqpWIND icyr5b5nuj;
+#endif /*typedef_icyr5b5nuj*/
+#ifndef struct_tag_NeV01pxEM8WlbviuvvF0AB
+#define struct_tag_NeV01pxEM8WlbviuvvF0AB
+struct tag_NeV01pxEM8WlbviuvvF0AB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    boolean_T pIsSignalLonger;
+    real_T pOverlapLength;
+    real_T pSignalLength;
+    real_T pSignalAddIdx[2];
+    real_T pStateRemainingIdx[2];
+    real_T pStateUpdateIdx[2];
+    real_T pSignalIdx[2];
+    real_T pStateIdx[2];
+    creal_T pOverlapState[199];
+    chwhjaxtvq cFFT;
+    cv2juivnqe cCoeffFFT;
+    jr5jluvwtr cIFFT;
+    boolean_T pSizeInitialized;
+};
+#endif /*struct_tag_NeV01pxEM8WlbviuvvF0AB*/
+#ifndef typedef_igqapj2fro
+#define typedef_igqapj2fro
+typedef struct tag_NeV01pxEM8WlbviuvvF0AB igqapj2fro;
+#endif /*typedef_igqapj2fro*/
+#ifndef struct_tag_8n1blVbtVpBygc5e7KU8DB
+#define struct_tag_8n1blVbtVpBygc5e7KU8DB
+struct tag_8n1blVbtVpBygc5e7KU8DB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    igqapj2fro cFFTFilter;
+};
+#endif /*struct_tag_8n1blVbtVpBygc5e7KU8DB*/
+#ifndef typedef_bmnf5sq2q0
+#define typedef_bmnf5sq2q0
+typedef struct tag_8n1blVbtVpBygc5e7KU8DB bmnf5sq2q0;
+#endif /*typedef_bmnf5sq2q0*/
+#ifndef struct_tag_8IEie6nbW4Xdf6jWGVnxIG
+#define struct_tag_8IEie6nbW4Xdf6jWGVnxIG
+struct tag_8IEie6nbW4Xdf6jWGVnxIG
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize[2];
+    real_T pNumInputChannels;
+    real_T ReferenceRange;
+    bmnf5sq2q0 cMatchedFilter;
+    real_T pNumPages;
+    real_T pRangeOffset;
+    boolean_T pSizeInitialized;
+};
+#endif /*struct_tag_8IEie6nbW4Xdf6jWGVnxIG*/
+#ifndef typedef_ggdisr1zwo
+#define typedef_ggdisr1zwo
+typedef struct tag_8IEie6nbW4Xdf6jWGVnxIG ggdisr1zwo;
+#endif /*typedef_ggdisr1zwo*/
+#ifndef typedef_hbsegthrz2
+#define typedef_hbsegthrz2
+typedef int32_T hbsegthrz2;
+#endif /*typedef_hbsegthrz2*/
+
+#ifndef coder_internal_RngNt_constants
+#define coder_internal_RngNt_constants
+
+/* enum coder_internal_RngNt */
+#define coder_internal_RngNt_ziggurat (0)
+#define coder_internal_RngNt_polar (1)
+#define coder_internal_RngNt_inversion (2)
+
+#endif /*coder_internal_RngNt_constants*/
+
+#ifndef struct_tag_jA71dqsPSNZnHmAKpAYboC
+#define struct_tag_jA71dqsPSNZnHmAKpAYboC
+struct tag_jA71dqsPSNZnHmAKpAYboC
+{
+    hbsegthrz2 NtMethod;
+    real_T SavedPolarValue;
+    boolean_T HaveSavedPolarValue;
+    hferqq002w *Generator;
+    hferqq002w MtGenerator;
+};
+#endif /*struct_tag_jA71dqsPSNZnHmAKpAYboC*/
+#ifndef typedef_puz55sdew5
+#define typedef_puz55sdew5
+typedef struct tag_jA71dqsPSNZnHmAKpAYboC puz55sdew5;
+#endif /*typedef_puz55sdew5*/
+#ifndef struct_tag_d7sZ6oUcdRyp2zR6GsA1dB
+#define struct_tag_d7sZ6oUcdRyp2zR6GsA1dB
+struct tag_d7sZ6oUcdRyp2zR6GsA1dB
+{
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    puz55sdew5 cRandStream;
+};
+#endif /*struct_tag_d7sZ6oUcdRyp2zR6GsA1dB*/
+#ifndef typedef_hgk1feukct
+#define typedef_hgk1feukct
+typedef struct tag_d7sZ6oUcdRyp2zR6GsA1dB hgk1feukct;
+#endif /*typedef_hgk1feukct*/
+#ifndef struct_tag_5s8eRFr38VQxM0VvFHY53D
+#define struct_tag_5s8eRFr38VQxM0VvFHY53D
+struct tag_5s8eRFr38VQxM0VvFHY53D
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    boolean_T TunablePropsChanged;
+    clw0jnsa3g inputVarSize;
+    real_T pNumInputChannels;
+    real_T MeanRCS;
+    real_T pRCS;
+};
+#endif /*struct_tag_5s8eRFr38VQxM0VvFHY53D*/
+#ifndef typedef_nmu42kvf0u
+#define typedef_nmu42kvf0u
+typedef struct tag_5s8eRFr38VQxM0VvFHY53D nmu42kvf0u;
+#endif /*typedef_nmu42kvf0u*/
+#ifndef struct_tag_YajB09LzK9dSaXY0fD57r
+#define struct_tag_YajB09LzK9dSaXY0fD57r
+struct tag_YajB09LzK9dSaXY0fD57r
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    clw0jnsa3g inputVarSize;
+    real_T pNumInputChannels;
+    hgk1feukct *cNoiseSource;
+    real_T pNoiseSamplePower;
+    hgk1feukct _pobj0;
+};
+#endif /*struct_tag_YajB09LzK9dSaXY0fD57r*/
+#ifndef typedef_ee2azraiqp
+#define typedef_ee2azraiqp
+typedef struct tag_YajB09LzK9dSaXY0fD57r ee2azraiqp;
+#endif /*typedef_ee2azraiqp*/
+#ifndef struct_tag_Lc14ZL7lBa0ozgcmUPWXpB
+#define struct_tag_Lc14ZL7lBa0ozgcmUPWXpB
+struct tag_Lc14ZL7lBa0ozgcmUPWXpB
+{
+    boolean_T matlabCodegenIsDeleted;
+    int32_T isInitialized;
+    boolean_T isSetupComplete;
+    clw0jnsa3g inputVarSize;
+    real_T pNumInputChannels;
+};
+#endif /*struct_tag_Lc14ZL7lBa0ozgcmUPWXpB*/
+#ifndef typedef_m4menga4iy
+#define typedef_m4menga4iy
+typedef struct tag_Lc14ZL7lBa0ozgcmUPWXpB m4menga4iy;
+#endif /*typedef_m4menga4iy*/
+%endfunction

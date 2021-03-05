@@ -1,0 +1,623 @@
+%implements s12_b0_f8igd_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign cfgTxt = ""
+%openfile cfgTxt
+%assign localVarDecl = ""
+%openfile localVarDecl
+
+static const real_T tmp_g[6] = { 0.0, -0.25, 0.0, 0.0, 0.25, 0.0 };
+static const int8_T tmp_m[9] = { 1, 0, 0, 0, 1, 0, 0, 0, 1 };
+time_t eTime;
+time_t eTime_p;
+gc2pg22xov *obj_f;
+hgk1feukct *obj_c;
+kd0seeiwud *obj_j;
+kd0seeiwudd *obj_e;
+lpaezm0n3l *obj_i;
+mdpwypuqy4 *obj_m;
+ng1ueeqmmp *obj;
+pjw2g1oqi0 *obj_g;
+pjw2g1oqi0q *obj_p;
+puz55sdew5 *s;
+creal_T tmp_p[200];
+creal_T y[200];
+creal_T b_varargout_1[100];
+creal_T tmp[100];
+creal_T b_varargout_2[50];
+creal_T elempattern[2];
+creal_T sv_temp[2];
+creal_T sv_temp_p[2];
+real_T yi[200];
+real_T yr[200];
+real_T b_varargout_2_p[100];
+real_T b[9];
+real_T localAxes[9];
+real_T b_az_el[4];
+real_T val[3];
+real_T b_az_el_data[2];
+real_T b_p[2];
+real_T d_data[2];
+real_T a_re;
+real_T gshkstxrp5_idx_1;
+real_T hypotxy;
+real_T r;
+real_T tmp_e;
+real_T tmp_i;
+hbsegthrz2 nt;
+int32_T b_az_el_size[2];
+int32_T b_az_el_size_p[2];
+int32_T h_data[2];
+int32_T i_data[2];
+int32_T exitg2;
+int32_T h_size_idx_1;
+int32_T i_size_idx_1;
+int32_T t;
+int32_T xoffset;
+uint32_T r_p;
+int8_T inSize[8];
+boolean_T exitg1;
+boolean_T p;
+boolean_T p_p;
+%closefile localVarDecl
+%assign tlcOutputsFcnOfS12B2 = OpaqueTLCBlockFcn("Outputs", 12, 2, 0, 47, 0)
+%assign tlcOutputsFcnOfS12B13 = OpaqueTLCBlockFcn("Outputs", 12, 13, 0, 47, 1)
+%<SLibGetRootInportsFromFile(system, TLC_FALSE)>
+%<SLibGenerateExtModeOutput(system)>
+if (%<(SLibCGIRIsSampleHit(1, 12))>) {
+    val[0] = rtDW.fvy4fevzjq.pVelocity[0];
+    val[1] = rtDW.fvy4fevzjq.pVelocity[1];
+    val[2] = rtDW.fvy4fevzjq.pVelocity[2];
+    p = false;
+    p_p = true;
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 3)) {
+        if (!(val[xoffset] == rtP.Target_Velocity[xoffset])) {
+            p_p = false;
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    if (p_p) {
+        p = true;
+    }
+    if (!p) {
+        p = (rtDW.fvy4fevzjq.isInitialized == 1);
+        if (p) {
+            rtDW.fvy4fevzjq.TunablePropsChanged = true;
+        }
+        rtDW.fvy4fevzjq.pVelocity[0] = rtP.Target_Velocity[0];
+        rtDW.fvy4fevzjq.pVelocity[1] = rtP.Target_Velocity[1];
+        rtDW.fvy4fevzjq.pVelocity[2] = rtP.Target_Velocity[2];
+    }
+    if (rtDW.fvy4fevzjq.TunablePropsChanged) {
+        rtDW.fvy4fevzjq.TunablePropsChanged = false;
+    }
+    rtB.e3yvyqk0gr[0] = rtDW.fvy4fevzjq.pPosition[0];
+    rtB.mt253vhucp[0] = rtDW.fvy4fevzjq.pVelocity[0];
+    val[0] = rtDW.m0at3cbtl2.pVelocity[0];
+    rtB.e3yvyqk0gr[1] = rtDW.fvy4fevzjq.pPosition[1];
+    rtB.mt253vhucp[1] = rtDW.fvy4fevzjq.pVelocity[1];
+    val[1] = rtDW.m0at3cbtl2.pVelocity[1];
+    rtB.e3yvyqk0gr[2] = rtDW.fvy4fevzjq.pPosition[2];
+    rtB.mt253vhucp[2] = rtDW.fvy4fevzjq.pVelocity[2];
+    val[2] = rtDW.m0at3cbtl2.pVelocity[2];
+    p = false;
+    p_p = true;
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 3)) {
+        if (!(val[xoffset] == rtP.Aircraft_Velocity[xoffset])) {
+            p_p = false;
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    if (p_p) {
+        p = true;
+    }
+    if (!p) {
+        p = (rtDW.m0at3cbtl2.isInitialized == 1);
+        if (p) {
+            rtDW.m0at3cbtl2.TunablePropsChanged = true;
+        }
+        rtDW.m0at3cbtl2.pVelocity[0] = rtP.Aircraft_Velocity[0];
+        rtDW.m0at3cbtl2.pVelocity[1] = rtP.Aircraft_Velocity[1];
+        rtDW.m0at3cbtl2.pVelocity[2] = rtP.Aircraft_Velocity[2];
+    }
+    if (rtDW.m0at3cbtl2.TunablePropsChanged) {
+        rtDW.m0at3cbtl2.TunablePropsChanged = false;
+    }
+    rtB.bgypp0ucca[0] = rtDW.m0at3cbtl2.pPosition[0];
+    rtB.ejz4xqawjz[0] = rtDW.m0at3cbtl2.pVelocity[0];
+    rtB.bgypp0ucca[1] = rtDW.m0at3cbtl2.pPosition[1];
+    rtB.ejz4xqawjz[1] = rtDW.m0at3cbtl2.pVelocity[1];
+    rtB.bgypp0ucca[2] = rtDW.m0at3cbtl2.pPosition[2];
+    rtB.ejz4xqawjz[2] = rtDW.m0at3cbtl2.pVelocity[2];
+}
+if (%<(SLibCGIRIsSampleHit(2, 12))>) {
+%<tlcOutputsFcnOfS12B2>\
+}
+if (%<(SLibCGIRIsSampleHit(1, 12))>) {
+    %<(SLibCGCallSubFcn("fu0hddpeibj", ["&rtDW.nx3chzrjuc", "b_varargout_1", "b_varargout_2"], 0, 47, 0))>;
+    inSize[0] = 100;
+    inSize[1] = 1;
+    for (t = 0; t < 6; t++) {
+        inSize[t + 2] = 1;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.lpr31mcjix.inputVarSize.f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.lpr31mcjix.inputVarSize.f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    inSize[0] = 3;
+    inSize[1] = 1;
+    for (t = 0; t < 6; t++) {
+        inSize[t + 2] = 1;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.gjm3ew3e04.inputVarSize[0].f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.gjm3ew3e04.inputVarSize[0].f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    t = 0;
+    exitg1 = false;
+    while ((!exitg1) && (t < 8)) {
+        if (rtDW.gjm3ew3e04.inputVarSize[1].f1[t] != (uint32_T)inSize[t]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.gjm3ew3e04.inputVarSize[1].f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            t++;
+        }
+    }
+    for (t = 0; t < 9; t++) {
+        localAxes[t] = tmp_m[t];
+    }
+    for (xoffset = 0; xoffset < 3; xoffset++) {
+        b[xoffset] = localAxes[xoffset * 3];
+        b[xoffset + 3] = localAxes[xoffset * 3 + 1];
+        b[xoffset + 6] = localAxes[xoffset * 3 + 2];
+        val[xoffset] = rtB.e3yvyqk0gr[xoffset] - rtB.bgypp0ucca[xoffset];
+    }
+    for (t = 0; t < 3; t++) {
+        hypotxy = val[t];
+        localAxes[3 * t] = b[3 * t] * hypotxy;
+        localAxes[3 * t + 1] = b[3 * t + 1] * hypotxy;
+        localAxes[3 * t + 2] = b[3 * t + 2] * hypotxy;
+    }
+    val[0] = localAxes[0];
+    val[1] = localAxes[1];
+    val[2] = localAxes[2];
+    for (t = 0; t < 2; t++) {
+        xoffset = (t + 1) * 3 - 1;
+        val[0] += localAxes[xoffset + 1];
+        val[1] += localAxes[xoffset + 2];
+        val[2] += localAxes[xoffset + 3];
+    }
+    gshkstxrp5_idx_1 = 57.295779513082323 * muDoubleScalarAtan2(val[2], muDoubleScalarHypot(val[0], val[1]));
+    obj = &rtDW.lf0c1xysk3;
+    if (rtDW.lf0c1xysk3.TunablePropsChanged) {
+        rtDW.lf0c1xysk3.TunablePropsChanged = false;
+    }
+    inSize[0] = 100;
+    inSize[1] = 1;
+    for (t = 0; t < 6; t++) {
+        inSize[t + 2] = 1;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.lf0c1xysk3.inputVarSize[0].f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.lf0c1xysk3.inputVarSize[0].f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    obj_p = &rtDW.lf0c1xysk3.cSteeringVector;
+    if (obj->cSteeringVector.isInitialized != 1) {
+        obj->cSteeringVector.isSetupComplete = false;
+        obj->cSteeringVector.isInitialized = 1;
+        obj_p->_pobj1.isInitialized = 0;
+        obj_p->_pobj1.Element = &obj->cSteeringVector._pobj0;
+        obj_p->_pobj1.matlabCodegenIsDeleted = false;
+        obj->cSteeringVector.cSensorArray = &obj_p->_pobj1;
+        obj->cSteeringVector.isSetupComplete = true;
+    }
+    a_re = %<(SLibCGCallSubFcn("pg3bntie3u", ["gshkstxrp5_idx_1"], 0, 47, 1))>;
+    r = -%<(SLibCGCallSubFcn("kbt25f2tva", ["gshkstxrp5_idx_1"], 0, 47, 2))> * %<(SLibCGCallSubFcn("kbt25f2tva", ["0.0"], 0, 47, 3))>;
+    tmp_i = -%<(SLibCGCallSubFcn("kbt25f2tva", ["gshkstxrp5_idx_1"], 0, 47, 4))> * %<(SLibCGCallSubFcn("pg3bntie3u", ["0.0"], 0, 47, 5))>;
+    for (t = 0; t < 2; t++) {
+        tmp_e = ((tmp_g[3 * t + 1] * tmp_i + tmp_g[3 * t] * r) + tmp_g[3 * t + 2] * -a_re) / 2.99792458E+8;
+        sv_temp[t].re = tmp_e * -0.0;
+        sv_temp[t].im = tmp_e * -1.8849555921538758E+9;
+    }
+    if (sv_temp[0].im == 0.0) {
+        a_re = muDoubleScalarExp(sv_temp[0].re);
+        r = 0.0;
+    } else {
+        r = muDoubleScalarExp(sv_temp[0].re / 2.0);
+        a_re = r * muDoubleScalarCos(sv_temp[0].im) * r;
+        r *= r * muDoubleScalarSin(sv_temp[0].im);
+    }
+    sv_temp[0].re = a_re;
+    sv_temp[0].im = r;
+    if (sv_temp[1].im == 0.0) {
+        a_re = muDoubleScalarExp(sv_temp[1].re);
+        r = 0.0;
+    } else {
+        r = muDoubleScalarExp(sv_temp[1].re / 2.0);
+        a_re = r * muDoubleScalarCos(sv_temp[1].im) * r;
+        r *= r * muDoubleScalarSin(sv_temp[1].im);
+    }
+    sv_temp[1].re = a_re;
+    obj_e = obj->cSteeringVector.cSensorArray;
+    if (obj_e->isInitialized != 1) {
+        obj_e->isSetupComplete = false;
+        obj_e->isInitialized = 1;
+        obj_e->_pobj0.isInitialized = 0;
+        obj_e->cElement = &obj_e->_pobj0;
+        obj_e->pTaper[0] = 1.0;
+        obj_e->pTaper[1] = 1.0;
+        obj_e->isSetupComplete = true;
+    }
+    b_az_el[0] = 0.0;
+    b_az_el[1] = gshkstxrp5_idx_1;
+    b_az_el[2] = 0.0;
+    b_az_el[3] = gshkstxrp5_idx_1;
+    obj_i = obj_e->cElement;
+    if (obj_i->isInitialized != 1) {
+        obj_i->isSetupComplete = false;
+        obj_i->isInitialized = 1;
+        obj_i->isSetupComplete = true;
+    }
+    xoffset = 0;
+    for (t = 0; t < 2; t++) {
+        xoffset++;
+    }
+    h_size_idx_1 = xoffset;
+    xoffset = 0;
+    for (t = 0; t < 2; t++) {
+        h_data[xoffset] = t + 1;
+        xoffset++;
+    }
+    xoffset = 0;
+    for (t = 0; t < 2; t++) {
+        xoffset++;
+    }
+    i_size_idx_1 = xoffset;
+    xoffset = 0;
+    for (t = 0; t < 2; t++) {
+        i_data[xoffset] = t + 1;
+        xoffset++;
+    }
+    b_az_el_size[0] = 1;
+    b_az_el_size[1] = h_size_idx_1;
+    for (t = 0; t < h_size_idx_1; t++) {
+        b_az_el_data[t] = b_az_el[(h_data[t] - 1) << 1];
+    }
+    %<(SLibCGCallSubFcn("kbt25f2tvafdu", ["b_az_el_data", "b_az_el_size", "b_p", "h_data"], 0, 47, 6))>;
+    %<(SLibCGCallSubFcn("jxod0zcb2ws", ["b_p", "h_data", "d_data", "b_az_el_size"], 0, 47, 7))>;
+    b_az_el_size_p[0] = 1;
+    b_az_el_size_p[1] = i_size_idx_1;
+    for (t = 0; t < i_size_idx_1; t++) {
+        b_az_el_data[t] = b_az_el[((i_data[t] - 1) << 1) + 1];
+    }
+    %<(SLibCGCallSubFcn("kbt25f2tvafdu", ["b_az_el_data", "b_az_el_size_p", "b_p", "h_data"], 0, 47, 8))>;
+    %<(SLibCGCallSubFcn("jxod0zcb2ws", ["b_p", "h_data", "b_az_el_data", "i_data"], 0, 47, 9))>;
+    xoffset = b_az_el_size[0] * b_az_el_size[1] - 1;
+    for (t = 0; t <= xoffset; t++) {
+        d_data[t] *= b_az_el_data[t];
+    }
+    xoffset = 0;
+    for (t = 0; t < 2; t++) {
+        b_p[t] = d_data[xoffset];
+        xoffset++;
+    }
+    elempattern[0].re = obj_e->pTaper[0] * b_p[0];
+    elempattern[0].im = obj_e->pTaper[0] * 0.0;
+    elempattern[1].re = obj_e->pTaper[1] * b_p[1];
+    elempattern[1].im = obj_e->pTaper[1] * 0.0;
+    a_re = (sv_temp[0].re * elempattern[0].re - sv_temp[0].im * elempattern[0].im) + (a_re * elempattern[1].re - r * elempattern[1].im);
+    r = (sv_temp[0].re * elempattern[0].im + sv_temp[0].im * elempattern[0].re) + (sv_temp[1].re * elempattern[1].im + r * elempattern[1].re);
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.aw1xd0e4zh.inputVarSize[0].f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.aw1xd0e4zh.inputVarSize[0].f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    for (t = 0; t < 100; t++) {
+        hypotxy = 707.10678118654755 * b_varargout_1[t].re;
+        tmp_i = 707.10678118654755 * b_varargout_1[t].im;
+        tmp[t].re = hypotxy * a_re - tmp_i * r;
+        tmp[t].im = hypotxy * r + tmp_i * a_re;
+    }
+    %<(SLibCGCallSubFcn("ezebb143wj", ["&rtDW.aw1xd0e4zh", "tmp", "rtB.bgypp0ucca", "rtB.e3yvyqk0gr", "rtB.ejz4xqawjz", "rtB.mt253vhucp", "b_varargout_1"], 0, 47, 10))>;
+    if (rtDW.cw3v0exiod.MeanRCS != rtP.RadarTarget_MeanRCS) {
+        if (rtDW.cw3v0exiod.isInitialized == 1) {
+            rtDW.cw3v0exiod.TunablePropsChanged = true;
+        }
+        rtDW.cw3v0exiod.MeanRCS = rtP.RadarTarget_MeanRCS;
+    }
+    if (rtDW.cw3v0exiod.TunablePropsChanged) {
+        rtDW.cw3v0exiod.TunablePropsChanged = false;
+        rtDW.cw3v0exiod.pRCS = rtDW.cw3v0exiod.MeanRCS;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.cw3v0exiod.inputVarSize.f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.cw3v0exiod.inputVarSize.f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    hypotxy = muDoubleScalarSqrt(muDoubleScalarPower(10.0, ((muDoubleScalarLog10(12.566370614359172 * rtDW.cw3v0exiod.pRCS / 0.99861686526313065) * 10.0 + 300.0) - 300.0) / 10.0));
+    obj_m = &rtDW.nh00wszcu1;
+    if (rtDW.nh00wszcu1.TunablePropsChanged) {
+        rtDW.nh00wszcu1.TunablePropsChanged = false;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.nh00wszcu1.inputVarSize[0].f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.nh00wszcu1.inputVarSize[0].f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    obj_g = &rtDW.nh00wszcu1.cSteeringVector;
+    if (obj_m->cSteeringVector.isInitialized != 1) {
+        obj_m->cSteeringVector.isSetupComplete = false;
+        obj_m->cSteeringVector.isInitialized = 1;
+        obj_g->_pobj1.isInitialized = 0;
+        obj_g->_pobj1.Element = &obj_m->cSteeringVector._pobj0;
+        obj_g->_pobj1.matlabCodegenIsDeleted = false;
+        obj_m->cSteeringVector.cSensorArray = &obj_g->_pobj1;
+        obj_m->cSteeringVector.isSetupComplete = true;
+    }
+    a_re = %<(SLibCGCallSubFcn("pg3bntie3u", ["gshkstxrp5_idx_1"], 0, 47, 11))>;
+    r = -%<(SLibCGCallSubFcn("kbt25f2tva", ["gshkstxrp5_idx_1"], 0, 47, 12))> * %<(SLibCGCallSubFcn("kbt25f2tva", ["0.0"], 0, 47, 13))>;
+    tmp_i = -%<(SLibCGCallSubFcn("kbt25f2tva", ["gshkstxrp5_idx_1"], 0, 47, 14))> * %<(SLibCGCallSubFcn("pg3bntie3u", ["0.0"], 0, 47, 15))>;
+    for (t = 0; t < 2; t++) {
+        tmp_e = ((tmp_g[3 * t + 1] * tmp_i + tmp_g[3 * t] * r) + tmp_g[3 * t + 2] * -a_re) / 2.99792458E+8;
+        sv_temp[t].re = tmp_e * -0.0;
+        sv_temp[t].im = tmp_e * -1.8849555921538758E+9;
+    }
+    if (sv_temp[0].im == 0.0) {
+        a_re = muDoubleScalarExp(sv_temp[0].re);
+        r = 0.0;
+    } else {
+        r = muDoubleScalarExp(sv_temp[0].re / 2.0);
+        a_re = r * muDoubleScalarCos(sv_temp[0].im) * r;
+        r *= r * muDoubleScalarSin(sv_temp[0].im);
+    }
+    sv_temp[0].re = a_re;
+    sv_temp[0].im = r;
+    if (sv_temp[1].im == 0.0) {
+        a_re = muDoubleScalarExp(sv_temp[1].re);
+        r = 0.0;
+    } else {
+        r = muDoubleScalarExp(sv_temp[1].re / 2.0);
+        a_re = r * muDoubleScalarCos(sv_temp[1].im) * r;
+        r *= r * muDoubleScalarSin(sv_temp[1].im);
+    }
+    sv_temp[1].re = a_re;
+    sv_temp[1].im = r;
+    obj_j = obj_m->cSteeringVector.cSensorArray;
+    if (obj_j->isInitialized != 1) {
+        obj_j->isSetupComplete = false;
+        obj_j->isInitialized = 1;
+        obj_j->_pobj0.isInitialized = 0;
+        obj_j->cElement = &obj_j->_pobj0;
+        obj_j->pTaper[0] = 1.0;
+        obj_j->pTaper[1] = 1.0;
+        obj_j->isSetupComplete = true;
+    }
+    obj_f = obj_j->cElement;
+    if (obj_f->isInitialized != 1) {
+        obj_f->isSetupComplete = false;
+        obj_f->isInitialized = 1;
+        obj_f->isSetupComplete = true;
+    }
+    elempattern[0].re = obj_j->pTaper[0];
+    elempattern[0].im = obj_j->pTaper[0] * 0.0;
+    elempattern[1].re = obj_j->pTaper[1];
+    elempattern[1].im = obj_j->pTaper[1] * 0.0;
+    for (t = 0; t < 2; t++) {
+        sv_temp_p[t].re = sv_temp[t].re * elempattern[t].re - sv_temp[t].im * elempattern[t].im;
+        sv_temp_p[t].im = sv_temp[t].re * elempattern[t].im + sv_temp[t].im * elempattern[t].re;
+        for (xoffset = 0; xoffset < 100; xoffset++) {
+            gshkstxrp5_idx_1 = hypotxy * b_varargout_1[xoffset].re;
+            a_re = hypotxy * b_varargout_1[xoffset].im;
+            y[xoffset + 100 * t].re = gshkstxrp5_idx_1 * sv_temp_p[t].re - a_re * sv_temp_p[t].im;
+            y[xoffset + 100 * t].im = gshkstxrp5_idx_1 * sv_temp_p[t].im + a_re * sv_temp_p[t].re;
+        }
+        inSize[t] = (int8_T)(-98 * t + 100);
+    }
+    for (t = 0; t < 6; t++) {
+        inSize[t + 2] = 1;
+    }
+    xoffset = 0;
+    exitg1 = false;
+    while ((!exitg1) && (xoffset < 8)) {
+        if (rtDW.fklv1ge0dn.inputVarSize.f1[xoffset] != (uint32_T)inSize[xoffset]) {
+            for (t = 0; t < 8; t++) {
+                rtDW.fklv1ge0dn.inputVarSize.f1[t] = (uint32_T)inSize[t];
+            }
+            exitg1 = true;
+        } else {
+            xoffset++;
+        }
+    }
+    obj_c = rtDW.fklv1ge0dn.cNoiseSource;
+    hypotxy = rtDW.fklv1ge0dn.pNoiseSamplePower;
+    if (obj_c->isInitialized != 1) {
+        obj_c->isSetupComplete = false;
+        obj_c->isInitialized = 1;
+        r = %<(SLibCGCallSubFcn("mcznhbxewp", [], 0, 47, 16))> * 8.64E+6;
+        gshkstxrp5_idx_1 = %<(SLibCGCallSubFcn("gfkehwhipgq", ["muDoubleScalarFloor(r)"], 0, 47, 17))>;
+        eTime = time(NULL);
+        do {
+            exitg2 = 0;
+            eTime_p = time(NULL);
+            if ((int32_T)eTime_p <= (int32_T)eTime + 1) {
+                r = %<(SLibCGCallSubFcn("mcznhbxewp", [], 0, 47, 18))> * 8.64E+6;
+                if (gshkstxrp5_idx_1 != %<(SLibCGCallSubFcn("gfkehwhipgq", ["muDoubleScalarFloor(r)"], 0, 47, 19))>) {
+                    exitg2 = 1;
+                }
+            } else {
+                exitg2 = 1;
+            }
+        } while (exitg2 == 0);
+        a_re = muDoubleScalarRound(gshkstxrp5_idx_1);
+        if (a_re < 4.294967296E+9) {
+            if (a_re >= 0.0) {
+                rtDW.e5omidte4f = (uint32_T)a_re;
+            } else {
+                rtDW.e5omidte4f = 0U;
+            }
+        } else if (a_re >= 4.294967296E+9) {
+            rtDW.e5omidte4f = MAX_uint32_T;
+        } else {
+            rtDW.e5omidte4f = 0U;
+        }
+        if (rtDW.pykjkqjmt1 == 7U) {
+            if (!rtDW.btjdmvict1) {
+                memset(&rtDW.cwytgyltxd[0], 0, 625U * sizeof(uint32_T));
+                r_p = 5489U;
+                rtDW.cwytgyltxd[0] = 5489U;
+                for (t = 0; t < 623; t++) {
+                    r_p = ((r_p >> 30U ^ r_p) * 1812433253U + t) + 1U;
+                    rtDW.cwytgyltxd[t + 1] = r_p;
+                }
+                rtDW.cwytgyltxd[624] = 624U;
+                rtDW.btjdmvict1 = true;
+            }
+            r_p = rtDW.e5omidte4f;
+            rtDW.cwytgyltxd[0] = rtDW.e5omidte4f;
+            for (t = 0; t < 623; t++) {
+                r_p = ((r_p >> 30U ^ r_p) * 1812433253U + t) + 1U;
+                rtDW.cwytgyltxd[t + 1] = r_p;
+            }
+            rtDW.cwytgyltxd[624] = 624U;
+        } else if (rtDW.pykjkqjmt1 == 5U) {
+            rtDW.oyq5gbg1l5[0] = 362436069U;
+            rtDW.oyq5gbg1l5[1] = rtDW.e5omidte4f;
+            if (rtDW.oyq5gbg1l5[1] == 0U) {
+                rtDW.oyq5gbg1l5[1] = 521288629U;
+            }
+        } else {
+            if (rtDW.pykjkqjmt1 == 4U) {
+                r_p = rtDW.e5omidte4f >> 16U;
+                t = (int32_T)(rtDW.e5omidte4f & 32768U);
+                r_p += (((rtDW.e5omidte4f - (r_p << 16U)) - t) << 16U) + t;
+                if (r_p < 1U) {
+                    r_p = 1144108930U;
+                } else {
+                    if (r_p > 2147483646U) {
+                        r_p = 2147483646U;
+                    }
+                }
+                rtDW.cgzxsbz25a = r_p;
+            }
+        }
+        r = %<(SLibCGCallSubFcn("h4a5bdsn23", [], 0, 47, 20))>;
+        r = muDoubleScalarFloor(r * 65535.0) + 1.0;
+        s = &obj_c->cRandStream;
+        obj_c->cRandStream.SavedPolarValue = 0.0;
+        obj_c->cRandStream.HaveSavedPolarValue = false;
+        %<(SLibCGCallSubFcn("gmhf0sow4r", ["&s->MtGenerator", "(uint32_T)r"], 0, 47, 21))>;
+        obj_c->cRandStream.Generator = &obj_c->cRandStream.MtGenerator;
+        obj_c->cRandStream.NtMethod = coder_internal_RngNt_ziggurat;
+        obj_c->isSetupComplete = true;
+        r = %<(SLibCGCallSubFcn("h4a5bdsn23", [], 0, 47, 22))>;
+        a_re = muDoubleScalarFloor(r * 65535.0) + 1.0;
+        if (a_re < 4.294967296E+9) {
+            if (a_re >= 0.0) {
+                r_p = (uint32_T)a_re;
+            } else {
+                r_p = 0U;
+            }
+        } else if (a_re >= 4.294967296E+9) {
+            r_p = MAX_uint32_T;
+        } else {
+            r_p = 0U;
+        }
+        %<(SLibCGCallSubFcn("gmhf0sow4r", ["obj_c->cRandStream.Generator", "r_p"], 0, 47, 23))>;
+    }
+    nt = obj_c->cRandStream.NtMethod;
+    if (nt == coder_internal_RngNt_ziggurat) {
+        %<(SLibCGCallSubFcn("agkbdnil4y", ["obj_c->cRandStream.Generator", "yr"], 0, 47, 24))>;
+    } else {
+        %<(SLibCGCallSubFcn("ojnxqwrr22", ["&obj_c->cRandStream", "yr"], 0, 47, 25))>;
+    }
+    nt = obj_c->cRandStream.NtMethod;
+    if (nt == coder_internal_RngNt_ziggurat) {
+        %<(SLibCGCallSubFcn("agkbdnil4y", ["obj_c->cRandStream.Generator", "yi"], 0, 47, 26))>;
+    } else {
+        %<(SLibCGCallSubFcn("ojnxqwrr22", ["&obj_c->cRandStream", "yi"], 0, 47, 27))>;
+    }
+    hypotxy = muDoubleScalarSqrt(hypotxy / 2.0);
+    if (rtDW.otc1ywyo33.ReferenceRange != rtP.RangeResponse_ReferenceRange) {
+        p = (rtDW.otc1ywyo33.isInitialized == 1);
+        if (p) {
+            rtDW.otc1ywyo33.TunablePropsChanged = true;
+        }
+        rtDW.otc1ywyo33.ReferenceRange = rtP.RangeResponse_ReferenceRange;
+    }
+    for (t = 0; t < 200; t++) {
+        tmp_p[t].re = 10.0 * y[t].re + hypotxy * yr[t];
+        tmp_p[t].im = 10.0 * y[t].im + hypotxy * yi[t];
+    }
+    %<(SLibCGCallSubFcn("fu0hddpeibjw", ["&rtDW.otc1ywyo33", "tmp_p", "b_varargout_2", "y", "b_varargout_2_p"], 0, 47, 28))>;
+}
+if (%<(SLibCGIRIsSampleHit(2, 12))>) {
+%<tlcOutputsFcnOfS12B13>\
+}
+%<SLibInsertSolverResetCode()>\
+%closefile cfgTxt
+%<cfgTxt>
+%<LibSetSystemField(system, "CachedOutputLocalVars", localVarDecl)>
+%endfunction
+%function OutputsFcnProtoType(block, system) Output
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Outputs(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 47, fcnProtoType)>
+%endfunction
