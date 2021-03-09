@@ -1,5 +1,0 @@
-%implements s12_b0_f8igd_ModuleConstants "C"
-
-%function ModuleConstants(block) Output
-
-%endfunction
