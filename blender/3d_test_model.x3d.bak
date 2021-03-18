@@ -14,7 +14,7 @@
 </DirectionalLight>
 <DirectionalLight direction='1 -2 1' intensity='0.5'>
 </DirectionalLight>
-<Transform DEF='shape_terminal'  translation='-400 90 0' scale='0.05 0.1 0.05'>
+<Transform DEF='shape_terminal'  translation='-400 80 0' scale='0.05 0.1 0.05'>
   <Transform>
     <Shape>
       <Appearance>
@@ -48,7 +48,7 @@
   <Viewpoint fieldOfView='0.7854' description='Trajectory' orientation='1 0 0 0.1'>
   </Viewpoint>
 </Transform>
-<Transform DEF='shape_plane'  translation='500 1000 -1000' scale='0.5 0.5 0.5'>
+<Transform DEF='shape_plane'  translation='500 1000 -600' scale='0.5 0.5 0.5'>
   <Transform>
     <Shape>
       <Appearance>
@@ -187,11 +187,33 @@
 <Viewpoint DEF='view_runway'  fieldOfView='0.7854' description='Runway' orientation='0 -1 0 0.65' position='-41 1.5 300'>
 </Viewpoint>
 <Transform DEF='view_observe' >
-  <Viewpoint description='observer' orientation='1 0 0 -0.15' position='10 10 60'>
+  <Viewpoint fieldOfView='0.7854' description='observer' orientation='1 0 0 -0.15' position='10 10 60'>
   </Viewpoint>
 </Transform>
 <Viewpoint DEF='editing_overview'  fieldOfView='0.7854' description='Overview for editing' orientation='-0.0993388 0.990075 0.099418 1.57997' position='2860.76 600.312 152.089'>
 </Viewpoint>
+<Transform DEF='beam_cone'  translation='500 500 -600'>
+  <Shape>
+    <Appearance>
+      <Material transparency='0.5' specularColor='1 0.4 0.2' emissiveColor='1 0.4 0.2' diffuseColor='1 0.4 0'>
+      </Material>
+    </Appearance>
+    <Cone solid='false' height='1000' bottomRadius='20.77' bottom='false'>
+    </Cone>
+  </Shape>
+</Transform>
+<Transform DEF='ground_plane' >
+  <Shape>
+    <Appearance>
+      <Material specularColor='0.2 0.08 0.14' shininess='0.02' emissiveColor='0.01 0.01 0.01' diffuseColor='0.34 0.21 0.24' ambientIntensity='0.0667'>
+      </Material>
+    </Appearance>
+    <IndexedFaceSet coordIndex='0 1 2 3 -1'>
+      <Coordinate point='1000 0 1000 1000 0 -1000 -1000 0 -1000 -1000 0 1000'>
+      </Coordinate>
+    </IndexedFaceSet>
+  </Shape>
+</Transform>
 <ROUTE fromNode='shape_plane' fromField='translation' toNode='view_observe' toField='translation'/>
 
 </Scene>

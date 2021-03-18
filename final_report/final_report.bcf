@@ -2183,6 +2183,52 @@
     <bcf:datasource type="file" datatype="bibtex">../FYP.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="8">wolffSyntheticApertureRadar2012</bcf:citekey>
+    <bcf:citekey order="9">wolffSyntheticApertureRadar2012</bcf:citekey>
+    <bcf:citekey order="10">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="11">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="12">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="13">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="14">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="15">franceschettiSARASSyntheticAperture1992</bcf:citekey>
+    <bcf:citekey order="16">franceschettiSARProcessorBased1990</bcf:citekey>
+    <bcf:citekey order="17">franceschettiCanonicalProblemElectromagnetic2002</bcf:citekey>
+    <bcf:citekey order="18">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="19">franceschettiSimulationToolsInterpretation2007</bcf:citekey>
+    <bcf:citekey order="20">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="21">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="22">franceschettiSimulationToolsInterpretation2007</bcf:citekey>
+    <bcf:citekey order="23">franceschettiSimulationToolsInterpretation2007</bcf:citekey>
+    <bcf:citekey order="24">zhengSimulationMethodSAR2008</bcf:citekey>
+    <bcf:citekey order="25">delliereSARMeasurementSimulation2007</bcf:citekey>
+    <bcf:citekey order="26">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="27">balzRealtimeSARSimulation2006</bcf:citekey>
+    <bcf:citekey order="28">auerRayTracingSimulating2008</bcf:citekey>
+    <bcf:citekey order="29">mametsaImagingRadarSimulation2002</bcf:citekey>
+    <bcf:citekey order="30">hammerComparisonSARSimulation2008</bcf:citekey>
+    <bcf:citekey order="31">balzImprovedRealTimeSAR2006</bcf:citekey>
+    <bcf:citekey order="32">balzRealtimeSARSimulation2006</bcf:citekey>
+    <bcf:citekey order="33">hammerComparisonSARSimulation2008</bcf:citekey>
+    <bcf:citekey order="34">balzImprovedRealTimeSAR2006</bcf:citekey>
+    <bcf:citekey order="35">balzImprovedRealTimeSAR2006</bcf:citekey>
+    <bcf:citekey order="36">auerRayTracingSimulating2008</bcf:citekey>
+    <bcf:citekey order="37">auerRayTracingSimulating2008</bcf:citekey>
+    <bcf:citekey order="38">hammerComparisonSARSimulation2008</bcf:citekey>
+    <bcf:citekey order="39">hammerComparisonSARSimulation2008</bcf:citekey>
+    <bcf:citekey order="40">luGPUBasedRealtime2009</bcf:citekey>
+    <bcf:citekey order="41">balzHybridGPUBasedSingle2009</bcf:citekey>
+    <bcf:citekey order="42">auerRayTracingSimulating2008</bcf:citekey>
+    <bcf:citekey order="43">chenRadarImagingSimulation2011</bcf:citekey>
+    <bcf:citekey order="44">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="45">xuImagingSimulationPolarimetric2006</bcf:citekey>
+    <bcf:citekey order="46">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="47">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="48">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="49">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="50">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="51">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="52">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="53">watsonEE40136RadarSystems2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

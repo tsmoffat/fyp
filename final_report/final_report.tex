@@ -2,15 +2,25 @@
 
 \usepackage[style=ieee]{biblatex}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
 \usepackage{tabu}
 \usepackage{longtable}
+\usepackage{wrapfig}
 \usepackage{pdfpages}
 \usepackage[utf8]{inputenc}
+\usepackage{gensymb}
 \usepackage[a4paper, left=30mm, right=30mm, top=25mm, bottom=25mm]{geometry}
 \usepackage{titling}
-\usepackage[symbols,nonumberlist,nogroupskip]{glossaries-extra}
+\usepackage[symbols,nonumberlist,nogroupskip,shortcuts=other, xindy]{glossaries-extra}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+
+\usetikzlibrary{arrows}
 
 \title{Synthetic aperture imaging radar signal simulation of urban environments}
 \author{Thomas Stenson Moffat}
@@ -27,12 +37,59 @@
 
 \addbibresource{../FYP.bib}
 
+\tabulinesep=1mm
+
 \makeglossaries
 
-%Add in new symbols here: (command is \glsxtrnewsymbol[description={position}]{x}{\ensuremath{x}} and reference with \gls{label}
-\glsxtrnewsymbol[description={position}]{x}{\ensuremath{x}}
+%Add in new symbols here: (command is \newsym[description={position}]{x}{\ensuremath{x}} and reference with \gls{label}
+\newsym[description={position}]{x_pos}{\ensuremath{x}}
+\newsym[description={Noise equivalent}]{sigma0}{\ensuremath{\sigma^0}}
+\newsym[description={Light speed in a vacuum}]{c}{\ensuremath{c}}
+\newsym[description={Bandwidth of the signal}]{B}{\ensuremath{B}}
+\newsym[description={Wavelength of the signal}]{lambda}{\ensuremath{\lambda}}
+\newsym[description={Radial resolution}]{DeltaR}{\ensuremath{\Delta R}}
+\newsym[description={Ground resolution}]{DeltaRg}{\ensuremath{\Delta R_g}}
+\newsym[description={Angle from horizontal to beam centre}]{alpha}{\ensuremath{\alpha}}
+\newsym[description={Beam elevation angle}]{thetael}{\ensuremath{\theta _{el}}}
+\newsym[description={Swath length}]{Ls}{\ensuremath{Ls}}
+\newsym[description={Azimuthal angle}]{thetaaz}{\ensuremath{\theta_{az}}}
+\newsym[description={Aperture size in desired dimension}]{D}{\ensuremath{D}}
+\newsym[description={Angular wave number (i.e. $\frac{2\pi}{r}$)}]{k0}{\ensuremath{k_0}}
+\newsym[description={2-way phase history}]{phix}{\ensuremath{\phi(x)}}
+\newsym[description={Center distance of the beam}]{r0}{\ensuremath{r_0}}
+\newsym[description={Total displacement of the platform}]{x}{\ensuremath{x}}
+\newsym[description={Outer radial distance of the beam}]{r}{\ensuremath{r}}
+\newsym[description={Difference between r and $r_0$}]{deltar}{\ensuremath{\Delta r}}
+\newsym[description={Synthesised beam width}]{thetasa}{\ensuremath{\theta _{sa}}}
+\newsym[description={Cross-range resolution}]{deltax}{\ensuremath{\Delta x}}
+\newsym[description={Transmitter power}]{Pt}{\ensuremath{P_t}}
+\newsym[description={Range}]{R}{\ensuremath{R}}
+\newsym[description={Transmitter gain}]{Gt}{\ensuremath{G_t}}
+\newsym[description={Radar cross-section}]{sigmab}{\ensuremath{\sigma _b}}
+\newsym[description={Effective antenna aperture area}]{Ae}{\ensuremath{A_e}}
+\newsym[description={Received gain}]{Gr}{\ensuremath{G_r}}
+\newsym[description={Total gain}]{G}{\ensuremath{G}}
+\newsym[description={Maximum range}]{Rmax}{\ensuremath{R_\text{max}}}
+\newsym[description={Minimum detectable signal}]{Pmin}{\ensuremath{P_\text{min}}}
+\newsym[description={Boltzmann's constant}]{k}{\ensuremath{k}}
+\newsym[description={System noise temperature}]{Tsys}{\ensuremath{T_\text{sys}}}
+\newsym[description={Noise power}]{Pn}{\ensuremath{P_n}}
+\newsym[description={Pulse width}]{tau}{\ensuremath{\tau}}
+\newsym[description={A number}]{n}{\ensuremath{n}}
+\newsym[description={Average power across all pulses}]{Pav}{\ensuremath{P_{av}}}
+\newsym[description={Time spent observing the target}]{tobs}{\ensuremath{T_{obs}}}
+\newsym[description={Platform velocity}]{vp}{\ensuremath{v_p}}
 
 \begin{document}
+
+
+\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
+\definecolor{yqyqyq}{rgb}{0.5019607843137255,0.5019607843137255,0.5019607843137255}
+\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+
+
 \input{title_page}
 \section*{Abstract}
 \newpage
@@ -41,10 +98,13 @@
 \printglossary[type=symbols,style=long,title={List of Symbols}]
 \chapter{Introduction}
 \chapter{Engineering Analysis}
+\section{Introduction to SAR}
+\input{intro_to_sar}
+\section{Literature Review}
+
+\input{../project_background/lit_review_base}
 \chapter{Methods}
-\section{Exploration of Methods Used and Their Suitability}
-\section{Results and Outcomes}
-\section{Milestones Achieved}
+\input{report_methods}
 \chapter{Deliverables}
 \section{Deliverables Achieved}
 \section{Significant Results}
@@ -56,4 +116,6 @@
 \newpage
 \section*{Acknowledgements}
 \printbibliography
+
+\input{appendices}
 \end{document}

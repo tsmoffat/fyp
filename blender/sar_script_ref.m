@@ -163,6 +163,7 @@ for i= rangeIdx(1):rangeIdx(2)  % Iterate over the range indices
             % Time delay for each of range and cross-range indices
             td= sqrt((azimuthDist(k)- posx)^2 + posy^2)*2/c;
             cell= round(td*fs) +1 ;
+            
             signal = sigdata(cell,k);
             count= count + hn(k -(j-lsar/2))*signal *exp(1j*2*pi*fc*(td));
         end

@@ -1,29 +1,65 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}%
+\contentsline {chapter}{List of Symbols}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Engineering Analysis}{5}%
+\contentsline {chapter}{\numberline {1}Introduction}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methods}{6}%
+\contentsline {chapter}{\numberline {2}Engineering Analysis}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Exploration of Methods Used and Their Suitability}{6}%
+\contentsline {section}{\numberline {2.1}Introduction to SAR}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Results and Outcomes}{6}%
+\contentsline {subsubsection}{The SAR radar equation}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Milestones Achieved}{6}%
+\contentsline {subsubsection}{SAR Image Artefacts}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Deliverables}{7}%
+\contentsline {section}{\numberline {2.2}Literature Review}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Deliverables Achieved}{7}%
+\contentsline {subsection}{\numberline {2.2.1}A Summary of Methods Previously Explored in Literature}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Significant Results}{7}%
+\contentsline {subsection}{\numberline {2.2.2}In-Depth Findings}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Uncertainty}{7}%
+\contentsline {subsubsection}{Raw SAR Simulation}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Final Results}{7}%
+\contentsline {subsubsection}{Graphical SAR Simulation}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{8}%
+\contentsline {subsubsection}{Hybrid Method and Other Papers of Note}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{8}%
+\contentsline {chapter}{\numberline {3}Methods}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Further Work}{8}%
+\contentsline {section}{\numberline {3.1}Exploration of Methods Used and Their Suitability}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}SAR Simulation Methods}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Raw SAR Simulation}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Image Forming Methods}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Results and Outcomes}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Milestones Achieved}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Deliverables}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Deliverables Achieved}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Significant Results}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Uncertainty}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Final Results}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusions}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Further Work}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Derivations}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Focused SAR Resolution}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Along track resolution}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Down-range resolution}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Derivation of the Radar Equation}{21}%

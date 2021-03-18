@@ -1,9 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.blg'
-[155] biber-darwin:322> INFO - === Thu Feb 25, 2021, 14:57:55
-[175] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
-[402] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
-[409] Utils.pm:304> WARN - The file '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf' does not contain any citations!
-[420] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
-[420] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl
-[420] Biber.pm:128> INFO - WARNINGS: 1
+[1] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.blg'
+[144] biber-darwin:322> INFO - === Thu Mar 18, 2021, 16:32:14
+[183] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
+[376] Biber.pm:943> INFO - Found 19 citekeys in bib section 0
+[412] Biber.pm:4256> INFO - Processing section 0
+[413] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
+[414] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
+[435] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
+[448] bibtex.pm:1653> INFO - LaTeX decoding ...
+[836] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
+[1234] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1234] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1234] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1234] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1286] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
+[1323] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl

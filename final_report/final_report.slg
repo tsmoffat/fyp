@@ -1,5 +1,94 @@
-This is makeindex, version 2.15 [TeX Live 2020] (kpathsea + Thai support).
-Scanning style file /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.slo...done (0 entries accepted, 0 rejected).
-Nothing written in /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.sls.
-Transcript written in /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.slg.
+;; This logfile was generated automatically by `xindy'
+;; at 18.03.2021  16:26:48
+;; Indexstyle: "/var/folders/jg/trxh5xc5067bgmplfk15frqh0000gn/T/WNBtkL2Yxt", Rawindex: "/var/folders/jg/trxh5xc5067bgmplfk15frqh0000gn/T/RQy9ojM5KM", Output: "/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.sls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "ÈÚ" -> "P"
+Letter-group: "" -> "G"
+Letter-group: "€—" -> "A"
+Letter-group: "´€»„€" -> "L"
+Letter-group: "Ð¨»€„" -> "S"
+Letter-group: "Ë" -> "R"
+Letter-group: "®" -> "K"
+Letter-group: "ÚÐíÐ" -> "T"
+Letter-group: "„" -> "B"
+Letter-group: "¼" -> "N"
+Letter-group: "È€å" -> "P"
+Letter-group: "—´Ú€Ë" -> "D"
+Letter-group: "ÚÃ„Ð" -> "T"
+Letter-group: "åÈ" -> "V"
+Letter-group: "Ð¨»€0" -> "S"
+Letter-group: "Ë" -> "R"
+Letter-group: "Ë0" -> "R"
+Letter-group: "—´Ú€Ë" -> "D"
+Letter-group: "ë" -> "X"
+Letter-group: "®0" -> "K"
+Letter-group: "È¤¨ë" -> "P"
+Letter-group: "Ú¤—Ú€Ð€" -> "T"
+Letter-group: "—´Ú€ë" -> "D"
+Letter-group: "" -> "D"
+Letter-group: "Ë»€ë" -> "R"
+Letter-group: "—´Ú€Ë" -> "D"
+Letter-group: "È¼" -> "P"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "€—" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "„" -> "B"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-other-runs: ("deltar") ("DeltaR") (BACKWARD FORWARD FORWARD) 1.
+sort-other-runs: ("deltar") ("DeltaR") (FORWARD FORWARD) 2.
+Letter-group: "" -> "D"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "" -> "G"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "®" -> "K"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "´€»„€" -> "L"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¼" -> "N"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "È€å" -> "P"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-other-runs: ("R") ("r") (BACKWARD FORWARD FORWARD) 1.
+sort-other-runs: ("R") ("r") (FORWARD FORWARD) 2.
+Letter-group: "Ë" -> "R"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "Ð¨»€0" -> "S"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "Ú¤—Ú€Ð€" -> "T"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "åÈ" -> "V"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ë" -> "X"
