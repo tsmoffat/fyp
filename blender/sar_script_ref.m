@@ -1,3 +1,5 @@
+clear all
+
 c = physconst('LightSpeed');
 fc = 4e9;
 rangeResolution = 3;  
@@ -84,6 +86,7 @@ for ii = 1:numpulses
     
 end
 
+figure(5)
 imagesc(real(rxsig));title('SAR Raw Data')
 xlabel('Cross-Range Samples')
 ylabel('Range Samples')
@@ -92,6 +95,7 @@ pulseCompression = phased.RangeResponse('RangeMethod', 'Matched filter', 'Propag
 matchingCoeff = getMatchedFilter(waveform);
 [cdata, rnggrid] = pulseCompression(rxsig, matchingCoeff);
 
+figure(4)
 imagesc(real(cdata));title('SAR Range Compressed Data')
 xlabel('Cross-Range Samples')
 ylabel('Range Samples')
@@ -99,13 +103,13 @@ ylabel('Range Samples')
 rma_processed = helperRangeMigration(cdata,fastTime,fc,fs,prf,speed,numpulses,c,Rc);
 bpa_processed = helperBackProjection(cdata,rnggrid,fastTime,fc,fs,prf,speed,crossRangeResolution,c);
 
-figure(1);
+figure(2);
 imagesc((abs((rma_processed(1700:2300,600:1400).'))));
 title('SAR Data focused using Range Migration algorithm ')
 xlabel('Cross-Range Samples')
 ylabel('Range Samples')
 
-figure(2)
+figure(3)
 imagesc((abs(bpa_processed(600:1400,1700:2300))));
 title('SAR Data focused using Back-Projection algorithm ')
 xlabel('Cross-Range Samples')

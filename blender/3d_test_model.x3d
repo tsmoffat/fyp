@@ -192,13 +192,13 @@
 </Transform>
 <Viewpoint DEF='editing_overview'  fieldOfView='0.7854' description='Overview for editing' orientation='-0.0993388 0.990075 0.099418 1.57997' position='2860.76 600.312 152.089'>
 </Viewpoint>
-<Transform DEF='beam_cone'  translation='500 500 -600' rotation='0 0 20 0'>
+<Transform DEF='beam_cone'  translation='300 500 -500' rotation='0.4 0.4 0.5 -0.52'>
   <Shape>
     <Appearance>
       <Material transparency='0.5' specularColor='1 0.4 0.2' emissiveColor='1 0.4 0.2' diffuseColor='1 0.4 0'>
       </Material>
     </Appearance>
-    <Cone solid='false' height='1000' bottomRadius='20.77' bottom='false'>
+    <Cone solid='false' height='1100' bottomRadius='20.77' bottom='false'>
     </Cone>
   </Shape>
 </Transform>
@@ -214,6 +214,8 @@
     </IndexedFaceSet>
   </Shape>
 </Transform>
+<Viewpoint DEF='plane_edit'  orientation='-0.1624634 0.9315391 0.3253313 2.109968' position='574.3432 1044.806 -661.8855'>
+</Viewpoint>
 <ROUTE fromNode='shape_plane' fromField='translation' toNode='view_observe' toField='translation'/>
 
 </Scene>

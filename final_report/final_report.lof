@@ -6,22 +6,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The two main modes of operation of SAR, reproduced from \cite {wolffSyntheticApertureRadar2012}\relax }}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Simulated SAR images from Franceschetti \textit {et al.} 2003 \cite {franceschettiSARRawSignal2003}\relax }}{9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cross-sections of both dimensions of SAR range\relax }}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A comparison between an actual SAR image and simulated SAR image of the Technische Universität and Alte Pinakothek from \cite {franceschettiSimulationToolsInterpretation2007}\relax }}{10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Simulated SAR images from Franceschetti \textit {et al.} 2003 \cite {franceschettiSARRawSignal2003}\relax }}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Results from Balz 2006 \cite {balzImprovedRealTimeSAR2006} using rasterisation techniques\relax }}{11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A comparison between an actual SAR image and simulated SAR image of the Technische Universität and Alte Pinakothek from \cite {franceschettiSimulationToolsInterpretation2007}\relax }}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Simulated SAR using ray tracing from Auer \textit {et al.} 2008 \cite {auerRayTracingSimulating2008}\relax }}{11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Results from Balz 2006 \cite {balzImprovedRealTimeSAR2006} using rasterisation techniques\relax }}{12}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Simulated SAR using ray tracing from Auer \textit {et al.} 2008 \cite {auerRayTracingSimulating2008}\relax }}{12}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Along-track/Cross-range SAR Resolution, reproduced from \cite {watsonEE40136RadarSystems2020}\relax }}{20}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Down-range SAR resolution, adapted from \cite {richardsRemoteSensingImaging2009}\relax }}{20}%
+\addvspace {10\p@ }

@@ -4,12 +4,6 @@
 \label{appen:derivations}
 \section{Focused SAR Resolution}
 \subsection{Along track resolution}
-\begin{figure}
-\centering
-\includegraphics[width=0.5\linewidth]{../figures/sar_along_track_res}
-\caption{Along-track/Cross-range SAR Resolution, reproduced from \cite{watsonEE40136RadarSystems2020}}
-\label{fig:sar_along_track}
-\end{figure}
 \begin{gather}
 	r = r_0 + \Delta r \\
 	\Delta r = (r_0^2 + x^2) ^ \frac{1}{2} - r_0\\
@@ -22,12 +16,7 @@
 \end{gather}
 In this case, \gls{r} is the outer radial distance of the beam, \gls{r0} is the center distance of the beam, \gls{deltar} is the difference between these two distances, \gls{x} is the distance travelled by the platform over the time measured, \gls{k0} is the angular wave number of the signal, \gls{phix} is the two-way phase history of the signal, \gls{lambda} is the wavelength of the signal, \gls{thetasa} is the synthesised beam width obtained after azimuth processing, \gls{deltax} is the resolution of the system and \gls{D} is the aperture size in the chosen dimension (i.e. here it's the azimuthal dimension). Derivation from \cite{richardsRemoteSensingImaging2009} and \cite{watsonEE40136RadarSystems2020}.
 \subsection{Down-range resolution}
-\begin{figure}
-\centering
-\includegraphics[width=0.5\linewidth]{../figures/down_range}	
-\caption{Down-range SAR resolution, adapted from \cite{richardsRemoteSensingImaging2009}}
-\label{fig:down_range_SAR}
-\end{figure}
+
 With the assumption made that there is some form of pulse compression on the signal we have a radial resolution of \[\Delta R = \frac{c}{2B}\] and by geometry we get a ground resolution of \[\Delta R_g = \frac{c}{2B\sin(\theta)}\] so to avoid any range ambiguities, \[\frac{c}{2R_{max}} > \text{PRF} \] where \gls{Rmax} is the maximum range achievable by the radar, \gls{DeltaRg} is the ground range resolution and \gls{DeltaR} is the radial resolution of the signal.
 \section{Derivation of the Radar Equation}
 Again derivations from \cite{richardsRemoteSensingImaging2009} and \cite{watsonEE40136RadarSystems2020}. \begin{gather}

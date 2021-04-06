@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.30)  18 MAR 2021 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.30)  23 MAR 2021 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,7 +291,9 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen137
 \pgfutil@tempdimb=\dimen138
@@ -362,15 +364,15 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen149
 \pgfmath@count=\count376
 \pgfmath@box=\box46
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count377
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -419,13 +421,13 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen172
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen173
 \pgf@sys@shading@range@num=\count379
 \pgf@shadingcount=\count380
-)
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -488,25 +490,23 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@expandcount=\count389
  (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks28
 \t@pgfplots@tokb=\toks29
 \t@pgfplots@tokc=\toks30
 \pgfplots@tmpa=\dimen187
 \c@pgfplots@coordindex=\count390
 \c@pgfplots@scanlineindex=\count391
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count392
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count393
 \t@pgfplotstable@a=\toks31
 ) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count394
- (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen188
 \pgfdecoratedremainingdistance=\dimen189
 \pgfdecoratedinputsegmentcompleteddistance=\dimen190
@@ -549,6 +549,8 @@ Package caption Info: Standard document class detected.
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 \c@subfigure=\count399
 \c@subtable=\count400
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
@@ -589,8 +591,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@hleads=\box62
 \tabu@vleads=\box63
 \tabu@cellskip=\skip73
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip74
 \LTright=\skip75
@@ -607,7 +608,8 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count411
 \c@LT@chunks=\count412
 \LT@p@ftn=\toks35
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen278
 \WF@size=\dimen279
 \c@WF@wrappedlines=\count413
@@ -856,22 +858,16 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@erf=\skip102
 \f@nch@O@olf=\skip103
 \f@nch@O@orf=\skip104
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-
-(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen311
-))
+)
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `final_report.glo'.
 
-Package glossaries Info: Writing glossary file final_report.glo on input line 43.
+Package glossaries Info: Writing glossary file final_report.glo on input line 41.
 \glo@symbols@file=\write7
 \openout7 = `final_report.slo'.
 
-Package glossaries Info: Writing glossary file final_report.slo on input line 43.
+Package glossaries Info: Writing glossary file final_report.slo on input line 41.
 \@quotelevel=\count459
 \@quotereset=\count460
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
@@ -881,23 +877,24 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 ) (./final_report.aux)
 \openout1 = `final_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -908,18 +905,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'final_report.bbl' found.
  (./final_report.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count462
-\scratchdimen=\dimen312
+\scratchdimen=\dimen311
 \scratchbox=\box75
 \nofMPsegments=\count463
 \nofMParguments=\count464
 \everyMPshowfont=\toks59
 \MPscratchCnt=\count465
-\MPscratchDim=\dimen313
+\MPscratchDim=\dimen312
 \MPnumerator=\count466
 \makeMPintoPDFobject=\count467
 \everyMPtoPDFconversion=\toks60
@@ -947,14 +944,14 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \celsius on input line 83.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 83.
+LaTeX Info: Redefining \celsius on input line 81.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 81.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 83.
-Package gensymb Info: Using \Omega for \ohm on input line 83.
+LaTeX Info: Redefining \ohm on input line 81.
+Package gensymb Info: Using \Omega for \ohm on input line 81.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -993,16 +990,16 @@ Package gensymb Warning: Not defining \micro.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./title_page.tex
-<../figures/uob-logo-black-transparent.png, id=4, 215.80624pt x 88.33pt>
-File: ../figures/uob-logo-black-transparent.png Graphic file (type png)
-<use ../figures/uob-logo-black-transparent.png>
-Package pdftex.def Info: ../figures/uob-logo-black-transparent.png  used on input line 13.
-(pdftex.def)             Requested size: 215.80571pt x 88.32977pt.
+<../figures/uob_logo_high_res.png, id=4, 215.77942pt x 89.33911pt>
+File: ../figures/uob_logo_high_res.png Graphic file (type png)
+<use ../figures/uob_logo_high_res.png>
+Package pdftex.def Info: ../figures/uob_logo_high_res.png  used on input line 13.
+(pdftex.def)             Requested size: 215.77888pt x 89.33887pt.
  [1
 
 \openout5 = `final_report.xdy'.
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figures/uob-logo-black-transparent.png>])
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figures/uob_logo_high_res.png>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 13.59999pt.
@@ -1030,116 +1027,126 @@ Part 1.
 ]
 Part 2.
 (./intro_to_sar.tex
-<../figures/sar_stripmap.png, id=35, 803.0pt x 401.5pt>
+<../figures/sar_stripmap.png, id=40, 803.0pt x 401.5pt>
 File: ../figures/sar_stripmap.png Graphic file (type png)
 <use ../figures/sar_stripmap.png>
-Package pdftex.def Info: ../figures/sar_stripmap.png  used on input line 9.
+Package pdftex.def Info: ../figures/sar_stripmap.png  used on input line 11.
 (pdftex.def)             Requested size: 96.02739pt x 48.0125pt.
-<../figures/sar_spotlight.png, id=36, 803.0pt x 501.875pt>
+<../figures/sar_spotlight.png, id=41, 803.0pt x 501.875pt>
 File: ../figures/sar_spotlight.png Graphic file (type png)
 <use ../figures/sar_spotlight.png>
-Package pdftex.def Info: ../figures/sar_spotlight.png  used on input line 15.
+Package pdftex.def Info: ../figures/sar_spotlight.png  used on input line 17.
 (pdftex.def)             Requested size: 96.02739pt x 60.01563pt.
  [6
 
- <../figures/sar_stripmap.png> <../figures/sar_spotlight.png>]) [7] (../project_background/lit_review_base.tex
-Underfull \hbox (badness 2707) in paragraph at lines 21--21
-\OT1/cmr/m/n/10.95 drawn, with only one pa-per
+ <../figures/sar_stripmap.png> <../figures/sar_spotlight.png>]
+<../figures/sar_along_track_res.png, id=50, 279.0425pt x 308.15125pt>
+File: ../figures/sar_along_track_res.png Graphic file (type png)
+<use ../figures/sar_along_track_res.png>
+Package pdftex.def Info: ../figures/sar_along_track_res.png  used on input line 33.
+(pdftex.def)             Requested size: 192.0548pt x 212.09325pt.
+<../figures/down_range.png, id=51, 594.22pt x 545.03625pt>
+File: ../figures/down_range.png Graphic file (type png)
+<use ../figures/down_range.png>
+Package pdftex.def Info: ../figures/down_range.png  used on input line 40.
+(pdftex.def)             Requested size: 192.0548pt x 176.16164pt.
+ [7 <../figures/sar_along_track_res.png> <../figures/down_range.png>]) (../project_background/lit_review_base.tex
+Underfull \hbox (badness 1205) in paragraph at lines 21--21
+[]\T1/cmr/m/n/10.95 Most com-pu-ta-tion-ally com-plex
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 21--21
+\T1/cmr/m/n/10.95 drawn, with only one pa-per
  []
 
 [8]
-<../figures/franceschetti_2003_2_buildings.png, id=50, 359.3425pt x 484.81125pt>
+<../figures/franceschetti_2003_2_buildings.png, id=61, 359.3425pt x 484.81125pt>
 File: ../figures/franceschetti_2003_2_buildings.png Graphic file (type png)
 <use ../figures/franceschetti_2003_2_buildings.png>
 Package pdftex.def Info: ../figures/franceschetti_2003_2_buildings.png  used on input line 31.
-(pdftex.def)             Requested size: 96.02739pt x 129.55441pt.
-<../figures/franceschetti_2003_16_buildings.png, id=51, 398.48875pt x 338.26375pt>
+(pdftex.def)             Requested size: 192.0548pt x 259.11623pt.
+<../figures/franceschetti_2003_16_buildings.png, id=62, 398.48875pt x 338.26375pt>
 File: ../figures/franceschetti_2003_16_buildings.png Graphic file (type png)
 <use ../figures/franceschetti_2003_16_buildings.png>
 Package pdftex.def Info: ../figures/franceschetti_2003_16_buildings.png  used on input line 37.
-(pdftex.def)             Requested size: 149.37631pt x 126.79697pt.
-<../figures/franceschetti_2007_munich_sar.png, id=52, 373.395pt x 249.93375pt>
+(pdftex.def)             Requested size: 192.0548pt x 163.0254pt.
+<../figures/franceschetti_2007_munich_sar.png, id=63, 373.395pt x 249.93375pt>
 File: ../figures/franceschetti_2007_munich_sar.png Graphic file (type png)
 <use ../figures/franceschetti_2007_munich_sar.png>
 Package pdftex.def Info: ../figures/franceschetti_2007_munich_sar.png  used on input line 50.
-(pdftex.def)             Requested size: 149.37631pt x 99.98317pt.
-<../figures/franceschetti_2007_munich_sim.png, id=53, 322.20375pt x 309.155pt>
+(pdftex.def)             Requested size: 192.0548pt x 128.55142pt.
+<../figures/franceschetti_2007_munich_sim.png, id=64, 322.20375pt x 309.155pt>
 File: ../figures/franceschetti_2007_munich_sim.png Graphic file (type png)
 <use ../figures/franceschetti_2007_munich_sim.png>
 Package pdftex.def Info: ../figures/franceschetti_2007_munich_sim.png  used on input line 56.
-(pdftex.def)             Requested size: 149.37631pt x 143.33102pt.
- [9 <../figures/franceschetti_2003_2_buildings.png> <../figures/franceschetti_2003_16_buildings.png>]
-<../figures/balz_2006_stiftskirche.png, id=60, 375.4025pt x 303.1325pt>
+(pdftex.def)             Requested size: 192.0548pt x 184.28207pt.
+ [9] [10 <../figures/franceschetti_2003_2_buildings.png> <../figures/franceschetti_2003_16_buildings.png> <../figures/franceschetti_2007_munich_sar.png> <../figures/franceschetti_2007_munich_sim.png>]
+<../figures/balz_2006_stiftskirche.png, id=76, 375.4025pt x 303.1325pt>
 File: ../figures/balz_2006_stiftskirche.png Graphic file (type png)
 <use ../figures/balz_2006_stiftskirche.png>
 Package pdftex.def Info: ../figures/balz_2006_stiftskirche.png  used on input line 74.
-(pdftex.def)             Requested size: 149.37631pt x 120.6218pt.
-<../figures/balz_2006_stuttgart.png, id=61, 369.38pt x 371.3875pt>
+(pdftex.def)             Requested size: 192.0548pt x 155.08582pt.
+<../figures/balz_2006_stuttgart.png, id=77, 369.38pt x 371.3875pt>
 File: ../figures/balz_2006_stuttgart.png Graphic file (type png)
 <use ../figures/balz_2006_stuttgart.png>
 Package pdftex.def Info: ../figures/balz_2006_stuttgart.png  used on input line 80.
-(pdftex.def)             Requested size: 149.37631pt x 150.18443pt.
-<../figures/auer_2008_terrasar_ref.png, id=62, 185.69376pt x 274.02374pt>
+(pdftex.def)             Requested size: 192.0548pt x 193.09993pt.
+<../figures/auer_2008_terrasar_ref.png, id=78, 185.69376pt x 274.02374pt>
 File: ../figures/auer_2008_terrasar_ref.png Graphic file (type png)
 <use ../figures/auer_2008_terrasar_ref.png>
 Package pdftex.def Info: ../figures/auer_2008_terrasar_ref.png  used on input line 93.
-(pdftex.def)             Requested size: 149.37631pt x 220.43604pt.
+(pdftex.def)             Requested size: 192.0548pt x 283.41835pt.
 
-Underfull \hbox (badness 1112) in paragraph at lines 94--94
-[]\OT1/cmr/m/n/10 (a) |A ref-er-ence spot-light im-age of the Alta
+Underfull \hbox (badness 1117) in paragraph at lines 94--94
+[]\T1/cmr/m/n/10 (a) |A ref-er-ence spot-light im-age of the Alta
  []
 
-<../figures/auer_2008_all_reflections.png, id=63, 205.76875pt x 266.9975pt>
+<../figures/auer_2008_all_reflections.png, id=79, 205.76875pt x 266.9975pt>
 File: ../figures/auer_2008_all_reflections.png Graphic file (type png)
 <use ../figures/auer_2008_all_reflections.png>
 Package pdftex.def Info: ../figures/auer_2008_all_reflections.png  used on input line 99.
-(pdftex.def)             Requested size: 149.37631pt x 193.82692pt.
-[10 <../figures/franceschetti_2007_munich_sar.png> <../figures/franceschetti_2007_munich_sim.png>] [11 <../figures/balz_2006_stiftskirche.png> <../figures/balz_2006_stuttgart.png> <../figures/auer_2008_terrasar_ref.png> <../figures/auer_2008_all_reflections.png>]) [12]
+(pdftex.def)             Requested size: 192.0548pt x 249.20544pt.
+[11] [12 <../figures/balz_2006_stiftskirche.png> <../figures/balz_2006_stuttgart.png> <../figures/auer_2008_terrasar_ref.png> <../figures/auer_2008_all_reflections.png>]) [13]
 Part 3.
-(./report_methods.tex) [13
+(./report_methods.tex) [14
 
 ]
 Part 4.
-[14
+[15
 
 ]
 Part 5.
-[15
+[16
 
-] [16] [17
+] [17]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 115.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [18
 
-] (./appendices.tex [18]
+] (./appendices.tex [19]
 Appendix A.
-<../figures/sar_along_track_res.png, id=101, 279.0425pt x 308.15125pt>
-File: ../figures/sar_along_track_res.png Graphic file (type png)
-<use ../figures/sar_along_track_res.png>
-Package pdftex.def Info: ../figures/sar_along_track_res.png  used on input line 9.
-(pdftex.def)             Requested size: 213.39568pt x 235.6644pt.
-<../figures/down_range.png, id=102, 594.22pt x 545.03625pt>
-File: ../figures/down_range.png Graphic file (type png)
-<use ../figures/down_range.png>
-Package pdftex.def Info: ../figures/down_range.png  used on input line 27.
-(pdftex.def)             Requested size: 213.39568pt x 195.73055pt.
-[19
+[20
 
-] [20 <../figures/sar_along_track_res.png> <../figures/down_range.png>]) [21] (./final_report.aux)
+]) [21] (./final_report.aux)
 Package logreq Info: Writing requests to 'final_report.run.xml'.
 \openout1 = `final_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40367 strings out of 480608
- 919219 string characters out of 5903629
- 1720608 words of memory out of 5000000
- 55619 multiletter control sequences out of 15000+600000
- 539902 words of font info for 50 fonts, out of 8000000 for 9000
+ 40101 strings out of 480608
+ 907293 string characters out of 5903629
+ 1713322 words of memory out of 5000000
+ 55341 multiletter control sequences out of 15000+600000
+ 549586 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,119p,2812b,1300s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on final_report.pdf (22 pages, 3243180 bytes).
+ 69i,12n,119p,2812b,1304s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
+Output written on final_report.pdf (22 pages, 3499612 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 187 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

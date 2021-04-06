@@ -2,11 +2,11 @@
 
 \usepackage[style=ieee]{biblatex}
 \usepackage{graphicx}
-\usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.15}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{tabu}
 \usepackage{longtable}
@@ -19,8 +19,6 @@
 \usepackage[symbols,nonumberlist,nogroupskip,shortcuts=other, xindy]{glossaries-extra}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
-\usetikzlibrary{arrows}
 
 \title{Synthetic aperture imaging radar signal simulation of urban environments}
 \author{Thomas Stenson Moffat}
@@ -83,12 +81,6 @@
 \begin{document}
 
 
-\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
-\definecolor{yqyqyq}{rgb}{0.5019607843137255,0.5019607843137255,0.5019607843137255}
-\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
-\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
-\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
-
 
 \input{title_page}
 \section*{Abstract}
@@ -98,7 +90,6 @@
 \printglossary[type=symbols,style=long,title={List of Symbols}]
 \chapter{Introduction}
 \chapter{Engineering Analysis}
-\section{Introduction to SAR}
 \input{intro_to_sar}
 \section{Literature Review}
 

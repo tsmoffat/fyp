@@ -39,8 +39,8 @@
       \strng{authorbibnamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authornamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authorfullhash}{670de8700acf7793e09f9345af84901d}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{3}
@@ -80,8 +80,8 @@
       \strng{authorbibnamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authornamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authorfullhash}{553b680ed03fc1883566df8d514336b2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{28}
@@ -113,6 +113,7 @@
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-02019-3}
       \field{series}{Signals and {{Communication Technology}}}
       \field{title}{Remote {{Sensing}} with {{Imaging Radar}}}
       \field{year}{2009}
@@ -349,8 +350,8 @@
       \strng{authorbibnamehash}{45a1713cb3b96f8ac70480cbadf3fbce}
       \strng{authornamehash}{28ee99544be08d41be306ce1b04418f8}
       \strng{authorfullhash}{45a1713cb3b96f8ac70480cbadf3fbce}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{New powerful spaceborne sensors for monitoring urban areas have been designed and are ready for launch. More detailed SAR images will be soon available and, consequently, new tools for their interpretation are needed, above all when urban scenes are illuminated. In this paper, the authors propose some tools for the study and the analysis of high resolution SAR images based on a SAR raw signal simulator for urban areas. Comparing simulated SAR images with the real one, interpretation of SAR data is improved and fundamental support of the employed tools is further assessed.}
@@ -514,8 +515,8 @@
       \strng{authorbibnamehash}{0718f3767753cac6559b590155d852f9}
       \strng{authornamehash}{0718f3767753cac6559b590155d852f9}
       \strng{authorfullhash}{0718f3767753cac6559b590155d852f9}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents an approach for using backward ray tracing for simulating radar reflectivity maps. After explaining the simulation concept which consists of three parts - modeling, sampling and image generation - two applications are presented for showing the performance of the simulator. At first reflection contributions like single or multiple bounce are simulated for a modeled building and compared to a real TerraSAR-X image. It shows how the capability of separating different bounce levels in different layers can support the interpretation of the SAR image. Afterwards reflection effects caused by quasi-perfect specular reflection are detected for another building model by means of geometrical analysis. This is thought as input for advanced Persistent Scatterer (PS) Analysis, since PS typically appear due to such reflection effects.}
@@ -569,8 +570,8 @@
       \strng{authorbibnamehash}{c46ecea05fcf32c71b32c25a4d076fe0}
       \strng{authornamehash}{45ca48fd4c0289dec0730025fca841f9}
       \strng{authorfullhash}{c46ecea05fcf32c71b32c25a4d076fe0}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A three dimensional (3-D) realistic radar simulation package including imaging radar simulation concept applied to multisensor scenarios is under development as a project between the Electromagnetism and Radar Department of ONERA and the OKTAL SE Company. Taking advantage of various studies in the domain, this partnership associates the expertise of ONERA in radar phenomenology, wave interaction with targets and clutter, with that of OKTAL SE in the generation and management of realistic scene databases in the infrared and optical domains using advanced Shooting and Bouncing Rays (SBR) techniques. The objective of this program is to develop simulation tools capable of predicting the behaviour of sensors in a realistic environment. This is achieved by coupling a terrain database completed by radar and optical features and a fast SBR algorithm. This paper is focused on the specification of the radar (i.e. electromagnetic wave interaction) principles. Outputs from the simulations illustrate the effectiveness of the tool in respectively, Synthetic Aperture Radar (SAR) simulations; and in the multisensor evaluation context in airborne applications such as enhanced vision for all weather landing assistance.}
