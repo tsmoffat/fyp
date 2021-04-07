@@ -2225,10 +2225,11 @@
     <bcf:citekey order="45">chenRadarImagingSimulation2011</bcf:citekey>
     <bcf:citekey order="46">franceschettiSARRawSignal2003</bcf:citekey>
     <bcf:citekey order="47">xuImagingSimulationPolarimetric2006</bcf:citekey>
-    <bcf:citekey order="48">richardsRemoteSensingImaging2009</bcf:citekey>
-    <bcf:citekey order="49">watsonEE40136RadarSystems2020</bcf:citekey>
-    <bcf:citekey order="50">richardsRemoteSensingImaging2009</bcf:citekey>
-    <bcf:citekey order="51">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="48">franceschettiSARRawSignal2003</bcf:citekey>
+    <bcf:citekey order="49">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="50">watsonEE40136RadarSystems2020</bcf:citekey>
+    <bcf:citekey order="51">richardsRemoteSensingImaging2009</bcf:citekey>
+    <bcf:citekey order="52">watsonEE40136RadarSystems2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

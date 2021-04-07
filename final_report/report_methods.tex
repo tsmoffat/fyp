@@ -1,10 +1,13 @@
 \section{Exploration of Methods Used and Their Suitability}
 \label{sec:method_exploration}
-The four possible methods that can be used in this project are, as mentioned previously, raw signal simulation, rasterisation, ray tracing and a hybrid method. In this section I will cover their suitability as they relate to this project, as well as explore the methods of transforming SAR raw signals into an actual image.
+The four possible methods that can be used in this project are, as mentioned previously, raw signal simulation, rasterisation, ray tracing and a hybrid method. In this section I will cover their suitability as they relate to this project, as well as explore the methods of transforming SAR raw signals into an image.
 \subsection{SAR Simulation Methods}
 \subsubsection{Raw SAR Simulation}
-This is the most robust form of simulation and the most accurate as the individual signals are simulated as well as their reflections. This does have some drawbacks as developing the system in the first place is likely to be quite complex due to the 
+This is the most robust form of simulation and the most accurate as the individual signals are simulated as well as their reflections. This does have some drawbacks as developing the system in the first place is likely to be quite complex. This system requires the implementation of a transmission and reception element (likely to be two separate functions for complexity reasons), a free-space element, an element to act as the target would in real life to accurately simulate the return signal, some sort of coordinate system to position both the target and the platform in free space and finally the linear FM waveform. These are all sections that, while the conceptual understanding of their operation is relatively easy to grasp given prior knowledge of how wireless communications and more specifically radar work, are not altogether simple in their implementation. Fortunately this would not be implemented blind thanks to Franceschetti \textit{et al.} 2003 \cite{franceschettiSARRawSignal2003} and all the foundational work that led to it however this work has been refined over the course of more than a decade, not several weeks, which is potentially the biggest limitation on how in-depth this implementation can go and the biggest roadblock against this particular method of simulation. 
+\subsubsection{Image Transformation Methods}
+
 \subsection{Image Forming Methods}
 There are a few image formation methods. The ones I will consider here are the backprojection, Omega-K, range Doppler and chirp scaling algorithms. 
+\subsection{Discussion of Approaches Chosen and Reasoning}
 \section{Results and Outcomes}
 \section{Milestones Achieved}
