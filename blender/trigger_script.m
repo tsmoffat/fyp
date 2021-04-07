@@ -21,8 +21,8 @@ matched_filter_coeffs = sim_out.lin_fm_coeffs(1:360);
 pulseCompression = phased.RangeResponse('RangeMethod', 'Matched filter', 'PropagationSpeed', c, 'SampleRate', fs);
 [cdata, range_grid] = pulseCompression(sim_out.range_data, matched_filter_coeffs);
 
-reshaped_data = reshape(cdata, [], 2002);
-reshaped_range_grid = reshape(range_grid, [], 2002);
+reshaped_data = reshape(cdata, 2002, []);
+reshaped_range_grid = reshape(range_grid, 2002, []);
 
 figure(4)
 imagesc(real(reshaped_data)); title('SAR Range Compressed Data')
