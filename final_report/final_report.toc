@@ -1,4 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {british}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Symbols}{4}%
 \defcounter {refsection}{0}\relax 
@@ -8,7 +9,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction to SAR}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The SAR radar equation}{6}%
+\contentsline {subsubsection}{The SAR radar equation}{7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{SAR Image Artefacts}{7}%
 \defcounter {refsection}{0}\relax 
@@ -20,48 +21,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Raw SAR Simulation}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Graphical SAR Simulation}{11}%
+\contentsline {subsubsection}{Graphical SAR Simulation}{10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Hybrid Method and Other Papers of Note}{13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methods}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Exploration of Methods Used and Their Suitability}{14}%
+\contentsline {section}{\numberline {3.1}Exploration of Potential Methods and Their Suitability}{14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}SAR Simulation Methods}{14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Raw SAR Simulation}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Image Transformation Methods}{14}%
+\contentsline {subsubsection}{Rasterisation}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Image Forming Methods}{14}%
+\contentsline {subsubsection}{Ray-tracing}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Results and Outcomes}{14}%
+\contentsline {subsubsection}{3D Rendering Engines}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Milestones Achieved}{14}%
+\contentsline {subsection}{\numberline {3.1.2}Image Forming Methods}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Deliverables}{15}%
+\contentsline {subsubsection}{Omega-K ($\omega KA$)}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Deliverables Achieved}{15}%
+\contentsline {subsubsection}{Backprojection}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Significant Results}{15}%
+\contentsline {subsubsection}{Range-Doppler (RDA)}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Uncertainty}{15}%
+\contentsline {subsubsection}{Chirp Scaling (CSA)}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Final Results}{15}%
+\contentsline {subsection}{\numberline {3.1.3}Discussion of Approaches Chosen and Reasoning}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{16}%
+\contentsline {section}{\numberline {3.2}Desired Results and Outcomes}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{16}%
+\contentsline {section}{\numberline {3.3}Milestones}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Further Work}{16}%
+\contentsline {chapter}{\numberline {4}Deliverables}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Derivations}{20}%
+\contentsline {section}{\numberline {4.1}Deliverables Achieved}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Focused SAR Resolution}{20}%
+\contentsline {section}{\numberline {4.2}Significant Results}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Along track resolution}{20}%
+\contentsline {section}{\numberline {4.3}Uncertainty}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Down-range resolution}{20}%
+\contentsline {section}{\numberline {4.4}Final Results}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Derivation of the Radar Equation}{21}%
+\contentsline {chapter}{\numberline {5}Conclusions}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Further Work}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Derivations}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Focused SAR Resolution}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Along track resolution}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Down-range resolution}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Derivation of the Radar Equation}{25}%

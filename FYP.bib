@@ -1,4 +1,12 @@
 
+@article{albuquerqueApplicationsTimeDomainBackProjection,
+  title = {Applications of {{Time}}-{{Domain Back}}-{{Projection SAR Processing}} in the {{Airborne Case}}},
+  author = {Albuquerque, Marcelo and Prats, Pau and Scheiber, Rolf},
+  abstract = {The Back-Projection Algorithm is a SAR processing approach that uses time-domain convolution of the SAR data in order to perform SAR focusing. Some benefits of this approach are exact inversion, ideal motion compensation including topography information and handling of general aperture geometries. The implementation of the Back-Projection Algorithm was done focusing on the parallelization aspects. Applications of the algorithm are presented with respect to topography adaptive processing, direct generation of map projections and consideration of non linear trajectories.},
+  file = {/Users/tomoffat/Zotero/storage/28EP8NPB/Albuquerque et al. - Applications of Time-Domain Back-Projection SAR Pr.pdf},
+  langid = {english}
+}
+
 @article{auerLinearSignaturesUrban2014,
   title = {Linear {{Signatures}} in {{Urban SAR Images}}—{{Partly Misinterpreted}}?},
   author = {Auer, S. and Gernhardt, S.},
@@ -139,12 +147,21 @@
   publisher = {{IEEE}},
   location = {{Toulouse, France}},
   doi = {10.1109/IGARSS.2003.1294142},
-  url = {http://ieeexplore.ieee.org/document/1294142/},
-  urldate = {2021-03-23},
   abstract = {ABSTRACT 1 — This paper presents a Fourier interpretation of the Omega-k SAR processing algorithm that helps explain the key Stolt mapping operation. An approximate form of the algorithm is sometimes used, and we explain how both forms of the ωKA compare with the range Doppler and the chirp scaling algorithms. Finally, a brief discussion is given on which radar parameters allow the accurate use of each algorithm.},
   eventtitle = {{{IGARSS}} 2003. 2003 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}. ({{IEEE Cat}}. {{No}}.{{03CH37477}})},
   file = {/Users/tomoffat/Zotero/storage/AD3ZZQAI/Cumming et al. - 2003 - Interpretations of the omega-K algorithm and compa.pdf},
   isbn = {978-0-7803-7929-9},
+  langid = {english}
+}
+
+@thesis{dastgirProcessingSARData2007,
+  title = {Processing {{SAR}} Data Using {{Range Doppler}} and {{Chirp Scaling Algorithms}}},
+  author = {Dastgir, Naeim},
+  date = {2007},
+  institution = {{Royal Institute of Technology}},
+  location = {{Stockholm, Sweden}},
+  abstract = {Applications of self-illuminating remote sensing systems, and among those, Radar Imagery is growing rapidly. Unique properties of Synthetic Aperture Radar (SAR) system makes it one of the most popular and applicable methods of self illuminating remote sensing techniques for ground deformation monitoring, seismic studies, and many photogrammetry applications. There are several methods and algorithms for processing SAR data, each are convenient for different purposes. Two more common and reliable algorithms are developed in this thesis: a Range Doppler Algorithm and a Chirp Scaling Algorithm. Available software packages and toolboxes for processing SAR data such as DORIS, ROI-PAC, RAT and PULSAR have their advantage and disadvantages. Most of these packages run on Linux platform, are difficult to use, and require quite a few pre-processing data preparations. Besides there is no general SAR processing application that can handle all data types or suitable for all purposes. There are also software packages (such as ROI-PAC) with restrictions for people from certain countries. The objective of this thesis is to process SAR data using two more common algorithms, run a comparison between results of these two algorithms and to process InSAR pair images to form an Interferogram and to create a DEM. A Matlab based program is developed for this purpose with graphical user interface and a few visualization enhancement features, which facilitates processing data and producing desired output. Then, I investigate the effect of different frequency domains in the resulting image. The program I created in my thesis, has several advantages: it is open-source and very easy to modify. The program is coded in MATLAB, therefore it does not need a vast programming knowledge to be able to customize it. You can run it on any platform that can run MATLAB 7+. At the end of this thesis, I conclude that A Range Doppler Algorithm with secondary range compression performed in 2D-frequency domain has a result as good as a Chirp Scaling Algorithm and has less computational complexity and consumes less time. No general SAR processing algorithm could be introduced. Most of the times algorithms need to be adjusted for particular datasets, or particular applications. Besides, the most complicated algorithm is not always the best algorithm. For example, for a point target detection purpose, two filtering steps in range and azimuth direction provides accurate enough result.},
+  file = {/Users/tomoffat/Zotero/storage/9SZQXPML/FULLTEXT01.pdf},
   langid = {english}
 }
 
@@ -162,6 +179,18 @@
   keywords = {active microwave sensor,Computational modeling,Electromagnetic measurements,electromagnetic scattering,Electromagnetic scattering,electromagnetic wave propagation,electromagnetic wave scattering,FDTD technique,Finite difference methods,finite difference time-domain analysis,finite-difference time domain method,Layout,radar imaging,Radar imaging,Radar tracking,radar wave propagation,rectangular parallelepiped,remote sensing by radar,SAR imagery,SAR measurement simulation,synthetic aperture radar,Synthetic aperture radar,Time domain analysis,Urban areas,urban structure}
 }
 
+@thesis{duerschBackprojectionSyntheticAperture2013,
+  title = {Backprojection for {{Synthetic Aperture Radar}}},
+  author = {Duersch, Michael Israel},
+  date = {2013-06-13},
+  institution = {{Brigham Young University}},
+  location = {{Provo}},
+  abstract = {The final contribution of this work is a novel algorithm for interferometry based on backprojected data. Because of the way backprojected images are formed, they are less suited to traditional interferometric methods. This work derives backprojection interferometry and compares it to the traditional method of interferometry. The sensitivity and performance of backprojection interferometry are shown, as well as where backprojection interferometry offers superior results. This work finds that backprojection interferometry performs better with longer interferometric baseline lengths or systems with large measurement error in the baseline length or angle (e.g., low-altitude, airborne SAR).},
+  file = {/Users/tomoffat/Zotero/storage/XH3INPV2/Duersch - Backprojection for Synthetic Aperture Radar.pdf},
+  langid = {english},
+  pagetotal = {194}
+}
+
 @inproceedings{ferro-familRemoteSensingUrban2008,
   title = {Remote Sensing of Urban Areas from Polarimetric {{SAR}} Data Using {{Time}}-{{Frequency}} and Spectral Analysis Methods},
   booktitle = {2008 {{Microwaves}}, {{Radar}} and {{Remote Sensing Symposium}}},
@@ -173,6 +202,41 @@
   eventtitle = {2008 {{Microwaves}}, {{Radar}} and {{Remote Sensing Symposium}}},
   file = {/Users/tomoffat/Zotero/storage/CDRW5242/Ferro-Famil et al. - 2008 - Remote sensing of urban areas from polarimetric SA.pdf;/Users/tomoffat/Zotero/storage/GPI2B8NJ/4669583.html},
   keywords = {array signal processing,array signal processing techniques,azimuth-range resolution cell,Information retrieval,Interferometry,L-band,multi-baseline POL-inSAR observations,multidimensional linear time-frequency decomposition,Multidimensional systems,POL-inSAR data,polarimetric SAR data,radar signal processing,relevant statistical descriptors,remote sensing,Remote sensing,remote sensing by radar,Scattering,Sensor phenomena and characterization,Spectral analysis,spectral analysis methods,synthetic aperture radar,Time frequency analysis,urban areas,Urban areas}
+}
+
+@online{forstenBackprojectionBackpropagation2019,
+  title = {Backprojection {{Backpropagation}}},
+  author = {Forstén, Henrik},
+  date = {2019-10-22},
+  url = {https://hforsten.com/backprojection-backpropagation.html},
+  urldate = {2021-04-08},
+  abstract = {Even better focused homemade SAR images with timedomain backprojection algorithm and automatic differentiation based autofocus.},
+  file = {/Users/tomoffat/Zotero/storage/XPH7A2FQ/backprojection-backpropagation.html},
+  langid = {english},
+  organization = {{Henrik's Blog}}
+}
+
+@online{forstenSyntheticapertureRadarImaging2019,
+  title = {Synthetic-Aperture Radar Imaging},
+  author = {Forstén, Henrik},
+  date = {2019-08-13},
+  url = {https://hforsten.com/synthetic-aperture-radar-imaging.html},
+  urldate = {2021-04-08},
+  abstract = {Differentiable synthetic-aperture radar image formation with Tensorflow. Including very fast image formation and autofocusing utilizing GPU.},
+  file = {/Users/tomoffat/Zotero/storage/NU3H85WJ/synthetic-aperture-radar-imaging.html},
+  langid = {english},
+  organization = {{Henrik's Blog}}
+}
+
+@online{foundationBlenderOrgHome,
+  title = {Blender.Org - {{Home}} of the {{Blender}} Project - {{Free}} and {{Open 3D Creation Software}}},
+  author = {Foundation, Blender},
+  url = {https://www.blender.org/},
+  urldate = {2021-04-08},
+  abstract = {Home of the Blender project - Free and Open 3D Creation Software},
+  file = {/Users/tomoffat/Zotero/storage/ZBXSNV36/www.blender.org.html},
+  langid = {english},
+  organization = {{blender.org}}
 }
 
 @article{franceschettiCanonicalProblemElectromagnetic2002,
@@ -435,6 +499,20 @@
   number = {7}
 }
 
+@inproceedings{naComparisonBackProjectionRange2006,
+  title = {A {{Comparison}} of {{Back}}-{{Projection}} and {{Range Migration Algorithms}} for {{Ultra}}-{{Wideband SAR Imaging}}},
+  booktitle = {Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.},
+  author = {Na, Yibo and Lu, Yilong and Sun, Hongbo},
+  date = {2006-07},
+  pages = {320--324},
+  issn = {2151-870X},
+  doi = {10.1109/SAM.2006.1706146},
+  abstract = {Ultra-wideband waveform and large integration angle benefit the synthetic aperture radar (SAR) with very high range and azimuth resolutions. However, at the same time, more new complexities and challenges are brought to the conventional SAR imaging algorithms. The back-projection algorithm and range migration algorithm are two newly developed algorithms that can be used in ultra-wideband SAR imaging. The back-projection algorithm originates from the medical imaging reconstruction technique called computer-aided tomography whereas the range migration algorithm is derived from seismic migration techniques. In the application to SAR imaging, the performance comparison is made in this paper based on theoretical analysis, simulation and experimental data. The analysis and processing results show that both algorithms are suitable for ultra-wideband SAR imaging and the theoretical resolution performances can be achieved. In addition, some practical issues of implementation and performance difference about these two algorithms are addressed as well},
+  eventtitle = {Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.},
+  file = {/Users/tomoffat/Zotero/storage/CDC2FTSF/Yibo Na et al. - 2006 - A Comparison of Back-Projection and Range Migratio.pdf;/Users/tomoffat/Zotero/storage/I7SQ2TVN/1706146.html},
+  keywords = {Application software,Azimuth,Biomedical imaging,Image analysis,Image reconstruction,Performance analysis,Radar polarimetry,Synthetic aperture radar,Tomography,Ultra wideband technology}
+}
+
 @article{niuParameterExtractionBased2020,
   title = {Parameter {{Extraction Based}} on {{Deep Neural Network}} for {{SAR Target Simulation}}},
   author = {Niu, S. and Qiu, X. and Lei, B. and Ding, C. and Fu, K.},
@@ -449,6 +527,23 @@
   file = {/Users/tomoffat/Zotero/storage/NX9C5L43/Niu et al. - 2020 - Parameter Extraction Based on Deep Neural Network .pdf;/Users/tomoffat/Zotero/storage/3YUD52GD/8999587.html;/Users/tomoffat/Zotero/storage/IY2B8IA7/8999587.html},
   keywords = {Analytical models,CNN,convolutional neural nets,Convolutional neural network (CNN),Data models,deep learning,deep neural network,DNNs,GAN,generative adversarial network,generative adversarial network (GAN),Generative adversarial networks,high-resolution SAR images,image interpretation,parameter extraction,radar imaging,Radar imaging,SAR simulation,SAR target recognition,SAR target simulation,simulation image,simulation parameter,simulation parameter extraction,Solid modeling,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR) target simulation,synthetic aperture radar image simulation,Training},
   number = {7}
+}
+
+@thesis{parasharStudyRangeCell2015,
+  title = {A {{Study}} on {{Range Cell Migration Correction}} in {{SAR Imagery}} and {{MATLAB Implementation}} of {{Algorithms}}},
+  author = {Parashar, Anup},
+  date = {2015},
+  institution = {{National Institute of Technology}},
+  location = {{Rourkela, India}},
+  file = {/Users/tomoffat/Zotero/storage/JPTWCJ4E/Parashar - 2015 - A Study on Range Cell Migration Correction in SAR .pdf},
+  langid = {english}
+}
+
+@online{RangeDoppler,
+  title = {Range-{{Doppler}}},
+  url = {https://earth.esa.int/handbooks/asar/CNTR2-6-1-2-3.html},
+  urldate = {2021-04-09},
+  file = {/Users/tomoffat/Zotero/storage/348LV8UW/CNTR2-6-1-2-3.html}
 }
 
 @inproceedings{riccioCOSMOSkyMedAOProjects2012,
@@ -470,6 +565,7 @@
   author = {Richards, John},
   date = {2009},
   publisher = {{Springer}},
+  file = {/Users/tomoffat/Zotero/storage/WIPRFZ8Y/Richards - 2009 - Remote Sensing with Imaging Radar.pdf},
   isbn = {978-3-642-02019-3},
   series = {Signals and {{Communication Technology}}}
 }
@@ -570,6 +666,19 @@
   file = {/Users/tomoffat/Zotero/storage/V89RUQ8J/Xu and Jin - 2006 - Imaging Simulation of Polarimetric SAR for a Compr.pdf;/Users/tomoffat/Zotero/storage/LRAEN8I6/1717717.html},
   keywords = {Attenuation,attenuation effects,buildings,C-band,comprehensive terrain scene,Comprehensive terrain scene,extinction effects,farmland,hills,impenetrable objects,integral equation method,integral equations,L-band,Land surface,Layout,mapping algorithm,mapping and projection algorithm (MPA),multiple-scattering effects,Particle scattering,penetrable objects,polarimetric image simulation,polarimetric SAR images,projection algorithm,Projection algorithms,radar imaging,radar polarimetry,Radar scattering,radiative transfer,remote sensing by radar,rivers,rough land surface,Rough surfaces,SAR imaging simulation,scattering and radiative transfer,shadowing effects,Surface roughness,surface scatterers,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),synthetic aperture radar observation,terrain mapping,Terrain mapping,tree canopies,vector radiative transfer model,vegetation,vegetation canopy,virtual terrain scene,volumetric scatterers},
   number = {11}
+}
+
+@inproceedings{yegulalpFastBackprojectionAlgorithm1999,
+  title = {Fast Backprojection Algorithm for Synthetic Aperture Radar},
+  booktitle = {Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})},
+  author = {Yegulalp, A. F.},
+  date = {1999-04},
+  pages = {60--65},
+  doi = {10.1109/NRC.1999.767270},
+  abstract = {We introduce a new algorithm for time-domain backprojection of synthetic aperture radar (SAR) data. The algorithm reproduces images generated by standard backprojection pixel-for-pixel to any required tolerance, but it runs roughly /spl radic/N times faster for an N by N pixel image. Fast backprojection retains the advantages of standard backprojection: perfect motion compensation for any flight path, low artifact levels, unlimited scene size, perfect focus for arbitrarily wide bandwidths and integration angles, and strictly local processing (i.e., pulses can be processed as they are collected without along-track buffering or corner turns). The new algorithm also makes it possible to store the image in progress on disk (rather than in memory) with only a mild penalty in processing speed.},
+  eventtitle = {Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})},
+  file = {/Users/tomoffat/Zotero/storage/F6TT2BEZ/Yegulalp - 1999 - Fast backprojection algorithm for synthetic apertu.pdf;/Users/tomoffat/Zotero/storage/FXN5QDG4/767270.html},
+  keywords = {Aircraft,Bandwidth,Flexible printed circuits,Focusing,Frequency domain analysis,Interpolation,Pixel,Radar imaging,Synthetic aperture radar,Ultra wideband radar}
 }
 
 @inproceedings{zhengSimulationMethodSAR2008,

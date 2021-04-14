@@ -1,4 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {british}{}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -6,11 +7,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The two main modes of operation of SAR, reproduced from \cite {wolffSyntheticApertureRadar2012}\relax }}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cross-sections of both dimensions of SAR range\relax }}{7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cross-sections of both dimensions of SAR range\relax }}{8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Simulated SAR images from Franceschetti \textit {et al.} 2003 \cite {franceschettiSARRawSignal2003}\relax }}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A comparison between an actual SAR image and simulated SAR image of the Technische Universität and Alte Pinakothek from \cite {franceschettiSimulationToolsInterpretation2007}\relax }}{10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A comparison between an actual SAR image and simulated SAR image of the Technische Universität and Alte Pinakothek from \cite {franceschettiSimulationToolsInterpretation2007}\relax }}{11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Results from Balz 2006 \cite {balzImprovedRealTimeSAR2006} using rasterisation techniques\relax }}{12}%
 \defcounter {refsection}{0}\relax 

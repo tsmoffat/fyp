@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.blg'
-[135] biber-darwin:322> INFO - === Wed Apr  7, 2021, 14:30:30
-[161] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
-[313] Biber.pm:943> INFO - Found 19 citekeys in bib section 0
-[332] Biber.pm:4256> INFO - Processing section 0
-[332] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
-[333] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
-[347] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
-[356] bibtex.pm:1653> INFO - LaTeX decoding ...
-[609] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
-[880] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[881] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[881] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[910] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
-[933] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl
+[109] biber-darwin:322> INFO - === Mon Apr 12, 2021, 16:30:16
+[136] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
+[286] Biber.pm:943> INFO - Found 30 citekeys in bib section 0
+[305] Biber.pm:4256> INFO - Processing section 0
+[305] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
+[305] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
+[320] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
+[334] bibtex.pm:1653> INFO - LaTeX decoding ...
+[567] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
+[920] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[921] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[921] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
+[921] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-GB'
+[950] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
+[975] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl

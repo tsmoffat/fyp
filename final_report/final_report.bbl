@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{duerschBackprojectionSyntheticAperture2013}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d7e681653f3b5bc1f482d442fa4fe123}{%
+           family={Duersch},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima Israel},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Brigham Young University}%
+      }
+      \list{location}{1}{%
+        {Provo}%
+      }
+      \strng{namehash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \strng{fullhash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \strng{bibnamehash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \strng{authorbibnamehash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \strng{authornamehash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \strng{authorfullhash}{d7e681653f3b5bc1f482d442fa4fe123}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The final contribution of this work is a novel algorithm for interferometry based on backprojected data. Because of the way backprojected images are formed, they are less suited to traditional interferometric methods. This work derives backprojection interferometry and compares it to the traditional method of interferometry. The sensitivity and performance of backprojection interferometry are shown, as well as where backprojection interferometry offers superior results. This work finds that backprojection interferometry performs better with longer interferometric baseline lengths or systems with large measurement error in the baseline length or angle (e.g., low-altitude, airborne SAR).}
+      \field{day}{13}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{pagetotal}{194}
+      \field{title}{Backprojection for {{Synthetic Aperture Radar}}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/XH3INPV2/Duersch - Backprojection for Synthetic Aperture Radar.pdf
+      \endverb
+    \endentry
     \entry{wolffSyntheticApertureRadar2012}{online}{}
       \name{author}{1}{}{%
         {{hash=670de8700acf7793e09f9345af84901d}{%
@@ -39,8 +75,8 @@
       \strng{authorbibnamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authornamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authorfullhash}{670de8700acf7793e09f9345af84901d}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{3}
@@ -80,8 +116,8 @@
       \strng{authorbibnamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authornamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authorfullhash}{553b680ed03fc1883566df8d514336b2}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{28}
@@ -118,6 +154,9 @@
       \field{title}{Remote {{Sensing}} with {{Imaging Radar}}}
       \field{year}{2009}
       \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/WIPRFZ8Y/Richards - 2009 - Remote Sensing with Imaging Radar.pdf
+      \endverb
     \endentry
     \entry{franceschettiSARRawSignal2003}{article}{}
       \name{author}{4}{}{%
@@ -287,8 +326,8 @@
       \strng{authorbibnamehash}{72b23ecfc55fe2845d281b8f07f421bb}
       \strng{authornamehash}{72b23ecfc55fe2845d281b8f07f421bb}
       \strng{authorfullhash}{72b23ecfc55fe2845d281b8f07f421bb}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, a geometric and electromagnetic model of a typical element of urban structure is presented, in order to analytically evaluate in closed form its electromagnetic return to an active microwave sensor. This model can be used to understand what information on geometric and dielectric properties of a building can be extracted from microwave remote sensing data. The geometrical model consists of a rectangular parallelepiped whose vertical walls form a generic angle with respect to the sensor line of flight. The parallelepiped is placed on a rough surface. The radar return from such a structure can be decomposed into single-scattering contributions from the (rough) ground, the building roof (a plane surface in our model), and vertical walls and multiple scattering contributions from dihedral structures formed by vertical walls and ground. In our model, single-scattering contributions are evaluated by using either physical optics (PO) or geometrical optics (GO), depending on surface roughness. In order to account for multiple scattering between buildings and terrain, we use GO to evaluate the field reflected by the smooth wall toward the ground (first bounce) or the sensor (second or third bounce) and GO or PO (according to ground surface roughness) to evaluate the field scattered by the ground toward the wall (first or second bounce) or the sensor (second bounce). Finally, the above model is used to analyze the field backscattered from a building as a function of the main scene parameters; in particular, the angle between vertical walls and sensor line of night and the dependence on the look angle are analyzed.}
@@ -478,8 +517,8 @@
       \strng{authorbibnamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
       \strng{authornamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
       \strng{authorfullhash}{45bcf6c025dca86a2c9393f667e5d6ba}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -879,6 +918,404 @@
       \verb /Users/tomoffat/Zotero/storage/V89RUQ8J/Xu and Jin - 2006 - Imaging Simulation of Polarimetric SAR for a Compr.pdf;/Users/tomoffat/Zotero/storage/LRAEN8I6/1717717.html
       \endverb
       \keyw{Attenuation,attenuation effects,buildings,C-band,comprehensive terrain scene,Comprehensive terrain scene,extinction effects,farmland,hills,impenetrable objects,integral equation method,integral equations,L-band,Land surface,Layout,mapping algorithm,mapping and projection algorithm (MPA),multiple-scattering effects,Particle scattering,penetrable objects,polarimetric image simulation,polarimetric SAR images,projection algorithm,Projection algorithms,radar imaging,radar polarimetry,Radar scattering,radiative transfer,remote sensing by radar,rivers,rough land surface,Rough surfaces,SAR imaging simulation,scattering and radiative transfer,shadowing effects,Surface roughness,surface scatterers,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),synthetic aperture radar observation,terrain mapping,Terrain mapping,tree canopies,vector radiative transfer model,vegetation,vegetation canopy,virtual terrain scene,volumetric scatterers}
+    \endentry
+    \entry{foundationBlenderOrgHome}{online}{}
+      \name{author}{1}{}{%
+        {{hash=44275c392a37e9fa9de37082ab548a59}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Blender},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {blender.org}%
+      }
+      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Home of the Blender project - Free and Open 3D Creation Software}
+      \field{langid}{english}
+      \field{title}{Blender.Org - {{Home}} of the {{Blender}} Project - {{Free}} and {{Open 3D Creation Software}}}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/ZBXSNV36/www.blender.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.blender.org/
+      \endverb
+      \verb{url}
+      \verb https://www.blender.org/
+      \endverb
+    \endentry
+    \entry{guoModifiedOmegaKAlgorithm2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5ec62d743a3bd0939cc1071164c54834}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2c316314514e08f9ae63c7ffc277ad1e}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{d663b7fed9e74d41f1cfa775526414b4}
+      \strng{fullhash}{d663b7fed9e74d41f1cfa775526414b4}
+      \strng{bibnamehash}{d663b7fed9e74d41f1cfa775526414b4}
+      \strng{authorbibnamehash}{d663b7fed9e74d41f1cfa775526414b4}
+      \strng{authornamehash}{d663b7fed9e74d41f1cfa775526414b4}
+      \strng{authorfullhash}{d663b7fed9e74d41f1cfa775526414b4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The combination of ground-based synthetic aperture radar (GB-SAR) and frequency-modulated continuous-wave (FMCW) technology produces a high-resolution remote sensing system that is superior in deformation measurement. However, conventional focusing algorithms should be modified for GB-SAR geometry and FMCW signals. In this paper, an accurate GB FMCW SAR signal model is constructed, and a modified Omega-K algorithm is proposed to achieve optimal imaging. The algorithm is validated by simulation results.}
+      \field{booktitle}{2016 {{IEEE}} 13th {{International Conference}} on {{Signal Processing}} ({{ICSP}})}
+      \field{eventtitle}{2016 {{IEEE}} 13th {{International Conference}} on {{Signal Processing}} ({{ICSP}})}
+      \field{issn}{2164-5221}
+      \field{month}{11}
+      \field{title}{Modified {{Omega}}-{{K}} Algorithm for Ground-Based {{FMCW SAR}} Imaging}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{1647\bibrangedash 1650}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICSP.2016.7878107
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/CRRUW5U3/Guo and Dong - 2016 - Modified Omega-K algorithm for ground-based FMCW S.pdf;/Users/tomoffat/Zotero/storage/UU3Z5RRK/7878107.html
+      \endverb
+      \keyw{Algorithm design and analysis,Azimuth,conventional focusing algorithms,CW radar,deformation measurement,FM radar,FMCW,Focusing,frequency-modulated continuous-wave technology,GB FMCW SAR signal model,GB-SAR,GB-SAR geometry,geometry,Geometry,ground-based FMCW SAR imaging,ground-based synthetic aperture radar,high-resolution remote sensing system,modified omega-K algorithm,modified Omega-K algorithm,optimal imaging,radar imaging,remote sensing by radar,SAR geometry,signal model,Signal processing algorithms,synthetic aperture radar,Synthetic aperture radar}
+    \endentry
+    \entry{forstenSyntheticapertureRadarImaging2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3c45f53b66bf3f263841deecb93ae5d1}{%
+           family={Forstén},
+           familyi={F\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Henrik's Blog}%
+      }
+      \strng{namehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{fullhash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{bibnamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authorbibnamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authornamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authorfullhash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Differentiable synthetic-aperture radar image formation with Tensorflow. Including very fast image formation and autofocusing utilizing GPU.}
+      \field{day}{13}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Synthetic-Aperture Radar Imaging}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/NU3H85WJ/synthetic-aperture-radar-imaging.html
+      \endverb
+      \verb{urlraw}
+      \verb https://hforsten.com/synthetic-aperture-radar-imaging.html
+      \endverb
+      \verb{url}
+      \verb https://hforsten.com/synthetic-aperture-radar-imaging.html
+      \endverb
+    \endentry
+    \entry{forstenBackprojectionBackpropagation2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3c45f53b66bf3f263841deecb93ae5d1}{%
+           family={Forstén},
+           familyi={F\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Henrik's Blog}%
+      }
+      \strng{namehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{fullhash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{bibnamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authorbibnamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authornamehash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \strng{authorfullhash}{3c45f53b66bf3f263841deecb93ae5d1}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Even better focused homemade SAR images with timedomain backprojection algorithm and automatic differentiation based autofocus.}
+      \field{day}{22}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Backprojection {{Backpropagation}}}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/XPH7A2FQ/backprojection-backpropagation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://hforsten.com/backprojection-backpropagation.html
+      \endverb
+      \verb{url}
+      \verb https://hforsten.com/backprojection-backpropagation.html
+      \endverb
+    \endentry
+    \entry{cummingInterpretationsOmegaKAlgorithm2003}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=27d35ab114713748d3b6abc41b9201ba}{%
+           family={Cumming},
+           familyi={C\bibinitperiod},
+           given={I.G.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b4a5cd43c191f0af180d8499c31e64ac}{%
+           family={Neo},
+           familyi={N\bibinitperiod},
+           given={Y.L.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=664d235e302a645a5d3700b68535ec48}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={F.H.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Toulouse, France}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2c9429498cbcc7706b6dd54942a58efa}
+      \strng{fullhash}{2c9429498cbcc7706b6dd54942a58efa}
+      \strng{bibnamehash}{2c9429498cbcc7706b6dd54942a58efa}
+      \strng{authorbibnamehash}{2c9429498cbcc7706b6dd54942a58efa}
+      \strng{authornamehash}{2c9429498cbcc7706b6dd54942a58efa}
+      \strng{authorfullhash}{2c9429498cbcc7706b6dd54942a58efa}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ABSTRACT 1 — This paper presents a Fourier interpretation of the Omega-k SAR processing algorithm that helps explain the key Stolt mapping operation. An approximate form of the algorithm is sometimes used, and we explain how both forms of the ωKA compare with the range Doppler and the chirp scaling algorithms. Finally, a brief discussion is given on which radar parameters allow the accurate use of each algorithm.}
+      \field{booktitle}{{{IGARSS}} 2003. 2003 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}. {{Proceedings}} ({{IEEE Cat}}. {{No}}.{{03CH37477}})}
+      \field{eventtitle}{{{IGARSS}} 2003. 2003 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}. ({{IEEE Cat}}. {{No}}.{{03CH37477}})}
+      \field{isbn}{978-0-7803-7929-9}
+      \field{langid}{english}
+      \field{title}{Interpretations of the Omega-{{K}} Algorithm and Comparisons with Other Algorithms}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{1455\bibrangedash 1458}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/IGARSS.2003.1294142
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/AD3ZZQAI/Cumming et al. - 2003 - Interpretations of the omega-K algorithm and compa.pdf
+      \endverb
+    \endentry
+    \entry{albuquerqueApplicationsTimeDomainBackProjection}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f115d0fb30b32cebaa00a7f7ecf0945a}{%
+           family={Albuquerque},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=119f8edc8c6332b729669064637afeb6}{%
+           family={Prats},
+           familyi={P\bibinitperiod},
+           given={Pau},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f6cb1122f2587e56fd7e7e17a91a3a17}{%
+           family={Scheiber},
+           familyi={S\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \strng{fullhash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \strng{bibnamehash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \strng{authorbibnamehash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \strng{authornamehash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \strng{authorfullhash}{c1a198cadd90b70846a6128bcbc25e5d}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Back-Projection Algorithm is a SAR processing approach that uses time-domain convolution of the SAR data in order to perform SAR focusing. Some benefits of this approach are exact inversion, ideal motion compensation including topography information and handling of general aperture geometries. The implementation of the Back-Projection Algorithm was done focusing on the parallelization aspects. Applications of the algorithm are presented with respect to topography adaptive processing, direct generation of map projections and consideration of non linear trajectories.}
+      \field{langid}{english}
+      \field{title}{Applications of {{Time}}-{{Domain Back}}-{{Projection SAR Processing}} in the {{Airborne Case}}}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/28EP8NPB/Albuquerque et al. - Applications of Time-Domain Back-Projection SAR Pr.pdf
+      \endverb
+    \endentry
+    \entry{naComparisonBackProjectionRange2006}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d7f57ca33cbdf136a5d3bdb8543419aa}{%
+           family={Na},
+           familyi={N\bibinitperiod},
+           given={Yibo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a1a3021cb2b0d05022df83de31f7ff9d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yilong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c23a3073e7485f8322a3ccb659e72ca1}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Hongbo},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \strng{fullhash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \strng{bibnamehash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \strng{authorbibnamehash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \strng{authornamehash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \strng{authorfullhash}{3561887fca4f6a0aff6d4e5060a15f8e}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ultra-wideband waveform and large integration angle benefit the synthetic aperture radar (SAR) with very high range and azimuth resolutions. However, at the same time, more new complexities and challenges are brought to the conventional SAR imaging algorithms. The back-projection algorithm and range migration algorithm are two newly developed algorithms that can be used in ultra-wideband SAR imaging. The back-projection algorithm originates from the medical imaging reconstruction technique called computer-aided tomography whereas the range migration algorithm is derived from seismic migration techniques. In the application to SAR imaging, the performance comparison is made in this paper based on theoretical analysis, simulation and experimental data. The analysis and processing results show that both algorithms are suitable for ultra-wideband SAR imaging and the theoretical resolution performances can be achieved. In addition, some practical issues of implementation and performance difference about these two algorithms are addressed as well}
+      \field{booktitle}{Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.}
+      \field{eventtitle}{Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.}
+      \field{issn}{2151-870X}
+      \field{month}{7}
+      \field{title}{A {{Comparison}} of {{Back}}-{{Projection}} and {{Range Migration Algorithms}} for {{Ultra}}-{{Wideband SAR Imaging}}}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{320\bibrangedash 324}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/SAM.2006.1706146
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/CDC2FTSF/Yibo Na et al. - 2006 - A Comparison of Back-Projection and Range Migratio.pdf;/Users/tomoffat/Zotero/storage/I7SQ2TVN/1706146.html
+      \endverb
+      \keyw{Application software,Azimuth,Biomedical imaging,Image analysis,Image reconstruction,Performance analysis,Radar polarimetry,Synthetic aperture radar,Tomography,Ultra wideband technology}
+    \endentry
+    \entry{parasharStudyRangeCell2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ddccd20f6f81dcce5a034e0898e57ef5}{%
+           family={Parashar},
+           familyi={P\bibinitperiod},
+           given={Anup},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Institute of Technology}%
+      }
+      \list{location}{1}{%
+        {Rourkela, India}%
+      }
+      \strng{namehash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \strng{fullhash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \strng{bibnamehash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \strng{authorbibnamehash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \strng{authornamehash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \strng{authorfullhash}{ddccd20f6f81dcce5a034e0898e57ef5}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{A {{Study}} on {{Range Cell Migration Correction}} in {{SAR Imagery}} and {{MATLAB Implementation}} of {{Algorithms}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/JPTWCJ4E/Parashar - 2015 - A Study on Range Cell Migration Correction in SAR .pdf
+      \endverb
+    \endentry
+    \entry{dastgirProcessingSARData2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b8fa073e01ea6121a676a4e3a9fcf15b}{%
+           family={Dastgir},
+           familyi={D\bibinitperiod},
+           given={Naeim},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Royal Institute of Technology}%
+      }
+      \list{location}{1}{%
+        {Stockholm, Sweden}%
+      }
+      \strng{namehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \strng{fullhash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \strng{bibnamehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \strng{authorbibnamehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \strng{authornamehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \strng{authorfullhash}{b8fa073e01ea6121a676a4e3a9fcf15b}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Applications of self-illuminating remote sensing systems, and among those, Radar Imagery is growing rapidly. Unique properties of Synthetic Aperture Radar (SAR) system makes it one of the most popular and applicable methods of self illuminating remote sensing techniques for ground deformation monitoring, seismic studies, and many photogrammetry applications. There are several methods and algorithms for processing SAR data, each are convenient for different purposes. Two more common and reliable algorithms are developed in this thesis: a Range Doppler Algorithm and a Chirp Scaling Algorithm. Available software packages and toolboxes for processing SAR data such as DORIS, ROI-PAC, RAT and PULSAR have their advantage and disadvantages. Most of these packages run on Linux platform, are difficult to use, and require quite a few pre-processing data preparations. Besides there is no general SAR processing application that can handle all data types or suitable for all purposes. There are also software packages (such as ROI-PAC) with restrictions for people from certain countries. The objective of this thesis is to process SAR data using two more common algorithms, run a comparison between results of these two algorithms and to process InSAR pair images to form an Interferogram and to create a DEM. A Matlab based program is developed for this purpose with graphical user interface and a few visualization enhancement features, which facilitates processing data and producing desired output. Then, I investigate the effect of different frequency domains in the resulting image. The program I created in my thesis, has several advantages: it is open-source and very easy to modify. The program is coded in MATLAB, therefore it does not need a vast programming knowledge to be able to customize it. You can run it on any platform that can run MATLAB 7+. At the end of this thesis, I conclude that A Range Doppler Algorithm with secondary range compression performed in 2D-frequency domain has a result as good as a Chirp Scaling Algorithm and has less computational complexity and consumes less time. No general SAR processing algorithm could be introduced. Most of the times algorithms need to be adjusted for particular datasets, or particular applications. Besides, the most complicated algorithm is not always the best algorithm. For example, for a point target detection purpose, two filtering steps in range and azimuth direction provides accurate enough result.}
+      \field{langid}{english}
+      \field{title}{Processing {{SAR}} Data Using {{Range Doppler}} and {{Chirp Scaling Algorithms}}}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/9SZQXPML/FULLTEXT01.pdf
+      \endverb
+    \endentry
+    \entry{yegulalpFastBackprojectionAlgorithm1999}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=be29416452e8a014a0d026d6ee35f5a3}{%
+           family={Yegulalp},
+           familyi={Y\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{be29416452e8a014a0d026d6ee35f5a3}
+      \strng{fullhash}{be29416452e8a014a0d026d6ee35f5a3}
+      \strng{bibnamehash}{be29416452e8a014a0d026d6ee35f5a3}
+      \strng{authorbibnamehash}{be29416452e8a014a0d026d6ee35f5a3}
+      \strng{authornamehash}{be29416452e8a014a0d026d6ee35f5a3}
+      \strng{authorfullhash}{be29416452e8a014a0d026d6ee35f5a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new algorithm for time-domain backprojection of synthetic aperture radar (SAR) data. The algorithm reproduces images generated by standard backprojection pixel-for-pixel to any required tolerance, but it runs roughly /spl radic/N times faster for an N by N pixel image. Fast backprojection retains the advantages of standard backprojection: perfect motion compensation for any flight path, low artifact levels, unlimited scene size, perfect focus for arbitrarily wide bandwidths and integration angles, and strictly local processing (i.e., pulses can be processed as they are collected without along-track buffering or corner turns). The new algorithm also makes it possible to store the image in progress on disk (rather than in memory) with only a mild penalty in processing speed.}
+      \field{booktitle}{Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})}
+      \field{eventtitle}{Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})}
+      \field{month}{4}
+      \field{title}{Fast Backprojection Algorithm for Synthetic Aperture Radar}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{60\bibrangedash 65}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/NRC.1999.767270
+      \endverb
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/F6TT2BEZ/Yegulalp - 1999 - Fast backprojection algorithm for synthetic apertu.pdf;/Users/tomoffat/Zotero/storage/FXN5QDG4/767270.html
+      \endverb
+      \keyw{Aircraft,Bandwidth,Flexible printed circuits,Focusing,Frequency domain analysis,Interpolation,Pixel,Radar imaging,Synthetic aperture radar,Ultra wideband radar}
     \endentry
   \enddatalist
 \endrefsection
