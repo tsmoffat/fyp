@@ -48,7 +48,7 @@
   <Viewpoint fieldOfView='0.7854' description='Trajectory' orientation='1 0 0 0.1'>
   </Viewpoint>
 </Transform>
-<Transform DEF='shape_plane'  translation='500 1000 -600' scale='0.5 0.5 0.5'>
+<Transform DEF='shape_plane'  translation='500 1000 -200' scale='0.5 0.5 0.5'>
   <Transform>
     <Shape>
       <Appearance>
@@ -214,7 +214,7 @@
     </IndexedFaceSet>
   </Shape>
 </Transform>
-<Viewpoint DEF='plane_edit'  orientation='-0.1624634 0.9315391 0.3253313 2.109968' position='574.3432 1044.806 -661.8855'>
+<Viewpoint DEF='plane_edit'  fieldOfView='0.7854' orientation='-0.1624634 0.9315391 0.3253313 2.109968' position='574.3432 1044.806 -661.8855'>
 </Viewpoint>
 <ROUTE fromNode='shape_plane' fromField='translation' toNode='view_observe' toField='translation'/>
 

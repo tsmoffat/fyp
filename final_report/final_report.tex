@@ -17,7 +17,7 @@
 \usepackage{gensymb}
 \usepackage[a4paper, left=30mm, right=30mm, top=25mm, bottom=25mm]{geometry}
 \usepackage{titling}
-\usepackage[symbols,nonumberlist,nogroupskip,shortcuts=other, xindy]{glossaries-extra}
+\usepackage[symbols,nonumberlist,nogroupskip,shortcuts=other, xindy, acronyms, automake, nomain]{glossaries-extra}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -37,6 +37,8 @@
 \addbibresource{../FYP.bib}
 
 \tabulinesep=1mm
+
+\setabbreviationstyle[acronym]{long-short}
 
 \makeglossaries
 
@@ -79,6 +81,15 @@
 \newsym[description={Time spent observing the target}]{tobs}{\ensuremath{T_{obs}}}
 \newsym[description={Platform velocity}]{vp}{\ensuremath{v_p}}
 
+\newacronym{rcs}{RCS}{Radar Cross Section}
+\newacronym{sar}{SAR}{Synthetic Aperture Radar}
+\newacronym{rcmc}{RCMC}{Range Cell Migration Correction}
+\newacronym{oka}{\ensuremath{\omega KA}}{Omega-K}
+\newacronym{rda}{RDA}{Range-Doppler}
+\newacronym{csa}{CSA}{Chirp Scaling}
+\newacronym{lfm}{LFM}{Linear Frequency Modulated}
+
+
 \begin{document}
 
 
@@ -89,6 +100,8 @@
 \tableofcontents
 \listoffigures
 \printglossary[type=symbols,style=long,title={List of Symbols}]
+\newpage
+\printglossary[type=acronym, style = long,title={List of Acronyms}]
 \chapter{Introduction}
 \chapter{Engineering Analysis}
 \input{intro_to_sar}
@@ -98,13 +111,11 @@
 \chapter{Methods}
 \input{report_methods}
 \chapter{Deliverables}
-\section{Deliverables Achieved}
-\section{Significant Results}
-\section{Uncertainty}
-\section{Final Results}
+\input{deliverables}
+
 \chapter{Conclusions}
-\section{Final Remarks and Outcome}
-\section{Further Work}
+\input{conclusions}
+
 \newpage
 \section*{Acknowledgements}
 \printbibliography
