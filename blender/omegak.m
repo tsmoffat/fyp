@@ -12,8 +12,7 @@ function omega_k_output = omegak(raw_data, fs, maxRange, fc, flightTime, speed, 
     temp_wavenumber = range_delta.^2-cross_range_number_matrix.^2;
     temp_wavenumber = sqrt(temp_wavenumber.*(temp_wavenumber>0));
     final_wavenumbers_for_focusing = exp(1i*temp_wavenumber.*reference_range);
-    fft_data =fftshift(fft(fftshift(fft(raw_data,[],1),1),[],2),2);
-    %fft_data = fftshift(fft2(raw_data));
+    fft_data = fftshift(fft2(raw_data));
 
     bulk_compression = (fft_data.').*final_wavenumbers_for_focusing;
 

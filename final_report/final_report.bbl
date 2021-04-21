@@ -39,21 +39,18 @@
       \strng{authorbibnamehash}{d7e681653f3b5bc1f482d442fa4fe123}
       \strng{authornamehash}{d7e681653f3b5bc1f482d442fa4fe123}
       \strng{authorfullhash}{d7e681653f3b5bc1f482d442fa4fe123}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The final contribution of this work is a novel algorithm for interferometry based on backprojected data. Because of the way backprojected images are formed, they are less suited to traditional interferometric methods. This work derives backprojection interferometry and compares it to the traditional method of interferometry. The sensitivity and performance of backprojection interferometry are shown, as well as where backprojection interferometry offers superior results. This work finds that backprojection interferometry performs better with longer interferometric baseline lengths or systems with large measurement error in the baseline length or angle (e.g., low-altitude, airborne SAR).}
-      \field{day}{13}
       \field{langid}{english}
-      \field{month}{6}
       \field{pagetotal}{194}
       \field{title}{Backprojection for {{Synthetic Aperture Radar}}}
-      \field{year}{2013}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/XH3INPV2/Duersch - Backprojection for Synthetic Aperture Radar.pdf
       \endverb
+      \warn{\item Entry 'duerschBackprojectionSyntheticAperture2013' (../FYP.bib): Invalid format '2013-06-13' of date field 'date' - ignoring}
     \endentry
     \entry{wolffSyntheticApertureRadar2012}{online}{}
       \name{author}{1}{}{%
@@ -75,20 +72,12 @@
       \strng{authorbibnamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authornamehash}{670de8700acf7793e09f9345af84901d}
       \strng{authorfullhash}{670de8700acf7793e09f9345af84901d}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{3}
       \field{langid}{english}
-      \field{month}{4}
       \field{title}{Synthetic {{Aperture Radar Modes}}}
-      \field{urlday}{12}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/EITXNV3B/ab08.en.html
       \endverb
@@ -98,6 +87,8 @@
       \verb{url}
       \verb https://www.radartutorial.eu/20.airborne/ab08.en.html
       \endverb
+      \warn{\item Entry 'wolffSyntheticApertureRadar2012' (../FYP.bib): Invalid format '2012-04-03' of date field 'date' - ignoring}
+      \warn{\item Entry 'wolffSyntheticApertureRadar2012' (../FYP.bib): Invalid format '2021-03-12' of date field 'urldate' - ignoring}
     \endentry
     \entry{watsonEE40136RadarSystems2020}{unpublished}{}
       \name{author}{1}{}{%
@@ -116,17 +107,14 @@
       \strng{authorbibnamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authornamehash}{553b680ed03fc1883566df8d514336b2}
       \strng{authorfullhash}{553b680ed03fc1883566df8d514336b2}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{28}
       \field{howpublished}{Lecture Notes}
-      \field{month}{9}
       \field{title}{{{EE40136}}: {{Radar Systems}} and {{Remote Sensing}}}
       \field{type}{Lecture Notes}
-      \field{year}{2020}
-      \field{dateera}{ce}
+      \warn{\item Entry 'watsonEE40136RadarSystems2020' (../FYP.bib): Invalid format '2020-09-28' of date field 'date' - ignoring}
     \endentry
     \entry{richardsRemoteSensingImaging2009}{book}{}
       \name{author}{1}{}{%
@@ -152,11 +140,52 @@
       \field{isbn}{978-3-642-02019-3}
       \field{series}{Signals and {{Communication Technology}}}
       \field{title}{Remote {{Sensing}} with {{Imaging Radar}}}
-      \field{year}{2009}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/WIPRFZ8Y/Richards - 2009 - Remote Sensing with Imaging Radar.pdf
       \endverb
+      \warn{\item Entry 'richardsRemoteSensingImaging2009' (../FYP.bib): Invalid format '2009' of date field 'date' - ignoring}
+    \endentry
+    \entry{ForeshorteningLayover}{inreference}{}
+      \list{publisher}{1}{%
+        {European Space Agency}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{ERS Radar Course}} 3}
+      \field{series}{{{ESA Operational EO Missions}}}
+      \field{title}{Foreshortening and {{Layover}}}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/C892KWCP/radar-course-3-slant-range-ground-range.html
+      \endverb
+      \verb{urlraw}
+      \verb https://earth.esa.int/web/guest/missions/esa-operational-eo-missions/ers/instruments/sar/applications/radar-courses/content-3/-/asset_publisher/mQ9R7ZVkKg5P/content/radar-course-3-slant-range-ground-range
+      \endverb
+      \verb{url}
+      \verb https://earth.esa.int/web/guest/missions/esa-operational-eo-missions/ers/instruments/sar/applications/radar-courses/content-3/-/asset_publisher/mQ9R7ZVkKg5P/content/radar-course-3-slant-range-ground-range
+      \endverb
+      \warn{\item Entry 'ForeshorteningLayover' (../FYP.bib): Invalid format '2021-04-18' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Shadow}{inreference}{}
+      \list{publisher}{1}{%
+        {European Space Agency}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{ERS Radar Course}} 3}
+      \field{series}{{{ESA Operational EO Missions}}}
+      \field{title}{Shadow}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/EIMHQR2C/radar-course-3-shadow.html
+      \endverb
+      \verb{urlraw}
+      \verb https://earth.esa.int/web/guest/missions/esa-operational-eo-missions/ers/instruments/sar/applications/radar-courses/content-3/-/asset_publisher/mQ9R7ZVkKg5P/content/radar-course-3-shadow
+      \endverb
+      \verb{url}
+      \verb https://earth.esa.int/web/guest/missions/esa-operational-eo-missions/ers/instruments/sar/applications/radar-courses/content-3/-/asset_publisher/mQ9R7ZVkKg5P/content/radar-course-3-shadow
+      \endverb
+      \warn{\item Entry 'Shadow' (../FYP.bib): Invalid format '2021-04-18' of date field 'urldate' - ignoring}
     \endentry
     \entry{franceschettiSARRawSignal2003}{article}{}
       \name{author}{4}{}{%
@@ -187,8 +216,8 @@
       \strng{authorbibnamehash}{49921868a3459c5c637bff4d81ee5393}
       \strng{authornamehash}{6390fbf365b5fb37eedd74e01c9fcc9c}
       \strng{authorfullhash}{49921868a3459c5c637bff4d81ee5393}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, a synthetic aperture radar (SAR) raw signal simulator for urban scenes is presented along with models it employs to compute the backscattered field and to account for the imaging radar sensor characteristics. Urban areas are represented as a set of dielectric buildings placed over a random rough nonflat dielectric terrain. The adopted models allow evaluation of the raw signal on a sound physical and mathematical background: the scattering model employs the Kirchhoff approach appropriately extended to include multiple-reflection effects, and the radar model operates in the two-dimensional Fourier transformed domain. Details to assess how and why the simulator is also efficient with respect to the computational time are provided. In addition, relevant examples are discussed to show the simulator potentialities and assess the validity of the main results. It is shown that the simulator is able to quantitatively assess performances of SAR sensors over urban structures. The proposed simulator turns out to be also useful to train numerical schemes devoted to feature extraction, and to test any specific SAR processing technique. Comments for further developments of the simulation tool are presented.}
@@ -197,13 +226,12 @@
       \field{number}{9}
       \field{title}{{{SAR}} Raw Signal Simulation for Urban Structures}
       \field{volume}{41}
-      \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{10}
       \range{pages}{1}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/Z7J6HC2X/Franceschetti et al. - 2003 - SAR raw signal simulation for urban structures.pdf
       \endverb
+      \warn{\item Entry 'franceschettiSARRawSignal2003' (../FYP.bib): Invalid format '2003' of date field 'date' - ignoring}
     \endentry
     \entry{franceschettiSARASSyntheticAperture1992}{article}{}
       \name{author}{4}{}{%
@@ -234,21 +262,18 @@
       \strng{authorbibnamehash}{8477705afd6db5b884d5b708af063b63}
       \strng{authornamehash}{6e91bba5bb734aaa8658e0d32fab3573}
       \strng{authorfullhash}{8477705afd6db5b884d5b708af063b63}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{An SAR simulator of an extended three-dimensional scene is presented. It is based on a facet model for the scene, asymptotic evaluation of SAR unit response, and a two-dimensional fast Fourier transform code for the data processing. Prescribed statistics of the model account for a realistic speckle of the image. The simulator is implemented in Synthetic Aperture Radar Advance Simulators (SARAS), whose performance is described and illustrated by a number of examples.{$<>$}}
       \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{issn}{1558-0644}
       \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
-      \field{month}{1}
       \field{number}{1}
       \field{shorttitle}{{{SARAS}}}
       \field{title}{{{SARAS}}: A Synthetic Aperture Radar ({{SAR}}) Raw Signal Simulator}
       \field{volume}{30}
-      \field{year}{1992}
-      \field{dateera}{ce}
       \field{pages}{110\bibrangedash 123}
       \range{pages}{14}
       \verb{doi}
@@ -258,6 +283,7 @@
       \verb /Users/tomoffat/Zotero/storage/2W4JAUA8/Franceschetti et al. - 1992 - SARAS a synthetic aperture radar (SAR) raw signal.pdf;/Users/tomoffat/Zotero/storage/QEDW5QNJ/124221.html
       \endverb
       \keyw{Acoustic scattering,Computational modeling,computerised picture processing,data processing,Data processing,Electromagnetic scattering,extended three-dimensional scene,Face,facet model,Fast Fourier transforms,Layout,radar,Radar scattering,raw signal simulator,SARAS,speckle,Statistics,Synthetic aperture radar,Synthetic Aperture Radar Advance Simulators,two-dimensional fast Fourier transform code}
+      \warn{\item Entry 'franceschettiSARASSyntheticAperture1992' (../FYP.bib): Invalid format '1992-01' of date field 'date' - ignoring}
     \endentry
     \entry{franceschettiSARProcessorBased1990}{article}{}
       \name{author}{2}{}{%
@@ -278,20 +304,17 @@
       \strng{authorbibnamehash}{a2cf3d2aae59f9a97c42325994930e18}
       \strng{authornamehash}{a2cf3d2aae59f9a97c42325994930e18}
       \strng{authorfullhash}{a2cf3d2aae59f9a97c42325994930e18}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A synthetic aperture radar (SAR) processor approach based on two-dimensional fast Fourier transform (FFT) codes coupled with an asymptotic evaluation of the unit response function is presented. For the latter, no approximation is made to the distance function, so that the full range of geometric aberrations is analytically considered, enabling an effective reference filter to be designed. The two-dimensional FFTs were designed as to run on computers of very limited memory: the required FFT is computed by means of FFTs of lower order. Two FFT codes were considered: one is faster and allows full or reduced (quick look or multilook) resolution performance to be obtained easily; the second is slower but allows the use of a space-varying filter and/or investigations on limited portions (zoom) of the image. Both codes are suited to parallel processing, e.g. by a transputer net. A full discussion on computer memory and time requirements is presented as well as first examples of image processing results.{$<>$}}
       \field{eventtitle}{{{IEEE Transactions}} on {{Aerospace}} and {{Electronic Systems}}}
       \field{issn}{1557-9603}
       \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
-      \field{month}{3}
       \field{number}{2}
       \field{title}{A {{SAR}} Processor Based on Two-Dimensional {{FFT}} Codes}
       \field{volume}{26}
-      \field{year}{1990}
-      \field{dateera}{ce}
       \field{pages}{356\bibrangedash 366}
       \range{pages}{11}
       \verb{doi}
@@ -301,6 +324,7 @@
       \verb /Users/tomoffat/Zotero/storage/88VXH5NS/Franceschetti and Schirinzi - 1990 - A SAR processor based on two-dimensional FFT codes.pdf;/Users/tomoffat/Zotero/storage/WKAJSVWQ/53462.html
       \endverb
       \keyw{asymptotic evaluation,Azimuth,Backscatter,Bandwidth,computerised picture processing,effective reference filter,fast Fourier transform,fast Fourier transforms,Filters,Flexible printed circuits,Frequency estimation,geometric aberrations,holographic signal,image compression,image processing,Image resolution,memory requirements,multilook,parallel processing,Parallel processing,quick look,radar,SAR processor,space-varying filter,synthetic aperture radar,Synthetic aperture radar,time requirements,Transfer functions,transputer net,two-dimensional FFT codes,unit response function,zoom}
+      \warn{\item Entry 'franceschettiSARProcessorBased1990' (../FYP.bib): Invalid format '1990-03' of date field 'date' - ignoring}
     \endentry
     \entry{franceschettiCanonicalProblemElectromagnetic2002}{article}{}
       \name{author}{3}{}{%
@@ -326,20 +350,17 @@
       \strng{authorbibnamehash}{72b23ecfc55fe2845d281b8f07f421bb}
       \strng{authornamehash}{72b23ecfc55fe2845d281b8f07f421bb}
       \strng{authorfullhash}{72b23ecfc55fe2845d281b8f07f421bb}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, a geometric and electromagnetic model of a typical element of urban structure is presented, in order to analytically evaluate in closed form its electromagnetic return to an active microwave sensor. This model can be used to understand what information on geometric and dielectric properties of a building can be extracted from microwave remote sensing data. The geometrical model consists of a rectangular parallelepiped whose vertical walls form a generic angle with respect to the sensor line of flight. The parallelepiped is placed on a rough surface. The radar return from such a structure can be decomposed into single-scattering contributions from the (rough) ground, the building roof (a plane surface in our model), and vertical walls and multiple scattering contributions from dihedral structures formed by vertical walls and ground. In our model, single-scattering contributions are evaluated by using either physical optics (PO) or geometrical optics (GO), depending on surface roughness. In order to account for multiple scattering between buildings and terrain, we use GO to evaluate the field reflected by the smooth wall toward the ground (first bounce) or the sensor (second or third bounce) and GO or PO (according to ground surface roughness) to evaluate the field scattered by the ground toward the wall (first or second bounce) or the sensor (second bounce). Finally, the above model is used to analyze the field backscattered from a building as a function of the main scene parameters; in particular, the angle between vertical walls and sensor line of night and the dependence on the look angle are analyzed.}
       \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{issn}{1558-0644}
       \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
-      \field{month}{8}
       \field{number}{8}
       \field{title}{A Canonical Problem in Electromagnetic Backscattering from Buildings}
       \field{volume}{40}
-      \field{year}{2002}
-      \field{dateera}{ce}
       \field{pages}{1787\bibrangedash 1801}
       \range{pages}{15}
       \verb{doi}
@@ -349,6 +370,7 @@
       \verb /Users/tomoffat/Zotero/storage/INAXX97A/Franceschetti et al. - 2002 - A canonical problem in electromagnetic backscatter.pdf;/Users/tomoffat/Zotero/storage/WKIVH83N/1036007.html
       \endverb
       \keyw{backscatter,Backscatter,buildings,Buildings,dielectric properties,dihedral structures,Electromagnetic analysis,electromagnetic backscattering,electromagnetic model,Electromagnetic modeling,electromagnetic return,Electromagnetic scattering,electromagnetic wave scattering,geometric model,geometric properties,geometrical optics,GO,look angle,microwave remote sensing data,multiple scattering,Optical scattering,physical optics,PO,Radar scattering,rectangular parallelepiped,remote sensing by radar,rough surface,Rough surfaces,SAR,scene parameters,sensor line of night,single-scattering,Solid modeling,surface roughness,Surface roughness,synthetic aperture radar,urban structure,vertical walls}
+      \warn{\item Entry 'franceschettiCanonicalProblemElectromagnetic2002' (../FYP.bib): Invalid format '2002-08' of date field 'date' - ignoring}
     \endentry
     \entry{franceschettiSimulationToolsInterpretation2007}{inproceedings}{}
       \name{author}{6}{}{%
@@ -389,18 +411,15 @@
       \strng{authorbibnamehash}{45a1713cb3b96f8ac70480cbadf3fbce}
       \strng{authornamehash}{28ee99544be08d41be306ce1b04418f8}
       \strng{authorfullhash}{45a1713cb3b96f8ac70480cbadf3fbce}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{New powerful spaceborne sensors for monitoring urban areas have been designed and are ready for launch. More detailed SAR images will be soon available and, consequently, new tools for their interpretation are needed, above all when urban scenes are illuminated. In this paper, the authors propose some tools for the study and the analysis of high resolution SAR images based on a SAR raw signal simulator for urban areas. Comparing simulated SAR images with the real one, interpretation of SAR data is improved and fundamental support of the employed tools is further assessed.}
       \field{booktitle}{2007 {{Urban Remote Sensing Joint Event}}}
       \field{eventtitle}{2007 {{Urban Remote Sensing Joint Event}}}
       \field{issn}{2334-0932}
-      \field{month}{4}
       \field{title}{Simulation {{Tools}} for {{Interpretation}} of {{High Resolution SAR Images}} of {{Urban Areas}}}
-      \field{year}{2007}
-      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
       \verb{doi}
@@ -410,6 +429,7 @@
       \verb /Users/tomoffat/Zotero/storage/NZVR85TD/Franceschetti et al. - 2007 - Simulation Tools for Interpretation of High Resolu.pdf;/Users/tomoffat/Zotero/storage/7Z5E6FYJ/4234440.html
       \endverb
       \keyw{Buildings,geophysical signal processing,high-resolution SAR image,Image analysis,image resolution,Image resolution,image sensors,Information retrieval,Layout,Optical distortion,radar imaging,Remote sensing,SAR raw signal simulator,simulation tool,Solid modeling,spaceborne radar,spaceborne sensor,synthetic aperture radar,Testing,urban area monitoring,Urban areas,urban scene illumination}
+      \warn{\item Entry 'franceschettiSimulationToolsInterpretation2007' (../FYP.bib): Invalid format '2007-04' of date field 'date' - ignoring}
     \endentry
     \entry{zhengSimulationMethodSAR2008}{inproceedings}{}
       \name{author}{3}{}{%
@@ -435,18 +455,15 @@
       \strng{authorbibnamehash}{155a3bcaa07936c2e0645a7b59a26cf6}
       \strng{authornamehash}{155a3bcaa07936c2e0645a7b59a26cf6}
       \strng{authorfullhash}{155a3bcaa07936c2e0645a7b59a26cf6}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, a SAR raw data simulation method for urban scene is presented based on the hypothesis that urban area is a set of vertical buildings placed over a random rough dielectric terrain. Facet model and Kirchhoff approach appropriately including multiple-scattering effects are adopted here to compute scattering coefficients in the scattering model, which operates in two-dimensional Fourier transformed domain. Methods of computing the scattering coefficients in different conditions are discussed in detail. Subsequently, the computational formulas and steps are also provided. It is known that the scattering model can effectively simulate the urban scene. The proposed simulation method of SAR raw echo turns out to be valid through simulation and analysis of the imaging to raw echo.}
       \field{booktitle}{2008 {{International Conference}} on {{Radar}}}
       \field{eventtitle}{2008 {{International Conference}} on {{Radar}}}
       \field{issn}{1097-5764}
-      \field{month}{9}
       \field{title}{Simulation Method of {{SAR}} Raw Echo for Urban Scene}
-      \field{year}{2008}
-      \field{dateera}{ce}
       \field{pages}{503\bibrangedash 507}
       \range{pages}{5}
       \verb{doi}
@@ -456,6 +473,7 @@
       \verb /Users/tomoffat/Zotero/storage/FTFKHPYT/Yingxi Zheng et al. - 2008 - Simulation method of SAR raw echo for urban scene.pdf;/Users/tomoffat/Zotero/storage/4HCLZ93S/4653976.html
       \endverb
       \keyw{Backscatter,Biological system modeling,Buildings,Computational modeling,electromagnetic wave scattering,facet model,Fourier transforms,Kirchhoff approach,multiple-scattering effect,Radar,Radar antennas,radar cross-sections,radar imaging,random rough dielectric terrain,SAR raw echo data simulation method,Scattering,synthetic aperture radar,two-dimensional Fourier transformed domain,urban scene,vertical building}
+      \warn{\item Entry 'zhengSimulationMethodSAR2008' (../FYP.bib): Invalid format '2008-09' of date field 'date' - ignoring}
     \endentry
     \entry{delliereSARMeasurementSimulation2007}{inproceedings}{}
       \name{author}{3}{}{%
@@ -481,18 +499,15 @@
       \strng{authorbibnamehash}{1d50aca0dd1cea9e33a7ea124a596191}
       \strng{authornamehash}{1d50aca0dd1cea9e33a7ea124a596191}
       \strng{authorfullhash}{1d50aca0dd1cea9e33a7ea124a596191}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The purpose of this work is, starting from a close tracking of basic electromagnetic processes, to propose a simulator enabling a better understanding of the radar images of urban areas. An improved understanding of the radar images formation processes in this case should lead to a better knowledge of the potentialities of the SAR imagery of urban areas. With the rapid development of computer, numerical techniques with no physical approximation play more and more important role in some studies such as electromagnetic scattering from urban scene. We argue that finite-difference time domain method (FDTD) is a quite new and promising approach for the propagation in urban areas. In order to numerically evaluate its electromagnetic return to an active microwave sensor, a geometric and electromagnetic model of a typical element of urban structure is presented. It consists of a rectangular parallelepiped whose vertical walls form a generic angle with respect to the sensor line of flight. This parallelepiped is placed on an either smooth or rough surface, to take into account multiple scattering between buildings and terrain. Finally, the above model is used to analyze the field backscattered from a building, as a function of the main scene parameters.}
       \field{booktitle}{2007 {{Urban Remote Sensing Joint Event}}}
       \field{eventtitle}{2007 {{Urban Remote Sensing Joint Event}}}
       \field{issn}{2334-0932}
-      \field{month}{4}
       \field{title}{{{SAR}} Measurement Simulation on Urban Structures Using a {{FDTD}} Technique}
-      \field{year}{2007}
-      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
       \verb{doi}
@@ -502,6 +517,7 @@
       \verb /Users/tomoffat/Zotero/storage/LF7UUMK4/Delliere et al. - 2007 - SAR measurement simulation on urban structures usi.pdf;/Users/tomoffat/Zotero/storage/TSGF43RJ/4234436.html
       \endverb
       \keyw{active microwave sensor,Computational modeling,Electromagnetic measurements,electromagnetic scattering,Electromagnetic scattering,electromagnetic wave propagation,electromagnetic wave scattering,FDTD technique,Finite difference methods,finite difference time-domain analysis,finite-difference time domain method,Layout,radar imaging,Radar imaging,Radar tracking,radar wave propagation,rectangular parallelepiped,remote sensing by radar,SAR imagery,SAR measurement simulation,synthetic aperture radar,Synthetic aperture radar,Time domain analysis,Urban areas,urban structure}
+      \warn{\item Entry 'delliereSARMeasurementSimulation2007' (../FYP.bib): Invalid format '2007-04' of date field 'date' - ignoring}
     \endentry
     \entry{balzRealtimeSARSimulation2006}{inproceedings}{}
       \name{author}{1}{}{%
@@ -517,18 +533,15 @@
       \strng{authorbibnamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
       \strng{authornamehash}{45bcf6c025dca86a2c9393f667e5d6ba}
       \strng{authorfullhash}{45bcf6c025dca86a2c9393f667e5d6ba}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{7}
       \field{title}{Real-Time {{SAR}} Simulation of Complex Scenes Using Programmable {{Graphics Processing Units}}}
-      \field{year}{2006}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/WHIELUR9/Balz - 2006 - Real-time SAR simulation of complex scenes using p.pdf
       \endverb
+      \warn{\item Entry 'balzRealtimeSARSimulation2006' (../FYP.bib): Invalid format '2006-07-01' of date field 'date' - ignoring}
     \endentry
     \entry{auerRayTracingSimulating2008}{inproceedings}{}
       \name{author}{3}{}{%
@@ -554,19 +567,16 @@
       \strng{authorbibnamehash}{0718f3767753cac6559b590155d852f9}
       \strng{authornamehash}{0718f3767753cac6559b590155d852f9}
       \strng{authorfullhash}{0718f3767753cac6559b590155d852f9}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents an approach for using backward ray tracing for simulating radar reflectivity maps. After explaining the simulation concept which consists of three parts - modeling, sampling and image generation - two applications are presented for showing the performance of the simulator. At first reflection contributions like single or multiple bounce are simulated for a modeled building and compared to a real TerraSAR-X image. It shows how the capability of separating different bounce levels in different layers can support the interpretation of the SAR image. Afterwards reflection effects caused by quasi-perfect specular reflection are detected for another building model by means of geometrical analysis. This is thought as input for advanced Persistent Scatterer (PS) Analysis, since PS typically appear due to such reflection effects.}
       \field{booktitle}{{{IGARSS}} 2008 - 2008 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}}
       \field{eventtitle}{{{IGARSS}} 2008 - 2008 {{IEEE International Geoscience}} and {{Remote Sensing Symposium}}}
       \field{issn}{2153-7003}
-      \field{month}{7}
       \field{title}{Ray {{Tracing}} for {{Simulating Reflection Phenomena}} in {{SAR Images}}}
       \field{volume}{5}
-      \field{year}{2008}
-      \field{dateera}{ce}
       \field{pages}{V - 518-V \bibrangedash  521}
       \range{pages}{-1}
       \verb{doi}
@@ -576,6 +586,7 @@
       \verb /Users/tomoffat/Zotero/storage/SNJV6LZT/Auer et al. - 2008 - Ray Tracing for Simulating Reflection Phenomena in.pdf;/Users/tomoffat/Zotero/storage/QITEQCZQ/4780143.html
       \endverb
       \keyw{afterwards reflection effects,Analytical models,backward ray tracing,bounce levels,electromagnetic wave reflection,geophysical signal processing,image generation,image processing,Layout,Light scattering,Light sources,Optical reflection,Optical scattering,persistent scatterer analysis,Persistent Scatterers,quasi-perfect specular reflection,Radar imaging,radar reflectivity map,Radar scattering,ray tracing,Ray tracing,Ray Tracing,reflectivity,remote sensing by radar,SAR images,SAR Simulation,Solid modeling,synthetic aperture radar,TerraSAR-X,TerraSAR-X imagery}
+      \warn{\item Entry 'auerRayTracingSimulating2008' (../FYP.bib): Invalid format '2008-07' of date field 'date' - ignoring}
     \endentry
     \entry{mametsaImagingRadarSimulation2002}{inproceedings}{}
       \name{author}{4}{}{%
@@ -609,19 +620,15 @@
       \strng{authorbibnamehash}{c46ecea05fcf32c71b32c25a4d076fe0}
       \strng{authornamehash}{45ca48fd4c0289dec0730025fca841f9}
       \strng{authorfullhash}{c46ecea05fcf32c71b32c25a4d076fe0}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A three dimensional (3-D) realistic radar simulation package including imaging radar simulation concept applied to multisensor scenarios is under development as a project between the Electromagnetism and Radar Department of ONERA and the OKTAL SE Company. Taking advantage of various studies in the domain, this partnership associates the expertise of ONERA in radar phenomenology, wave interaction with targets and clutter, with that of OKTAL SE in the generation and management of realistic scene databases in the infrared and optical domains using advanced Shooting and Bouncing Rays (SBR) techniques. The objective of this program is to develop simulation tools capable of predicting the behaviour of sensors in a realistic environment. This is achieved by coupling a terrain database completed by radar and optical features and a fast SBR algorithm. This paper is focused on the specification of the radar (i.e. electromagnetic wave interaction) principles. Outputs from the simulations illustrate the effectiveness of the tool in respectively, Synthetic Aperture Radar (SAR) simulations; and in the multisensor evaluation context in airborne applications such as enhanced vision for all weather landing assistance.}
       \field{booktitle}{{{SAR Image Analysis}}, {{Modeling}}, and {{Techniques IV}}}
-      \field{day}{28}
       \field{eventtitle}{{{SAR Image Analysis}}, {{Modeling}}, and {{Techniques IV}}}
-      \field{month}{1}
       \field{title}{Imaging Radar Simulation in Realistic Environment Using Shooting and Bouncing Rays Technique}
       \field{volume}{4543}
-      \field{year}{2002}
-      \field{dateera}{ce}
       \field{pages}{34\bibrangedash 40}
       \range{pages}{7}
       \verb{doi}
@@ -630,6 +637,7 @@
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/VJYMUFMX/Mametsa et al. - 2002 - Imaging radar simulation in realistic environment .pdf;/Users/tomoffat/Zotero/storage/HYUFQH3F/12.453975.html
       \endverb
+      \warn{\item Entry 'mametsaImagingRadarSimulation2002' (../FYP.bib): Invalid format '2002-01-28' of date field 'date' - ignoring}
     \endentry
     \entry{hammerComparisonSARSimulation2008}{inproceedings}{}
       \name{author}{6}{}{%
@@ -670,23 +678,21 @@
       \strng{authorbibnamehash}{e6093a4fdae326dbf58d726a274f81da}
       \strng{authornamehash}{661caf9b16da2d73d72802de92dd1f5e}
       \strng{authorfullhash}{e6093a4fdae326dbf58d726a274f81da}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The simulation of SAR images provides valuable information used in many fields such as mission planning or the design of feature extraction algorithms. Simulation is in general a trade-off between achievement of appro-ximation to reality as close as possible and minimization of computational load respectively processing time. For real-time application, a fast but suboptimal approach might be optimal, whereas for thorough parameter tuning of image processing or image analysis algorithms, more sophisticated methods would be required. In this paper, three SAR simulators using different simulation concepts tailored for a variety of tasks are introduced and the simulation results for simple building models and complex urban scenes are compared. To evaluate the realism of the simulation methods, the results are compared to a real SAR image of an urban scene. On this basis the possibilities and limitations of the different SAR simulation concepts are discussed.}
       \field{booktitle}{7th {{European Conference}} on {{Synthetic Aperture Radar}}}
       \field{eventtitle}{7th {{European Conference}} on {{Synthetic Aperture Radar}}}
-      \field{month}{6}
       \field{title}{Comparison of {{SAR}} Simulation Concepts for the Analysis of High-Resolution {{SAR}} Data}
-      \field{year}{2008}
-      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/IV655V7G/Hammer et al. - 2008 - Comparison of SAR simulation concepts for the anal.pdf;/Users/tomoffat/Zotero/storage/4A9DCB7D/5757197.html
       \endverb
       \keyw{Buildings,Image resolution,Materials,Real time systems,Scattering}
+      \warn{\item Entry 'hammerComparisonSARSimulation2008' (../FYP.bib): Invalid format '2008-06' of date field 'date' - ignoring}
     \endentry
     \entry{balzImprovedRealTimeSAR2006}{inproceedings}{}
       \name{author}{2}{}{%
@@ -707,17 +713,14 @@
       \strng{authorbibnamehash}{1e30569d80d1d11cfe9fec51738a6bad}
       \strng{authornamehash}{1e30569d80d1d11cfe9fec51738a6bad}
       \strng{authorfullhash}{1e30569d80d1d11cfe9fec51738a6bad}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2006 {{IEEE International Symposium}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{eventtitle}{2006 {{IEEE International Symposium}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{issn}{2153-7003}
-      \field{month}{7}
       \field{title}{Improved {{Real}}-{{Time SAR Simulation}} in {{Urban Areas}}}
-      \field{year}{2006}
-      \field{dateera}{ce}
       \field{pages}{3631\bibrangedash 3634}
       \range{pages}{4}
       \verb{doi}
@@ -727,6 +730,7 @@
       \verb /Users/tomoffat/Zotero/storage/Y5TAZJXQ/Balz and Haala - 2006 - Improved Real-Time SAR Simulation in Urban Areas.pdf;/Users/tomoffat/Zotero/storage/VJZWY8LQ/4242078.html
       \endverb
       \keyw{Acceleration,Computational modeling,Computer graphics,Geometry,Hardware,Image databases,Layout,Ray tracing,Urban areas,Visualization}
+      \warn{\item Entry 'balzImprovedRealTimeSAR2006' (../FYP.bib): Invalid format '2006-07' of date field 'date' - ignoring}
     \endentry
     \entry{luGPUBasedRealtime2009}{inproceedings}{}
       \name{author}{4}{}{%
@@ -757,24 +761,22 @@
       \strng{authorbibnamehash}{2a2c1b0f5875eb133668eabf1a07f585}
       \strng{authornamehash}{78d3d387339f72b08c9916beb6fdce6b}
       \strng{authorfullhash}{2a2c1b0f5875eb133668eabf1a07f585}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents a novel simulator which uses programmable graphics processing units (GPU) to generate Synthetic Aperture Radar (SAR) images. The conventional SAR simulations, based on mere mathematical computation, are usually time-consuming and not intuitionistic. In this paper, a new method which can simulate real-time SAR images even for complex scenes is developed. The simulator takes the advantage of computer graphics in three-dimensional display and combines it with SAR principle to yield the SAR images. This is implemented on graphics hardware, which offers 3D hardware acceleration and programmable GPU.}
       \field{booktitle}{2009 {{International Radar Conference}} "{{Surveillance}} for a {{Safer World}}" ({{RADAR}} 2009)}
       \field{eventtitle}{2009 {{International Radar Conference}} "{{Surveillance}} for a {{Safer World}}" ({{RADAR}} 2009)}
       \field{issn}{1097-5764}
-      \field{month}{10}
       \field{title}{A {{GPU}} Based Real-Time {{SAR}} Simulation for Complex Scenes}
-      \field{year}{2009}
-      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/PUJFDUF7/Yuan Lu et al. - 2009 - A GPU based real-time SAR simulation for complex s.pdf;/Users/tomoffat/Zotero/storage/W4SY4FEV/5438378.html
       \endverb
       \keyw{(SAR),3D hardware acceleration,Computational modeling,computer graphic equipment,Computer graphics,Computer simulation,Geometry,GPU,graphics hardware,Graphics Processing Units (GPU),Hardware,Image sensors,Layout,programmable graphics processing units,radar imaging,Radar imaging,Real-time,real-time SAR simulation,Shadow,Simulation,synthetic aperture radar,Synthetic aperture radar,Synthetic Aperture Radar,synthetic aperture radar images,Terrain,Visualization}
+      \warn{\item Entry 'luGPUBasedRealtime2009' (../FYP.bib): Invalid format '2009-10' of date field 'date' - ignoring}
     \endentry
     \entry{balzHybridGPUBasedSingle2009}{article}{}
       \name{author}{2}{}{%
@@ -795,20 +797,17 @@
       \strng{authorbibnamehash}{fec042be158ce5b9cb4428b9226fc2fd}
       \strng{authornamehash}{fec042be158ce5b9cb4428b9226fc2fd}
       \strng{authorfullhash}{fec042be158ce5b9cb4428b9226fc2fd}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, a new hybrid graphics-processing-unit (GPU)-based real-time synthetic aperture radar (SAR) simulation system is presented. Previous real-time SAR simulators only supported single-bounce simulation in real time. The new hybrid system uses the rasterization approach for real-time single-bounce simulation and a new image-based GPU ray-tracing approach for monostatic SAR double-bounce simulation. This approach provides fast simulation results even while simulating complex and extended scenes. The simulation results are compared to a high-resolution airborne SAR image, and the limitations of the approach are discussed.}
       \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{issn}{1558-0644}
       \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
-      \field{month}{10}
       \field{number}{10}
       \field{title}{Hybrid {{GPU}}-{{Based Single}}- and {{Double}}-{{Bounce SAR Simulation}}}
       \field{volume}{47}
-      \field{year}{2009}
-      \field{dateera}{ce}
       \field{pages}{3519\bibrangedash 3529}
       \range{pages}{11}
       \verb{doi}
@@ -818,6 +817,7 @@
       \verb /Users/tomoffat/Zotero/storage/M92TMYLN/Balz and Stilla - 2009 - Hybrid GPU-Based Single- and Double-Bounce SAR Sim.pdf;/Users/tomoffat/Zotero/storage/7XU435E6/5164916.html
       \endverb
       \keyw{Analytical models,Backscatter,Data analysis,double-bounce SAR simulation,geophysical techniques,geophysics computing,GPU,graphical user interfaces,Graphics processing unit (GPU),hybrid graphics-processing-unit,Image sensors,Layout,ray tracing,Ray tracing,ray-tracing simulation system,Real time systems,Remote sensing,remote sensing by radar,simulation,single-bounce simulation,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),Table lookup,visual processing unit,visual programming,visualization technique}
+      \warn{\item Entry 'balzHybridGPUBasedSingle2009' (../FYP.bib): Invalid format '2009-10' of date field 'date' - ignoring}
     \endentry
     \entry{chenRadarImagingSimulation2011}{inproceedings}{}
       \name{author}{5}{}{%
@@ -853,19 +853,16 @@
       \strng{authorbibnamehash}{9ba9a7a8803c8404b78b2524acec4475}
       \strng{authornamehash}{059c203152d128e01e6ad10937218f58}
       \strng{authorfullhash}{9ba9a7a8803c8404b78b2524acec4475}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper proposes a novel radar imaging simulator based on analytical electromagnetic and geometric models for a common typical kind of urban structure. The analytical models are presented not only for improving the efficiency of the simulation but also for direct and further understanding the features in the SAR image.}
       \field{booktitle}{Proceedings of 2011 {{IEEE CIE International Conference}} on {{Radar}}}
       \field{eventtitle}{Proceedings of 2011 {{IEEE CIE International Conference}} on {{Radar}}}
       \field{issn}{1097-5764}
-      \field{month}{10}
       \field{title}{Radar Imaging Simulation for Typical Urban Structures Based on Analytical Models}
       \field{volume}{2}
-      \field{year}{2011}
-      \field{dateera}{ce}
       \field{pages}{1362\bibrangedash 1365}
       \range{pages}{4}
       \verb{doi}
@@ -875,6 +872,7 @@
       \verb /Users/tomoffat/Zotero/storage/FPVN6C69/Hongzhen Chen et al. - 2011 - Radar imaging simulation for typical urban structu.pdf;/Users/tomoffat/Zotero/storage/JYFPD4IK/6159811.html
       \endverb
       \keyw{analytical electromagnetic model,analytical geometric model,Analytical models,Azimuth,Buildings,Computational modeling,electromagnetic and geometric models,imaging simulator,radar imaging,Radar imaging,radar imaging simulation,SAR image,Scattering,synthetic aperture radar,urban structure,urban structures,Vectors}
+      \warn{\item Entry 'chenRadarImagingSimulation2011' (../FYP.bib): Invalid format '2011-10' of date field 'date' - ignoring}
     \endentry
     \entry{xuImagingSimulationPolarimetric2006}{article}{}
       \name{author}{2}{}{%
@@ -895,20 +893,17 @@
       \strng{authorbibnamehash}{8d8cacbc29756d6054e05fa84f4df94b}
       \strng{authornamehash}{8d8cacbc29756d6054e05fa84f4df94b}
       \strng{authorfullhash}{8d8cacbc29756d6054e05fa84f4df94b}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A novel approach to polarimetric image simulation for synthetic aperture radar (SAR) observation over comprehensive terrain scenes is developed based on mapping and projection principles. It incorporates penetrable and impenetrable objects, volumetric and surface scatterers in the imaging space with extinction, attenuation, shadowing, and multiple-scattering effects. Scattering of the vegetation canopy is modeled as a layer of random nonspherical particles by using the vector radiative transfer model, and scattering from the ground surface and building objects is calculated by using the integral equation method. As an example, polarimetric SAR images at L-band and C-band and the different spatial resolutions for a virtual terrain scene composed of tree canopies, farmland, buildings, rough land surface, hills, and rivers are simulated. The imaging simulation results demonstrate the feasibility of the mapping and projection approach and the potential utilities of SAR imaging simulation}
       \field{eventtitle}{{{IEEE Transactions}} on {{Geoscience}} and {{Remote Sensing}}}
       \field{issn}{1558-0644}
       \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
-      \field{month}{11}
       \field{number}{11}
       \field{title}{Imaging {{Simulation}} of {{Polarimetric SAR}} for a {{Comprehensive Terrain Scene Using}} the {{Mapping}} and {{Projection Algorithm}}}
       \field{volume}{44}
-      \field{year}{2006}
-      \field{dateera}{ce}
       \field{pages}{3219\bibrangedash 3234}
       \range{pages}{16}
       \verb{doi}
@@ -918,6 +913,7 @@
       \verb /Users/tomoffat/Zotero/storage/V89RUQ8J/Xu and Jin - 2006 - Imaging Simulation of Polarimetric SAR for a Compr.pdf;/Users/tomoffat/Zotero/storage/LRAEN8I6/1717717.html
       \endverb
       \keyw{Attenuation,attenuation effects,buildings,C-band,comprehensive terrain scene,Comprehensive terrain scene,extinction effects,farmland,hills,impenetrable objects,integral equation method,integral equations,L-band,Land surface,Layout,mapping algorithm,mapping and projection algorithm (MPA),multiple-scattering effects,Particle scattering,penetrable objects,polarimetric image simulation,polarimetric SAR images,projection algorithm,Projection algorithms,radar imaging,radar polarimetry,Radar scattering,radiative transfer,remote sensing by radar,rivers,rough land surface,Rough surfaces,SAR imaging simulation,scattering and radiative transfer,shadowing effects,Surface roughness,surface scatterers,synthetic aperture radar,Synthetic aperture radar,synthetic aperture radar (SAR),synthetic aperture radar observation,terrain mapping,Terrain mapping,tree canopies,vector radiative transfer model,vegetation,vegetation canopy,virtual terrain scene,volumetric scatterers}
+      \warn{\item Entry 'xuImagingSimulationPolarimetric2006' (../FYP.bib): Invalid format '2006-11' of date field 'date' - ignoring}
     \endentry
     \entry{foundationBlenderOrgHome}{online}{}
       \name{author}{1}{}{%
@@ -936,17 +932,13 @@
       \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
       \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
       \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Home of the Blender project - Free and Open 3D Creation Software}
       \field{langid}{english}
       \field{title}{Blender.Org - {{Home}} of the {{Blender}} Project - {{Free}} and {{Open 3D Creation Software}}}
-      \field{urlday}{8}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/ZBXSNV36/www.blender.org.html
       \endverb
@@ -956,6 +948,7 @@
       \verb{url}
       \verb https://www.blender.org/
       \endverb
+      \warn{\item Entry 'foundationBlenderOrgHome' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring}
     \endentry
     \entry{guoModifiedOmegaKAlgorithm2016}{inproceedings}{}
       \name{author}{2}{}{%
@@ -976,18 +969,15 @@
       \strng{authorbibnamehash}{d663b7fed9e74d41f1cfa775526414b4}
       \strng{authornamehash}{d663b7fed9e74d41f1cfa775526414b4}
       \strng{authorfullhash}{d663b7fed9e74d41f1cfa775526414b4}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The combination of ground-based synthetic aperture radar (GB-SAR) and frequency-modulated continuous-wave (FMCW) technology produces a high-resolution remote sensing system that is superior in deformation measurement. However, conventional focusing algorithms should be modified for GB-SAR geometry and FMCW signals. In this paper, an accurate GB FMCW SAR signal model is constructed, and a modified Omega-K algorithm is proposed to achieve optimal imaging. The algorithm is validated by simulation results.}
       \field{booktitle}{2016 {{IEEE}} 13th {{International Conference}} on {{Signal Processing}} ({{ICSP}})}
       \field{eventtitle}{2016 {{IEEE}} 13th {{International Conference}} on {{Signal Processing}} ({{ICSP}})}
       \field{issn}{2164-5221}
-      \field{month}{11}
       \field{title}{Modified {{Omega}}-{{K}} Algorithm for Ground-Based {{FMCW SAR}} Imaging}
-      \field{year}{2016}
-      \field{dateera}{ce}
       \field{pages}{1647\bibrangedash 1650}
       \range{pages}{4}
       \verb{doi}
@@ -997,6 +987,7 @@
       \verb /Users/tomoffat/Zotero/storage/CRRUW5U3/Guo and Dong - 2016 - Modified Omega-K algorithm for ground-based FMCW S.pdf;/Users/tomoffat/Zotero/storage/UU3Z5RRK/7878107.html
       \endverb
       \keyw{Algorithm design and analysis,Azimuth,conventional focusing algorithms,CW radar,deformation measurement,FM radar,FMCW,Focusing,frequency-modulated continuous-wave technology,GB FMCW SAR signal model,GB-SAR,GB-SAR geometry,geometry,Geometry,ground-based FMCW SAR imaging,ground-based synthetic aperture radar,high-resolution remote sensing system,modified omega-K algorithm,modified Omega-K algorithm,optimal imaging,radar imaging,remote sensing by radar,SAR geometry,signal model,Signal processing algorithms,synthetic aperture radar,Synthetic aperture radar}
+      \warn{\item Entry 'guoModifiedOmegaKAlgorithm2016' (../FYP.bib): Invalid format '2016-11' of date field 'date' - ignoring}
     \endentry
     \entry{forstenSyntheticapertureRadarImaging2019}{online}{}
       \name{author}{1}{}{%
@@ -1016,21 +1007,13 @@
       \strng{authornamehash}{3c45f53b66bf3f263841deecb93ae5d1}
       \strng{authorfullhash}{3c45f53b66bf3f263841deecb93ae5d1}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Differentiable synthetic-aperture radar image formation with Tensorflow. Including very fast image formation and autofocusing utilizing GPU.}
-      \field{day}{13}
       \field{langid}{english}
-      \field{month}{8}
       \field{title}{Synthetic-Aperture Radar Imaging}
-      \field{urlday}{8}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/NU3H85WJ/synthetic-aperture-radar-imaging.html
       \endverb
@@ -1040,6 +1023,8 @@
       \verb{url}
       \verb https://hforsten.com/synthetic-aperture-radar-imaging.html
       \endverb
+      \warn{\item Entry 'forstenSyntheticapertureRadarImaging2019' (../FYP.bib): Invalid format '2019-08-13' of date field 'date' - ignoring}
+      \warn{\item Entry 'forstenSyntheticapertureRadarImaging2019' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring}
     \endentry
     \entry{forstenBackprojectionBackpropagation2019}{online}{}
       \name{author}{1}{}{%
@@ -1059,21 +1044,13 @@
       \strng{authornamehash}{3c45f53b66bf3f263841deecb93ae5d1}
       \strng{authorfullhash}{3c45f53b66bf3f263841deecb93ae5d1}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Even better focused homemade SAR images with timedomain backprojection algorithm and automatic differentiation based autofocus.}
-      \field{day}{22}
       \field{langid}{english}
-      \field{month}{10}
       \field{title}{Backprojection {{Backpropagation}}}
-      \field{urlday}{8}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/XPH7A2FQ/backprojection-backpropagation.html
       \endverb
@@ -1083,6 +1060,8 @@
       \verb{url}
       \verb https://hforsten.com/backprojection-backpropagation.html
       \endverb
+      \warn{\item Entry 'forstenBackprojectionBackpropagation2019' (../FYP.bib): Invalid format '2019-10-22' of date field 'date' - ignoring}
+      \warn{\item Entry 'forstenBackprojectionBackpropagation2019' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring}
     \endentry
     \entry{cummingInterpretationsOmegaKAlgorithm2003}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1114,8 +1093,8 @@
       \strng{authorbibnamehash}{2c9429498cbcc7706b6dd54942a58efa}
       \strng{authornamehash}{2c9429498cbcc7706b6dd54942a58efa}
       \strng{authorfullhash}{2c9429498cbcc7706b6dd54942a58efa}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{ABSTRACT 1 — This paper presents a Fourier interpretation of the Omega-k SAR processing algorithm that helps explain the key Stolt mapping operation. An approximate form of the algorithm is sometimes used, and we explain how both forms of the ωKA compare with the range Doppler and the chirp scaling algorithms. Finally, a brief discussion is given on which radar parameters allow the accurate use of each algorithm.}
@@ -1125,8 +1104,6 @@
       \field{langid}{english}
       \field{title}{Interpretations of the Omega-{{K}} Algorithm and Comparisons with Other Algorithms}
       \field{volume}{3}
-      \field{year}{2003}
-      \field{dateera}{ce}
       \field{pages}{1455\bibrangedash 1458}
       \range{pages}{4}
       \verb{doi}
@@ -1135,6 +1112,7 @@
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/AD3ZZQAI/Cumming et al. - 2003 - Interpretations of the omega-K algorithm and compa.pdf
       \endverb
+      \warn{\item Entry 'cummingInterpretationsOmegaKAlgorithm2003' (../FYP.bib): Invalid format '2003' of date field 'date' - ignoring}
     \endentry
     \entry{albuquerqueApplicationsTimeDomainBackProjection}{article}{}
       \name{author}{3}{}{%
@@ -1160,8 +1138,8 @@
       \strng{authorbibnamehash}{c1a198cadd90b70846a6128bcbc25e5d}
       \strng{authornamehash}{c1a198cadd90b70846a6128bcbc25e5d}
       \strng{authorfullhash}{c1a198cadd90b70846a6128bcbc25e5d}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Back-Projection Algorithm is a SAR processing approach that uses time-domain convolution of the SAR data in order to perform SAR focusing. Some benefits of this approach are exact inversion, ideal motion compensation including topography information and handling of general aperture geometries. The implementation of the Back-Projection Algorithm was done focusing on the parallelization aspects. Applications of the algorithm are presented with respect to topography adaptive processing, direct generation of map projections and consideration of non linear trajectories.}
@@ -1195,18 +1173,15 @@
       \strng{authorbibnamehash}{3561887fca4f6a0aff6d4e5060a15f8e}
       \strng{authornamehash}{3561887fca4f6a0aff6d4e5060a15f8e}
       \strng{authorfullhash}{3561887fca4f6a0aff6d4e5060a15f8e}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ultra-wideband waveform and large integration angle benefit the synthetic aperture radar (SAR) with very high range and azimuth resolutions. However, at the same time, more new complexities and challenges are brought to the conventional SAR imaging algorithms. The back-projection algorithm and range migration algorithm are two newly developed algorithms that can be used in ultra-wideband SAR imaging. The back-projection algorithm originates from the medical imaging reconstruction technique called computer-aided tomography whereas the range migration algorithm is derived from seismic migration techniques. In the application to SAR imaging, the performance comparison is made in this paper based on theoretical analysis, simulation and experimental data. The analysis and processing results show that both algorithms are suitable for ultra-wideband SAR imaging and the theoretical resolution performances can be achieved. In addition, some practical issues of implementation and performance difference about these two algorithms are addressed as well}
       \field{booktitle}{Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.}
       \field{eventtitle}{Fourth {{IEEE Workshop}} on {{Sensor Array}} and {{Multichannel Processing}}, 2006.}
       \field{issn}{2151-870X}
-      \field{month}{7}
       \field{title}{A {{Comparison}} of {{Back}}-{{Projection}} and {{Range Migration Algorithms}} for {{Ultra}}-{{Wideband SAR Imaging}}}
-      \field{year}{2006}
-      \field{dateera}{ce}
       \field{pages}{320\bibrangedash 324}
       \range{pages}{5}
       \verb{doi}
@@ -1216,6 +1191,7 @@
       \verb /Users/tomoffat/Zotero/storage/CDC2FTSF/Yibo Na et al. - 2006 - A Comparison of Back-Projection and Range Migratio.pdf;/Users/tomoffat/Zotero/storage/I7SQ2TVN/1706146.html
       \endverb
       \keyw{Application software,Azimuth,Biomedical imaging,Image analysis,Image reconstruction,Performance analysis,Radar polarimetry,Synthetic aperture radar,Tomography,Ultra wideband technology}
+      \warn{\item Entry 'naComparisonBackProjectionRange2006' (../FYP.bib): Invalid format '2006-07' of date field 'date' - ignoring}
     \endentry
     \entry{parasharStudyRangeCell2015}{thesis}{}
       \name{author}{1}{}{%
@@ -1237,17 +1213,16 @@
       \strng{authorbibnamehash}{ddccd20f6f81dcce5a034e0898e57ef5}
       \strng{authornamehash}{ddccd20f6f81dcce5a034e0898e57ef5}
       \strng{authorfullhash}{ddccd20f6f81dcce5a034e0898e57ef5}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{A {{Study}} on {{Range Cell Migration Correction}} in {{SAR Imagery}} and {{MATLAB Implementation}} of {{Algorithms}}}
-      \field{year}{2015}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/JPTWCJ4E/Parashar - 2015 - A Study on Range Cell Migration Correction in SAR .pdf
       \endverb
+      \warn{\item Entry 'parasharStudyRangeCell2015' (../FYP.bib): Invalid format '2015' of date field 'date' - ignoring}
     \endentry
     \entry{dastgirProcessingSARData2007}{thesis}{}
       \name{author}{1}{}{%
@@ -1269,18 +1244,17 @@
       \strng{authorbibnamehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
       \strng{authornamehash}{b8fa073e01ea6121a676a4e3a9fcf15b}
       \strng{authorfullhash}{b8fa073e01ea6121a676a4e3a9fcf15b}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Applications of self-illuminating remote sensing systems, and among those, Radar Imagery is growing rapidly. Unique properties of Synthetic Aperture Radar (SAR) system makes it one of the most popular and applicable methods of self illuminating remote sensing techniques for ground deformation monitoring, seismic studies, and many photogrammetry applications. There are several methods and algorithms for processing SAR data, each are convenient for different purposes. Two more common and reliable algorithms are developed in this thesis: a Range Doppler Algorithm and a Chirp Scaling Algorithm. Available software packages and toolboxes for processing SAR data such as DORIS, ROI-PAC, RAT and PULSAR have their advantage and disadvantages. Most of these packages run on Linux platform, are difficult to use, and require quite a few pre-processing data preparations. Besides there is no general SAR processing application that can handle all data types or suitable for all purposes. There are also software packages (such as ROI-PAC) with restrictions for people from certain countries. The objective of this thesis is to process SAR data using two more common algorithms, run a comparison between results of these two algorithms and to process InSAR pair images to form an Interferogram and to create a DEM. A Matlab based program is developed for this purpose with graphical user interface and a few visualization enhancement features, which facilitates processing data and producing desired output. Then, I investigate the effect of different frequency domains in the resulting image. The program I created in my thesis, has several advantages: it is open-source and very easy to modify. The program is coded in MATLAB, therefore it does not need a vast programming knowledge to be able to customize it. You can run it on any platform that can run MATLAB 7+. At the end of this thesis, I conclude that A Range Doppler Algorithm with secondary range compression performed in 2D-frequency domain has a result as good as a Chirp Scaling Algorithm and has less computational complexity and consumes less time. No general SAR processing algorithm could be introduced. Most of the times algorithms need to be adjusted for particular datasets, or particular applications. Besides, the most complicated algorithm is not always the best algorithm. For example, for a point target detection purpose, two filtering steps in range and azimuth direction provides accurate enough result.}
       \field{langid}{english}
       \field{title}{Processing {{SAR}} Data Using {{Range Doppler}} and {{Chirp Scaling Algorithms}}}
-      \field{year}{2007}
-      \field{dateera}{ce}
       \verb{file}
       \verb /Users/tomoffat/Zotero/storage/9SZQXPML/FULLTEXT01.pdf
       \endverb
+      \warn{\item Entry 'dastgirProcessingSARData2007' (../FYP.bib): Invalid format '2007' of date field 'date' - ignoring}
     \endentry
     \entry{yegulalpFastBackprojectionAlgorithm1999}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1296,17 +1270,14 @@
       \strng{authorbibnamehash}{be29416452e8a014a0d026d6ee35f5a3}
       \strng{authornamehash}{be29416452e8a014a0d026d6ee35f5a3}
       \strng{authorfullhash}{be29416452e8a014a0d026d6ee35f5a3}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We introduce a new algorithm for time-domain backprojection of synthetic aperture radar (SAR) data. The algorithm reproduces images generated by standard backprojection pixel-for-pixel to any required tolerance, but it runs roughly /spl radic/N times faster for an N by N pixel image. Fast backprojection retains the advantages of standard backprojection: perfect motion compensation for any flight path, low artifact levels, unlimited scene size, perfect focus for arbitrarily wide bandwidths and integration angles, and strictly local processing (i.e., pulses can be processed as they are collected without along-track buffering or corner turns). The new algorithm also makes it possible to store the image in progress on disk (rather than in memory) with only a mild penalty in processing speed.}
       \field{booktitle}{Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})}
       \field{eventtitle}{Proceedings of the 1999 {{IEEE Radar Conference}}. {{Radar}} into the {{Next Millennium}} ({{Cat}}. {{No}}.{{99CH36249}})}
-      \field{month}{4}
       \field{title}{Fast Backprojection Algorithm for Synthetic Aperture Radar}
-      \field{year}{1999}
-      \field{dateera}{ce}
       \field{pages}{60\bibrangedash 65}
       \range{pages}{6}
       \verb{doi}
@@ -1316,6 +1287,37 @@
       \verb /Users/tomoffat/Zotero/storage/F6TT2BEZ/Yegulalp - 1999 - Fast backprojection algorithm for synthetic apertu.pdf;/Users/tomoffat/Zotero/storage/FXN5QDG4/767270.html
       \endverb
       \keyw{Aircraft,Bandwidth,Flexible printed circuits,Focusing,Frequency domain analysis,Interpolation,Pixel,Radar imaging,Synthetic aperture radar,Ultra wideband radar}
+      \warn{\item Entry 'yegulalpFastBackprojectionAlgorithm1999' (../FYP.bib): Invalid format '1999-04' of date field 'date' - ignoring}
+    \endentry
+    \entry{moffatSyntheticApertureImaging}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=2c0fb5a945a8aef3354bd9909d5194d9}{%
+           family={Moffat},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Bath}%
+      }
+      \list{location}{1}{%
+        {Bath}%
+      }
+      \strng{namehash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \strng{fullhash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \strng{bibnamehash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \strng{authorbibnamehash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \strng{authornamehash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \strng{authorfullhash}{2c0fb5a945a8aef3354bd9909d5194d9}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synthetic Aperture Imaging Radar Signal Simulation of Urban Environments Interim Report}
+      \field{type}{Report}
+      \verb{file}
+      \verb /Users/tomoffat/Zotero/storage/2UBQVCA8/Moffat - Synthetic aperture imaging radar signal simulation.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

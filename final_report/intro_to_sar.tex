@@ -24,7 +24,7 @@ Generally SAR will use a \gls{lfm} pulse although other waveforms can be used fo
 
 \end{figure}
 
-\subsubsection{The SAR radar equation}
+\subsection{The SAR radar equation}
 There are two main approaches to SAR, focused and unfocused SAR. These differ in how they consider shifts in the response phase, as focused SAR only takes into account the Doppler shift across the aperture, while focused SAR takes into account the phase shift in the beam due to the change in range caused by the target passing through the beam. This means that the resolution of the image is determined by the length of the entire synthetic aperture, as opposed to in unfocused SAR where the resolution is a function of the shortest range between the platform and the target as well as the wavelength of the signal. The resolution of focused SAR is wavelength independent. The derivation of this can be found in Appendix \ref{appen:derivations}. Also in this appendix is a derivation of the radar equation both generally and then to the more specific version for SAR. The more general form of the radar equation for a single pulse is given as \[ \text{SNR} = \frac{P_t G^2 \lambda ^ 2 \sigma _b}{(4\pi)^3R^4kT_{sys} B} = \frac{P_t A_e^2 \sigma_b}{4\pi\lambda^2kT_{sys}BR^4}\] which gives the signal-to-noise ratio for a single pulse, where \gls{Pt} is the transmitted power, \gls{G} is the gain of the system, \gls{Ae} is the effective aperture area, \gls{lambda} is the wavelength of the signal, \gls{sigmab} is the radar cross-section, \gls{R} is the signal range, \gls{k} is Boltzmann's constant, \gls{Tsys} is the system noise temperature and \gls{B} is the bandwidth of the system. This can then be adapted to the SAR-specific radar equation by increasing the number of pulses \gls{n} to give \[\text{SNR} = \frac{P_t A_e^2 \sigma_b n}{4\pi \lambda^2kT_{sys}BR^4}\] and hence the signal-to-noise ratio of a distributed target is given by \[\text{SNR}=\frac{P_{av} A_e^2 \sigma^0\Delta R_g \Delta x t_{obs}}{4\pi\lambda^2kT_{sys}R^4} \text{     or     } \text{SNR} = \frac{P_{av}A_e^2\sigma^0\Delta x\lambda^3}{(4\pi)^3R^3kT_{sys}2v_p} \] where \gls{Pav} is the average power across all pulses, \gls{DeltaRg} is the ground range resolution of the system, \gls{tobs} is the observation time of the target and \gls{vp} is the platform velocity. The sensitivity of a SAR system can be expressed as the noise equivalent \gls{sigma0}, which is the value of \gls{sigma0} at the maximum range to give a signal-to-noise ratio of 1 (or 0 dB) \cite{watsonEE40136RadarSystems2020}.
 
 \begin{figure}
@@ -47,7 +47,95 @@ There are two main approaches to SAR, focused and unfocused SAR. These differ in
 \end{figure}
 
 
-\subsubsection{SAR Image Artefacts}
+\subsection{SAR Image Artefacts}
 There are a few artefacts that can arise as part of SAR imagery (and radar imagery in general). Some of these, such as range ambiguities, aren't relevant in this case due to the fact that all the targets being imaged are static and this is only a real issue in moving objects. Some artefacts will need to be considered though. The first of these is speckle, which is a result of the fact that the energy arriving at the pixel is pretty coherent, so it has a single phase on arrival at said pixel. Generally the pixel will be the sum of multiple scatterers as opposed to one single scatterer, meaning that it is likely to be affected by background reflections and so result in a relatively noisy image. This can be fixed in real world applications by splitting the SAR antenna into multiple sections and take the same image with each section. This then allows for the pixel values to be averaged out, hopefully removing the speckle at the cost of some resolution \cite{richardsRemoteSensingImaging2009}. \par 
-Another image artefact that will need to be considered can be caused by strong scatterers that means that the signal is reflected multiple times before returning to the receiver. This can be seen most strongly with a bridge over water as it involves both a hard target in the bridge and a dihedral reflection from the water. This mostly occurs when the target is aligned with the path of the platform and the multiple reflections can cause the bridge to appear multiple times in the image due to the multiple bounces taken by the signal increase the Doppler shift presented when it is filtered on reception. The same signal is in essence received multiple times and so the algorithm reads it as different displacements for the same target \cite{richardsRemoteSensingImaging2009}. \par
-Finally, some distortions can be created due to the geometry of the radar beam. Targets nearer the platform can appear compressed on the output image as the ground range in that location is greater but in the final image is represented in the same amount of image space as targets further away. Similarly, given a tower, reflections from the top of the tower will return to the platform before reflections from the bottom, causing the tower to appear to lean over towards the radar \cite{richardsRemoteSensingImaging2009}.
+Another image artefact that will need to be considered can be caused by strong scatterers that means that the signal is reflected multiple times before returning to the receiver. This can be seen most strongly with a bridge over water as it involves both a hard target in the bridge and a dihedral reflection from the water. This mostly occurs when the target is aligned with the path of the platform and the multiple reflections can cause the bridge to appear multiple times in the image due to the multiple bounces taken by the signal increase the Doppler shift presented when it is filtered on reception. The same signal is in essence received multiple times and so the algorithm reads it as different displacements for the same target \cite{richardsRemoteSensingImaging2009}. 
+
+\subsection{Other SAR Imaging Issues}
+There are three other issues that can occur in a SAR image that aren't really artefacts per se but are issues that normally would need to be taken into account. Two of these issues are caused because SAR measures travel times instead of image angles like in optical systems and the third issue is just thanks to physics. These three issues are layover, foreshortening and shadow and can be affected by the angle of incidence of the radar beam. If this report concerned space-based SAR then there would be very little issue as the smaller range of incidence angles means less image distortion due to them. These issues aren't likely to be relevant in this report however they are included here because they help understand some of the unique characteristics of SAR.
+\subsubsection{Layover}
+Layover occurs when the top of the object appears in a range before the bottom. This is caused because the top of the target has a similar slant range distance to the bottom of the target, which means that they appear in a reversed order when the image is produced and so the slope is much steeper than it may actually be. This can't be fixed in the image formation stage as the reflections in that area are compressed together and so can't be separated \cite{ForeshorteningLayover}. This can be seen in Figure \ref{fig:layover} and the bright areas of Figure \ref{fig:layover_real}.
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_layover}
+		\caption{The effects of layover in a SAR image}
+		\label{fig:layover}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_foreshortening}	
+		\caption{The effects of foreshortening}
+		\label{fig:foreshortening}
+	\end{subfigure}
+	\caption{SAR range direction image anomalies \cite{ForeshorteningLayover}}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_layover_real}
+		\caption{A real image showing layover from near the city of Udine in Italy}
+		\label{fig:layover_real}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_foreshortening_real}	
+		\caption{An image showing the effects of foreshortening, area unknown}
+		\label{fig:foreshortening_real}
+	\end{subfigure}
+	\caption{SAR range direction image anomalies \cite{ForeshorteningLayover}}
+\end{figure}
+
+
+\subsubsection{Foreshortening}
+Foreshortening is the other issue caused by SAR working differently to optical systems and can be more effectively demonstrated using figure \ref{fig:foreshortening}. On this, if plotted orthographically then points A, B and C are equidistant however on the SAR image this is not the case as the top of the mountain is closer to the sensor. This can be removed using geocoding if a model of the terrain is available. This is similar to layover but not quite the same, and an image demonstrating it can be seen in figure \ref{fig:foreshortening_real}. Notice how the mountains all appear to lean in the same direction, towards the sensor \cite{ForeshorteningLayover}.
+
+\subsubsection{Shadow}
+Shadows in the SAR image are caused whenever a target in the image slopes away from the radar illumination with a slope greater than the sensor angle of incidence (so it is blocking the illumination). This appears in a SAR image much like a shadow from the sun would in an optical image \cite{Shadow} and images demonstrating this can be seen in figure \ref{fig:sar_shadow}.
+\begin{figure}
+\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_shadow}
+		\caption{An image demonstrating SAR shadow}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{../figures/esa_shadow_real}	
+		\caption{A real SAR shadow from the Cote d'Azur area of France, specifically with the Grand Canon du Verdon in the middle of the image}
+	\end{subfigure}
+	\caption{SAR Shadows \cite{Shadow}}
+	\label{fig:sar_shadow}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

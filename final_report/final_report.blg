@@ -1,17 +1,52 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.blg'
-[109] biber-darwin:322> INFO - === Mon Apr 12, 2021, 16:30:16
-[136] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
-[286] Biber.pm:943> INFO - Found 30 citekeys in bib section 0
-[305] Biber.pm:4256> INFO - Processing section 0
-[305] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
-[305] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
-[320] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
-[334] bibtex.pm:1653> INFO - LaTeX decoding ...
-[567] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
-[920] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[921] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[921] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
-[921] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-GB'
-[950] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
-[975] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl
+[1] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.blg'
+[371] biber-darwin:322> INFO - === Wed Apr 21, 2021, 09:20:34
+[403] Biber.pm:415> INFO - Reading '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bcf'
+[625] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
+[662] Biber.pm:4256> INFO - Processing section 0
+[664] Utils.pm:75> INFO - Globbing data source '../FYP.bib'
+[664] Utils.pm:91> INFO - Globbed data source '../FYP.bib' to ../FYP.bib
+[686] Biber.pm:4455> INFO - Looking for bibtex format file '../FYP.bib' for section 0
+[702] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1035] bibtex.pm:1471> INFO - Found BibTeX data source '../FYP.bib'
+[1088] Utils.pm:304> WARN - Entry 'duerschBackprojectionSyntheticAperture2013' (../FYP.bib): Invalid format '2013-06-13' of date field 'date' - ignoring
+[1092] Utils.pm:304> WARN - Entry 'wolffSyntheticApertureRadar2012' (../FYP.bib): Invalid format '2012-04-03' of date field 'date' - ignoring
+[1093] Utils.pm:304> WARN - Entry 'wolffSyntheticApertureRadar2012' (../FYP.bib): Invalid format '2021-03-12' of date field 'urldate' - ignoring
+[1097] Utils.pm:304> WARN - Entry 'watsonEE40136RadarSystems2020' (../FYP.bib): Invalid format '2020-09-28' of date field 'date' - ignoring
+[1102] Utils.pm:304> WARN - Entry 'richardsRemoteSensingImaging2009' (../FYP.bib): Invalid format '2009' of date field 'date' - ignoring
+[1113] Utils.pm:304> WARN - Entry 'ForeshorteningLayover' (../FYP.bib): Invalid format '2021-04-18' of date field 'urldate' - ignoring
+[1114] Utils.pm:304> WARN - Entry 'Shadow' (../FYP.bib): Invalid format '2021-04-18' of date field 'urldate' - ignoring
+[1124] Utils.pm:304> WARN - Entry 'franceschettiSARRawSignal2003' (../FYP.bib): Invalid format '2003' of date field 'date' - ignoring
+[1135] Utils.pm:304> WARN - Entry 'franceschettiSARASSyntheticAperture1992' (../FYP.bib): Invalid format '1992-01' of date field 'date' - ignoring
+[1141] Utils.pm:304> WARN - Entry 'franceschettiSARProcessorBased1990' (../FYP.bib): Invalid format '1990-03' of date field 'date' - ignoring
+[1150] Utils.pm:304> WARN - Entry 'franceschettiCanonicalProblemElectromagnetic2002' (../FYP.bib): Invalid format '2002-08' of date field 'date' - ignoring
+[1171] Utils.pm:304> WARN - Entry 'franceschettiSimulationToolsInterpretation2007' (../FYP.bib): Invalid format '2007-04' of date field 'date' - ignoring
+[1180] Utils.pm:304> WARN - Entry 'zhengSimulationMethodSAR2008' (../FYP.bib): Invalid format '2008-09' of date field 'date' - ignoring
+[1187] Utils.pm:304> WARN - Entry 'delliereSARMeasurementSimulation2007' (../FYP.bib): Invalid format '2007-04' of date field 'date' - ignoring
+[1192] Utils.pm:304> WARN - Entry 'balzRealtimeSARSimulation2006' (../FYP.bib): Invalid format '2006-07-01' of date field 'date' - ignoring
+[1201] Utils.pm:304> WARN - Entry 'auerRayTracingSimulating2008' (../FYP.bib): Invalid format '2008-07' of date field 'date' - ignoring
+[1218] Utils.pm:304> WARN - Entry 'mametsaImagingRadarSimulation2002' (../FYP.bib): Invalid format '2002-01-28' of date field 'date' - ignoring
+[1240] Utils.pm:304> WARN - Entry 'hammerComparisonSARSimulation2008' (../FYP.bib): Invalid format '2008-06' of date field 'date' - ignoring
+[1250] Utils.pm:304> WARN - Entry 'balzImprovedRealTimeSAR2006' (../FYP.bib): Invalid format '2006-07' of date field 'date' - ignoring
+[1264] Utils.pm:304> WARN - Entry 'luGPUBasedRealtime2009' (../FYP.bib): Invalid format '2009-10' of date field 'date' - ignoring
+[1271] Utils.pm:304> WARN - Entry 'balzHybridGPUBasedSingle2009' (../FYP.bib): Invalid format '2009-10' of date field 'date' - ignoring
+[1283] Utils.pm:304> WARN - Entry 'chenRadarImagingSimulation2011' (../FYP.bib): Invalid format '2011-10' of date field 'date' - ignoring
+[1289] Utils.pm:304> WARN - Entry 'xuImagingSimulationPolarimetric2006' (../FYP.bib): Invalid format '2006-11' of date field 'date' - ignoring
+[1296] Utils.pm:304> WARN - Entry 'foundationBlenderOrgHome' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring
+[1302] Utils.pm:304> WARN - Entry 'guoModifiedOmegaKAlgorithm2016' (../FYP.bib): Invalid format '2016-11' of date field 'date' - ignoring
+[1306] Utils.pm:304> WARN - Entry 'forstenSyntheticapertureRadarImaging2019' (../FYP.bib): Invalid format '2019-08-13' of date field 'date' - ignoring
+[1306] Utils.pm:304> WARN - Entry 'forstenSyntheticapertureRadarImaging2019' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring
+[1311] Utils.pm:304> WARN - Entry 'forstenBackprojectionBackpropagation2019' (../FYP.bib): Invalid format '2019-10-22' of date field 'date' - ignoring
+[1311] Utils.pm:304> WARN - Entry 'forstenBackprojectionBackpropagation2019' (../FYP.bib): Invalid format '2021-04-08' of date field 'urldate' - ignoring
+[1318] Utils.pm:304> WARN - Entry 'cummingInterpretationsOmegaKAlgorithm2003' (../FYP.bib): Invalid format '2003' of date field 'date' - ignoring
+[1335] Utils.pm:304> WARN - Entry 'naComparisonBackProjectionRange2006' (../FYP.bib): Invalid format '2006-07' of date field 'date' - ignoring
+[1340] Utils.pm:304> WARN - Entry 'parasharStudyRangeCell2015' (../FYP.bib): Invalid format '2015' of date field 'date' - ignoring
+[1349] Utils.pm:304> WARN - Entry 'dastgirProcessingSARData2007' (../FYP.bib): Invalid format '2007' of date field 'date' - ignoring
+[1355] Utils.pm:304> WARN - Entry 'yegulalpFastBackprojectionAlgorithm1999' (../FYP.bib): Invalid format '1999-04' of date field 'date' - ignoring
+[1397] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1398] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1398] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
+[1398] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-GB'
+[1428] bbl.pm:652> INFO - Writing '/Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl' with encoding 'UTF-8'
+[1458] bbl.pm:755> INFO - Output to /Users/tomoffat/Documents/final_year_coursework/fyp/final_report/final_report.bbl
+[1459] Biber.pm:128> INFO - WARNINGS: 34
