@@ -1,6 +1,21 @@
 \section{The Final Product}
 \subsection{Deliverables Provided}
-The outcome of this project is all based around a Simulink model created using the phased array system toolbox, which has no inputs and outputs simulated SAR data to the common workspace. This is controlled by a MATLAB script that is also used for data visualisation 
+The outcome of this project is all based around a Simulink model created using the phased array system toolbox, which has no inputs and outputs simulated SAR data to the common workspace. A screenshot of this model can be seen in figure \ref{fig:simulink_model}. This is controlled by a MATLAB script that is also used for data visualisation and to ensure the sequencing works. This was not the preferred way of doing things, ideally I would have been able to implement everything in one or two Simulink models however because Simulink simulates the model in a time-based fashion this isn't conducive to image formation algorithms which really need access to all of the measured data at once to be able to form the image correctly. So the trigger script (available in Appendix \ref{appen:listings} as Section \ref{lst:trigger_script}) ensures everything is sequenced correctly, performs the necessary processing to the data such as matched filtering and then passes the resultant data off to the image formation algorithms. The Simulink model and the image formation algorithms will be covered in more detail in subsequent sections. A copy of all the deliverables produced in the course of this project can be found at https://github.com/tsmoffat/fyp
+
+
+
+\begin{landscape}
+\begin{figure}
+\centering
+\includegraphics[width=1.6\textwidth]{../figures/simulink_model_screenshot.png}
+\caption{A screenshot of the Simulink model delivered as part of the results}
+\label{fig:simulink_model}	
+\end{figure}
+\end{landscape}
+
+\subsubsection{The Simulink Model}
+
+
 \subsection{Milestones Achieved}
 \section{Significant Results}
 \section{Uncertainty}

@@ -73,6 +73,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}Deliverables Provided}{23}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.1}The Simulink Model}{23}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}Milestones Achieved}{23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Significant Results}{23}%
@@ -81,30 +83,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Other Major Issues Encountered}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{24}%
+\contentsline {chapter}{\numberline {5}Conclusions}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{24}%
+\contentsline {section}{\numberline {5.1}Final Remarks and Outcome}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Project Review}{24}%
+\contentsline {subsection}{\numberline {5.1.1}Project Review}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Further Work}{24}%
+\contentsline {section}{\numberline {5.2}Further Work}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Arbitrary Radar Cross Sections}{24}%
+\contentsline {subsection}{\numberline {5.2.1}Arbitrary Radar Cross Sections}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}A More Robust Approach to Simulation}{24}%
+\contentsline {subsection}{\numberline {5.2.2}A More Robust Approach to Simulation}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Developing Hybrid Methods}{25}%
+\contentsline {subsection}{\numberline {5.2.3}Developing Hybrid Methods}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Derivations}{30}%
+\contentsline {chapter}{\numberline {A}Derivations}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Focused SAR Resolution}{30}%
+\contentsline {section}{\numberline {A.1}Focused SAR Resolution}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Along track resolution}{30}%
+\contentsline {subsection}{\numberline {A.1.1}Along track resolution}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Down-range resolution}{30}%
+\contentsline {subsection}{\numberline {A.1.2}Down-range resolution}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Derivation of the Radar Equation}{31}%
+\contentsline {section}{\numberline {A.2}Derivation of the Radar Equation}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Code Listings}{32}%
+\contentsline {chapter}{\numberline {B}Code Listings}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}trigger\_script.m}{32}%
+\contentsline {section}{\numberline {B.1}trigger\_script.m}{33}%
